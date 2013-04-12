@@ -1,6 +1,16 @@
 # Coding best practices
 
-- When returning a collection, always return an empty collection if there are no elements, but never null. When accepting a collection as a method argument, however, always check for null.
+When returning a collection, always return an empty collection if there are no elements, but never null. When accepting a collection as a method argument, however, always check for null.
+
+	IEnumerable<int> MyMethod(IEnumerable<int> collection)
+	{
+	    // Check for null and handle it somehow
+	    if (collection == null) throw new ArgumentNullException("collection");
+	
+	    if (nothingToReturn) return Enumerable.Empty<int>();
+	    else return normally;
+	}
+
 - Keep interfaces as short as possible so it’s relatively simple to provide alternative implementation for them (even when doing unit testing). If a method would serve just as a shortcut for multiple method calls on the same interface, use extension methods. Whether or not to use an extension method should be decided on a case-by case basis as future-aware as possible: ide példák (ellenpélda: GetMany(params int[] ids) pl. ne legyen extension method, mert sok Get(int id)-t okoz és a megvalósítás más is lehet; jó példa is)
 - Maximal number of arguments on a method: 3
 - Always return an interface type and return the most generic one making sense for the typical consuming code.
