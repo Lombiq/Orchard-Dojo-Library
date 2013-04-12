@@ -1,5 +1,9 @@
 # Coding best practices
 
+
+
+## C\# 
+
 When returning a collection, always return an empty collection if there are no elements, but never null. When accepting a collection as a method argument, however, always check for null.
 
 	IEnumerable<int> MyMethod(IEnumerable<int> collection)

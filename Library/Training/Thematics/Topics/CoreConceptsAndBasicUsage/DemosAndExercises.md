@@ -1,5 +1,7 @@
 # Demos and excercices for the topic "Core concepts and basic usage"
 
+
+
 These are the demonstrations and possible excercises corresponding to the topic ["Core concepts and basic usage"](.).
 
 - Demo: installing and basic settings

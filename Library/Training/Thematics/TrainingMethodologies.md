@@ -1,9 +1,11 @@
 # Training methodologies
 
 
+
 Following are methodologies for various forms of Orchard training.
 
 Remember that it's a good thing to have regular breaks about every 45 minutes.
+
 
 ## University course
 
@@ -34,7 +36,6 @@ The course has no special examination, instead students should create and finish
 ### Schedule
 
 Additional is the time needed for student presentations (depends on the number of attendees) since the course’s final lesson consists of student presentations and code reviews.
-
 
 
 ## Intensive course

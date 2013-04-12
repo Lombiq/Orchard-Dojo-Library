@@ -1,5 +1,7 @@
 # Core concepts and basic usage
 
+
+
 - Architectural overview
 	- ASP.NET -> ASP.NET MVC -> Orchard
 	- Contains open-source projects (eg. NHibernate, jQuery)

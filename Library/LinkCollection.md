@@ -1,6 +1,9 @@
 # Orchard Link Collection
 
+
+
 ## Official sites
+
 - [Orchard homepage](http://orchardproject.net/)
 	- [Documentation](http://docs.orchardproject.net/)
 	- [Translations](http://orchardproject.net/localize)
@@ -10,7 +13,9 @@
 	- [Issue tracker](https://orchard.codeplex.com/workitem/list/basic)
 - [Orchard Gallery](http://gallery.orchardproject.net/)
 
+
 ## Community sites
+
 - [Belgium](http://www.orchardproject.be/)
 - [China](http://www.orchardch.com/)
 - [Hispana](http://www.orchardhispano.com/)
@@ -24,6 +29,7 @@
 
 
 ## Blogs
+
 - [Cloud Construct's Blog](http://www.cloudconstruct.com/blog)
 - [David Hayden's blog](http://www.davidhayden.me/blog)
 - [Downplay Blog](http://downplay.co.uk/blog)
@@ -36,6 +42,7 @@
 - [Thoughts on .NET & Orchard - Piotr Szmyd's blog](http://www.szmyd.com.pl/blog)
 
 ## Miscellaneous
+
 - [Community Meetings recordings](http://www.youtube.com/playlist?list=PL49EB89430968C7D4) and [meeting room](https://join.microsoft.com/meet/sebros/TWFQ3LYH)
 - [Orchard Cheatsheet](http://sebastienros.github.io/CheatSheet/)
 - [Orchard Harvest](http://orchardharvest.org/) conference website

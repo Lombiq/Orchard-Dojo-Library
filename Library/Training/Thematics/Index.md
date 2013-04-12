@@ -1,6 +1,7 @@
 # Orchard Training
 
 
+
 ## Training methodologies
 
 For methodologies for various forms of Orchard training see [training methodologies](TrainingMethodologies).

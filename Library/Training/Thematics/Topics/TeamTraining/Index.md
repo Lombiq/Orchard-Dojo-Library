@@ -1,5 +1,7 @@
 # Team training
 
+
+
 - Agree on and follow common guidelines
 - Version control best practices:
 	- 3rd party modules and themes in subrepositories
