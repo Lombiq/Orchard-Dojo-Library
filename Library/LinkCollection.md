@@ -41,6 +41,16 @@
 - [The Mayne Issue - Nicholas Mayne's blog](http://www.themayneissue.com/)
 - [Thoughts on .NET & Orchard - Piotr Szmyd's blog](http://www.szmyd.com.pl/blog)
 
+
+## Technologies Behind Orchard
+
+- [ASP.NET MVC](http://www.asp.net/mvc)
+- [Autofac](http://code.google.com/p/autofac/) for dependency injection
+- [C#](http://msdn.microsoft.com/en-us/library/67ef8sbd.aspx)
+- [jQuery](http://jquery.com/) as the javascript framework and [jQuery UI](http://jqueryui.com/) for UI enhancements
+- [Nhibernate](http://nhforge.org/) for object-relational mapping
+
+
 ## Miscellaneous
 
 - [Community Meetings recordings](http://www.youtube.com/playlist?list=PL49EB89430968C7D4) and [meeting room](https://join.microsoft.com/meet/sebros/TWFQ3LYH)
