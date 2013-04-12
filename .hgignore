@@ -1,0 +1,16 @@
+syntax: glob
+desktop.ini
+obj/
+*.suo
+*.sln.cache
+*.orig
+*.user
+*Thumbs.db
+Training/Test Instance/build
+Training/Test Instance/buildazure
+Training/Test Instance/buildtasks
+Training/Test Instance/artifacts
+Training/Test Instance/src/Orchard.Web/App_Data
+syntax: regexp
+(?i)Training/Test Instance/src/.*bin/.*
+Training/Test Instance/src/Orchard.Web/Media/(?!Web.config|OrchardLogo.png).+

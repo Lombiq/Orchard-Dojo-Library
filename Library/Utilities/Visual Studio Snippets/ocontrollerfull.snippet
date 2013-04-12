@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>ocontrollerfull</Title>
+			<Shortcut>ocontrollerfull</Shortcut>
+			<Description>Code snippet for creating a Controller class with common Orchard services.</Description>
+			<Author>Lombiq</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>name</ID>
+					<ToolTip>Name of the Controller</ToolTip>
+					<Default>MyFirst</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp">
+				<![CDATA[public class $name$Controller : Controller
+				{
+					private readonly IOrchardServices _orchardServices;
+					
+					public Localizer T { get; set; }
+					public ILogger Logger { get; set; }
+				
+				
+					public $name$Controller(IOrchardServices orchardServices)
+					{
+						_orchardServices = orchardServices;
+						
+						T = NullLocalizer.Instance;
+						Logger = NullLogger.Instance;
+					}
+				}$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

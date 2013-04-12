@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>omigrations</Title>
+			<Shortcut>omigrations</Shortcut>
+			<Description>Code snippet for a Migrations class.</Description>
+			<Author>Lombiq</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Code Language="csharp">
+				<![CDATA[public class Migrations : DataMigrationImpl
+				{
+					public int Create()
+					{
+						$end$
+					
+						return 1;
+					}
+				}]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

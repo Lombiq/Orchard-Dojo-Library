@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>oroutesfull</Title>
+			<Shortcut>oroutesfull</Shortcut>
+			<Description>Code snippet for a Routes class with a route descriptor.</Description>
+			<Author>Lombiq</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>routeName</ID>
+					<ToolTip>Name of the route</ToolTip>
+					<Default>MyRoute</Default>
+				</Literal>
+				<Literal>
+					<ID>url</ID>
+					<ToolTip>Url of the route</ToolTip>
+					<Default>my/url</Default>
+				</Literal>
+				<Literal>
+					<ID>area</ID>
+					<ToolTip>Area of the route target</ToolTip>
+					<Default>My.Module</Default>
+				</Literal>
+				<Literal>
+					<ID>controller</ID>
+					<ToolTip>Controller of the route target</ToolTip>
+					<Default>MyController</Default>
+				</Literal>
+				<Literal>
+					<ID>action</ID>
+					<ToolTip>Action of the route target</ToolTip>
+					<Default>MyAction</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp">
+				<![CDATA[public class Routes : IRouteProvider
+				{
+					public void GetRoutes(ICollection<RouteDescriptor> routes)
+					{
+						foreach (var routeDescriptor in GetRoutes()) routes.Add(routeDescriptor);
+					}
+					
+					public IEnumerable<RouteDescriptor> GetRoutes()
+					{
+						return new[]
+			{
+				new RouteDescriptor
+				{
+					Name = "$routeName$",
+					Route = new Route(
+						"$url$",
+						new RouteValueDictionary
+						{
+							{"area", "$area$"},
+							{"controller", "$controller$"},
+							{"action", "$action$"}
+						},
+						new RouteValueDictionary(),
+						new RouteValueDictionary
+						{
+							{"area", "$area$"}
+						},
+						new MvcRouteHandler())
+				}
+			};
+					}
+				}$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
