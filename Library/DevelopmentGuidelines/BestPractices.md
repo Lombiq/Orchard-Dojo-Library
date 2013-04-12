@@ -11,7 +11,41 @@ When returning a collection, always return an empty collection if there are no e
 	    else return normally;
 	}
 
-- Keep interfaces as short as possible so it’s relatively simple to provide alternative implementation for them (even when doing unit testing). If a method would serve just as a shortcut for multiple method calls on the same interface, use extension methods. Whether or not to use an extension method should be decided on a case-by case basis as future-aware as possible: ide példák (ellenpélda: GetMany(params int[] ids) pl. ne legyen extension method, mert sok Get(int id)-t okoz és a megvalósítás más is lehet; jó példa is)
+Keep interfaces as short as possible so it’s relatively simple to provide alternative implementation for them (even when doing unit testing).
+
+If a method would serve just as a shortcut for multiple method calls on the same interface, use extension methods. Whether or not to use an extension method should be decided on a case-by case basis as future-aware as possible: only use extension methods if the shortcut is (almost) trivial and add the method to the interface if the optimal solution is more likely to depend on the specific implementation.
+
+	// Good example: the shortcut is simple
+	public interface IService
+	{
+	    void Register(int id);
+	}
+	
+	public static class ServiceExtensions
+	{
+	    void Register(this IService service, DbEntity entity)
+	    {
+	        service.Register(entity.Id);
+	    }
+	}
+
+
+	// Bad example: GetMany() results in many Get() calls. The implementation of GetMany() is something that the implementation of IService is likely to decide on better.
+    public interface IService
+    {
+        object Get(int id);
+    }
+
+    public static class ServiceExtensions
+    {
+        IEnumerable<object> GetMany(this IService service, IEnumerable<int> ids)
+        {
+            return ids.Select(id => service.Get(id));
+        }
+    }
+
+For the extension class use the naming convention of [interface name without the leading I]Extensions as above and put them in the same namespace with the interface (so consumers seeing the interface will likely be able to see the extensions without adding another using statement).
+
 - Maximal number of arguments on a method: 3
 - Always return an interface type and return the most generic one making sense for the typical consuming code.
 - The “empty” pattern (String/QueryHints.Empty)
