@@ -9,3 +9,4 @@ If something’s not specified, general C# guidelines apply: [C# Coding Conventi
 - [Naming Conventions](NamingConventions)
 - [Rules of Thumb for Refactoring](Refactoring)
 - [Inline Documentation Guidelines](InlineDocumentationGuidelines)
+- [Development Environment](DevelopmentEnvironment)

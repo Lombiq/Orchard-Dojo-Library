@@ -56,16 +56,22 @@ For the extension class use the naming convention of [interface name without the
 
 
 ## Orchard
+
 - Always do part shape-related heavy work in shape factories: this way if the shape is not displayed (i.e. not specified in or hidden from Placement.info) no work will be done.
 - If a template uses a static resource (stylesheet or script) always include/require it there even if the template is part of a bigger layout where those resoruces are already referenced.
 - For improving client-side performance by preventing blocking script loads always include scripts in the foot if they’re not required immediately on page load. Also consider using the async attribute on scripts (by setting it with SetAttribute() at the time of inclusion) if the order in which they’re executed is indifferent.
 
 
-## JavaScript:
+## JavaScript
+
 - Prefix jQuery objects with the dollar sign ($)
 
 
-## Source control:
+## Source control
+
+The following advices apply to the Mercurial source control system and assume the usage of the TortoiseHg client.
+
 - Try to only include changes corresponding to a single task in a commit.
 - Use descriptive commit messages. If a commit corresponds to an issue tracker ticket start the message with the ticket number.
-- When you rename a file tell the source control system that you’ve renamed the file, there’s not a removed and an added one. This makes possible to maintain file history.
+- When you rename a file tell Mercurial that you’ve renamed the file (you can use, there’s not a removed and an added one. This makes possible to maintain file history. You can also [let TortoiseHg automatically detect renames](http://tortoisehg.bitbucket.org/manual/2.0/guess.html).
+- Try to avoid merging branches with themselves. If you committed to a branch locally but meanwhile somebody else did the same first, after pulling do the following: instead of merging the two changesets rebase your changeset on top of the remote head. (See the [TortoiseHg Workbench documentation](http://tortoisehg.bitbucket.org/manual/2.0/workbench.html).)
