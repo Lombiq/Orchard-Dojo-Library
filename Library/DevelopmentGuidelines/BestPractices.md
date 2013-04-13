@@ -82,4 +82,5 @@ The following advices apply to the Mercurial source control system and assume th
 - Try to only include changes corresponding to a single task in a commit.
 - Use descriptive commit messages. If a commit corresponds to an issue tracker ticket start the message with the ticket number.
 - When you rename a file tell Mercurial that you’ve renamed the file (you can use, there’s not a removed and an added one. This makes possible to maintain file history. You can also [let TortoiseHg automatically detect renames](http://tortoisehg.bitbucket.org/manual/2.0/guess.html).
+- If you use branches for developing features prefix the branch names with something and use a pattern like "features/[branch name]" to make those branches distinguishable from other branches.
 - Try to avoid merging branches with themselves. If you committed to a branch locally but meanwhile somebody else did the same first, after pulling do the following: instead of merging the two changesets rebase your changeset on top of the remote head. (See the [TortoiseHg Workbench documentation](http://tortoisehg.bitbucket.org/manual/2.0/workbench.html).)
