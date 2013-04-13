@@ -77,7 +77,7 @@ For the extension class use the naming convention of [interface name without the
 
 ## Source control
 
-The following advices apply to the Mercurial source control system and assume the usage of the TortoiseHg client.
+The following advices apply to the Mercurial source control system and assume the usage of the TortoiseHg client. See the [Mercurial Kick Start](http://mercurial.aragost.com/kick-start/en/) for a more holistic tutorial.
 
 - Try to only include changes corresponding to a single task in a commit.
 - Use descriptive commit messages. If a commit corresponds to an issue tracker ticket start the message with the ticket number.
