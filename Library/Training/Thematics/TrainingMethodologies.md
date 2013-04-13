@@ -1,4 +1,4 @@
-# Training methodologies
+# Training Methodologies
 
 
 
@@ -7,11 +7,11 @@ Following are methodologies for various forms of Orchard training.
 Remember that it's a good thing to have regular breaks about every 45 minutes.
 
 
-## University course
+## University Course
 
-### Class work and examination
+### Class Work and Eexamination
 
-#### Lesson structure
+#### Lesson Structure
 Every lesson begins with a short warm-up task incorporating the topics of the previous lesson.
 
 Lessons generally have repeated cycles of the following form:
@@ -38,7 +38,7 @@ The course has no special examination, instead students should create and finish
 Additional is the time needed for student presentations (depends on the number of attendees) since the course’s final lesson consists of student presentations and code reviews.
 
 
-## Intensive course
+## Intensive Course
 
 Since intensive courses should be tailored to the participants' needs the following points are just outlines and tips. Time constraint is also a factor that determines how in-depth the training can be, how many demonstrations can be carried out and how big is the part of the API that's only shown.
 

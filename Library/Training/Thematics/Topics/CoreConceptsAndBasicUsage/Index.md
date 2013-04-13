@@ -1,4 +1,4 @@
-# Core concepts and basic usage
+# Core Concepts and Basic Usage
 
 
 
@@ -75,4 +75,4 @@
 	- [External Pages](http://gallery.orchardproject.net/List/Modules/Orchard.Module.OrchardHUN.ExternalPages)
 	- [Shoutbox](http://gallery.orchardproject.net/List/Modules/Orchard.Module.OrchardHUN.Shoutbox)
 
-Corresponding [demos and excercises](DemosAndExercises)
+Corresponding [demos and exercises](DemosAndExercises)

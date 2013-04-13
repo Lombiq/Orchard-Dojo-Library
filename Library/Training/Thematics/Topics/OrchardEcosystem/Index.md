@@ -1,4 +1,4 @@
-# Getting to know the Orchard ecosystem
+# Getting to Know the Orchard Ecosystem
 
 
 

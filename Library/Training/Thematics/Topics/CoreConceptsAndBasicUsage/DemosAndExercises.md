@@ -1,8 +1,8 @@
-# Demos and excercices for the topic "Core concepts and basic usage"
+# Demos and exercises for the topic "Core concepts and basic usage"
 
 
 
-These are the demonstrations and possible excercises corresponding to the topic ["Core concepts and basic usage"](.).
+These are the demonstrations and possible exercises corresponding to the topic ["Core concepts and basic usage"](.).
 
 - Demo: installing and basic settings
 - Content model and content management:
