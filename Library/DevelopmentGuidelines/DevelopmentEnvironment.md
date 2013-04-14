@@ -35,6 +35,7 @@ Some advices on how to set up your development environment for Orchard Developme
 	- Ctrl+,: opens the Navigate To windows (i.e. search for types or members)
 	- Ctrl+D, Ctrl+E or Ctrl+Alt+E: opens the Exceptions configuration page. Tick Common Language Runtime Exceptions - Thrown to see all exceptions, even if they're caught.
 	- Ctrl+Q to access the Quick Launch bar
+	- Shift+Del: delete line
 	- You may want to set up Ctrl+W for closing the current file for the File.Close command and Ctrl+Shift+T for Edit.UndoClose (only available if PowerCommands is installed).
 
 
