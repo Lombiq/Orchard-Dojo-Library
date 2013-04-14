@@ -44,4 +44,4 @@ Some advices on how to set up your development environment for Orchard Developme
 - Use groups in the Repository Registry to group your repositories.
 - When doing work in a temporal branch and want to merge the changes back to another branch and close the branch do it in the following order: close then merge and NOT merge then close as this will result in an unnecessary dangling head. See [this SO post](http://stackoverflow.com/a/9173483/220230) for more details.
 - See the excellent "[A Guide to Branching in Mercurial](http://stevelosh.com/blog/2009/08/a-guide-to-branching-in-mercurial/)"
-- See the [mercurial.ini in file in this package](Files/mercurial.ini) that you can use to initialize your Mercurial instance quickly with some useful settings.
+- See the [mercurial.ini in file in this package](Attachments/mercurial.ini) that you can use to initialize your Mercurial instance quickly with some useful settings.
