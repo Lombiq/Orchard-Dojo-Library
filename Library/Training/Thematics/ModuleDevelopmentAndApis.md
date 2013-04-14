@@ -2,7 +2,7 @@
 
 
 
-The below topics are the core of what an Orchard developer should know. Other, less important items are listed under [Extended APIs](../../Topics/ExtendedApis/).
+The below topics are the core of what an Orchard developer should know. Other, less important items are listed under [Extended APIs](ExtendedApis).
 
 - Module structure:
 	- Module.txt: features and dependencies
@@ -65,4 +65,4 @@ We've created a demo module for the purpose of teaching all the topics here with
 
 The [Orchard Cheat Sheet](http://sebastienros.github.com/CheatSheet/) by Sebastien Ros is a great small API reference.
 
-Corresponding [demos and exercises](DemosAndExercises)
+Corresponding [demos and exercises](ModuleDevelopmentAndApisDemosAndExercises)

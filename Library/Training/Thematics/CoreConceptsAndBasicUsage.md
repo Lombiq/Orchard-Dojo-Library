@@ -75,4 +75,4 @@
 	- [External Pages](http://gallery.orchardproject.net/List/Modules/Orchard.Module.OrchardHUN.ExternalPages)
 	- [Shoutbox](http://gallery.orchardproject.net/List/Modules/Orchard.Module.OrchardHUN.Shoutbox)
 
-Corresponding [demos and exercises](DemosAndExercises)
+Corresponding [demos and exercises](CoreConceptsAndBasicUsageDemosAndExercises)

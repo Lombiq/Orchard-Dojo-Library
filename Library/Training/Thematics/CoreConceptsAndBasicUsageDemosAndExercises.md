@@ -2,7 +2,7 @@
 
 
 
-These are the demonstrations and possible exercises corresponding to the topic ["Core concepts and basic usage"](.).
+These are the demonstrations and possible exercises corresponding to the topic ["Core concepts and basic usage"](CoreConceptsAndBasicUsage).
 
 - Demo: installing and basic settings
 - Content model and content management:
