@@ -12,6 +12,10 @@
 
 ## C\# 
 
+Other than saving object references or instantiating other classes never do any work in a class's constructor. When using a [dependency injection container](http://en.wikipedia.org/wiki/Dependency_injection) the injection of a single dependency can result in the instantiation of dozens of other services. So never count on your class not being instantiated for a given operation.
+
+----------
+
 When returning a collection, always return an empty collection if there are no elements, but never null. When accepting a collection as a method argument, however, always check for null.
 
 	IEnumerable<int> MyMethod(IEnumerable<int> collection)
@@ -24,6 +28,8 @@ When returning a collection, always return an empty collection if there are no e
 	}
 
 Keep interfaces as short as possible so it’s relatively simple to provide alternative implementation for them (even when doing unit testing).
+
+----------
 
 If a method would serve just as a shortcut for multiple method calls on the same interface, use extension methods. Whether or not to use an extension method should be decided on a case-by case basis as future-aware as possible: only use extension methods if the shortcut is (almost) trivial and add the method to the interface if the optimal solution is more likely to depend on the specific implementation.
 
@@ -40,6 +46,21 @@ If a method would serve just as a shortcut for multiple method calls on the same
 	        service.Register(entity.Id);
 	    }
 	}
+
+	// Extensions are also useful if you want to provide default arguments for methods and want to do it with overloads
+	public interface IService
+    {
+        IEnumerable<DbEntity> GetItems(int maxCount);
+    }
+
+    public static class ServiceExtensions
+    {
+        IEnumerable<DbEntity> GetItems(this IService service)
+        {
+			// This extension provides a default value for the GetItems() method call
+            service.GetItems(15);
+        }
+    }
 
 
 	// Bad example: GetMany() results in many Get() calls. The implementation of GetMany() is something that the implementation of IService is likely to decide on better.
@@ -58,22 +79,82 @@ If a method would serve just as a shortcut for multiple method calls on the same
 
 For the extension class use the naming convention of [interface name without the leading I]Extensions as above and put them in the same namespace with the interface (so consumers seeing the interface will likely be able to see the extensions without adding another using statement).
 
-- Maximal number of arguments on a method: 3
-- Always return an interface type and return the most generic one making sense for the typical consuming code.
-- The “empty” pattern (String/QueryHints.Empty)
+----------
+
+Try to keep the maximal number of arguments on a method to 3.
+
+----------
+Always return an interface type and return the most generic one making sense for the typical consuming code.
+
+    public interface IService
+    {
+        // When in doubt, use IEnumerable<> for collections
+        IEnumerable<int> GetItems();
+
+        // If you need List's certain features like mutability or the ability to access items by index commonly in the consuming code return an IList<>
+        IList<int> GetItemsList();
+    }
+
+----------
+
+Use the "empty pattern" where you want to provide a default object.
+
+    public class MyClass
+    {
+        // Default will return this single instance, initialized with its default constructor
+        private static readonly MyClass _default = new MyClass();
+        public static MyClass Default { get { return _default; } }
+    }
+
+This is used by .NET's String class (String.Empty) and also by Orchard's QueryHints class (QueryHints.Empty).
+(String/QueryHints.Empty)
 
 
 ## Orchard
 
-- Always do part shape-related heavy work in shape factories: this way if the shape is not displayed (i.e. not specified in or hidden from Placement.info) no work will be done.
-- If a template uses a static resource (stylesheet or script) always include/require it there even if the template is part of a bigger layout where those resoruces are already referenced.
-- For improving client-side performance by preventing blocking script loads always include scripts in the foot if they’re not required immediately on page load. Also consider using the async attribute on scripts (by setting it with SetAttribute() at the time of inclusion) if the order in which they’re executed is indifferent.
+Always do part shape-related heavy work in shape factories inside drivers: this way if the shape is not displayed (i.e. not specified in or hidden from Placement.info) no work will be done.
+
+	protected override DriverResult Display(MyPart part, string displayType, dynamic shapeHelper)
+	{
+	    return ContentShape("Parts_My",
+	        () =>
+	        {
+	            // This delegate will only run if the shape is actually displayed.
+	            var heavy = /* Some heave work */;
+	            return shapeHelper.Parts_My(Heavy: heavy);
+	        });
+	}
+
+----------
+
+If a template uses a static resource (stylesheet or script) always include/require it there even if the template is part of a bigger layout where those resources are already referenced. This makes it easier to keep track of dependent resources and is not prone to errors caused by changes outside the specific template.
+
+----------
+
+For improving client-side performance by preventing blocking script loads always include scripts in the foot if they’re not required immediately on page load. Also consider using the async attribute on scripts (by setting it with SetAttribute() at the time of inclusion) if the order in which they’re executed is indifferent.
+
+	@{
+	    // This script will be downloaded asynchronously, without blocking the page loading, but you can't count on it being available at any point in other scripts (so if you have dependent scripts you have to use callbacks or events to signal if the script is loaded).
+	    Script.Include("my-async-script").SetAttribute("async", "async");
+	
+	    // This script will be downloaded synchronously but since it's in the foot it won't block the page load and the user will be able to see the full page sooner.
+	    Script.Include("my-script.js").AtFoot();
+	
+	    // Use such usings to run script blocks depending on foot scripts
+	    using (Script.Foot())
+	    {
+	        <script type="text/javascript">
+	            // Use footscripts here
+	        </script>
+	    }
+	}
 
 
 ## JavaScript
 
-- Prefix jQuery objects with the dollar sign ($)
+Prefix jQuery objects with the dollar sign ($) so they can be distinguished from other objects.
 
+    var $header = $("#header");
 
 ## Source control
 
