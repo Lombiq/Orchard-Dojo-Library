@@ -56,7 +56,7 @@ The below topics are the core of what an Orchard developer should know. Other, l
 - Optional: writing unit tests
 	- Mocking and using stubs for services (including existing stubs for Orchard services)
 	- Database-enabled tests
-	- Runnin unit tests with TestDriven.Net
+	- Running unit tests with TestDriven.Net
 - Releasing to the Gallery
 
 Most of this comes from [Sipke Schoorstra’s Orchard Harvest session](http://www.youtube.com/watch?v=MH9mcodTX-U) content (APIs, content part development).
