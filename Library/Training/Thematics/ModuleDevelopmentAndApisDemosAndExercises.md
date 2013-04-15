@@ -2,6 +2,8 @@
 
 
 
+These are the demonstrations and possible exercises corresponding to the topic ["Module Development and Orchard APIs"](ModuleDevelopmentAndApis).
+
 - Content type and content part development:
 	- Module scaffolding
 	- SpaceShip content type
