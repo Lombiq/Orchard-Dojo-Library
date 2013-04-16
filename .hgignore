@@ -6,11 +6,11 @@ obj/
 *.orig
 *.user
 *Thumbs.db
-Training/Test Instance/build
-Training/Test Instance/buildazure
-Training/Test Instance/buildtasks
-Training/Test Instance/artifacts
-Training/Test Instance/src/Orchard.Web/App_Data
+Training/TestInstance/build
+Training/TestInstance/buildazure
+Training/TestInstance/buildtasks
+Training/TestInstance/artifacts
+Training/TestInstance/src/Orchard.Web/App_Data
 syntax: regexp
-(?i)Training/Test Instance/src/.*bin/.*
-Training/Test Instance/src/Orchard.Web/Media/(?!Web.config|OrchardLogo.png).+
+(?i)Training/TestInstance/src/.*bin/.*
+Training/TestInstance/src/Orchard.Web/Media/(?!Web.config|OrchardLogo.png).+
