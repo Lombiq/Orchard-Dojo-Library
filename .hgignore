@@ -10,7 +10,7 @@ Training/TestInstance/build
 Training/TestInstance/buildazure
 Training/TestInstance/buildtasks
 Training/TestInstance/artifacts
-Training/TestInstance/src/Orchard.Web/App_Data
 syntax: regexp
 (?i)Training/TestInstance/src/.*bin/.*
+Training/TestInstance/src/Orchard.Web/App_Data(?!.*/Localization).+
 Training/TestInstance/src/Orchard.Web/Media/(?!Web.config|OrchardLogo.png).+
