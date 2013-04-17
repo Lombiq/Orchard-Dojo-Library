@@ -26,6 +26,7 @@ Some advices on how to set up your development environment for Orchard Developme
 	- F6: build
 	- F10: run to the next line, when debugging
 	- F11: step into the code on the current line (e.g. if the current line is a method call this will forward you to the body of the method), when debugging
+	- Ctrl+F10: run to the cursor, when debugging
 	- Ctrl+.: opens the [Smart Tag](http://haacked.com/archive/2008/06/23/visual-studio-smart-tag-expansion-tip.aspx)
 	- Ctrl+Shift+Enter: adds a new line below the current line
 	- F9: places a breakpoint on the current line
