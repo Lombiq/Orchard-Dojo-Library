@@ -9,7 +9,7 @@ This Wiki aims to complete the [documentation](http://docs.orchardproject.net/) 
 - [Content Part](ContentPart)
 - [Core](Core)
 - [Driver](Driver)
-- Extension
+- [Extension](Extension)
 - Handler
-- Module
-- Theme
+- [Module](Module)
+- [Theme](Theme)
