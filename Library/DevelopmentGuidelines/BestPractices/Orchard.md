@@ -42,3 +42,7 @@ For improving client-side performance by preventing blocking script loads always
 	        </script>
 	    }
 	}
+
+----------
+
+When you have multiple features in a single module always make the subfeatures depend on the main feature for clarity. It should also be the requirement anyway: subfeatures are in that module because they have something in common with the main feature.
