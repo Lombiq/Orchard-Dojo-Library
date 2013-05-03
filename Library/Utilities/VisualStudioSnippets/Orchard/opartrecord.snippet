@@ -2,8 +2,8 @@
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
 	<CodeSnippet Format="1.0.0">
 		<Header>
-			<Title>opart</Title>
-			<Shortcut>opart</Shortcut>
+			<Title>opartrecord</Title>
+			<Shortcut>opartrecord</Shortcut>
 			<Description>Code snippet for a content part with a corresponding part record.</Description>
 			<Author>Lombiq</Author>
 			<SnippetTypes>
@@ -19,7 +19,13 @@
 				</Literal>
 			</Declarations>
 			<Code Language="csharp">
-				<![CDATA[public class $name$Part : ContentPart
+				<![CDATA[public class $name$Part : ContentPart<$name$PartRecord>
+				{
+					
+				}
+
+
+				public class $name$PartRecord : ContentPartRecord
 				{
 					$end$
 				}]]>
