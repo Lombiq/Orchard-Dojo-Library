@@ -25,13 +25,13 @@
 				<Literal>
 					<ID>field</ID>
 					<ToolTip>Field name</ToolTip>
-					<Default>_myField</Default>
+					<Default>myField</Default>
 				</Literal>
 			</Declarations>
 			<Code Language="csharp">
-				<![CDATA[private readonly LazyField<$type$> $field$ = new LazyField<$type$>();
-					public LazyField<$type$> $property$Field { get { return $field$; } }
-					public $type$ $property$ { get { return $field$.Value; } }
+				<![CDATA[private readonly LazyField<$type$> _$field$ = new LazyField<$type$>();
+					public LazyField<$type$> $property$Field { get { return _$field$; } }
+					public $type$ $property$ { get { return _$field$.Value; } }
 				$end$]]>
 			</Code>
 		</Snippet>
