@@ -98,3 +98,7 @@ Use the "empty pattern" where you want to provide a default object.
 
 This is used by .NET's String class (String.Empty) and also by Orchard's QueryHints class (QueryHints.Empty).
 (String/QueryHints.Empty)
+
+----------
+
+When checking if an `IEnumerable<T>` is empty always use `enumerable.Any()` instead of `enumerable.Count() == 0`.
