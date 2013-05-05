@@ -12,6 +12,7 @@
 	- [Latest release](https://orchard.codeplex.com/releases/view/90325)
 	- [Issue tracker](https://orchard.codeplex.com/workitem/list/basic)
 - [Orchard Gallery](http://gallery.orchardproject.net/)
+- [Orchard continuous integration server](http://teamcity.codebetter.com/project.html?projectId=project143) (click "Login as a Guest")
 
 
 ## Community sites
