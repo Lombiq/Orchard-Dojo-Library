@@ -10,4 +10,5 @@
 - Clayless shape generation (clayless branch in the source code)
 - Profiling with [Orchard MVC Mini Profiler](http://orchardprofiler.codeplex.com/)
 - Choosing the right build target
+- Web.config transformation and settings
 - Deploying to Azure Websites
