@@ -1,6 +1,11 @@
 # Web API
 
 
-
+Module: Web API
+---------------
 - Creating simple API controllers
 - Defining custom API routes
+
+Time requirement: 1h 0m
+
+Dependencies: Intermediate techniques in module development

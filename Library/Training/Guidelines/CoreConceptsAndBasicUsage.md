@@ -1,7 +1,8 @@
 # Core Concepts and Basic Usage
 
 
-
+Module: Introduction
+--------------------
 - Architectural overview
 	- ASP.NET -> ASP.NET MVC -> Orchard
 	- Contains open-source projects (eg. NHibernate, jQuery)
@@ -9,6 +10,13 @@
 - Installing Orchard:
 	- Choosing a database engine (SQL CE, SQL Server, MySQL)
 - Basic site settings
+
+Time requirement: 0h 45m
+
+Dependencies: none
+
+Module: Basic content management
+--------------------------------
 - Content model and content management:
 	- Content types, parts and fields
 	- Creating and editing content items and content types
@@ -21,6 +29,13 @@
 - User management and roles, permissions
 	- Users: allowing new registrations, user list, settings
 	- Roles: editing existing roles, creating new roles, permissions (content type and content item)
+
+Time requirement: 0h 45m
+
+Dependencies: none
+
+Module: Intermediate content management
+---------------------------------------
 - Widgets
 	- Layers and layer rules, zones (theme anathomy)
 	- Demo: creating an HTML Widget
@@ -40,6 +55,13 @@
 - Media management
 	- MediaPicker
 	- Media management admin page
+
+Time requirement: 1h 15m
+
+Dependencies: Basic content management
+
+Module: Advanced content management
+-----------------------------------
 - Custom Forms
 	- Tokens overview
 	- Rules overview
@@ -50,6 +72,13 @@
 	- Queries: example for filtering, ordering and layouts
 	- Projection Widget, Projection Page
 	- Query Link (Navigation)
+
+Time requirement: 1h 0m
+
+Dependencies: Intermediate content management
+
+Module: Customization features
+------------------------------
 - Multi-tenancy
 - Command line
 	- "help" command
@@ -60,6 +89,13 @@
 - Optional: localization
 	- Installing a .po package with [Vandelay.TranslationManager](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Vandelay.Industries)
 	- Setting up locales
+
+Time requirement: 0h 45m
+
+Dependencies: none
+
+Module: Structural overview
+---------------------------
 - Troubleshooting:
 	- Enabling the display of all thrown exception
 	- Understanding log files (see sample) and viewing them with the [Error Log Viewer](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Laughlin.ErrorLog) module
@@ -75,4 +111,9 @@
 	- [External Pages](http://gallery.orchardproject.net/List/Modules/Orchard.Module.OrchardHUN.ExternalPages)
 	- [Shoutbox](http://gallery.orchardproject.net/List/Modules/Orchard.Module.OrchardHUN.Shoutbox)
 
+Time requirement: 0h 30m
+
+Dependencies: none
+
 Corresponding [demos and exercises](CoreConceptsAndBasicUsageDemosAndExercises)
+-------------------------------------------------------------------------------
