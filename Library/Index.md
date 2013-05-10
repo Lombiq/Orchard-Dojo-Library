@@ -8,7 +8,7 @@ The Orchard Dojo Library is a portable package of Orchard goodies. It supplement
 	- [Orchard Link Collection](LinkCollection)
 	- [Software Development Guidelines](DevelopmentGuidelines/)
 	- [Orchard FAQ](Faq/)
-	- [Orchard Training Thematics](Training/Thematics/)
+	- [Orchard Training Thematics](Training/Guidelines/)
 	- [Development Utilities](Utilities/)
 	- [Orchard Wiki](Wiki/)
 - [Contribution Guidelines](ContributionGuideLines)
