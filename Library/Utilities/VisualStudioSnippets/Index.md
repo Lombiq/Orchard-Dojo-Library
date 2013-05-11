@@ -25,7 +25,7 @@ These snippets are constantly used at [Lombiq](http://lombiq.com) and updated ac
 
 Orchard snippets are prefixed with an "o" for distinction.
 
-- oadminmenu: admin menu INavigationProvider skeleton
+- oadminmenu: [admin menu](../../Wiki/AdminMenu) (INavigationProvider) skeleton
 - oalterpartdefinition: ContentDefinitionManager.AlterPartDefinition() skeleton
 - oaltertypedefinition: ContentDefinitionManager.AlterTypeDefinition() skeleton
 - ocontrollerfull: Controller class with common Orchard services (IOrchardServices, Localizer, ILogger)
@@ -36,10 +36,10 @@ Orchard snippets are prefixed with an "o" for distinction.
 - ohandler: empty [ContentHandler](../../Wiki/Handler) skeleton
 - ohandlerstorage: [ContentHandler](../../Wiki/Handler) with StorageFilter
 - olazyfield: LazyField skeleton
-- omigrations: basic migration class
+- omigrations: basic [migration](../../Wiki/Migrations) class
 - opart: [content part](../../Wiki/ContentPart) without a record
 - opartrecord: [content part](../../Wiki/ContentPart)  with a corresponding part record
 - oproppart: property for a [content part](../../Wiki/ContentPart)  for proxying a property from the underlying record
-- oresourcemanifest: resource manifest skeleton
+- oresourcemanifest: [resource manifest](../../Wiki/ResourceManifest) skeleton
 - oroutes: route provider skeleton
 - oroutesfull: route provider pre-filled with a route descriptor
