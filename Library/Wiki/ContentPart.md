@@ -2,6 +2,6 @@
 
 
 
-A content part is a set of separate functionalities and data that can be applied to a content type by attaching the content part to a content type. Content parts can store data through containing content fields.
+A content part is a set of separate functionalities and data that can be applied to a [content type](ContentType) by attaching the content part to a content type. Content parts may not store any corresponding data (in this case, they only add functionality by using existing data) in the database or they can even load data from an external data source (like a webservice). [Content fields](ContentField) can be attached to content parts (for the differences between parts and fields, see the fields article).
 
-If your content part stores data, it must be mapped to a record class, which is an actual representation of the data you are storing in the database (visit Migrations to know about how the table is created). In most cases, content parts derive from ContentPartRecord<> (where the generic type is your record class), but in case you want to save a new version of your data when the content part is changed, it should derive from ContentPartVersionRecord<>.
+If your content part stores data in the database, usually it's mapped to a [record class](Record) (the corresponding [content part record](ContentPartRecord)), which is an actual representation of the data you are storing in the database. In most cases, content parts derive from ContentPart<TRecord> (where the type parameter is your content part record class), but if the part isn't storing anything in a corresponding record than it can just derive from ContentPart.
