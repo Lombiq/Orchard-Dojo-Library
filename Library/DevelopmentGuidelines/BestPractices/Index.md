@@ -1,8 +1,8 @@
-# Coding Best Practices
+# Coding best practices
 
 
 
-## General Principles to Keep in Mind
+## General principles to keep in mind
 
 - [Don't Repeat Yourself](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 - [Loose coupling](http://en.wikipedia.org/wiki/Loose_coupling)

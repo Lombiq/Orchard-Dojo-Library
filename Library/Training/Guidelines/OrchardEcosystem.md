@@ -1,6 +1,6 @@
-# Getting to Know the Orchard Ecosystem
+# Getting to know the orchard ecosystem
 
-Getting to Know the Orchard Ecosystem
+Getting to know the orchard ecosystem
 -------------------------------------
 - [Orchard home page](http://orchardproject.net) and the [documentation](http://docs.orchardproject.net)
 - [Orchard project page](http://orchard.codeplex.com) (downloads, discussion boards, issue tracker, source)

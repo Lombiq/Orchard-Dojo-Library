@@ -1,4 +1,4 @@
-# Inline Documentation Guidelines
+# Inline documentation guidelines
 
 
 

@@ -1,4 +1,4 @@
-# Theme Development
+# Theme development
 
 
 Module: Getting started in theme development

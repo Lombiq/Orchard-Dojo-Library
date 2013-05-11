@@ -1,4 +1,4 @@
-# Demos and Exercises for the Topic "Module Development and Orchard APIs"
+# Demos and exercises for the topic "Module Development and Orchard APIs"
 
 
 

@@ -1,11 +1,11 @@
-# Development Environment Advices
+# Development environment advices
 
 
 
 Some advices on how to set up your development environment for Orchard Development.
 
 
-## Software to Install
+## Software to install
 
 - Visual Studio 2012 (preferable non-Express) with the following plug-ins:
 	- [Web Essentials](http://visualstudiogallery.msdn.microsoft.com/07d54d12-7133-4e15-becb-6f451ea3bea6) for better client-side development tooling
@@ -17,7 +17,7 @@ Some advices on how to set up your development environment for Orchard Developme
 - Firefox with the [Firebug](https://getfirebug.com/) developer plugin installed or something similar for aiding client-side development
 
 
-## Visual Studio Tips
+## Visual Studio tips
 
 - Use [code snippets](http://msdn.microsoft.com/en-us/library/ms165392%28v=vs.80%29.aspx); try out [the ones in this package](../Utilities/VisualStudioSnippets/) too that specifically aid Orchard development.
 - Use keyboard shortcuts. The most useful ones are:
@@ -40,7 +40,7 @@ Some advices on how to set up your development environment for Orchard Developme
 	- You may want to set up Ctrl+W for closing the current file for the File.Close command and Ctrl+Shift+T for Edit.UndoClose (only available if PowerCommands is installed).
 
 
-## Mercurial and TortoiseHg Tips
+## Mercurial and TortoiseHg tips
 
 - Interact with Mercurial through the TortoiseHg Workbench. You can add a cloned repository to the Workbench by opening it from the repository folder: right click on the folder and select the Workbench.
 - Use groups in the Repository Registry to group your repositories.

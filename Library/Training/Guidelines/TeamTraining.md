@@ -1,4 +1,4 @@
-# Team Training
+# Team training
 
 
 Module: Team training

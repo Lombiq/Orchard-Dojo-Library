@@ -1,4 +1,4 @@
-# Orchard Dojo Library Contribution Guidelines
+# Orchard Dojo Library contribution guidelines
 
 
 

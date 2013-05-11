@@ -1,4 +1,4 @@
-# Core Concepts and Basic Usage
+# Core concepts and basic usage
 
 
 Module: Introduction

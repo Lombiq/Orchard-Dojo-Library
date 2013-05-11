@@ -1,4 +1,4 @@
-# Software Development Guidelines
+# Software development guidelines
 
 
 

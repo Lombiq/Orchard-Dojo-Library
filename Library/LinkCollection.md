@@ -1,4 +1,4 @@
-# Orchard Link Collection
+# Orchard link collection
 
 
 
@@ -43,7 +43,7 @@
 - [Thoughts on .NET & Orchard - Piotr Szmyd's blog](http://www.szmyd.com.pl/blog)
 
 
-## Technologies Behind Orchard
+## Technologies behind Orchard
 
 - [ASP.NET MVC](http://www.asp.net/mvc)
 - [Autofac](http://code.google.com/p/autofac/) for dependency injection

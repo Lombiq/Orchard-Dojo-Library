@@ -1,4 +1,4 @@
-# Deployment and Optimization
+# Deployment and optimization
 
 
 Module: Optimization

@@ -1,4 +1,4 @@
-# Visual Studio Code Snippets
+# Visual Studio code snippets
 
 
 
@@ -13,7 +13,7 @@ We've taken care to place the $end$ terminating symbol to a place where one most
 These snippets are constantly used at [Lombiq](http://lombiq.com) and updated according to our experiences.
 
 
-## General Snippets
+## General snippets
 
 - controller: empty ASP.NET MVC controller class
 - ctorinject: constructor with an injected dependency and a corresponding private readonly field
@@ -21,7 +21,7 @@ These snippets are constantly used at [Lombiq](http://lombiq.com) and updated ac
 - propv: virtual auto-implemented property
 
 
-## Orchard Snippets
+## Orchard snippets
 
 Orchard snippets are prefixed with an "o" for distinction.
 

@@ -1,4 +1,4 @@
-# Rules of Thumb for Refactoring
+# Rules of thumb for refactoring
 
 
 

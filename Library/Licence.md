@@ -1,4 +1,4 @@
-# Orchard Dojo Library Licence
+# Orchard Dojo Library licence
 
 
 

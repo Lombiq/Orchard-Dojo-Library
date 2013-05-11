@@ -1,4 +1,4 @@
-# JavaScript Best Practices
+# JavaScript best practices
 
 
 
