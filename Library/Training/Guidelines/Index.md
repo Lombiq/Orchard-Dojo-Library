@@ -30,22 +30,12 @@ The following tools are needed for an Orchard training:
 
 
 ## <a id="topics"></a>Topics
-In brackets the approximate time requirement is indicated for each topic.
 
-- [Getting to know the Orchard ecosystem](OrchardEcosystem) (15 minutes)
-- [Core concepts and basic usage](CoreConceptsAndBasicUsage) (5 hours)
-- [Theme development](ThemeDevelopment) (3 hours)
-- [Module development and Orchard APIs](ModuleDevelopmentAndApis) (11 hours; + 30 minutes if unit testing is covered)
-- [Extended APIs](ExtendedApis) (3 hours; could be cut to 1 hour, when only Projector providers are discussed; would still have the positive effect of encouraging students to look into advanced APIs)
-- [Web API](WebApi) 
-- [Deployment and optimization](DeploymentAndOptimization) (1 hour)
-- [Team training](TeamTraining) (just for teams)
-
-
-## Schedule
-
-Total time requirement:
-
-- 21h 15m at minimum
-- 22h 15m with extended APIs discussed in depth
-- +30m if unit testing is discussed
+- [Getting to know the Orchard ecosystem](OrchardEcosystem/)
+- [Core concepts and basic usage](CoreConceptsAndBasicUsage/)
+- [Theme development](ThemeDevelopment/)
+- [Module development and Orchard APIs](ModuleDevelopmentAndApis/)
+- [Extended APIs](ExtendedApis/) (when only Projector providers are discussed; would still have the positive effect of encouraging students to look into advanced APIs)
+- [Web API](WebApi/) 
+- [Deployment and optimization](DeploymentAndOptimization/)
+- [Team training](TeamTraining/) (just for teams)
