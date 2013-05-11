@@ -1,8 +1,8 @@
 # Team training
 
 
-Module: Team training
----------------------
+## Module: Team training
+
 - Agree on and follow [common guidelines](../../DevelopmentGuidelines/)
 - Version control best practices:
 	- 3rd party modules and themes in subrepositories

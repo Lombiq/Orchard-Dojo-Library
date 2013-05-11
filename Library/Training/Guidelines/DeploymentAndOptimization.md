@@ -1,8 +1,9 @@
 # Deployment and optimization
 
 
-Module: Optimization
---------------------
+
+## Module: Optimization
+
 - Installing performance-tuning modules:
 	- Enterprise-level caching with Orchard.Caching
 	- Output caching with the [Contrib.Cache](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Contrib.Cache) module
@@ -13,10 +14,11 @@ Module: Optimization
 
 Time requirement: 0h 45m
 
-Dependencies: none
+Dependencies: Basic techniques in module development
 
-Module: Manual deployment
--------------------------
+
+## Module: Manual deployment
+
 - Choosing the right build target
 - Web.config transformation and settings
 - Deploying to Azure Websites
@@ -30,10 +32,11 @@ Module: Manual deployment
 
 Time requirement: 0h 45m
 
-Dependencies: none
+Dependencies: Getting started in module development
 
-Module: Automated deployment and continous integration/delivery
----------------------------------------------------------------
+
+## Module: Automated deployment and continous integration/delivery
+
 - Installing TeamCity
 - Setting up a build configuration in TC
 	- Installing necessary tools (e.g. Mercurial)

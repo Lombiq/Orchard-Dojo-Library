@@ -1,8 +1,13 @@
 # Core concepts and basic usage
 
 
-Module: Introduction
---------------------
+## Module: Introduction
+
+- Orchard ecosystem:
+	- [Orchard home page](http://orchardproject.net) and the [documentation](http://docs.orchardproject.net)
+	- [Orchard project page](http://orchard.codeplex.com) (downloads, discussion boards, issue tracker, source)
+	- Websites of local communities
+	- [Orchard Marketplace](http://orchardmarket.net)
 - Architectural overview
 	- ASP.NET -> ASP.NET MVC -> Orchard
 	- Contains open-source projects (eg. NHibernate, jQuery)
@@ -15,8 +20,9 @@ Time requirement: 0h 45m
 
 Dependencies: none
 
-Module: Basic content management
---------------------------------
+
+## Module: Basic site management
+
 - Content model and content management:
 	- Content types, parts and fields
 	- Creating and editing content items and content types
@@ -30,12 +36,13 @@ Module: Basic content management
 	- Users: allowing new registrations, user list, settings
 	- Roles: editing existing roles, creating new roles, permissions (content type and content item)
 
-Time requirement: 0h 45m
+Time requirement: 1h 15m
 
 Dependencies: none
 
-Module: Intermediate content management
----------------------------------------
+
+## Module: Intermediate content management
+
 - Widgets
 	- Layers and layer rules, zones (theme anathomy)
 	- Demo: creating an HTML Widget
@@ -56,12 +63,13 @@ Module: Intermediate content management
 	- MediaPicker
 	- Media management admin page
 
-Time requirement: 1h 15m
+Time requirement: 1h 30m
 
-Dependencies: Basic content management
+Dependencies: Basic site management
 
-Module: Advanced content management
------------------------------------
+
+## Module: Advanced content management
+
 - Custom Forms
 	- Tokens overview
 	- Rules overview
@@ -73,12 +81,13 @@ Module: Advanced content management
 	- Projection Widget, Projection Page
 	- Query Link (Navigation)
 
-Time requirement: 1h 0m
+Time requirement: 2h 0m
 
 Dependencies: Intermediate content management
 
-Module: Customization features
-------------------------------
+
+## Module: Customization features
+
 - Multi-tenancy
 - Command line
 	- "help" command
@@ -94,15 +103,13 @@ Time requirement: 0h 45m
 
 Dependencies: none
 
-Module: Structural overview
----------------------------
+
+## Module: Basic maintenance
+
 - Troubleshooting:
 	- Enabling the display of all thrown exception
 	- Understanding log files (see sample) and viewing them with the [Error Log Viewer](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Laughlin.ErrorLog) module
 	- Contacting module authors and filing reproducible, meaningful bug reports
-- Orchard structural overview:
-	- Contents of the Orchard folder (libraries, source, App_Data, module/theme folders...)
-	- Solution overview
 - Useful 3rd-party modules
 	- [Orchard Forums](http://orchardprojectforum.azurewebsites.net/) by Nicholas Mayne
 	- [SEO](http://onestopseo.codeplex.com/) by Onestop
