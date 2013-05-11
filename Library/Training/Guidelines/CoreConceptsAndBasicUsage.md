@@ -15,6 +15,7 @@
 - Installing Orchard:
 	- Choosing a database engine (SQL CE, SQL Server, MySQL)
 - Basic site settings
+- Demo: installing and basic settings
 
 Time requirement: 0h 45m
 
@@ -27,6 +28,10 @@ Dependencies: none
 	- Content types, parts and fields
 	- Creating and editing content items and content types
 	- Versioning: drafts and published versions
+	- Demo: basic content types (Blog, BlogPost, Page)
+	- Demo: creating a content type
+	- Demo: editing and versioning a content item
+	- Exercise: creating a content type with fields and parts and creating items based on instructions
 - Comments
 - Themes and modules:
 	- Enabling/disabling features and themes
@@ -35,6 +40,8 @@ Dependencies: none
 - User management and roles, permissions
 	- Users: allowing new registrations, user list, settings
 	- Roles: editing existing roles, creating new roles, permissions (content type and content item)
+	- Demo: users and roles admin pages
+	- Exercise: creating a role with selected permissions; enabling registration, registering a new user and assigning it to the newly created role
 
 Time requirement: 1h 15m
 
@@ -45,14 +52,15 @@ Dependencies: none
 
 - Widgets
 	- Layers and layer rules, zones (theme anathomy)
-	- Demo: creating an HTML Widget
-	- Group exercise: creating NotTheHomepage layer and a HTML Widget in the AsideSecond zone in that layer
+	- Demo: creating a new layer and an HTML Widget
+	- Exercise: creating NotTheHomepage layer and a HTML Widget in the AsideSecond zone in that layer
 - Navigation
 	- Creating and editing a menu
 		- Adding and editing custom links and content item links
 		- Editing link hierarchy
 	- Navigation Widget
 	- ContentItemPermission for MenuItem
+	- Exercise: creating a menu with all kinds of items
 - Search and indexing
 	- Enabling Search engine and an Indexing service
 		- What is an indexing service (eg. Lucene)
@@ -73,6 +81,7 @@ Dependencies: Basic site management
 - Custom Forms
 	- Tokens overview
 	- Rules overview
+	- Demo: creating a contact form
 - Importing and exporting:
 	- Using the Import/Export module
 	- The importance of having an identity-providing part (AutoroutePart, IdentityPart)
