@@ -34,7 +34,6 @@ The following tools are needed for an Orchard training:
 
 ## <a id="topics"></a>Topics
 
-- [Getting to know the Orchard ecosystem](OrchardEcosystem/)
 - [Core concepts and basic usage](CoreConceptsAndBasicUsage/)
 - [Theme development](ThemeDevelopment/)
 - [Module development and Orchard APIs](ModuleDevelopmentAndApis/)
