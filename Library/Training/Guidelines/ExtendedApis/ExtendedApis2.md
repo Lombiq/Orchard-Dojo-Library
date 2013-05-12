@@ -1,4 +1,4 @@
-# Advanced module development II.
+# Extended APIs II.
 
 
 

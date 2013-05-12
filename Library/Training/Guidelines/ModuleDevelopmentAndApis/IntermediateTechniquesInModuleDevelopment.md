@@ -12,4 +12,4 @@
 
 Time requirement: 3h 0m
 
-Dependencies: [Developing custom content](DevelopingCustomContent)
+Dependencies: [Basic techniques in module development](BasicTechniquesInModuleDevelopment)

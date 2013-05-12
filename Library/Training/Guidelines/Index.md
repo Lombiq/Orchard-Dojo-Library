@@ -39,7 +39,7 @@ The topics are each divided into individual modules. These modules can, but don'
 - [Core concepts and basic usage](CoreConceptsAndBasicUsage/)
 - [Theme development](ThemeDevelopment/)
 - [Module development and Orchard APIs](ModuleDevelopmentAndApis/)
-- [Extended APIs](ExtendedApis/) (when only Projector providers are discussed; would still have the positive effect of encouraging students to look into advanced APIs)
+- [Extended APIs](ExtendedApis/)
 - [Web API](WebApi/) 
 - [Deployment and optimization](DeploymentAndOptimization/)
 - [Team training](TeamTraining/) (just for teams)
