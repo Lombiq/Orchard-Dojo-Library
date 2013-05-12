@@ -34,6 +34,8 @@ The following tools are needed for an Orchard training:
 
 ## <a id="topics"></a>Topics
 
+The topics are each divided into individual modules. These modules can, but don't necessarily have dependency on each other.
+
 - [Core concepts and basic usage](CoreConceptsAndBasicUsage/)
 - [Theme development](ThemeDevelopment/)
 - [Module development and Orchard APIs](ModuleDevelopmentAndApis/)
