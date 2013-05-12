@@ -19,4 +19,4 @@ This Wiki aims to complete the [documentation](http://docs.orchardproject.net/) 
 - [Resource manifest](ResourceManifest)
 - [Theme](Theme)
 
-Please note that there are corresponding Visual Studio code snippets (Library/Utilities/VisualStudioSnippets) and detailed development guides (Orchard Training Demo module) in the Orchard Dojo Library related to these topics.
+Please note that there are corresponding [Visual Studio code snippets](../Utilities/VisualStudioSnippets/) and detailed development guides ([Orchard Training Demo module](https://orchardtrainingdemo.codeplex.com/)) in the Orchard Dojo Library related to these topics.
