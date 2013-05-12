@@ -12,4 +12,4 @@
 
 Time requirement: 0h 45m
 
-Dependencies: [Basic techniques in module development](../CoreConceptsAndBasicUsage/BasicTechniquesInModuleDevelopment)
+Dependencies: [Basic techniques in module development](../ModuleDevelopmentAndApis/BasicTechniquesInModuleDevelopment)
