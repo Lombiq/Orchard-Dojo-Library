@@ -4,7 +4,7 @@
 
 - [Introduction](Introduction)
 - [Basic site management](BasicSiteManagement)
-- [Basic content management](BasicContentManagement)
+- [Intermediate content management](IntermediateContentManagement)
 - [Advanced content management](AdvancedContentManagement)
 - [Customization features](CustomizationFeatures)
 - [Basic maintenance](BasicMaintenance)
