@@ -2,7 +2,7 @@
 
 
 
-The below topics are the core of what an Orchard developer should know. Other, less important items are listed under [Extended APIs](ExtendedApis/).
+The below topics are the core of what an Orchard developer should know. Other, less important items are listed under [Extended APIs](../ExtendedApis/).
 
 
 - [Getting started in module development](GettingStartedInModuleDevelopment)
