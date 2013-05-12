@@ -1,5 +1,8 @@
-# Orchard training
+# Orchard training guidelines
 
+
+
+The following guidelines serve as a base for [Orchard trainings](http://orcharddojo.net/orchard-training).
 
 
 ## Training methodologies
