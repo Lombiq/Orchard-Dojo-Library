@@ -1,4 +1,4 @@
-# Module: Customization features
+# Customization features
 
 
 

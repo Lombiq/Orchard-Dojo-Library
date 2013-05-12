@@ -1,4 +1,4 @@
-# Module: Intermediate content management
+# Intermediate content management
 
 
 

@@ -1,4 +1,4 @@
-# Module: Basic site management
+# Basic site management
 
 
 
