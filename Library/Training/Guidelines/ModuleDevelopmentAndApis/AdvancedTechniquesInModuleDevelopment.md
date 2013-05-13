@@ -14,3 +14,5 @@
 Time requirement: 1h 30m
 
 Dependencies: [Intermediate techniques in module development](IntermediateTechniquesInModuleDevelopment)
+
+Parent topic: [Module development and APIs](./)

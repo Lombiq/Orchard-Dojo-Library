@@ -14,3 +14,5 @@
 Time requirement: 1h 30m
 
 Dependencies: [Getting started in theme development](GettingStartedInThemeDevelopment)
+
+Parent topic: [Theme development](./)
