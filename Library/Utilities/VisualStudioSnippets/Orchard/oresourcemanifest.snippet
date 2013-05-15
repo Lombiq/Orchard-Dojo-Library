@@ -11,8 +11,15 @@
 			</SnippetTypes>
 		</Header>
 		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>name</ID>
+					<ToolTip>Name of the resource manifest</ToolTip>
+					<Default>ResourceManifest</Default>
+				</Literal>
+			</Declarations>
 			<Code Language="csharp">
-				<![CDATA[public class ResourceManifest : IResourceManifestProvider
+				<![CDATA[public class $name$ : IResourceManifestProvider
 				{
 					public void BuildManifests(ResourceManifestBuilder builder)
 					{
