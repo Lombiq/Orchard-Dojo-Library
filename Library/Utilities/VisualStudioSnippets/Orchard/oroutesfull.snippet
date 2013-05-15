@@ -13,11 +13,6 @@
 		<Snippet>
 			<Declarations>
 				<Literal>
-					<ID>routeName</ID>
-					<ToolTip>Name of the route</ToolTip>
-					<Default>MyRoute</Default>
-				</Literal>
-				<Literal>
 					<ID>url</ID>
 					<ToolTip>Url of the route</ToolTip>
 					<Default>my/url</Default>
@@ -52,7 +47,6 @@
 			{
 				new RouteDescriptor
 				{
-					Name = "$routeName$",
 					Route = new Route(
 						"$url$",
 						new RouteValueDictionary
