@@ -29,10 +29,12 @@ Orchard snippets are prefixed with an "o" for distinction.
 - oalterpartdefinition: ContentDefinitionManager.AlterPartDefinition() skeleton
 - oaltertypedefinition: ContentDefinitionManager.AlterTypeDefinition() skeleton
 - ocontrollerfull: Controller class with common Orchard services (IOrchardServices, Localizer, ILogger)
+- ocreatecontentpartrecordtable: a SchemaBuilder.CreateTable() shortcut for [part records](../../Wiki/ContentPartRecord), to be used in [migrations](../../Wiki/Migrations)
+- ocreatetable: a simple SchemaBuilder.CreateTable() skeleton for [migrations](../../Wiki/Migrations)
 - odriver: empty [ContentPartDriver](../../Wiki/Driver) skeleton
 - odriverfull: a full [driver](../../Wiki/Driver), complete with Display, Editor and Exporting/Importing methods
 - ofeature: OrchardFeature attribute
-- ofielddriver: empty ContentFieldDriver skeleton
+- ofielddriver: empty [ContentFieldDriver](../../Wiki/ContentField), skeleton
 - ohandler: empty [ContentHandler](../../Wiki/Handler) skeleton
 - ohandlerstorage: [ContentHandler](../../Wiki/Handler) with StorageFilter
 - olazyfield: LazyField skeleton
