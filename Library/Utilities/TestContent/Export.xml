@@ -178,7 +178,7 @@
       <MenuPart Menu="/name=Main Menu" MenuText="Blog" MenuPosition="2" />
       <BlogPart Description="This is a test blog." PostCount="11" />
     </Blog>
-    <BlogArchives Id="" Status="Published">
+    <BlogArchives Id="BlogArchives1" Status="Published">
       <CommonPart Owner="/User.UserName=admin" Container="/Layer.LayerName=TheHomepage" CreatedUtc="2013-04-27T22:16:28Z" PublishedUtc="2013-04-27T22:16:28Z" ModifiedUtc="2013-04-27T22:16:28Z" />
       <WidgetPart Title="Blog Archives" Position="2" Zone="AsideFirst" RenderTitle="true" />
       <BlogArchivesPart Blog="/alias=blog" />
@@ -494,7 +494,7 @@
       <WidgetPart Title="Main Menu Breadcrumbs" Position="1" Zone="BeforeContent" RenderTitle="false" />
       <MenuWidgetPart Menu="/name=Main Menu" StartLevel="1" Levels="0" Breadcrumb="true" AddCurrentPage="true" AddHomePage="true" />
     </MenuWidget>
-    <NavigationQueryMenuItem Id="" Status="Published">
+    <NavigationQueryMenuItem Id="NavigationQueryMenuItem1" Status="Published">
       <CommonPart Owner="/User.UserName=admin" CreatedUtc="2013-04-27T22:10:40Z" PublishedUtc="2013-04-29T14:54:00Z" ModifiedUtc="2013-04-29T14:54:00Z" />
       <MenuPart Menu="/name=Main Menu" MenuText="Blogposts" MenuPosition="2.1" />
       <NavigationQueryPart Items="5" Offset="0" Query="/Identifier=12b6ea3f113e42888750e47a927e740f" />
@@ -560,11 +560,11 @@
         <Layouts />
       </QueryPart>
     </Query>
-    <SearchForm Id="" Status="Published">
+    <SearchForm Id="SearchForm1" Status="Published">
       <CommonPart Owner="/User.UserName=admin" Container="/Layer.LayerName=Default" CreatedUtc="2013-04-27T22:21:04Z" PublishedUtc="2013-04-27T22:21:04Z" ModifiedUtc="2013-04-29T14:20:23Z" />
       <WidgetPart Title="Search" Position="1" Zone="Navigation" RenderTitle="false" />
     </SearchForm>
-    <Site Id="" Status="Published" />
+    <Site Id="Site" Status="Published" />
     <User Id="/User.UserName=admin" Status="Published">
       <UserPart Email="" EmailStatus="Approved" HashAlgorithm="SHA1" NormalizedUserName="admin" Password="Xpx4Af+KRe1rF6b5A1BxZzWGysk=" PasswordFormat="Hashed" PasswordSalt="u4J15I1Dw3dWqEfhxXPcpA==" RegistrationStatus="Approved" UserName="admin" />
       <UserRolesPart Roles="" />
