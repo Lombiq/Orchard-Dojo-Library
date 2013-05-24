@@ -33,10 +33,11 @@
 
 - [Cloud Construct's Blog](http://www.cloudconstruct.com/blog)
 - [David Hayden's blog](http://www.davidhayden.me/blog)
-- [Downplay Blog](http://downplay.co.uk/blog)
+- [Downplay Blog by Pete Hurst](http://downplay.co.uk/blog)
 - [Kobowi](http://kobowi.co.uk/blog/)
 - [Orchard Hungary](http://english.orchardproject.hu/)
 - [Sebastien Ros's blog](http://sebastienros.com/)
+- [Skywalker Software Development - Sipke Schoorstra's blog](http://skywalkersoftwaredevelopment.net/blog)
 - [Tales from the Evil Empire - Bertrand Le Roy's blog](http://weblogs.asp.net/bleroy/default.aspx)
 - [Tech Musings - Chris Bower' blog](http://chrisbower.com/)
 - [The Mayne Issue - Nicholas Mayne's blog](http://www.themayneissue.com/)
