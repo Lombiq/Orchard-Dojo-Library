@@ -1,4 +1,4 @@
-# Deployment and optimization
+# Deployment and optimization (training topic)
 
 
 

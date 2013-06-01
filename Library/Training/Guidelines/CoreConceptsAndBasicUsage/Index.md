@@ -1,4 +1,4 @@
-# Core concepts and basic usage
+# Core concepts and basic usage (training topic)
 
 
 

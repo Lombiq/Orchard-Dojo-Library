@@ -1,4 +1,4 @@
-# Team training
+# Team training (training topic)
 
 
 

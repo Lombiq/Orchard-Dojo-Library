@@ -1,4 +1,4 @@
-# Theme development
+# Theme development (training topic)
 
 
 
