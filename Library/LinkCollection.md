@@ -57,8 +57,10 @@
 
 - [Community Meetings recordings](http://www.youtube.com/playlist?list=PL49EB89430968C7D4) and [meeting room](https://join.microsoft.com/meet/sebros/TWFQ3LYH)
 - [Orchard Cheatsheet](http://sebastienros.github.io/CheatSheet/)
+- [Orchard Dojo](http://orcharddojo.net/)
 - [Orchard Harvest](http://orchardharvest.org/) conference website
 - [Orchard Marketplace](http://www.orchardmarket.net/)
+- [Orchard Prime](http://www.orchardprime.com/)
 - [Outercurve Foundation](http://www.outercurve.org/), the foundation supporting Orchard
 - [Show Orchard](http://www.showorchard.com/)
 - [Stackoverflow Orchard questions](http://stackoverflow.com/questions/tagged/orchardcms)
