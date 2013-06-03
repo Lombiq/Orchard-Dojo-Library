@@ -2,9 +2,7 @@
 
 
 
-The following guidelines serve as a base for [Orchard trainings](http://orcharddojo.net/orchard-training).
-
-You're welcome to hold your own Orchard training using these guidelines. The guidelines, including the [Training Demo module](https://orchardtrainingdemo.codeplex.com/) are free to use if the training is free as well (i.e. you don't get paid for it and attendees don't pay for it). Please note that for commercial use however [licensing fees apply](http://orcharddojo.net/orchard-training/licensing-fees-for-orchard-trainings-based-on-orchard-dojo-training-guidelines) if you're not our trainer.
+The following guidelines serve as a base for [Orchard trainings](http://orcharddojo.net/orchard-training) and you're welcome to hold your own Orchard training using these guidelines.
 
 
 ## Training methodologies
