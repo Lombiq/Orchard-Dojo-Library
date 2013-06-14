@@ -5,6 +5,7 @@
 Shapes are dynamic view models that are used to construct the data model behind the layout of a page in Orchard. The resulting structure is a tree (the tree of shapes) where each shape corresponds to a piece of markup in the end: shapes containing other shapes produce wrappers around other pieces of markup while the leaves of this tree  correspond to simple templates. Each shape contains every information to render their corresponding template: they're the view models for their templates.
 
 Some resources:
+
 - [Documentation on shapes](http://docs.orchardproject.net/Documentation/Accessing-and-rendering-shapes)
 - [Video tutorial on creating ad-hoc shapes](http://www.youtube.com/watch?v=WXzFH6d0Sbo)
 - [Documentation on the usage of Shape Tracing](http://docs.orchardproject.net/Documentation/Customizing-Orchard-using-Designer-Helper-Tools), the tool for determining which shape is behind what you see
