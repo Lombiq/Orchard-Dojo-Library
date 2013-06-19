@@ -33,3 +33,7 @@ Try to avoid adding variables to the global scope. A handy way of exposing globa
 	            }
 	        }
 	    });
+
+		// You can use the above like this:
+		$.myModule.myClass.myMethod();
+	})(jQuery);
