@@ -40,7 +40,7 @@ Orchard snippets are prefixed with an "o" for distinction.
 - olazyfield: LazyField skeleton
 - omigrations: basic [migration](../../Wiki/Migrations) class
 - opart: [content part](../../Wiki/ContentPart) without a record
-- opartrecord: [content part](../../Wiki/ContentPart)  with a corresponding part record
+- opartandrecord: [content part](../../Wiki/ContentPart)  with a corresponding part record
 - oproppart: property for a [content part](../../Wiki/ContentPart)  for proxying a property from the underlying record
 - oresourcemanifest: [resource manifest](../../Wiki/ResourceManifest) skeleton
 - oroutes: route provider skeleton
