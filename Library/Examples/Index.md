@@ -11,11 +11,15 @@ Project links are only included if the module/theme is not bundled with the Orch
 
 - Content item management:
 	- Content field: Training Demo
-	- Content manager usage from code: Orchard.Core.Contents, Training Demo
+	- Content manager usage from code: Orchard.Core.Contents (/Controllers), Training Demo
 	- Content part: Training Demo
 	- Content type migration: Orchard.Pages, Training Demo
+	- Content type/content part settings: Orchard.Core.Common (/Settings)
 - Events: Training Demo
 - File handling: Orchard.Media, Training Demo
+- Permissions:
+	- Static: Orchard.Comments, Training Demo
+	- Dynamic: Orchard.Core.Contents (DynamicPermissions)
 - Projector providers:
 	- Filter: Orchard.Projections, [Helpful Extensions](https://helpfulextensions.codeplex.com/SourceControl/latest#Extensions/Projections/)
 	- Layout: Orchard.Projections
@@ -23,7 +27,7 @@ Project links are only included if the module/theme is not bundled with the Orch
 - Records (low-level database access): Training Demo
 - Resources (static resources: css, js files, resource manifests and resource inclusions): Orchard.jQuery, Training Demo
 - Search services from code: [Associativy Core](https://associativycore.codeplex.com/SourceControl/latest#Services/StandardNodeManager.cs)
-- Site settings: Training Demo
+- Site settings: [SH.GoogleAnalytics](https://github.com/ScharfHoldings/SH.GoogleAnalytics), Training Demo
 - Token provider: Orchard.Tokens, [Helpful Extensions](https://helpfulextensions.codeplex.com/SourceControl/latest#Extensions/Tokens/)
 - Unit tests: Training Demo, Orchard.Tests.Modules.Tags
 
