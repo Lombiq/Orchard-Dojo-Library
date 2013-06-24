@@ -45,4 +45,8 @@ For improving client-side performance by preventing blocking script loads always
 
 ----------
 
-When you have multiple features in a single module always make the subfeatures depend on the main feature for clarity. It should also be the requirement anyway: subfeatures are in that module because they have something in common with the main feature.
+When you have multiple features in a single module always make the sub-features depend on the main feature for clarity. It should also be the requirement anyway: sub-features are in that module because they have something in common with the main feature.
+
+----------
+
+Always set the Build Action of non-code files (like Placement.info) to Content (under the file's properties in Visual Studio) if they are included in the project (and don't have Content set by default, what they mostly have). Otherwise MSBuild will fail when building Orchard. See a [related blogpost](http://english.orchardproject.hu/blog/orchard-brotips-always-set-placement.info-build-action-to-content).
