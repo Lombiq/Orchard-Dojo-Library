@@ -37,6 +37,7 @@
 - [Kobowi](http://kobowi.co.uk/blog/)
 - [Orchard Hungary](http://english.orchardproject.hu/)
 - [Sebastien Ros's blog](http://sebastienros.com/)
+- [Shades of orange](http://shades-of-orange.com/) software development blog
 - [Skywalker Software Development - Sipke Schoorstra's blog](http://skywalkersoftwaredevelopment.net/blog)
 - [Tales from the Evil Empire - Bertrand Le Roy's blog](http://weblogs.asp.net/bleroy/default.aspx)
 - [Tech Musings - Chris Bower' blog](http://chrisbower.com/)
