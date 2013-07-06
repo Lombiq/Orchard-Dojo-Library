@@ -19,13 +19,13 @@
 				</Literal>
 			</Declarations>
 			<Code Language="csharp">
-				<![CDATA[public class $name$PartHandler : ContentHandler
+				<![CDATA[public class $name$PartHandler : ContentHandler$end$
 				{
 					public $name$PartHandler(IRepository<$name$PartRecord> repository)
 					{
 						Filters.Add(StorageFilter.For(repository));
 					}
-				}$end$]]>
+				}]]>
 			</Code>
 		</Snippet>
 	</CodeSnippet>
