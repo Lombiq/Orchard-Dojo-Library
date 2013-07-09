@@ -56,7 +56,7 @@
 
 ## Miscellaneous
 
-- [Community Meetings recordings](http://www.youtube.com/playlist?list=PL49EB89430968C7D4) and [meeting room](orchardproject.net/meeting)
+- [Community Meetings recordings](http://www.youtube.com/playlist?list=PL49EB89430968C7D4) and [meeting room](http://orchardproject.net/meeting)
 - [Orchard Cheatsheet](http://sebastienros.github.io/CheatSheet/)
 - [Orchard Dojo](http://orcharddojo.net/)
 - [Orchard Harvest](http://orchardharvest.org/) conference website
