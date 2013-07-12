@@ -10,3 +10,4 @@ If something’s not specified, general C# guidelines apply: [C# Coding Conventi
 - [Rules of Thumb for Refactoring](Refactoring)
 - [Inline Documentation Guidelines](InlineDocumentationGuidelines)
 - [Development Environment Advices](DevelopmentEnvironment)
+- [Updating your Orchard source](UpdatingOrchard)
