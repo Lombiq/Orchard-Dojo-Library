@@ -2,9 +2,9 @@
 
 
 
-This list helps to find where to look if you need an example of something in Orchard, so you can look at it when you need to roll out your own similar solution. This is a selection only, not a full list (e.g. many module contain content parts).
+This list helps to find where to look if you need an example of something in Orchard, so you can look at it when you need to roll out your own similar solution. This is a selection only, not a full list (e.g. many modules contain content parts).
 
-Project links are only included if the module/theme is not bundled with the Orchard source. The Training Demo module is not linked every time, it's [under its own repository](https://orchardtrainingdemo.codeplex.com/).
+Project links are only included if the module/theme is not bundled with the Orchard source (then the links point to the source file with the example, when applicable). The Training Demo module is not linked every time, it's [under its own repository](https://orchardtrainingdemo.codeplex.com/).
 
 
 ## Modules
@@ -30,6 +30,7 @@ Project links are only included if the module/theme is not bundled with the Orch
 - Site settings: [SH.GoogleAnalytics](https://github.com/ScharfHoldings/SH.GoogleAnalytics), Training Demo
 - Token provider: Orchard.Tokens, [Helpful Extensions](https://helpfulextensions.codeplex.com/SourceControl/latest#Extensions/Tokens/)
 - Unit tests: Training Demo, Orchard.Tests.Modules.Tags
+- Using the Content Picker popup for custom content item selection: [Orchard Scripting Extensions](https://orchardscriptingext.codeplex.com/SourceControl/latest#Views/ScriptPicker.cshtml)
 
 
 ## Themes
