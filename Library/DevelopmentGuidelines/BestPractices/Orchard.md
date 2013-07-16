@@ -50,3 +50,7 @@ When you have multiple features in a single module always make the sub-features 
 ----------
 
 Always set the Build Action of non-code files (like Placement.info) to Content (under the file's properties in Visual Studio) if they are included in the project (and don't have Content set by default, what they mostly have). Otherwise MSBuild will fail when building Orchard. See a [related blogpost](http://english.orchardproject.hu/blog/orchard-brotips-always-set-placement.info-build-action-to-content).
+
+----------
+
+Although not mandatory, it's good practice to route all your admin controller to under /Admin in a similar way how controllers named AdminController are routed by default. This makes it easier to set up rules for the admin area if one needs it.
