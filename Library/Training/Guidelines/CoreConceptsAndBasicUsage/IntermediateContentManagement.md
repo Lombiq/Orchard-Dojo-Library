@@ -2,8 +2,9 @@
 
 
 
+- Taxonomies
 - Widgets
-	- Layers and layer rules, zones (theme anathomy)
+	- Layers and layer rules, zones (theme anatomy)
 	- Demo: creating a new layer and an HTML Widget
 	- Exercise: creating NotTheHomepage layer and a HTML Widget in the AsideSecond zone in that layer
 - Navigation
@@ -20,10 +21,10 @@
 	- Selecting content types to be indexed and rebuilding index
 	- Adding Search widget to the layout
 - Media management
-	- MediaPicker
-	- Media management admin page
+	- Media Library and media editing
+	- Overview of Media Profiles
 
-Time requirement: 1h 30m
+Time requirement: 2h 0m
 
 Dependencies: [Basic site management](BasicSiteManagement)
 
