@@ -30,7 +30,7 @@
 			</Declarations>
 			<Code Language="csharp">
 				<![CDATA[private readonly LazyField<$type$> _$field$ = new LazyField<$type$>();
-					public LazyField<$type$> $property$Field { get { return _$field$; } }
+					internal LazyField<$type$> $property$Field { get { return _$field$; } }
 					public $type$ $property$ { get { return _$field$.Value; } }$end$]]>
 			</Code>
 		</Snippet>
