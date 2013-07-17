@@ -2,10 +2,10 @@
 
 
 
-- Custom Forms
+- Creating Custom Forms
 	- Tokens overview
-	- Rules overview
-	- Demo: creating a contact form
+	- Workflows overview
+	- Demo: creating a contact form using tokens, handling form posts with a workflow
 - Importing and exporting:
 	- Using the Import/Export module
 	- The importance of having an identity-providing part (AutoroutePart, IdentityPart)
