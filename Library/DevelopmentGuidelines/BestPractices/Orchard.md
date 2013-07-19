@@ -20,7 +20,6 @@ When writing a theme if something is achievable by only CSS, then use only CSS a
 
 ----------
 
-
 If a template uses a static resource (stylesheet or script) always include/require it there even if the template is part of a bigger layout where those resources are already referenced. This makes it easier to keep track of dependent resources and is not prone to errors caused by changes outside the specific template.
 
 ----------
@@ -54,3 +53,7 @@ Always set the Build Action of non-code files (like Placement.info) to Content (
 ----------
 
 Although not mandatory, it's good practice to route all your admin controller to under /Admin in a similar way how controllers named AdminController are routed by default. This makes it easier to set up rules for the admin area if one needs it.
+
+----------
+
+Texts presented to the user should always be in form of LocalizedStrings (aka T()).
