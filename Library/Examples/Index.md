@@ -15,6 +15,7 @@ Project links are only included if the module/theme is not bundled with the Orch
 	- Content part: Training Demo
 	- Content type migration: Orchard.Pages, Training Demo
 	- Content type/content part settings: Orchard.Core.Common (/Settings)
+	- Editor groups (with site settings): Combinator (metadata in [handler](https://combinator.codeplex.com/SourceControl/latest#Handlers/CombinatorSettingsPartHandler.cs), grouping in [driver](https://combinator.codeplex.com/SourceControl/latest#Drivers/CombinatorSettingsPartDriver.cs))
 - Events: Training Demo
 - File handling: Orchard.Media, Training Demo
 - Permissions:
