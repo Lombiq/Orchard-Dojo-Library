@@ -114,7 +114,7 @@ Have a standard ordering of members depending on their visibility and whether th
 
 ----------
 
-If an expression is short, omit line breaks when applicable to keep the code compact, e.g.:
+If an expression is short, omit line breaks when applicable to keep the code compact (as long as readability is not hurt), e.g.:
 
     public class MyClass
     {
