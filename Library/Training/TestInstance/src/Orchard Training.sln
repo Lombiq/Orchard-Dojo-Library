@@ -164,6 +164,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upgrade", "Orchard.Web\Modu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchard.MediaProcessing", "Orchard.Web\Modules\Orchard.MediaProcessing\Orchard.MediaProcessing.csproj", "{08191FCD-7258-4F19-95FB-AEC3DE77B2EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Four2n.MiniProfiler", "Orchard.Web\Modules\Four2n.MiniProfiler\Four2n.MiniProfiler.csproj", "{CAE8555E-F636-4C97-97A7-A041D3490D28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CodeCoverage|Any CPU = CodeCoverage|Any CPU
@@ -918,6 +920,16 @@ Global
 		{08191FCD-7258-4F19-95FB-AEC3DE77B2EB}.FxCop|Any CPU.Build.0 = Release|Any CPU
 		{08191FCD-7258-4F19-95FB-AEC3DE77B2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08191FCD-7258-4F19-95FB-AEC3DE77B2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAE8555E-F636-4C97-97A7-A041D3490D28}.CodeCoverage|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE8555E-F636-4C97-97A7-A041D3490D28}.CodeCoverage|Any CPU.Build.0 = Release|Any CPU
+		{CAE8555E-F636-4C97-97A7-A041D3490D28}.Coverage|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE8555E-F636-4C97-97A7-A041D3490D28}.Coverage|Any CPU.Build.0 = Release|Any CPU
+		{CAE8555E-F636-4C97-97A7-A041D3490D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE8555E-F636-4C97-97A7-A041D3490D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE8555E-F636-4C97-97A7-A041D3490D28}.FxCop|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE8555E-F636-4C97-97A7-A041D3490D28}.FxCop|Any CPU.Build.0 = Release|Any CPU
+		{CAE8555E-F636-4C97-97A7-A041D3490D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE8555E-F636-4C97-97A7-A041D3490D28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -995,5 +1007,6 @@ Global
 		{34BE9011-A5A9-49DD-9E53-C3D5CA7D7CE3} = {3E10BF6D-ADA5-417D-B36C-EBB0660B475E}
 		{AC4402A1-61C4-4229-B840-FB1777DAE10C} = {3E10BF6D-ADA5-417D-B36C-EBB0660B475E}
 		{A76DDE36-66B4-41C5-9609-CDBE7B0F9E59} = {C726F3A7-452D-4C16-BFD1-EF94E1180BAF}
+		{CAE8555E-F636-4C97-97A7-A041D3490D28} = {C726F3A7-452D-4C16-BFD1-EF94E1180BAF}
 	EndGlobalSection
 EndGlobal
