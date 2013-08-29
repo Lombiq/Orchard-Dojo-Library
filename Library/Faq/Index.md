@@ -20,3 +20,8 @@ The easiest way to run Orchard is through Visual Studio's built-in Cassini devse
 After the site is started you can attach the debugger to the devserver: Debug/Attach to Process/select WebDev. It's useful to enable breaking when an exception is thrown, even if it's swallowed somewhere: Debug/Exceptions/tick Thrown at CLR Exceptions.
 
 See more tips on setting up your dev environment under the [Development Guidelines](../DevelopmentGuidelines/DevelopmentEnvironment).
+
+
+## Where are the log files?
+
+If you experience issues in a production environment the best way to start investigating the issue is by taking a look at the log files. These are under App_Data/Logs in the deployed site's folder or under src/Orchard.Web/App_Data/Logs if you're running from the full source code locally.
