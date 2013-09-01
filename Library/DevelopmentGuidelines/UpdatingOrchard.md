@@ -11,6 +11,6 @@ This list serves as a guideline how to update your Orchard source if you maintai
 	- Merge Orchard.proj (it references the solution file).
 	- Add any new modules to your solution and remove deleted ones (including the removal of the modules' folders).
 6. Merge Orchard.Web.csproj. You may have some custom Web.config files like like Web.Release.config included there.
-7. Merge Orchard.Web/Web.config if you have modified anything in the original Web.config (better to use custom config files for different build targets).
+7. Merge Orchard.Web/Web.config if you have modified anything in the original Web.config (better to use custom config files for different build targets) or the targeted Web.configs (Release and Debug).
 8. Rebuild the solution to check for any build errors.
 9. Run the site to test if everything is working as intended.
