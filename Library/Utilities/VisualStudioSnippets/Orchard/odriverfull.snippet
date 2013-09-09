@@ -26,12 +26,6 @@
 			<Code Language="csharp">
 				<![CDATA[public class $name$PartDriver : ContentPartDriver<$name$Part>
 				{
-					protected override string Prefix
-					{
-						get { return "$name$Part"; }
-					}
-
-
 					protected override DriverResult Display($name$Part part, string displayType, dynamic shapeHelper)
 					{
 						return ContentShape("Parts_$name$",
