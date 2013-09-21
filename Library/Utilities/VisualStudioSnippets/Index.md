@@ -38,7 +38,9 @@ Orchard snippets are prefixed with an "o" for distinction.
 - ohandler: empty [ContentHandler](../../Wiki/Handler) skeleton
 - ohandlerstorage: [ContentHandler](../../Wiki/Handler) with StorageFilter
 - olazyfield: LazyField skeleton
+- olazyfieldloader: skeleton for having setting the loader of a LazyField in a handler
 - omigrations: basic [migration](../../Wiki/Migrations) class
+- omigrationsusings: common namespace using declarations for migrations; wouldn't be needed if C# snippets could import namespaces
 - opart: [content part](../../Wiki/ContentPart) without a record
 - opartandrecord: [content part](../../Wiki/ContentPart)  with a corresponding part record
 - oproppart: property for a [content part](../../Wiki/ContentPart)  for proxying a property from the underlying record
