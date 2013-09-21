@@ -45,3 +45,6 @@ Some advices on how to set up your development environment for Orchard Developme
 - Interact with Mercurial through the TortoiseHg Workbench. You can add a cloned repository to the Workbench by opening it from the repository folder: right click on the folder and select the Workbench.
 - Use groups in the Repository Registry to group your repositories.
 - See the [mercurial.ini in file in this package](Attachments/mercurial.ini) that you can use to initialize your Mercurial instance quickly with some useful settings.
+- .hgignore files (drop into the repositories' folders and rename to .hgignore):
+	- [For Orchard modules and themes](Attachments/extensions.hgignore)
+	- [For a complete Orchard solution](Attachments/solution.hgignore)
