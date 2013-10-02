@@ -20,6 +20,7 @@ This Wiki aims to complete the [documentation](http://docs.orchardproject.net/) 
 - [Resource manifest](ResourceManifest)
 - [Shape](Shape)
 - [Theme](Theme)
+- [Tokens](Tokens)
 - [Versioning](Versioning)
 
 Please note that there are corresponding [Visual Studio code snippets](../Utilities/VisualStudioSnippets/) and detailed development guides ([Orchard Training Demo module](https://orchardtrainingdemo.codeplex.com/)) in the Orchard Dojo Library related to these topics.
