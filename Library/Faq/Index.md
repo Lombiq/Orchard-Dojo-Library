@@ -25,3 +25,8 @@ See more tips on setting up your dev environment under the [Development Guidelin
 ## Where are the log files?
 
 If you experience issues in a production environment the best way to start investigating the issue is by taking a look at the log files. These are under App_Data/Logs in the deployed site's folder or under src/Orchard.Web/App_Data/Logs if you're running from the full source code locally.
+
+
+## How can I test SSL locally?
+
+If you're running your Orchard instance through the auto-configured IIS Express (i.e. by hitting Ctrl + F5) you can access the site through SSL by changing the protocol to https and using the port 44300. This is useful if you want to test e.g. if you've configured the Secure Sockets Layer module correctly.
