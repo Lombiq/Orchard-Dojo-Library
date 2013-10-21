@@ -27,7 +27,7 @@ Project links are only included if the module/theme is not bundled with the Orch
 	- Sort criteria: Orchard.Projections
 - Records (low-level database access): Training Demo
 - Resources (static resources: css, js files, resource manifests and resource inclusions): Orchard.jQuery, Training Demo
-- Search services from code: [Associativy Core](https://associativycore.codeplex.com/SourceControl/latest#Services/StandardNodeManager.cs)
+- Search services from code: [Associativy Core](https://associativycore.codeplex.com/SourceControl/latest#Services/StandardNodeManager.cs) (also see [this service](https://associativycore.codeplex.com/SourceControl/latest#Services/NodeIndexingService.cs))
 - Site settings: [SH.GoogleAnalytics](https://github.com/ScharfHoldings/SH.GoogleAnalytics), Training Demo
 - Token provider: Orchard.Tokens, [Helpful Extensions](https://helpfulextensions.codeplex.com/SourceControl/latest#Extensions/Tokens/)
 - Unit tests: Training Demo, Orchard.Tests.Modules.Tags
