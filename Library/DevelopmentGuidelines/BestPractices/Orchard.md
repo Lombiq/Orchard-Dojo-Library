@@ -56,4 +56,8 @@ Although not mandatory, it's good practice to route all your admin controller to
 
 ----------
 
-Texts presented to the user should always be in form of LocalizedStrings (aka T()).
+Texts presented to the user should always be in form of LocalizedStrings (aka T()). When you want to display dynamic data in the string, use the params of T(). See the relevant [documentation](http://docs.orchardproject.net/Documentation/Using-the-localization-helpers).
+
+----------
+
+It's good practice to let subfeatures of a module always depend on the main feature (the one that is named the same as the module). This will prevent confusion if you want to place some common functionality in the main feature.
