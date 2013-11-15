@@ -7,13 +7,13 @@ Some advices on how to set up your development environment for Orchard Developme
 
 ## Software to install
 
-- Visual Studio 2013 (preferable non-Express) with the following plug-ins (you can mostly also install them from within VS via the Extension Manager):
-	- [Web Essentials](http://visualstudiogallery.msdn.microsoft.com/07d54d12-7133-4e15-becb-6f451ea3bea6) for better client-side development tooling
+- Visual Studio 2013 (preferable non-Express) with the following plug-ins (where no download link is supplied you can install the extension from within VS via the Extension Manager):
+	- Web Essentials for better client-side development tooling
 	- [ASP.NET and Web Tools](http://www.asp.net/vnext/overview/latest) also for better client-side development tooling
 	- [TestDriven.Net](http://www.testdriven.net/download.aspx) or [NUnit Test Adapter](http://nunit.org/index.php?p=vsTestAdapter&r=2.6.2) for running unit tests
-	- [PowerCommands for Visual Studio](http://visualstudiogallery.msdn.microsoft.com/e5f41ad9-4edc-4912-bca3-91147db95b99) mostly for the feature of being able to clean-up unneeded using statements and for re-opening files just closed
-	- [AttachTo](http://visualstudiogallery.msdn.microsoft.com/d0265ab0-df51-4100-8e10-1f84403c4cd0) for quickly attaching the debugger to an IIS (Express) process
-- Local IIS and SQL Server set up as per the following article
+	- Productivity Power Tools mostly for the feature of being able to clean-up unneeded using statements and for re-opening files just closed
+	- AttachTo for quickly attaching the debugger to an IIS (Express) process
+- Local IIS and SQL Server set up as per the following article: "[How-to: running Orchard locally through IIS using SQL Server](http://orcharddojo.net/blog/how-to-running-orchard-locally-through-iis-using-sql-server)"
 - Firefox with the [Firebug](https://getfirebug.com/) developer plugin installed or something similar for aiding client-side development
 
 
