@@ -44,7 +44,7 @@ Orchard snippets are prefixed with an "o" for distinction.
 - opart: [content part](../../Wiki/ContentPart) without a record
 - opartandrecord: [content part](../../Wiki/ContentPart)  with a corresponding part record
 - oproppart: property for a [content part](../../Wiki/ContentPart) for proxying a property from the underlying record
-- opropstoreretrieve: property for a content part without a record for storing and retrieving data from the InfosetPart
+- opropstoreretrieve: property for a content part without a record for storing and retrieving data from the [InfosetPart](../../Wiki/InfosetPart)
 - oproprecordstoreretrieve: property for a content part with a corresponding record for storing and retrieving data from the InfosetPart while also storing it in the record simultaneously
 - oresourcemanifest: [resource manifest](../../Wiki/ResourceManifest) skeleton
 - oroutes: route provider skeleton
