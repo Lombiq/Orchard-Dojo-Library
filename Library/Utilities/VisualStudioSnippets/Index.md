@@ -43,7 +43,9 @@ Orchard snippets are prefixed with an "o" for distinction.
 - omigrationsusings: common namespace using declarations for migrations; wouldn't be needed if C# snippets could import namespaces
 - opart: [content part](../../Wiki/ContentPart) without a record
 - opartandrecord: [content part](../../Wiki/ContentPart)  with a corresponding part record
-- oproppart: property for a [content part](../../Wiki/ContentPart)  for proxying a property from the underlying record
+- oproppart: property for a [content part](../../Wiki/ContentPart) for proxying a property from the underlying record
+- opropstoreretrieve: property for a content part without a record for storing and retrieving data from the InfosetPart
+- oproprecordstoreretrieve: property for a content part with a corresponding record for storing and retrieving data from the InfosetPart while also storing it in the record simultaneously
 - oresourcemanifest: [resource manifest](../../Wiki/ResourceManifest) skeleton
 - oroutes: route provider skeleton
 - oroutesfull: route provider pre-filled with a route descriptor
