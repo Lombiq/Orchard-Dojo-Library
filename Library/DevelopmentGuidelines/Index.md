@@ -12,3 +12,4 @@ If something’s not specified, general C# guidelines apply: [C# Coding Conventi
 - [Development environment advices](DevelopmentEnvironment)
 - [Orchard performance optimization guidelines](OrchardPerformanceOptimization)
 - [Updating your Orchard source](UpdatingOrchard)
+- [Creating a new repository of the full Orchard source for your project](CreatingNewOrchardRepository)
