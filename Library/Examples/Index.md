@@ -32,6 +32,7 @@ Project links are only included if the module/theme is not bundled with the Orch
 - Token provider: Orchard.Tokens, [Helpful Extensions](https://helpfulextensions.codeplex.com/SourceControl/latest#Extensions/Tokens/)
 - Unit tests: Training Demo, Orchard.Tests.Modules.Tags
 - Using the Content Picker popup for custom content item selection: [Orchard Scripting Extensions](https://orchardscriptingext.codeplex.com/SourceControl/latest#Views/ScriptPicker.cshtml)
+- Using symmetric encryption: [External Pages](https://orchardexternalpages.codeplex.com/SourceControl/latest#Models/BitbucketRepositoryDataRecord.cs) (look for SetPasswordEncrypted() and GetDecodedPassword())
 
 
 ## Themes
