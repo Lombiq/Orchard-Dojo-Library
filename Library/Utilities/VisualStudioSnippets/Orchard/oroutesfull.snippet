@@ -12,6 +12,11 @@
 		</Header>
 		<Snippet>
 			<Declarations>
+                <Literal>
+					<ID>name</ID>
+					<ToolTip>Name of the route provider</ToolTip>
+					<Default>My</Default>
+				</Literal>
 				<Literal>
 					<ID>url</ID>
 					<ToolTip>Url of the route</ToolTip>
@@ -34,7 +39,7 @@
 				</Literal>
 			</Declarations>
 			<Code Language="csharp">
-				<![CDATA[public class Routes : IRouteProvider
+				<![CDATA[public class $name$Routes : IRouteProvider
 				{
 					public void GetRoutes(ICollection<RouteDescriptor> routes)
 					{

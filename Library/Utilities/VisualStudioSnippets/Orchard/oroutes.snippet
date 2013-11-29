@@ -4,15 +4,22 @@
 		<Header>
 			<Title>oroutes</Title>
 			<Shortcut>oroutes</Shortcut>
-			<Description>Code snippet for a Routes class.</Description>
+			<Description>Code snippet for a RouteProvider class.</Description>
 			<Author>Lombiq</Author>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
 			</SnippetTypes>
 		</Header>
 		<Snippet>
+            <Declarations>
+                <Literal>
+					<ID>name</ID>
+					<ToolTip>Name of the route provider</ToolTip>
+					<Default>My</Default>
+				</Literal>
+            </Declarations>
 			<Code Language="csharp">
-				<![CDATA[public class Routes : IRouteProvider
+				<![CDATA[public class $name$Routes : IRouteProvider
 				{
 					public void GetRoutes(ICollection<RouteDescriptor> routes)
 					{

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>opermissions</Title>
+			<Shortcut>opermissions</Shortcut>
+			<Description>Code snippet for a PermissionProvider class.</Description>
+			<Author>Lombiq</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>name</ID>
+					<ToolTip>Name of the permission provider</ToolTip>
+					<Default>My</Default>
+				</Literal>
+				<Literal>
+					<ID>permission</ID>
+					<ToolTip>The first permission in the provider</ToolTip>
+					<Default>MyPermission</Default>
+				</Literal>
+				<Literal>
+					<ID>category</ID>
+					<ToolTip>Category of the first permission</ToolTip>
+					<Default>MyCategory</Default>
+				</Literal>
+				<Literal>
+					<ID>description</ID>
+					<ToolTip>Description for the first permission</ToolTip>
+					<Default>Description</Default>
+				</Literal>
+				<Literal>
+					<ID>stereotyperole</ID>
+					<ToolTip>Role name for the default permission stereotype of the first permission</ToolTip>
+					<Default>Administrator</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp">
+				<![CDATA[public class $name$Permissions : IPermissionProvider
+                {
+                    public static readonly Permission $permission$ = new Permission { Category = "$category$", Description = "$description$", Name = "$permission$" };
+
+                    public virtual Feature Feature { get; set; }
+
+                    public IEnumerable<Permission> GetPermissions()
+                    {
+                        return new[]
+            {
+                $permission$
+            };
+                    }
+
+                    public IEnumerable<PermissionStereotype> GetDefaultStereotypes()
+                    {
+                        return new[]
+            {
+                new PermissionStereotype
+                {
+                    Name = "$stereotyperole$",
+                    Permissions = new[] { $permission$ }
+                }
+            };
+                    }
+                }$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
