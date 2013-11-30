@@ -14,7 +14,7 @@ Instead of using the $ variable directly use a wrapper to inject the jQuery obje
 	(function ($) {
 		// Notice the shorthand document.ready function.
 	    $(function() {
-	        alert("Document ready!")
+	        alert("Document ready!");
 	    });
 	})(jQuery);
 
