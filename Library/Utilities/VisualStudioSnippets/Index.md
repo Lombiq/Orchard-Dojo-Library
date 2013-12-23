@@ -50,3 +50,5 @@ Orchard snippets are prefixed with an "o" for distinction.
 - oresourcemanifest: [resource manifest](../../Wiki/ResourceManifest) skeleton
 - oroutes: route provider skeleton
 - oroutesfull: route provider pre-filled with a route descriptor
+- otestusings: common namespace using declarations for unit tests
+- otest: unit test class skeleton

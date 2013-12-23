@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>otest</Title>
+			<Shortcut>otest</Shortcut>
+			<Description>Code snippet for a simple NUnit unit test class.</Description>
+			<Author>Lombiq</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>name</ID>
+					<ToolTip>Name of the test</ToolTip>
+					<Default>MyFirst</Default>
+				</Literal>
+                <Literal>
+					<ID>testCaseName</ID>
+					<ToolTip>Name of the first test case</ToolTip>
+					<Default>TestCase</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp">
+				<![CDATA[[TestFixture]
+                public class $name$Tests
+                {
+                    private IContainer _container;
+
+
+                    [SetUp]
+                    public virtual void Init()
+                    {
+                        var builder = new ContainerBuilder();
+
+                        builder.RegisterAutoMocking(MockBehavior.Loose);
+
+                        $end$
+
+                        _container = builder.Build();
+                    }
+
+                    [TestFixtureTearDown]
+                    public void Clean()
+                    {
+                    }
+
+
+                    [Test]
+                    public void $testCaseName$()
+                    {
+                    }
+                }]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
