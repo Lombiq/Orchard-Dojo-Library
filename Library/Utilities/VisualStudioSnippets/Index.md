@@ -28,6 +28,7 @@ Orchard snippets are prefixed with an "o" for distinction.
 - oadminmenu: [admin menu](../../Wiki/AdminMenu) (INavigationProvider) skeleton
 - oalterpartdefinition: ContentDefinitionManager.AlterPartDefinition() skeleton
 - oaltertypedefinition: ContentDefinitionManager.AlterTypeDefinition() skeleton
+- obackgroundtask: [background task](../../Wiki/BackgroundTask) (IBackgroundTask) skeleton
 - ocontrollerfull: Controller class with common Orchard services (IOrchardServices, Localizer, ILogger)
 - ocreatecontentpartrecordtable: a SchemaBuilder.CreateTable() shortcut for [part records](../../Wiki/ContentPartRecord), to be used in [migrations](../../Wiki/Migrations)
 - ocreatetable: a simple SchemaBuilder.CreateTable() skeleton for [migrations](../../Wiki/Migrations)
