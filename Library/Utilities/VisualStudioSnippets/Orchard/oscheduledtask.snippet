@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>oscheduledtask</Title>
+			<Shortcut>oscheduledtask</Shortcut>
+			<Description>Code snippet for creating a Scheduled task.</Description>
+			<Author>Lombiq</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>name</ID>
+					<ToolTip>Name of the scheduled task</ToolTip>
+					<Default>MyFirst</Default>
+				</Literal>
+				<Literal>
+					<ID>moduleName</ID>
+					<ToolTip>Name of your module</ToolTip>
+					<Default>My.Module</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp">
+				<![CDATA[public class $name$Task : IScheduledTaskHandler
+				{
+					private const string TaskType = "$moduleName$.$name$";
+					
+				
+					public void Process(ScheduledTaskContext context)
+					{
+						if (context.Task.TaskType != TaskType) return;
+					
+						$end$
+					}
+				}]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

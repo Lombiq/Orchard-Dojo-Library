@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>oscheduledtaskrenewing</Title>
+			<Shortcut>oscheduledtaskrenewing</Shortcut>
+			<Description>Code snippet for creating a renewing Scheduled task with the help of the module Piedone.HelpfulLibraries.</Description>
+			<Author>Lombiq</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>name</ID>
+					<ToolTip>Name of the scheduled task</ToolTip>
+					<Default>MyFirst</Default>
+				</Literal>
+				<Literal>
+					<ID>moduleName</ID>
+					<ToolTip>Name of your module</ToolTip>
+					<Default>My.Module</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp">
+				<![CDATA[public class $name$Task : IScheduledTaskHandler, IOrchardShellEvents
+				{
+					private const string TaskType = "$moduleName$.$name$";
+					
+					private readonly IScheduledTaskManager _scheduledTaskManager;
+					private readonly IClock _clock;
+				
+					
+					public $name$Task(IScheduledTaskManager scheduledTaskManager, IClock clock)
+					{
+						_scheduledTaskManager = scheduledTaskManager;
+						_clock = clock;
+					}
+				
+				
+					public void Process(ScheduledTaskContext context)
+					{
+						if (context.Task.TaskType != TaskType) return;
+					
+						$end$
+					}
+					
+					public void Activated()
+					{
+						Renew(false);
+					}
+
+					public void Terminating() { }
+
+
+					private void Renew(bool calledFromTaskProcess)
+					{
+						_scheduledTaskManager.CreateTaskIfNew(TaskType, _clock.UtcNow.AddMinutes(5), null, calledFromTaskProcess);
+					}
+				}]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

@@ -51,5 +51,7 @@ Orchard snippets are prefixed with an "o" for distinction.
 - oresourcemanifest: [resource manifest](../../Wiki/ResourceManifest) skeleton
 - oroutes: route provider skeleton
 - oroutesfull: route provider pre-filled with a route descriptor
+- oscheduledtask: [scheduled task](../../Wiki/ScheduledTask) (IScheduledTaskHandler) skeleton
+- oscheduledtaskrenewing: renewing [scheduled task](../../Wiki/ScheduledTask) (IScheduledTaskHandler) skeleton (requires the module Piedone.HelpfulLibraries)
 - otests: unit test class skeleton
 - otestsusings: common namespace using declarations for unit tests
