@@ -21,7 +21,7 @@
 			<Code Language="csharp">
 				<![CDATA[SchemaBuilder.CreateTable(typeof($name$Record).Name,
                 table => table
-                    .$end$
+                    .Column<int>("Id", column => column.PrimaryKey().Identity())$end$
 				);]]>
 			</Code>
 		</Snippet>
