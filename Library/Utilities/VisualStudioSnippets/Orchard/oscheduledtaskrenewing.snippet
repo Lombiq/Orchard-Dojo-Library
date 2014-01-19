@@ -22,6 +22,11 @@
 					<ToolTip>Name of your module</ToolTip>
 					<Default>My.Module</Default>
 				</Literal>
+				<Literal>
+					<ID>rerunminutes</ID>
+					<ToolTip>Number of minutes the task should be run again</ToolTip>
+					<Default>5</Default>
+				</Literal>
 			</Declarations>
 			<Code Language="csharp">
 				<![CDATA[public class $name$Task : IScheduledTaskHandler, IOrchardShellEvents
@@ -57,7 +62,7 @@
 
 					private void Renew(bool calledFromTaskProcess)
 					{
-						_scheduledTaskManager.CreateTaskIfNew(TaskType, _clock.UtcNow.AddMinutes(5), null, calledFromTaskProcess);
+						_scheduledTaskManager.CreateTaskIfNew(TaskType, _clock.UtcNow.AddMinutes($rerunminutes$), null, calledFromTaskProcess);
 					}
 				}]]>
 			</Code>
