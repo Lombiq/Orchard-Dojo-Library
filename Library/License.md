@@ -1,8 +1,8 @@
-# Orchard Dojo Library licence
+# Orchard Dojo Library license
 
 
 
-Copyright (c) 2013, [Lombiq Ltd.](http://lombiq.com)
+Copyright (c) 2013, [Lombiq Technologies Ltd.](http://lombiq.com)
 
 All rights reserved.
 
