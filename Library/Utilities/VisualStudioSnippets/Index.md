@@ -55,3 +55,7 @@ Orchard snippets are prefixed with an "o" for distinction.
 - oscheduledtaskrenewing: renewing [scheduled task](../../Wiki/ScheduledTask) (IScheduledTaskHandler) skeleton (requires the module Piedone.HelpfulLibraries)
 - otests: unit test class skeleton
 - otestsusings: common namespace using declarations for unit tests
+
+Surround with snippets: unfortunately it's a bit more difficult for "surround with" snippets; if we'd just include them among the other snippets it would cause the Snippet Picker to open when you try to surround some piece of code, requiring to click through the hierarchy to select a snippet. This is not very convenient so such snippets are in a separate folder, in SurroundWithVisualStudioSnippets. You have to install these snippets manually by importing them into the Visual C# category through the Snippet Manager (this way you can avoid the Snippet Picker).
+
+- otryfatal: surrounds the block with a try-catch where the catch includes an [exception fatality check](http://english.orchardproject.hu/blog/orchard-gems-exception-fatality-check).
