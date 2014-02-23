@@ -61,3 +61,7 @@ Texts presented to the user should always be in form of LocalizedStrings (aka T(
 ----------
 
 It's good practice to let subfeatures of a module always depend on the main feature (the one that is named the same as the module). This will prevent confusion if you want to place some common functionality in the main feature.
+
+----------
+
+It's nice to have a consistent ordering for dependencies in module manifest files. A good way is to begin with third-party features, then list built-in ones (Orchard.*), both in alphabetical order.
