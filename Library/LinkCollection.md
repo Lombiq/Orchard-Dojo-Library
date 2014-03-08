@@ -35,7 +35,6 @@
 
 - [Cloud Construct's Blog](http://www.cloudconstruct.com/blog)
 - [David Hayden's blog](http://www.davidhayden.me/blog)
-- [Downplay Blog by Pete Hurst](http://downplay.co.uk/blog)
 - [Kobowi](http://kobowi.co.uk/blog/)
 - [Orchard Hungary](http://english.orchardproject.hu/)
 - [Sebastien Ros's blog](http://sebastienros.com/)
