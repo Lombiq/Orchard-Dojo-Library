@@ -24,7 +24,7 @@ Enumeration of technologies and paradigms used in Orchard: C#, [MVC](http://en.w
 The following tools are needed for an Orchard training:
 
 - Lab computers or participants' computers:
-	- Visual Studio 2012 installed, optionally having the [Web Essentials](http://visualstudiogallery.msdn.microsoft.com/07d54d12-7133-4e15-becb-6f451ea3bea6), [ASP.NET and Web Tools](http://www.asp.net/vnext/overview/latest), [TestDriven.Net](http://www.testdriven.net/download.aspx), [PowerCommands for Visual Studio](http://visualstudiogallery.msdn.microsoft.com/e5f41ad9-4edc-4912-bca3-91147db95b99) and [Debug Attach Manager 2012](http://visualstudiogallery.msdn.microsoft.com/19951adf-722a-4d92-a73a-6d7a3d70cfc4) and/or [AttachTo](http://visualstudiogallery.msdn.microsoft.com/d0265ab0-df51-4100-8e10-1f84403c4cd0) plugins
+	- Visual Studio 2012 or newer installed, optionally having the [Web Essentials](http://visualstudiogallery.msdn.microsoft.com/07d54d12-7133-4e15-becb-6f451ea3bea6), [ASP.NET and Web Tools](http://www.asp.net/vnext/overview/latest), [TestDriven.Net](http://www.testdriven.net/download.aspx), [PowerCommands for Visual Studio](http://visualstudiogallery.msdn.microsoft.com/e5f41ad9-4edc-4912-bca3-91147db95b99) and [Debug Attach Manager 2012](http://visualstudiogallery.msdn.microsoft.com/19951adf-722a-4d92-a73a-6d7a3d70cfc4) and/or [AttachTo](http://visualstudiogallery.msdn.microsoft.com/d0265ab0-df51-4100-8e10-1f84403c4cd0) plugins
 	- Web Platform Installer and WebMatrix
 	- Firefox browser with the Firebug plugin installed or equivalent
 	- Administrative account to install other components if necessary and to avoid permission issues when running Orchard
