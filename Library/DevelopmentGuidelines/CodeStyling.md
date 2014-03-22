@@ -53,6 +53,7 @@ Keep logical blocks of codes separated by multiple line breaks, forming logical 
         }
     }
 
+If you have multiple types (e.g. an interface and a class) defined in the same file, similarly divide them with two line breaks.
 
 ----------
 
