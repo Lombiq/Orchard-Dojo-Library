@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
-	<CodeSnippet Format="1.0.0">
-		<Header>
-			<Title>otryfatal</Title>
-			<Shortcut>otryfatal</Shortcut>
-			<Description>Code snippet for try catch block where in the catch the exception is re-thrown if it's fatal. Needs the Orchard.Exceptions namespace imported.</Description>
-			<Author>Lombiq</Author>
-			<SnippetTypes>
-				<SnippetType>Expansion</SnippetType>
-				<SnippetType>SurroundsWith</SnippetType>
-			</SnippetTypes>
-		</Header>
-		<Snippet>
-			<Declarations>
-				<Literal>
-					<ID>exception</ID>
-					<ToolTip>Name of the exception variable</ToolTip>
-					<Default>ex</Default>
-				</Literal>
-			</Declarations>
-			<Code Language="csharp"><![CDATA[try 
-	{	        
-		$selected$
-	}
-	catch (Exception $exception$)
-	{
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>otryfatal</Title>
+      <Shortcut>otryfatal</Shortcut>
+      <Description>Code snippet for try catch block where in the catch the exception is re-thrown if it's fatal. Needs the Orchard.Exceptions namespace imported.</Description>
+      <Author>Lombiq</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>exception</ID>
+          <ToolTip>Name of the exception variable</ToolTip>
+          <Default>ex</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[try 
+  {	        
+    $selected$
+  }
+  catch (Exception $exception$)
+  {
         if (ex.IsFatal()) throw;
-		$end$
-	}]]>
-			</Code>
-		</Snippet>
-	</CodeSnippet>
+    $end$
+  }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
 </CodeSnippets>

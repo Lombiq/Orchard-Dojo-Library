@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
-	<CodeSnippet Format="1.0.0">
-		<Header>
-			<Title>olazyfieldloader</Title>
-			<Shortcut>olazyfieldloader</Shortcut>
-			<Description>Code snippet for creating a loader in a ContentHandler for a LazyField.</Description>
-			<Author>Lombiq</Author>
-			<SnippetTypes>
-				<SnippetType>Expansion</SnippetType>
-			</SnippetTypes>
-		</Header>
-		<Snippet>
-			<Declarations>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>olazyfieldloader</Title>
+      <Shortcut>olazyfieldloader</Shortcut>
+      <Description>Code snippet for creating a loader in a ContentHandler for a LazyField.</Description>
+      <Author>Lombiq</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
                 <Literal>
-					<ID>partName</ID>
-					<ToolTip>Name of the Part</ToolTip>
-					<Default>MyFirst</Default>
-				</Literal>
-				<Literal>
-					<ID>property</ID>
-					<ToolTip>Name of the LazyField property</ToolTip>
-					<Default>My</Default>
-				</Literal>
-			</Declarations>
-			<Code Language="csharp">
-				<![CDATA[OnActivated<$partName$Part>((context, part) =>
+          <ID>partName</ID>
+          <ToolTip>Name of the Part</ToolTip>
+          <Default>MyFirst</Default>
+        </Literal>
+        <Literal>
+          <ID>property</ID>
+          <ToolTip>Name of the LazyField property</ToolTip>
+          <Default>My</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[OnActivated<$partName$Part>((context, part) =>
             {
                 part.$property$Field.Loader(() => $end$);
             });]]>
-			</Code>
-		</Snippet>
-	</CodeSnippet>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
 </CodeSnippets>

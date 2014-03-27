@@ -1,40 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
-	<CodeSnippet Format="1.0.0">
-		<Header>
-			<Title>oroutes</Title>
-			<Shortcut>oroutes</Shortcut>
-			<Description>Code snippet for a RouteProvider class.</Description>
-			<Author>Lombiq</Author>
-			<SnippetTypes>
-				<SnippetType>Expansion</SnippetType>
-			</SnippetTypes>
-		</Header>
-		<Snippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>oroutes</Title>
+      <Shortcut>oroutes</Shortcut>
+      <Description>Code snippet for a RouteProvider class.</Description>
+      <Author>Lombiq</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
             <Declarations>
                 <Literal>
-					<ID>name</ID>
-					<ToolTip>Name of the route provider</ToolTip>
-					<Default>My</Default>
-				</Literal>
+          <ID>name</ID>
+          <ToolTip>Name of the route provider</ToolTip>
+          <Default>My</Default>
+        </Literal>
             </Declarations>
-			<Code Language="csharp">
-				<![CDATA[public class $name$Routes : IRouteProvider
-				{
-					public void GetRoutes(ICollection<RouteDescriptor> routes)
-					{
-					foreach (var routeDescriptor in GetRoutes()) routes.Add(routeDescriptor);
-					}
+      <Code Language="csharp">
+        <![CDATA[public class $name$Routes : IRouteProvider
+        {
+          public void GetRoutes(ICollection<RouteDescriptor> routes)
+          {
+          foreach (var routeDescriptor in GetRoutes()) routes.Add(routeDescriptor);
+          }
 
-					public IEnumerable<RouteDescriptor> GetRoutes()
-					{
-						return new[]
-			{
-				$end$
-			};
-					}
-				}]]>
-			</Code>
-		</Snippet>
-	</CodeSnippet>
+          public IEnumerable<RouteDescriptor> GetRoutes()
+          {
+            return new[]
+      {
+        $end$
+      };
+          }
+        }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
 </CodeSnippets>
