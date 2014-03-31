@@ -42,4 +42,4 @@ The topics are each divided into individual modules. These modules can, but don'
 - [Extended APIs](ExtendedApis/)
 - [Web API](WebApi/) 
 - [Deployment and optimization](DeploymentAndOptimization/)
-- [Team training](TeamTraining/) (just for teams)
+- [Team training](TeamTraining/) (for development teams)
