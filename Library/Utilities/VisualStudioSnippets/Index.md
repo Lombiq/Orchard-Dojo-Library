@@ -38,6 +38,7 @@ Orchard snippets are prefixed with an "o" for distinction.
 - ofielddriver: empty [ContentFieldDriver](../../Wiki/ContentField) skeleton
 - ohandler: empty [ContentHandler](../../Wiki/Handler) skeleton
 - ohandlerstorage: [ContentHandler](../../Wiki/Handler) with StorageFilter
+- ojqueryblock: usable in Razor templates, this snippet adds a Scipt.Foot/Head() javascript block, with a jQuery anonymous function inside it
 - olazyfield: LazyField skeleton
 - olazyfieldloader: skeleton for having setting the loader of a LazyField in a handler
 - omigrations: basic [migration](../../Wiki/Migrations) class

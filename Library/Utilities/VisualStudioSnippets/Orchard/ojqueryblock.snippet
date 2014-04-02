@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>ojqueryblock</Title>
+			<Shortcut>ojqueryblock</Shortcut>
+			<Description>Code snippet for creating a Script block for jQuery-using JS code.</Description>
+			<Author>Lombiq</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+            <FileExtensions>
+                cshtml
+            </FileExtensions>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>scriptLocation</ID>
+					<ToolTip>Script location where jQuery is included</ToolTip>
+					<Default>Foot</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="html">
+				<![CDATA[@using (Script.$scriptLocation$())
+                {
+                    <script type="text/javascript">
+        (function ($$) {
+            $end$
+        })(jQuery);
+                    </script>
+}]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
