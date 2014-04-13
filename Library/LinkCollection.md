@@ -63,6 +63,7 @@
 - [Orchard Harvest](http://orchardharvest.org/) conference website
 - [Orchard Marketplace](http://www.orchardmarket.net/)
 - [Orchard Prime](http://www.orchardprime.com/)
+- [Orchard Pros](http://orchardpros.net/)
 - [Outercurve Foundation](http://www.outercurve.org/), the foundation supporting Orchard
 - [Show Orchard](http://www.showorchard.com/)
 - [Stackoverflow Orchard questions](http://stackoverflow.com/questions/tagged/orchardcms)
