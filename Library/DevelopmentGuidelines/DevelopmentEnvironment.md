@@ -7,14 +7,19 @@ Some advices on how to set up your development environment for Orchard Developme
 
 ## Software to install
 
-- Visual Studio 2013 (preferable non-Express) with the following plug-ins (where no download link is supplied you can install the extension from within VS via the Extension Manager):
-	- Web Essentials for better client-side development tooling
+Below you can find pieces of software that you should install for the best Orchard developer experience.
+
+- Visual Studio 2012 or 2013 (preferably non-Express) with the following plug-ins (where no download link is supplied you can install the extension from within VS via Extensions and Updates):
+	- [Web Essentials](http://vswebessentials.com/) for better client-side development tooling.
 	- [ASP.NET and Web Tools](http://www.asp.net/vnext/overview/latest) also for better client-side development tooling
-	- [TestDriven.Net](http://www.testdriven.net/download.aspx) or [NUnit Test Adapter](http://nunit.org/index.php?p=vsTestAdapter&r=2.6.2) for running unit tests
-	- Productivity Power Tools mostly for the feature of being able to clean-up unneeded using statements and for re-opening files just closed
-	- AttachTo for quickly attaching the debugger to an IIS (Express) process
-- Local IIS and SQL Server set up as per the following article: "[How-to: running Orchard locally through IIS using SQL Server](http://orcharddojo.net/blog/how-to-running-orchard-locally-through-iis-using-sql-server)"
-- Firefox with the [Firebug](https://getfirebug.com/) developer plugin installed or something similar for aiding client-side development
+	- [TestDriven.Net](http://www.testdriven.net/dow.nload.aspx) or [NUnit Test Adapter](http://nunit.org/index.php?p=vsTestAdapter&r=2.6.2) for running unit tests.
+	- [Productivity Power Tools 2013](http://visualstudiogallery.msdn.microsoft.com/dbcb8670-889e-4a54-a226-a48a15e4cace) ([Productivity Power Tools 2012](http://visualstudiogallery.msdn.microsoft.com/3a96a4dc-ba9c-4589-92c5-640e07332afd) for VS 2012) mostly for the feature of being able to clean-up unneeded using statements and for re-opening files just closed.
+	- [AttachToAny](http://visualstudiogallery.msdn.microsoft.com/81677d17-6e81-4f14-87cc-4ccee2fd2589) ([AttachTo](http://visualstudiogallery.msdn.microsoft.com/d0265ab0-df51-4100-8e10-1f84403c4cd0) for VS 2012) for quickly attaching the debugger to an IIS (Express) process.
+	- [Code Maid](http://www.codemaid.net/) for various goodies, including progress indicator for builds.
+- [Web Platform Installer](http://www.microsoft.com/web/downloads/platform.aspx) for installing any necessary local developer tool or SDK. Install WebMatrix for simply browsing local SQL CE databases.
+- Local IIS and SQL Server (as well as SQL Server Management Studio) set up as per the following article: "[How-to: running Orchard locally through IIS using SQL Server](http://orcharddojo.net/blog/how-to-running-orchard-locally-through-iis-using-sql-server)"
+- Firefox with the [Firebug](https://getfirebug.com/), [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/) and [HttpRequester](https://addons.mozilla.org/En-us/firefox/addon/httprequester/) (or [REST Easy](https://addons.mozilla.org/en-US/firefox/addon/rest-easy/)) extensions installed (or any other browser with similar developer-aiding tools).
+- [Fiddler](http://www.telerik.com/fiddler) for inspecting any HTTP traffic. 
 
 
 ## Visual Studio tips
