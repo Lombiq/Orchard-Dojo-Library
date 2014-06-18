@@ -49,7 +49,7 @@ Below you can find pieces of software that you should install for the best Orcha
 
 - Interact with Mercurial through the TortoiseHg Workbench. You can add a cloned repository to the Workbench by opening it from the repository folder: right click on the folder and select the Workbench.
 - Use groups in the Repository Registry to group your repositories.
-- See the [mercurial.ini in file in this package](Attachments/mercurial.ini) that you can use to initialize your Mercurial instance quickly with some useful settings.
+- See the [mercurial.ini in file in this package](Attachments/mercurial.ini) that you can use to initialize your Mercurial instance quickly with some useful settings. You can open your mercurial.ini file quickly from inside TortoiseHg by going to File/Settings/Edit File.
 - .hgignore files (drop into the repositories' folders and rename to .hgignore):
 	- [For Orchard modules and themes](Attachments/extensions.hgignore)
 	- [For a complete Orchard solution](Attachments/solution.hgignore)
