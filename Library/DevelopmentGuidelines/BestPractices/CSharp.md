@@ -101,3 +101,7 @@ This is used by .NET's String class (String.Empty) and also by Orchard's QueryHi
 ----------
 
 When checking if an `IEnumerable<T>` is empty always use `enumerable.Any()` instead of `enumerable.Count() == 0`.
+
+----------
+
+When writing "async void", think twice. Unless written for event handlers async void should be avoided at least because exceptions in such methods can tear down the whole application. See [this SO post](http://stackoverflow.com/a/12144426/220230).

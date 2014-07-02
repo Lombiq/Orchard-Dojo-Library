@@ -16,6 +16,7 @@ Always do part shape-related heavy work in shape factories inside drivers: this 
 	}
 
 ----------
+
 When writing a theme if something is achievable by only CSS, then use only CSS and avoid having shape template overrides with minimal modifications. If you absolutely have to create shape overrides then try to override the most specific shape possible: e.g. if you need to override the markup of blogposts' date shown then override just Common.Metadata (the shape responsible for showing the date) and not the whole Content shape.
 
 ----------
@@ -65,3 +66,7 @@ It's good practice to let subfeatures of a module always depend on the main feat
 ----------
 
 It's nice to have a consistent ordering for dependencies in module manifest files. A good way is to begin with third-party features, then list built-in ones (Orchard.*), both in alphabetical order.
+
+----------
+
+When writing a recurring scheduled task (i.e scheduled tasks that re-schedule themselves) then add the re-scheduling as early as possible to the task handler's Process() method. This lowers the chance of an error causing the task not to be re-scheduled.
