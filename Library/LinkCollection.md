@@ -6,7 +6,7 @@
 
 - [Orchard homepage](http://orchardproject.net/)
 	- [Documentation](http://docs.orchardproject.net/)
-	- [Translations](http://orchardproject.net/localize)
+	- [Translations](http://orchardproject.net/localization)
 - [Orchard project homepage](http://orchard.codeplex.com)
 	- [Discussion board](https://orchard.codeplex.com/discussions)
 	- [Latest release](https://orchard.codeplex.com/releases/view/90325)
