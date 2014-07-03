@@ -6,7 +6,7 @@
 
 - [Orchard homepage](http://orchardproject.net/)
 	- [Documentation](http://docs.orchardproject.net/)
-	- [Translations](http://orchardproject.net/localize)
+	- [Translations](http://orchardproject.net/localization)
 - [Orchard project homepage](http://orchard.codeplex.com)
 	- [Discussion board](https://orchard.codeplex.com/discussions)
 	- [Latest release](https://orchard.codeplex.com/releases/view/90325)
@@ -22,6 +22,7 @@
 - [Colombia](http://www.orchardproject.co/)
 - [France](http://orchardproject.fr/)
 - [Hispana](http://www.orchardhispano.com/)
+- [India](http://www.orchardproject.net.in/)
 - [Iran](http://orchardpro.ir/)
 - [Italia](http://www.orcharditalia.net/)
 - [Magyarország](http://orchardproject.hu/)
