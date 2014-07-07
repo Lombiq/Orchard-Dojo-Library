@@ -70,3 +70,7 @@ It's nice to have a consistent ordering for dependencies in module manifest file
 ----------
 
 When writing a recurring scheduled task (i.e scheduled tasks that re-schedule themselves) then add the re-scheduling as early as possible to the task handler's Process() method. This lowers the chance of an error causing the task not to be re-scheduled.
+
+----------
+
+When doing I/O-bound work, always use async APIs if available (e.g. web requests, file writes). Using async I/O greatly increases the throughput of the server by not blocking threads to wait for I/O completion.
