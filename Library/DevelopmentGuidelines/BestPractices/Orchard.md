@@ -84,3 +84,36 @@ You'll be able to still include static resources from such a folder through the 
     manifest.DefineScript("MyScript").SetUrl("~/Themes/MyTheme/Content/Plugin/script.js"...
 
 The same goes for `Script/Style.Include()` calls from view templates.
+
+----------
+
+When writing Migrations it's best to consolidate the latest schema in the Create method and only make UpdateFromX() run for existing installations.
+
+    public class Migrations : DataMigrationImpl
+    {
+        public int Create()
+        {
+            SchemaBuilder.CreateTable(typeof(PersonRecord).Name,
+                table => table
+                    .Column<int>("Id", column => column.PrimaryKey().Identity())
+                    .Column<string>("Name")
+                    // The Bio column was added later, so it's added in UpdateFrom1() for existing installations.
+                    // It's also added here for new installations.
+                    .Column<string>("Bio", column => column.Unlimited())
+                );
+
+            // UpdateFrom1() won't run for new installations, they will have the Bio column added by default.
+            return 2;
+        }
+
+        public int UpdateFrom1()
+        {
+            // Adding the Bio column for old installations.
+            SchemaBuilder.AlterTable(typeof(PersonRecord).Name,
+                table =>
+                    table.AddColumn<string>("Bio", column => column.Unlimited())
+                );
+
+            return 2;
+        }
+    }
