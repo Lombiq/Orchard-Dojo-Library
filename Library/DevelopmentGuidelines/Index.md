@@ -9,6 +9,7 @@ If something’s not specified, general C# guidelines apply: [C# Coding Conventi
 - [Naming conventions](NamingConventions)
 - [Rules of thumb for refactoring](Refactoring)
 - [Inline documentation guidelines](InlineDocumentationGuidelines)
+- [Code review guidelines](CodeReview)
 - [Development environment advices](DevelopmentEnvironment)
 - [Orchard performance optimization guidelines](OrchardPerformanceOptimization)
 - [Updating your Orchard source](UpdatingOrchard)
