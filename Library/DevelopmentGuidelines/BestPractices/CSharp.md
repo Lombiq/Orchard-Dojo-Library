@@ -105,3 +105,11 @@ When checking if an `IEnumerable<T>` is empty always use `enumerable.Any()` inst
 ----------
 
 When writing "async void", think twice. Unless written for event handlers async void should be avoided at least because exceptions in such methods can tear down the whole application. See [this SO post](http://stackoverflow.com/a/12144426/220230). If you write such methods always surround it with a try-catch that catches the base Exception so no exception can escape.
+
+----------
+
+If you insists on using short variable names then use `ex` for exceptions and `e` for event handler arguments.
+
+----------
+
+When your class implements multiple interfaces with a lot of methods it's best to explicitly implement them. This way it's immediately visible which method corresponds to which interface.
