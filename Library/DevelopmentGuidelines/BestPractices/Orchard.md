@@ -45,7 +45,7 @@ For improving client-side performance by preventing blocking script loads always
 
 ----------
 
-When you have multiple features in a single module always make the sub-features depend on the main feature for clarity. It should also be the requirement anyway: sub-features are in that module because they have something in common with the main feature.
+When you have multiple features in a single module always make the sub-features depend on the main feature for clarity. This will prevent confusion if you want to place some common functionality in the main feature. It should also be the requirement anyway: sub-features are in that module because they have something in common with the main feature.
 
 ----------
 
@@ -58,10 +58,6 @@ Although not mandatory, it's good practice to route all your admin controller to
 ----------
 
 Texts presented to the user should always be in form of LocalizedStrings (aka T()). When you want to display dynamic data in the string, use the params of T(). See the relevant [documentation](http://docs.orchardproject.net/Documentation/Using-the-localization-helpers).
-
-----------
-
-It's good practice to let subfeatures of a module always depend on the main feature (the one that is named the same as the module). This will prevent confusion if you want to place some common functionality in the main feature.
 
 ----------
 
