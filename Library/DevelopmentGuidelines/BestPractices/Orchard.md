@@ -113,3 +113,9 @@ When writing Migrations it's best to consolidate the latest schema in the Create
             return 2;
         }
     }
+
+----------
+
+Never do any non-trivial work (i.e. pretty much anything apart from variable assignments) in the constructors of injectable types. The dependency injection framework can instantiate your type any time, as the tree of dependencies can result in hundreds of instantiations happening when a type is resolved. Thus any work done in a constructor can possibly have a negative performance effect in seemingly unrelated cases.
+
+If you want to produce a value for a field that won't change during the lifetime of the object then do this by lazily producing that value when its first accessed (e.g. with [`Lazy<T>`](http://msdn.microsoft.com/en-us/library/dd642331%28v=vs.110%29.aspx)) .
