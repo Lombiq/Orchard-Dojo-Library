@@ -113,3 +113,11 @@ If you insists on using short variable names then use `ex` for exceptions and `e
 ----------
 
 When your class implements multiple interfaces with a lot of methods it's best to explicitly implement them. This way it's immediately visible which method corresponds to which interface.
+
+----------
+
+Using initialization methods on your classes like `Init()` is a sign of bad design most of the time as this requires the user to remember to call it before anything can be done. Consider refactoring the class to require necessary data through the constructor (probably even using a static factory) or by computing initialization data on the first demand, lazily.
+
+----------
+
+Service classes should be stateless, i.e. their methods should give the same output for the same input.
