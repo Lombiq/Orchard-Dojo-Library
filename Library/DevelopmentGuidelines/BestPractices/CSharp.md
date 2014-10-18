@@ -121,3 +121,7 @@ Using initialization methods on your classes like `Init()` is a sign of bad desi
 ----------
 
 Service classes should be stateless, i.e. their methods should give the same output for the same input.
+
+----------
+
+When referencing another project from the same solution always add a project reference, not an assembly reference.
