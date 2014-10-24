@@ -10,7 +10,7 @@ Always do part shape-related heavy work in shape factories inside drivers: this 
 	        () =>
 	        {
 	            // This delegate will only run if the shape is actually displayed.
-	            var heavy = /* Some heave work */;
+	            var heavy = /* Some heavy work */;
 	            return shapeHelper.Parts_My(Heavy: heavy);
 	        });
 	}
