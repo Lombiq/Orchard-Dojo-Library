@@ -119,3 +119,7 @@ When writing Migrations it's best to consolidate the latest schema in the Create
 Never do any non-trivial work (i.e. pretty much anything apart from variable assignments) in the constructors of injectable types. The dependency injection framework can instantiate your type any time, as the tree of dependencies can result in hundreds of instantiations happening when a type is resolved. Thus any work done in a constructor can possibly have a negative performance effect in seemingly unrelated cases.
 
 If you want to produce a value for a field that won't change during the lifetime of the object then do this by lazily producing that value when its first accessed (e.g. with [`Lazy<T>`](http://msdn.microsoft.com/en-us/library/dd642331%28v=vs.110%29.aspx)) .
+
+----------
+
+When you want to store the ID of a content item always use the `ContentItem.Id` property, never the Id of a content part (if you have a reference to a part you can access the content item ID simply through `part.ContentItem.Id`). This is because a content part can have a different ID (e.g. due to versioning) than the content item it is attached to.
