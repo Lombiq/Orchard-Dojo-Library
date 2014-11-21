@@ -24,6 +24,7 @@
 - [Hispana](http://www.orchardhispano.com/)
 - [India](http://www.orchardproject.net.in/)
 - [Iran](http://orchardpro.ir/)
+- [Israel](http://orchardproject.org.il/)
 - [Italia](http://www.orcharditalia.net/)
 - [Magyarország](http://orchardproject.hu/)
 - [Nederland](http://orchard-project.nl/)
@@ -34,11 +35,13 @@
 
 ## Blogs
 
+- [Benedikt Neuhold's blog](http://neuhold.pro/)
 - [Benohead](http://benohead.com/)
 - [Cloud Construct's Blog](http://www.cloudconstruct.com/blog)
 - [David Hayden's blog](http://www.davidhayden.me/blog)
 - [Kobowi](http://kobowi.co.uk/blog/)
 - [Orchard Hungary](http://english.orchardproject.hu/)
+- [Rudolph Koegelenberg's blog](http://www.rudolphk.co.za)
 - [Sebastien Ros's blog](http://sebastienros.com/)
 - [Shades of orange](http://shades-of-orange.com/) software development blog
 - [Skywalker Software Development - Sipke Schoorstra's blog](http://skywalkersoftwaredevelopment.net/blog)
@@ -68,6 +71,7 @@
 - [Orchard Marketplace](http://www.orchardmarket.net/)
 - [Orchard Prime](http://www.orchardprime.com/)
 - [Orchard Pros](http://orchardpros.net/)
-- [Outercurve Foundation](http://www.outercurve.org/), the foundation supporting Orchard
+- [.NET Foundation](http://www.dotnetfoundation.org/), the foundation supporting Orchard
 - [Show Orchard](http://www.showorchard.com/)
 - [Stackoverflow Orchard questions](http://stackoverflow.com/questions/tagged/orchardcms)
+- [Try Orchard!](http://tryorchard.net/) where you can test drive already installed Orchard demo sites
