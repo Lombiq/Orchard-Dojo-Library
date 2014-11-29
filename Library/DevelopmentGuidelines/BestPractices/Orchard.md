@@ -123,3 +123,7 @@ If you want to produce a value for a field that won't change during the lifetime
 ----------
 
 When you want to store the ID of a content item always use the `ContentItem.Id` property, never the Id of a content part (if you have a reference to a part you can access the content item ID simply through `part.ContentItem.Id`). This is because a content part can have a different ID (e.g. due to versioning) than the content item it is attached to.
+
+----------
+
+When you want to access a form field from JavaScript that was built with a statically typed Html helper for a view model property (like with `Html.HiddenFor()`) then never hard-code the field element's ID into your script: such generated IDs can change with the underlying implementation and by changing the editor prefix. Instead, populate such IDs from your templates, e.g. by passing the output of `Html.FieldIdFor()` to the script.
