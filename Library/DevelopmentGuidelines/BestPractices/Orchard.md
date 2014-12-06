@@ -139,3 +139,5 @@ Or if you just want to set the content of the `<title>` tag directly (like it is
     @{
     	Layout.Title = T("My Page");
     }
+
+Note that generally it's bad practice to set the title from content part shape templates: those are meant to be a fragment of the layout so they shouldn't set the title directly; the title is to be set by a higher level component that actually knows what the whole page is about.
