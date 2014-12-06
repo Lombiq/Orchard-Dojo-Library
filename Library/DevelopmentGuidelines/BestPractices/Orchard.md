@@ -127,3 +127,15 @@ When you want to store the ID of a content item always use the `ContentItem.Id` 
 ----------
 
 When you want to access a form field from JavaScript that was built with a statically typed Html helper for a view model property (like with `Html.HiddenFor()`) then never hard-code the field element's ID into your script: such generated IDs can change with the underlying implementation and by changing the editor prefix. Instead, populate such IDs from your templates, e.g. by passing the output of `Html.FieldIdFor()` to the script.
+
+----------
+
+When creating a new controller action don't forget to set the page title somewhere, best from the main view template of the action. I.e.:
+
+    <h1>@Html.TitleForPage(T("My Page"))</h1>
+
+Or if you just want to set the content of the `<title>` tag directly (like it is necessary on admin pages, where the title is already displayed):
+
+    @{
+    	Layout.Title = T("My Page");
+    }
