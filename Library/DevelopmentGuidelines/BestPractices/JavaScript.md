@@ -12,7 +12,7 @@ Instead of using the $ variable directly use a wrapper to inject the jQuery obje
 
 	// The dollar sign will be used only inside the anonymous function here.
 	(function ($) {
-		// Notice the shorthand document.ready function.
+		// Notice the shorthand document.ready function. Always wrap your jQuery DOM-manipulation code in the document.ready!
 	    $(function() {
 	        alert("Document ready!");
 	    });
