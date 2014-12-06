@@ -141,3 +141,23 @@ Or if you just want to set the content of the `<title>` tag directly (like it is
     }
 
 Note that generally it's bad practice to set the title from content part shape templates: those are meant to be a fragment of the layout so they shouldn't set the title directly; the title is to be set by a higher level component that actually knows what the whole page is about.
+
+----------
+
+About displaying validation info in templates:
+
+If you want to display the validation errors corresponding to a specific field, which is generally a good practice, then you can display it like this:
+
+    @Html.ValidationMessageFor(m => m.MyField)
+
+Most of the time it's good practice to also, or instead display a validation summary on the top of the page, but close to the form:
+
+    @Html.ValidationSummary()
+
+Never display a validation summary from a content part editor for the same reason as not to set the page title (see above).
+
+----------
+
+Localized strings (T-strings) should always have their parameters supplied to them. Never concatenate localized strings with other values as this prevents complete localization. I.e. if you want to display the number of elements use a printf-like pattern:
+
+T`("Number of elements: {0}", Model.Count)`
