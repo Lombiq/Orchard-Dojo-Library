@@ -161,3 +161,7 @@ Never display a validation summary from a content part editor for the same reaso
 Localized strings (T-strings) should always have their parameters supplied to them. Never concatenate localized strings with other values as this prevents complete localization. I.e. if you want to display the number of elements use a printf-like pattern:
 
 T`("Number of elements: {0}", Model.Count)`
+
+----------
+
+When creating ad-hoc shapes then (unless the shapes are very generic) prefix the shapes' names with the module's name (e.g. "My_Company_My_Module_My_Shape"). Shape names are global identifiers, so if they're only interesting for your module you have to use an appropriate name.
