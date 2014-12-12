@@ -169,3 +169,7 @@ When creating ad-hoc shapes then (unless the shapes are very generic) prefix the
 ----------
 
 Remember authorization! When letting the user fetch content items by ID or otherwise in any way remember that a malicious user might try to trick your code into fetching content not intended to be shown. As a rule of thumb you should always authorize the user's access (through the `IAuthorizer` service) to a content item object.
+
+----------
+
+When you have no choice but catching the base `Exception` then use [exception fatality check](http://english.orchardproject.hu/blog/orchard-gems-exception-fatality-check).
