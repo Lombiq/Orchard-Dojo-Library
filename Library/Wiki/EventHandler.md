@@ -1,4 +1,4 @@
-# Event handler
+# Orchard-style event handlers (aka the Orchard Event Bus)
 
 
 
