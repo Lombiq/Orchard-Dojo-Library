@@ -2,10 +2,6 @@
 
 
 
-Other than saving object references or instantiating other classes never do any work in a class's constructor. When using a [dependency injection container](http://en.wikipedia.org/wiki/Dependency_injection) the injection of a single dependency can result in the instantiation of dozens of other services. So never count on your class not being instantiated for a given operation.
-
-----------
-
 When returning a collection, always return an empty collection if there are no elements, but never null. When accepting a collection as a method argument, however, always check for null.
 
 	IEnumerable<int> MyMethod(IEnumerable<int> collection)
