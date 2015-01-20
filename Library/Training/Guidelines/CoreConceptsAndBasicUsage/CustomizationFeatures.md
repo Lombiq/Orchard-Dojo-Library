@@ -11,7 +11,7 @@
 	- Command line commands
 - Optional: localization
 	- Installing a .po package with [Vandelay.TranslationManager](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Vandelay.Industries)
-	- Setting up locales
+	- Setting up locales and creating localized content items
 
 Time requirement: 0h 45m
 

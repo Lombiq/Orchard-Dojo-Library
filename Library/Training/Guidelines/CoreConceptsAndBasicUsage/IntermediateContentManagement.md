@@ -21,7 +21,7 @@
 	- Selecting content types to be indexed and rebuilding index
 	- Adding Search widget to the layout
 - Media management
-	- Media Library and media editing
+	- Managing and editing media with Media Library and Media Processing
 	- Overview of Media Profiles
 
 Time requirement: 2h 0m
