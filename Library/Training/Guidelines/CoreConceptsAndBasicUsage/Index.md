@@ -6,5 +6,7 @@
 - [Basic site management](BasicSiteManagement)
 - [Intermediate content management](IntermediateContentManagement)
 - [Advanced content management](AdvancedContentManagement)
+- [Expert content management](ExpertContentManagement)
+- [Theme customizations](ThemeCustomizations)
 - [Customization features](CustomizationFeatures)
 - [Basic maintenance](BasicMaintenance)
