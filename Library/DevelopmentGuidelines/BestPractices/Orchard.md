@@ -164,7 +164,7 @@ T`("Number of elements: {0}", Model.Count)`
 
 ----------
 
-When creating ad-hoc shapes then (unless the shapes are very generic) prefix the shapes' names with the module's name (e.g. "My_Company_My_Module_My_Shape"). Shape names are global identifiers, so if they're only interesting for your module you have to use an appropriate name.
+When creating ad-hoc shapes then (unless the shapes are very generic) prefix the shapes' names with the module's name (e.g. `My_Company_My_Module_My_Shape`). Shape names are global identifiers, so if they're only interesting for your module you have to use an appropriate name.
 
 ----------
 
@@ -173,3 +173,10 @@ Remember authorization! When letting the user fetch content items by ID or other
 ----------
 
 When you have no choice but catching the base `Exception` then use [exception fatality check](http://english.orchardproject.hu/blog/orchard-gems-exception-fatality-check).
+
+----------
+
+Generally it's a bad idea to add NuGet packages to Orchard modules:
+
+- Since Orchard doesn't use NuGet but rather includes its dependencies in the root lib folder adding a NuGet package that depends on another package that's already in lib will result in duplicated assemblies (often with different versions).
+- NuGet needs build support, i.e. you can't simply install a module from the Gallery if you don't have package restore available. This is the case if you run Orchard's web package and not use the full source from Visual Studio.

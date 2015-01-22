@@ -43,6 +43,7 @@ Below you can find pieces of software that you should install for the best Orcha
 	- Ctrl+Q to access the Quick Launch bar
 	- Shift+Del: delete line
 	- You may want to set up Ctrl+W for closing the current file for the File.Close command and Ctrl+Shift+T for Edit.UndoClose (only available if PowerCommands is installed).
+- You may want to [always run VS as an administrator](http://stackoverflow.com/a/12859334/220230). This will simplify debugging web apps running in IIS since you can only attach a debugger to the IIS worker process if VS is run as an administrator.
 
 
 ## Mercurial and TortoiseHg tips
