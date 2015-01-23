@@ -4,7 +4,8 @@
 
 Following are methodologies for various forms of Orchard training.
 
-Remember that it's a good thing to have regular breaks about every 45 minutes.
+- Remember that it's a good thing to have regular breaks about every 45 minutes.
+- Keep the time between explaining something new and demonstrating it short; i.e. if you explain something, show it.
 
 
 ## University course
