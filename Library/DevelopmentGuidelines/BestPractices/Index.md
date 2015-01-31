@@ -13,7 +13,7 @@
 ## Topics
 
 - [C# best practices](CSharp)
-- [Orchard best practice](Orchard)
-- [JavaScript best practice](JavaScript)
-- [CSS best practice](Css)
-- [Source control best practice](SourceControl)
+- [Orchard best practices](Orchard)
+- [JavaScript best practices](JavaScript)
+- [CSS best practices](Css)
+- [Source control best practices](SourceControl)
