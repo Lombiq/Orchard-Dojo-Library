@@ -168,7 +168,9 @@ When creating ad-hoc shapes then (unless the shapes are very generic) prefix the
 
 ----------
 
-Remember authorization! When letting the user fetch content items by ID or otherwise in any way remember that a malicious user might try to trick your code into fetching content not intended to be shown. As a rule of thumb you should always authorize the user's access (through the `IAuthorizer` service) to a content item object.
+Remember authorization! When letting the user fetch content items by ID or otherwise in any way remember that a malicious user might try to trick your code into fetching content not intended to be shown. As a rule of thumb you should always authorize the user's access (through the `IAuthorizer` service when in a controller if you also want to display authorization messages; otherwise through `IAuthorizationService`) to a content item object.
+
+Never check the "Own" content permissions (like `DeleteOwnContent`) directly, just the generic ones (e.g. `DeleteContent`) as the former ones are handled internally by the latter ones.
 
 ----------
 
