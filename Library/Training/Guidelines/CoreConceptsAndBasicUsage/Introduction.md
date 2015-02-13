@@ -7,6 +7,7 @@
 	- [Orchard project page](http://orchard.codeplex.com) (downloads, discussion boards, issue tracker, source)
 	- Websites of local communities
 	- [Orchard Gallery](http://gallery.orchardproject.net) and [Orchard Marketplace](http://orchardmarket.net)
+	- [DotNest](https://dotnest.com/) for creating hosted Orchard sites
 	- Showcasing complex Orchard websites
 - Architectural overview
 	- ASP.NET -> ASP.NET MVC -> Orchard
