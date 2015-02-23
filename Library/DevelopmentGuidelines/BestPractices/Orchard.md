@@ -182,3 +182,11 @@ Generally it's a bad idea to add NuGet packages to Orchard modules:
 
 - Since Orchard doesn't use NuGet but rather includes its dependencies in the root lib folder adding a NuGet package that depends on another package that's already in lib will result in duplicated assemblies (often with different versions).
 - NuGet needs build support, i.e. you can't simply install a module from the Gallery if you don't have package restore available. This is the case if you run Orchard's web package and not use the full source from Visual Studio.
+ 
+
+----------
+
+Checklist to go through when finishing a new module or theme:
+
+- Is the manifest properly filled? No "Description for the module" and similar defaults remain?
+- Are there no empty default folders, e.g. a Styles folder with just one Web.config?
