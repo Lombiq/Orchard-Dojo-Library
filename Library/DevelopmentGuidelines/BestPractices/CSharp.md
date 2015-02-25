@@ -70,7 +70,7 @@ For the extension class use the naming convention of [interface name without the
 Try to keep the maximal number of arguments on a method to 3.
 
 ----------
-Always return an interface type and return the most generic one making sense for the typical consuming code.
+Almost always return an interface type and return the most generic one making sense for the typical consuming code.
 
     public interface IService
     {
@@ -80,6 +80,8 @@ Always return an interface type and return the most generic one making sense for
         // If you need List's certain features like mutability or the ability to access items by index commonly in the consuming code return an IList<>
         IList<int> GetItemsList();
     }
+
+Never use view models in a service interface: services and views have nothing to do with each other.
 
 ----------
 
