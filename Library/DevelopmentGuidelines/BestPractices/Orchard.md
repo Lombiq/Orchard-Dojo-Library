@@ -57,7 +57,11 @@ Although not mandatory, it's good practice to route all your admin controller to
 
 ----------
 
-Texts presented to the user should always be in form of LocalizedStrings (aka T()). When you want to display dynamic data in the string, use the params of T(). See the relevant [documentation](http://docs.orchardproject.net/Documentation/Using-the-localization-helpers).
+Texts presented to the user should always be in form of LocalizedStrings (aka T()). When you want to display dynamic data in the string, it should always have its parameters supplied to it. Never concatenate localized strings with other values as this prevents complete localization. E.g. if you want to display the number of elements use a printf-like pattern:
+
+T`("Number of elements: {0}", Model.Count)`
+
+See the relevant [documentation](http://docs.orchardproject.net/Documentation/Using-the-localization-helpers).
 
 ----------
 
@@ -155,12 +159,6 @@ Most of the time it's good practice to also, or instead display a validation sum
     @Html.ValidationSummary()
 
 Never display a validation summary from a content part editor for the same reason as not to set the page title (see above).
-
-----------
-
-Localized strings (T-strings) should always have their parameters supplied to them. Never concatenate localized strings with other values as this prevents complete localization. I.e. if you want to display the number of elements use a printf-like pattern:
-
-T`("Number of elements: {0}", Model.Count)`
 
 ----------
 
