@@ -8,7 +8,7 @@ The work context is an important aspect of Orchard's dependency framework too. A
 
 An HTTP request in Orchard, as well as background tasks are wrapped into an ambient work context. Since work contexts are not tied to an http context you can have multiple work contexts per request and you can have a work context independently of a request too (this happens in background tasks).
 
-Thus such work contexts are externally managed contexts and because of this somehow have to "travel" along with their scope until the latter is terminated: in Orchard the work context is either carried in the `HttpContext` or in a thread static field (what also causes [some limitations](https://orchard.codeplex.com/workitem/20509)).
+Thus such work contexts are externally managed contexts and because of this somehow have to "travel" along with their scope until the latter is terminated: in Orchard the work context is either carried in the `HttpContext` or in a thread static field (what also causes [some limitations](https://github.com/OrchardCMS/Orchard/issues/4338)).
 
 A work context scope is the lowest dependency scope commonly used. It also has a parent, the shell's scope: this is the shell context (or more precisely, its lifetime scope). You can access a shell's (what is most of the time equal to a tenant) context through `IOrchardHost.GetShellContext()`. Work context scopes are actually created from the shell context's lifetime scope. Furthermore this also has a parent that is the application-wide HostContainer.
 
