@@ -20,7 +20,7 @@ The following advices apply to the Mercurial source control system and assume th
 
 ## Branching
 
-- If you use branches for developing features prefix the branch names with something and use a pattern like "features/[branch name]" to make those branches distinguishable from other branches.
+- If you use branches for developing features prefix the branch names with something and use a pattern like "feature/[branch name]" to make those branches distinguishable from other branches.
 - Try to avoid merging branches with themselves. If you committed to a branch locally but meanwhile somebody else did the same first, after pulling do the following: instead of merging the two changesets rebase your changeset on top of the remote head. (See the [Rebase documentation](http://mercurial.selenic.com/wiki/RebaseExtension) and the [TortoiseHg Workbench documentation](http://tortoisehg.bitbucket.org/manual/2.0/workbench.html).) **Be careful when using subrepos!** If you already committed a subrepo to its top repo then you can't rebase the subrepo as it would cause incosistency in the top repo. In such cases simply do a merge in the subrepo if there is a more recent head changeset.
 - When doing work in a temporal branch and want to merge the changes back to another branch and close the branch do it in the following order: close then merge and NOT merge then close as this will result in an unnecessary dangling head. See [this SO post](http://stackoverflow.com/a/9173483/220230) for more details.
 - When doing work in a branch separated from the main line of development merge frequently from the main branch. Frequent, small merges are easier and less error-prone than big merges and also you'll be able to integrate your changes with the work done by others.
