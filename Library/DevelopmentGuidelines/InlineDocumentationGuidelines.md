@@ -10,6 +10,6 @@
 - Documentation should be as close to what it documents as possible to avoid going out of date.
 - It's good to document what the aim of a type (mostly class or interface) is. This is to be able to quickly understand what a type does without having to understand its code.
 - Write documentation as you write code: use correct grammar and punctuation (remember that comments are sentences), apply to style conventions.
-- Constants referenced in C# XML comments should be wrapped into a code block, i.e.:
+- Constants referenced in C# XML comments like `true` should be wrapped into a code block, i.e.:
 
-    /// <returns>Returns <c>true</c> on success, <c>false</c> otherwise.</returns>
+    /// &lt;returns&gt;Returns &lt;c&gt;true&lt;/c&gt; on success, &lt;c&gt;false&lt;/c&gt; otherwise.&lt;/returns&gt;
