@@ -12,7 +12,7 @@
 	- Creating and editing a menu
 		- Adding and editing custom links and content item links
 		- Editing link hierarchy
-	- Navigation Widget
+	- Navigation Widget and breadcrumbs
 	- Content item permissions for menu items
 	- Exercise: creating a menu with all kinds of items
 - Search and indexing
