@@ -2,13 +2,10 @@
 
 
 
-- Categorizing content
-	- Tags
-	- Taxonomies
 - Tokens and tokenized fields
 - Automating administrative tasks with Workflows
 - Antispam features
-- Creating Custom Forms
+- Creating Dynamic Forms
 	- Demo: creating a contact form using tokens, handling form posts with a workflow
 - Importing and exporting
 	- Using the Import/Export module

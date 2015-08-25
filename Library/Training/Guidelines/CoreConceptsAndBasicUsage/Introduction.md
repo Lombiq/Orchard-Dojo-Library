@@ -2,13 +2,11 @@
 
 
 
-- Orchard ecosystem:
-	- [Orchard home page](http://orchardproject.net) and the [documentation](http://docs.orchardproject.net)
-	- [Orchard project page](http://orchard.codeplex.com) (downloads, discussion boards, issue tracker, source)
-	- Websites of local communities
-	- [Orchard Gallery](http://gallery.orchardproject.net) and [Orchard Marketplace](http://orchardmarket.net)
+- Orchard ecosystem as under the [Orchard link collection](../../../LinkCollection)
+- Showcasing complex/notable Orchard apps:
+	- [Office365 Success Center](http://success.office.com/en-us), [John Varvatos](http://www.johnvarvatos.com/), [AMC Theatres](https://www.amctheatres.com/), [Toyota South-Africa](http://toyota.co.za/), [NFL PA](https://www.nflpa.com/), [Musqle](http://musqle.com/)
 	- [DotNest](https://dotnest.com/) for creating hosted Orchard sites
-	- Showcasing complex Orchard websites
+	- Special apps: [Associativy](http://associativy.com/), [Orchard Application Host](https://orchardapphost.codeplex.com/)
 - Architectural overview
 	- ASP.NET -> ASP.NET MVC -> Orchard
 	- Contains open-source projects (eg. NHibernate, jQuery)
@@ -19,7 +17,7 @@
 	- [Azure](http://azure.microsoft.com)
 	- [DotNest](http://dotnest.com)
 - Installing Orchard:
-	- Custom installation: choosing a database engine (SQL CE, SQL Server, MySQL)
+	- Custom installation: choosing a database engine (SQL CE, SQL Server, MySQL), recipes
 	- DotNest
 - Basic site settings
 - Demo: installing and basic settings

@@ -9,12 +9,13 @@
 - Writing recipes:
 	- Installing and enabling themes/features
 	- Command line commands
+	- Adding exported content types and content items
 - Optional: localization
 	- Installing a .po package with [Vandelay.TranslationManager](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Vandelay.Industries)
 	- Setting up locales and creating localized content items
 
-Time requirement: 0h 45m
+Time requirement: 1h 0m
 
-Dependencies: none
+Dependencies: [Intermediate content management](IntermediateContentManagement)
 
 Parent topic: [Core concepts and basic usage](./)

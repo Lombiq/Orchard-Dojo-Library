@@ -16,6 +16,6 @@
 
 Time requirement: 0h 30m
 
-Dependencies: none
+Dependencies: [Basic site management](BasicSiteManagement)
 
 Parent topic: [Core concepts and basic usage](./)

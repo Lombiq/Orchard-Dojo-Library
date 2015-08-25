@@ -1,4 +1,4 @@
-# Getting started in theme development
+# Getting started with theme development
 
 
 
@@ -10,12 +10,12 @@
 	- Notion of shapes, tree of shapes
 	- The Layout shape
 	- Using Shape Tracing
-	- Shape templates and view variables (e.g. WorkContext, Layout, Model), T-strings
+	- Shape templates and important view variables (e.g. WorkContext, Layout, Model), T-strings
 	- Alternates and overrides (templates, stylesheets, scripts)
 	- Writing editor and display shape templates, explaining Model object usage
 - Static resources: styles/scripts (how to include/require them) and resource manifests
 
-Time requirement: 1h 30m
+Time requirement: 2h 0m
 
 Dependencies: none
 

@@ -6,7 +6,7 @@
 	- Content types, parts and fields
 	- Creating and editing content items and content types
 	- Versioning: drafts and published versions
-	- Demo: basic content types (Blog, BlogPost, Page)
+	- Demo: basic content types (Blog, BlogPost and tags, Page with Layouts)
 	- Demo: creating a content type
 	- Demo: editing and versioning a content item
 	- Exercise: creating a content type with fields and parts and creating items based on instructions
@@ -21,7 +21,7 @@
 	- Demo: users and roles admin pages
 	- Exercise: creating a role with selected permissions; enabling registration, registering a new user and assigning it to the newly created role
 
-Time requirement: 1h 15m
+Time requirement: 2h 15m
 
 Dependencies: none
 

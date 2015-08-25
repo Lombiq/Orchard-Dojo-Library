@@ -2,5 +2,5 @@
 
 
 
-- [Getting started in theme development](GettingStartedInThemeDevelopment)
+- [Getting started with theme development](GettingStartedWithThemeDevelopment)
 - [Advanced theme development](AdvancedThemeDevelopment)
