@@ -5,12 +5,12 @@
 - Content model and content management:
 	- Content types, parts and fields
 	- Creating and editing content items and content types
-	- Versioning: drafts and published versions
-	- Demo: basic content types (Blog, BlogPost and tags, Page with Layouts)
+	- Versioning: drafts (and Draftable metadata) and published versions
+	- Demo: basic content types (Blog, BlogPost and Tags, Page with Layouts)
 	- Demo: creating a content type
 	- Demo: editing and versioning a content item
 	- Exercise: creating a content type with fields and parts and creating items based on instructions
-- Comments
+- Comments: listing comments and Comments settings
 - Themes and modules:
 	- Enabling/disabling features and themes
 	- Installing new modules and themes

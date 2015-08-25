@@ -12,13 +12,11 @@
 	- Contains open-source projects (eg. NHibernate, jQuery)
 	- Modularized architecture (modules, themes)
 - How to get my own Orchard instance?
-	- [Official Orchard packages](http://orchard.codeplex.com/releases)
+	- [Official Orchard releases](https://github.com/OrchardCMS/Orchard/releases)
 	- [WebMatrix](http://www.microsoft.com/web/webmatrix)
 	- [Azure](http://azure.microsoft.com)
-	- [DotNest](http://dotnest.com)
-- Installing Orchard:
-	- Custom installation: choosing a database engine (SQL CE, SQL Server, MySQL), recipes
-	- DotNest
+	- [DotNest](http://dotnest.com) (also from Azure)
+- Installing Orchard (running the setup): choosing a database engine (and its implications), recipes
 - Basic site settings
 - Demo: installing and basic settings
 

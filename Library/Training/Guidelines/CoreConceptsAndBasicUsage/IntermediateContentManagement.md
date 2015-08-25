@@ -13,7 +13,6 @@
 		- Adding and editing custom links and content item links
 		- Editing link hierarchy
 	- Navigation Widget and breadcrumbs
-	- Content item permissions for menu items
 	- Exercise: creating a menu with all kinds of items
 - Search and indexing
 	- Enabling Search engine and an Indexing service; what is an indexing service (eg. Lucene)
@@ -21,8 +20,8 @@
 	- Selecting content types to be indexed and rebuilding index
 	- Adding a Search widget to the layout
 - Media management
-	- Managing and editing media with Media Library and Media Processing
-	- Overview of Media Profiles
+	- Managing and editing media with Media Library and Image Editor
+	- Media Processing and overview of Media Profiles
 
 Time requirement: 2h 0m
 
