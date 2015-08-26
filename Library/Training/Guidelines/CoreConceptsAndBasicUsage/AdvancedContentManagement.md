@@ -2,15 +2,15 @@
 
 
 
-- Tokens and tokenized fields
 - Projections
 	- Queries: example for filtering, ordering and layouts
 	- Projection Widget, Projection Page
 	- Query Link (Navigation)
-- Automating administrative tasks with Workflows
-- Antispam features
-- Creating Dynamic Forms
-	- Demo: creating a contact form using tokens, handling form posts with a workflow.
+- Dynamic Forms, Tokens and Workflows:
+ 	- An overview of Workflows features
+ 	- Overview of tokens
+ 	- Using antispam features
+	- Demo: creating a contact form using tokens, handling form posts with a workflow
 - Importing and exporting
 	- Using the Import/Export module
 	- The importance of having an identity-providing part (AutoroutePart, IdentityPart)
