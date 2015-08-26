@@ -6,10 +6,11 @@
 	- Queries: example for filtering, ordering and layouts
 	- Projection Widget, Projection Page
 	- Query Link (Navigation)
-- Dynamic Forms, Tokens and Workflows:
+- Dynamic Forms, Tokens and Workflows
  	- An overview of Workflows features
  	- Overview of tokens
  	- Using antispam features
+ 	- Demo: creating a workflow that displays a greeting for users upon logon, displaying their name with tokens
 	- Demo: creating a contact form using tokens, handling form posts with a workflow
 - Importing and exporting
 	- Using the Import/Export module
