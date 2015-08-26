@@ -9,7 +9,6 @@
 - In-depth content customization with Layouts
 	- Master Layouts
 	- Building a grid
-	- Using advanced elements like the Shape element
 - Auditing content with Audit Trail
 
 Time requirement: 1h 45m
