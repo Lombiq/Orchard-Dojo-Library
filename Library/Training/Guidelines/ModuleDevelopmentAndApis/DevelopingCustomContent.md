@@ -19,7 +19,7 @@
 		- Captain
 		- Class
 		- Number of crew
-	- MediaPickerFiled (needs Fields feature) for an image: for this also a shape template override (hint: Shape Tracing) with a stylesheet include (e.g. the image should be displayed with rounded corners)
+	- MediaPickerField (needs Fields feature) for an image: for this also a shape template override (hint: Shape Tracing) with a stylesheet include (e.g. the image should be displayed with rounded corners)
 
 Time requirement: 3h 0m
 
