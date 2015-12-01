@@ -10,6 +10,7 @@
 - Issue tracking best practices
 - Knowledge management best practices
 - Share dev database or dev recipe
+- Optionally: continuous integration practices and the [Hosting Suite](https://dotnest.com/knowledge-base/topics/lombiq-hosting-suite)
 
 Time requirement: 1h 0m
 

@@ -10,7 +10,7 @@ Always do part shape-related heavy work in shape factories inside drivers: this 
 	        () =>
 	        {
 	            // This delegate will only run if the shape is actually displayed.
-	            var heavy = /* Some heave work */;
+	            var heavy = /* Some heavy work */;
 	            return shapeHelper.Parts_My(Heavy: heavy);
 	        });
 	}
@@ -45,7 +45,7 @@ For improving client-side performance by preventing blocking script loads always
 
 ----------
 
-When you have multiple features in a single module always make the sub-features depend on the main feature for clarity. It should also be the requirement anyway: sub-features are in that module because they have something in common with the main feature.
+When you have multiple features in a single module always make the sub-features depend on the main feature for clarity. This will prevent confusion if you want to place some common functionality in the main feature. It should also be the requirement anyway: sub-features are in that module because they have something in common with the main feature.
 
 ----------
 
@@ -57,11 +57,11 @@ Although not mandatory, it's good practice to route all your admin controller to
 
 ----------
 
-Texts presented to the user should always be in form of LocalizedStrings (aka T()). When you want to display dynamic data in the string, use the params of T(). See the relevant [documentation](http://docs.orchardproject.net/Documentation/Using-the-localization-helpers).
+Texts presented to the user should always be in form of LocalizedStrings (aka T()). When you want to display dynamic data in the string, it should always have its parameters supplied to it. Never concatenate localized strings with other values as this prevents complete localization. E.g. if you want to display the number of elements use a printf-like pattern:
 
-----------
+T`("Number of elements: {0}", Model.Count)`
 
-It's good practice to let subfeatures of a module always depend on the main feature (the one that is named the same as the module). This will prevent confusion if you want to place some common functionality in the main feature.
+See the relevant [documentation](http://docs.orchardproject.net/Documentation/Using-the-localization-helpers).
 
 ----------
 
@@ -84,3 +84,107 @@ You'll be able to still include static resources from such a folder through the 
     manifest.DefineScript("MyScript").SetUrl("~/Themes/MyTheme/Content/Plugin/script.js"...
 
 The same goes for `Script/Style.Include()` calls from view templates.
+
+----------
+
+When writing Migrations it's best to consolidate the latest schema in the Create method and only make UpdateFromX() run for existing installations.
+
+    public class Migrations : DataMigrationImpl
+    {
+        public int Create()
+        {
+            SchemaBuilder.CreateTable(typeof(PersonRecord).Name,
+                table => table
+                    .Column<int>("Id", column => column.PrimaryKey().Identity())
+                    .Column<string>("Name")
+                    // The Bio column was added later, so it's added in UpdateFrom1() for existing installations.
+                    // It's also added here for new installations.
+                    .Column<string>("Bio", column => column.Unlimited())
+                );
+
+            // UpdateFrom1() won't run for new installations, they will have the Bio column added by default.
+            return 2;
+        }
+
+        public int UpdateFrom1()
+        {
+            // Adding the Bio column for old installations.
+            SchemaBuilder.AlterTable(typeof(PersonRecord).Name,
+                table =>
+                    table.AddColumn<string>("Bio", column => column.Unlimited())
+                );
+
+            return 2;
+        }
+    }
+
+----------
+
+Never do any non-trivial work (i.e. pretty much anything apart from variable assignments) in the constructors of injectable types. The dependency injection framework can instantiate your type any time, as the tree of dependencies can result in hundreds of instantiations happening when a type is resolved. Thus any work done in a constructor can possibly have a negative performance effect in seemingly unrelated cases.
+
+If you want to produce a value for a field that won't change during the lifetime of the object then do this by lazily producing that value when its first accessed (e.g. with [`Lazy<T>`](http://msdn.microsoft.com/en-us/library/dd642331%28v=vs.110%29.aspx)) .
+
+----------
+
+When you want to store the ID of a content item always use the `ContentItem.Id` property, never the Id of a content part (if you have a reference to a part you can access the content item ID simply through `part.ContentItem.Id`). This is because a content part can have a different ID (e.g. due to versioning) than the content item it is attached to.
+
+----------
+
+When you want to access a form field from JavaScript that was built with a statically typed Html helper for a view model property (like with `Html.HiddenFor()`) then never hard-code the field element's ID into your script: such generated IDs can change with the underlying implementation and by changing the editor prefix. Instead, populate such IDs from your templates, e.g. by passing the output of `Html.FieldIdFor()` to the script.
+
+----------
+
+When creating a new controller action don't forget to set the page title somewhere, best from the main view template of the action. I.e.:
+
+    <h1>@Html.TitleForPage(T("My Page"))</h1>
+
+Or if you just want to set the content of the `<title>` tag directly (like it is necessary on admin pages, where the title is already displayed):
+
+    @{
+    	Layout.Title = T("My Page");
+    }
+
+Note that generally it's bad practice to set the title from content part shape templates: those are meant to be a fragment of the layout so they shouldn't set the title directly; the title is to be set by a higher level component that actually knows what the whole page is about.
+
+----------
+
+About displaying validation info in templates:
+
+If you want to display the validation errors corresponding to a specific field, which is generally a good practice, then you can display it like this:
+
+    @Html.ValidationMessageFor(m => m.MyField)
+
+Most of the time it's good practice to also, or instead display a validation summary on the top of the page, but close to the form:
+
+    @Html.ValidationSummary()
+
+Never display a validation summary from a content part editor for the same reason as not to set the page title (see above).
+
+----------
+
+When creating ad-hoc shapes then (unless the shapes are very generic) prefix the shapes' names with the module's name (e.g. `My_Company_My_Module_My_Shape`). Shape names are global identifiers, so if they're only interesting for your module you have to use an appropriate name.
+
+----------
+
+Remember authorization! When letting the user fetch content items by ID or otherwise in any way remember that a malicious user might try to trick your code into fetching content not intended to be shown. As a rule of thumb you should always authorize the user's access (through the `IAuthorizer` service when in a controller if you also want to display authorization messages; otherwise through `IAuthorizationService`) to a content item object.
+
+Never check the "Own" content permissions (like `DeleteOwnContent`) directly, just the generic ones (e.g. `DeleteContent`) as the former ones are handled internally by the latter ones.
+
+----------
+
+When you have no choice but catching the base `Exception` then use [exception fatality check](http://english.orchardproject.hu/blog/orchard-gems-exception-fatality-check).
+
+----------
+
+Generally it's a bad idea to add NuGet packages to Orchard modules:
+
+- Since Orchard doesn't use NuGet but rather includes its dependencies in the root lib folder adding a NuGet package that depends on another package that's already in lib will result in duplicated assemblies (often with different versions).
+- NuGet needs build support, i.e. you can't simply install a module from the Gallery if you don't have package restore available. This is the case if you run Orchard's web package and not use the full source from Visual Studio.
+ 
+
+----------
+
+Checklist to go through when finishing a new module or theme:
+
+- Is the manifest properly filled? No "Description for the module" and similar defaults remain?
+- Are there no empty default folders, e.g. a Styles folder with just one Web.config?

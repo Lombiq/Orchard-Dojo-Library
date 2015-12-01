@@ -11,7 +11,7 @@
 	- Bottom-up: building on top of an existing theme (e.g. TheThemeMachine, Pretty Good Base Theme), using it as the base theme, how to create a new theme from a given design suite
 - View engines (Razor, ASPX, PHP)
 
-Time requirement: 1h 30m
+Time requirement: 1h 0m
 
 Dependencies: [Getting started in theme development](GettingStartedInThemeDevelopment)
 

@@ -2,10 +2,6 @@
 
 
 
-Other than saving object references or instantiating other classes never do any work in a class's constructor. When using a [dependency injection container](http://en.wikipedia.org/wiki/Dependency_injection) the injection of a single dependency can result in the instantiation of dozens of other services. So never count on your class not being instantiated for a given operation.
-
-----------
-
 When returning a collection, always return an empty collection if there are no elements, but never null. When accepting a collection as a method argument, however, always check for null.
 
 	IEnumerable<int> MyMethod(IEnumerable<int> collection)
@@ -74,7 +70,7 @@ For the extension class use the naming convention of [interface name without the
 Try to keep the maximal number of arguments on a method to 3.
 
 ----------
-Always return an interface type and return the most generic one making sense for the typical consuming code.
+Almost always return an interface type and return the most generic one making sense for the typical consuming code.
 
     public interface IService
     {
@@ -84,6 +80,8 @@ Always return an interface type and return the most generic one making sense for
         // If you need List's certain features like mutability or the ability to access items by index commonly in the consuming code return an IList<>
         IList<int> GetItemsList();
     }
+
+Never use view models in a service interface: services and views have nothing to do with each other.
 
 ----------
 
@@ -104,4 +102,24 @@ When checking if an `IEnumerable<T>` is empty always use `enumerable.Any()` inst
 
 ----------
 
-When writing "async void", think twice. Unless written for event handlers async void should be avoided at least because exceptions in such methods can tear down the whole application. See [this SO post](http://stackoverflow.com/a/12144426/220230).
+When writing "async void", think twice. Unless written for event handlers async void should be avoided at least because exceptions in such methods can tear down the whole application. See [this SO post](http://stackoverflow.com/a/12144426/220230). If you write such methods always surround it with a try-catch that catches the base Exception so no exception can escape.
+
+----------
+
+If you insists on using short variable names then use `ex` for exceptions and `e` for event handler arguments.
+
+----------
+
+When your class implements multiple interfaces with a lot of methods it's best to explicitly implement them. This way it's immediately visible which method corresponds to which interface.
+
+----------
+
+Using initialization methods on your classes like `Init()` is a sign of bad design most of the time as this requires the user to remember to call it before anything can be done. Consider refactoring the class to require necessary data through the constructor (probably even using a static factory) or by computing initialization data on the first demand, lazily.
+
+----------
+
+Service classes should be stateless, i.e. their methods should give the same output for the same input.
+
+----------
+
+When referencing another project from the same solution always add a project reference, not an assembly reference.

@@ -12,7 +12,7 @@ Instead of using the $ variable directly use a wrapper to inject the jQuery obje
 
 	// The dollar sign will be used only inside the anonymous function here.
 	(function ($) {
-		// Notice the shorthand document.ready function.
+		// Notice the shorthand document.ready function. Always wrap your jQuery DOM-manipulation code in the document.ready!
 	    $(function() {
 	        alert("Document ready!");
 	    });
@@ -37,3 +37,9 @@ Try to avoid adding variables to the global scope. A handy way of exposing globa
 		// You can use the above like this:
 		$.myModule.myClass.myMethod();
 	})(jQuery);
+
+----------
+
+When you want to access resources under a given URL of the current web application (like fetching data from a web API endpoint) never hard-code the URL into yours scripts. URLs can change and may depend on the environment (a trivial example being the usage of [ApplicationPath](http://msdn.microsoft.com/en-us/library/system.web.httprequest.applicationpath%28v=vs.110%29.aspx) that e.g. could prefix URL's during local development but can be empty in the production environment).
+
+Instead inject such information into your scripts from templates.

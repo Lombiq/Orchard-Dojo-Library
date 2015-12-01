@@ -2,6 +2,7 @@
 
 
 
+- Templates and the Shape Layout Element
 - Multi-tenancy
 - Command line
 	- "help" command
@@ -9,12 +10,16 @@
 - Writing recipes:
 	- Installing and enabling themes/features
 	- Command line commands
+	- Adding exported content types and content items
 - Optional: localization
 	- Installing a .po package with [Vandelay.TranslationManager](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Vandelay.Industries)
-	- Setting up locales
+	- Setting up locales and creating localized content items
+- Optional:
+	- Overriding the current theme's behaviour with theme Override
+	- Using a custom theme on [DotNest](https://dotnest.com/): Media Theme
 
-Time requirement: 0h 45m
+Time requirement: 2h 0m
 
-Dependencies: none
+Dependencies: [Intermediate content management](IntermediateContentManagement)
 
 Parent topic: [Core concepts and basic usage](./)

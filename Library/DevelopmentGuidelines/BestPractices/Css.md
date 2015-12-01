@@ -11,3 +11,7 @@ When something is possible to style in a straightforward way without the usage o
 ----------
 
 Try to avoid HTML markup that serves just to enable some kind of styling.
+
+----------
+
+For HTML classes and IDs use dashed names e.g. `this-is-a-class`. In Orchard modules you may prefix these with the module name.

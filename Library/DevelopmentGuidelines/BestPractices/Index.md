@@ -12,8 +12,8 @@
 
 ## Topics
 
-- [C#](CSharp)
-- [Orchard](Orchard)
-- [JavaScript](JavaScript)
-- [CSS](Css)
-- [Source Control](SourceControl)
+- [C# best practices](CSharp)
+- [Orchard best practices](Orchard)
+- [JavaScript best practices](JavaScript)
+- [CSS best practices](Css)
+- [Source control best practices](SourceControl)
