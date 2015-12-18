@@ -2,7 +2,7 @@
 
 
 
-The Orchard Dojo Library is a portable package of Orchard goodies. It supplements Orchard Dojo's trainings and tutorials.
+The Orchard Dojo Library is a portable package of Orchard goodies. It supplements Orchard Dojo's trainings and tutorials. These are also part of the best practices and guidelines we use at [Lombiq](http://lombiq.com/).
 
 - Topics:
 	- [Orchard Link Collection](LinkCollection): useful Orchard-related links
