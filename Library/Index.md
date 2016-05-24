@@ -15,4 +15,4 @@ The Orchard Dojo Library is a portable package of Orchard goodies. It supplement
 - [Contribution Guidelines](ContributionGuideLines)
 - [License](License)
 
-You can download the whole Library, file issues or fork it from its [repository](http://source.lombiq.com/orchard-dojo-library). Also you can download the Library's textual content as one big concatenated document in [HTML](http://orcharddojo.net/Lombiq.DownloadAs/Download/DownloadAs/172?Extension=html).
+You can download the whole Library, file issues or fork it from its [repository](https://github.com/Lombiq/Orchard-Dojo-Library). Also you can download the Library's textual content as one big concatenated document in [HTML](https://orcharddojo.net/Lombiq.DownloadAs/Download/DownloadAs/172?Extension=html).
