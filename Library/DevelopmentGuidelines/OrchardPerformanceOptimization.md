@@ -8,7 +8,7 @@ When optimizing an Orchard site's performance (or just putting it into productio
 
 - Debug is set to false in Web.config
 - Compiled in Release mode and deployed preferably with the Precompiled build target
-- Make sure you read [this useful compilation](http://msdn.microsoft.com/en-us/library/ee377050.aspx)
+- Make sure you read [Optimizing IIS Performance](https://msdn.microsoft.com/en-us/library/ee377050(v=bts.10).aspx)
 - Output caching (starting with the built-in OutputCache module), 2nd level caching (e.g. Syscache) is used when possible
 - [Combinator](https://orchard.codeplex.com/workitem/18793) is installed for bundling and minifying static resources to enhance client-side performance
 - Cookie-less domain or CDN is used for static resources (including Media files)
