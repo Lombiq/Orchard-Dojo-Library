@@ -4,7 +4,7 @@
 
 Doing static code reviews is a great way to improve code quality and share knowledge in a team.
 
-- Read [this study](http://www.ibm.com/developerworks/rational/library/11-proven-practices-for-peer-review/) about code reviews at Cisco; lot of good tips there. Also, (this article)[https://www.codeproject.com/Articles/1156196/Code-Review-Checklist] is an ideal and simple checklist that can be used for code review.
+- Read [this study](http://www.ibm.com/developerworks/rational/library/11-proven-practices-for-peer-review/) about code reviews at Cisco; lot of good tips there. Also, [this article](https://www.codeproject.com/Articles/1156196/Code-Review-Checklist) is an ideal and simple checklist that can be used for code review.
 - It's best to use a tool for code review where you can give comment for specific lines in the code. [Bitbucket](https://bitbucket.org/) and [GitHub](https://github.com/) both offer code line commenting for commits and pull requests. On Bitbucket you can "approve" commits and you can use this feauture during code reviews: when you reviewed a commit and found everything all right, then just approve it; otherwise, make comments on the code lines or the whole commit. Then later when all of your comments were addressed, you can approve that commit too. This way approval marks always show which commits shouldn't be dealt with any more.
 - When doing code review, not just look at the code lines but also try to understand the whole component you review pieces of. This way you can also give you opinion about higher-level architectural decisions.
 - Pay attention to pinpoint all kinds of issues: e.g. architectural, logical, styling, maintainability issues all count.
