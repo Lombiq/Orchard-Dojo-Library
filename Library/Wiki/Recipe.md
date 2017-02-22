@@ -58,4 +58,22 @@ You can also use parameters in the recipe as you can see in the the following se
 
 The Owner and the Author properties are set by the parameters name AdminUsername. When you execute a recipe you can pass an object containg properties that has been gathered from the UI.
 
+Roles can be configured through the roles menu in admin dasboard but also through a recipe step.
+
+A sample of roles configuration step:
+
+    {
+        "name": "roles",
+        "Roles": [
+            {
+                "Name": "Journalist",
+                "Permissions": [ "PublishContent", "EditContent" ]
+            },
+            {
+                "Name": "Suscriptor",
+                "Permissions": [ ]
+            },
+        ]
+    }
+
 For more information about scripting read the following [README.md file](https://github.com/OrchardCMS/Orchard2/blob/master/src/Orchard.Cms.Web/Modules/Orchard.Scripting/README.md "README.md file") in the Orchard Core repository.
