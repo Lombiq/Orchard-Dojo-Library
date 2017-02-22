@@ -2,6 +2,10 @@
 
 
 
+# In Orchard 1.x
+
+
+
 [Content items](ContentItem) in Orchard are versioned by default: this means that if you edit a content item and publish the modifications you don't overwrite what was previously published but you create a new version - that will be the published version.
 
 
@@ -27,3 +31,15 @@ That said let's see what happens:
 Beware that when you remove content items no record is really deleted as Orchard operates with soft deletes: content items are only marked deleted but remain in the database. Actually what happens is that all version of the content item get unpublished and simultaneously loose their flag of being latest; i.e. in the end no version will be marked as published nor latest, thus the item won't be found when fetching the published version.
 
 However, since the versions are still there, they can be retrieved through the [Content Manager](ContentManager).
+
+
+
+# In Orchard Core
+
+
+
+[Content items](ContentItem) in Orchard Core are also versioned by default: this means that if you edit a content item and publish the modifications you don't overwrite what was previously published but you create a new version - that will be the published version.
+
+When editing a [Content item](ContentItem) at the dashboard of Orchard Core, you have the ability to uncheck the Versionable option (which is true by default). In this case, Orchard will not save the previous versions of the content item if you update the current one.
+
+In Orchard Core there is no ContentItemVersionRecord, because these properties are also stored in the Content column of the Content table in a JSON serialized format of the ContentItem. The ContentItem has the *Number*, *Published* and *Latest* properties which are the same as in the ContentItemVersionRecord in Orchard 1.x.
