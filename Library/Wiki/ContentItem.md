@@ -31,4 +31,4 @@ In Orchard 1.x, ContentItem.Content is a dynamic property that will get the stat
 
     myContentItem.Alter<MyPart>(x => x.Text= "test");
 
-There is no ContentItemRecord. The ContentItem object now is the document which is stored in the ContentStorage and every version is a content item instance. It has an 'Id', which is the database ID of this version and it has a ContentItemId, which is the logical ID for the content item itself. It means if you have 5 versions of the same content item, you have 5 content item instances in the database and they will all have the same 'ContentItemId'.
+There is no ContentItemRecord. The ContentItem object now is the document which is stored in the ContentStorage and every version is a content item instance. It has an 'Id', which is the database ID of this version and it has a ContentItemId, which is the logical ID for the content item itself. ContentItemId is a base32 string, which is unique. It means if you have 5 versions of the same content item, you have 5 content item instances in the database and they will all have the same 'ContentItemId'.
