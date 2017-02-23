@@ -76,4 +76,4 @@ A sample of roles configuration step:
         ]
     }
 
-For more information about scripting read the following [README.md file](https://github.com/OrchardCMS/Orchard2/blob/master/src/Orchard.Cms.Web/Modules/Orchard.Scripting/README.md "README.md file") in the Orchard Core repository.
+For more information about scripting read the following [README.md file](https://github.com/OrchardCMS/Orchard2/blob/master/src/Orchard.Cms.Web/Modules/Orchard.Scripting/README.md "README.md file") and for more information about the recipe parameters check out this [README.md file](https://github.com/OrchardCMS/Orchard2/blob/master/src/Orchard.Cms.Web/Modules/Orchard.Setup/README.md) in the Orchard Core repository.
