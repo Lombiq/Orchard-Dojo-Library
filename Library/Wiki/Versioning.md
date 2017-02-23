@@ -43,3 +43,6 @@ However, since the versions are still there, they can be retrieved through the [
 When editing a [Content item](ContentItem) at the dashboard of Orchard Core, you have the ability to uncheck the Versionable option (which is true by default). In this case, Orchard will not save the previous versions of the content item if you update the current one.
 
 In Orchard Core there is no ContentItemVersionRecord, because these properties are also stored in the Content column of the Content table in a JSON serialized format of the ContentItem. The ContentItem has the *Number*, *Published* and *Latest* properties which are the same as in the ContentItemVersionRecord in Orchard 1.x.
+
+The *Author* is the name of the user who last modified this content item version. The *Owner* is the name of the user who first created this content item version.
+So they are not in the `CommonPart`, they are in the `ContentItem.cs`.
