@@ -8,9 +8,9 @@
 
 In Orchard Core the format of the recipe file is JSON instad of XML. A recipe file contains website configuration information. There are three types of recipes:
 
-- Blog.Recipe, that provides a functional Blog with CMS features.
-- Cms.Recipe, that provides a function set of CMS features.
-- Saas.Recipe, that doesn't enable any content management modules and every enabled module here has no dependency on the content management modules.
+- Blog, that provides a functional Blog with CMS features. This is a demo recipe with some content to showing the capabilities of Orchard Core.
+- Content Management System, that provides a functional set of CMS features and will enable all the modules from the content management folder called OrchardCore.Modules.Cms.
+- Software as a Service, that doesn't enable any content management modules and every enabled module here has no dependency on the content management modules.
 
 Orchard Core introduces a lot of new features when you work with recipe files.
 
