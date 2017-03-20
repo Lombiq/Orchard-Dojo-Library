@@ -18,9 +18,12 @@ Below you can find pieces of software that you should install for the best Orcha
 	- [Attach To All The Things](https://visualstudiogallery.msdn.microsoft.com/55af87cc-7220-4b4a-b898-be203c1379db) for quickly attaching the debugger to an IIS (Express) and other processes or [ReAttach](https://visualstudiogallery.msdn.microsoft.com/8cccc206-b9de-42ef-8f5a-160ad0f017ae) to quickly re-attach the debugger to previous debug targets.
 	- [SQL Server Compact & SQLite Toolbox](https://visualstudiogallery.msdn.microsoft.com/0e313dfd-be80-4afb-b5e9-6e74d369f7a1) for browsing an SQL CE database.
 	- [Code Maid](http://www.codemaid.net/) for various goodies, including progress indicator for builds.
+	- [Lombiq Orchard Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=LombiqVisualStudioExtension.LombiqOrchardVisualStudioExtension) with various Orchard-related features.
 - [Web Platform Installer](http://www.microsoft.com/web/downloads/platform.aspx) for installing any necessary local developer tool or SDK. Install WebMatrix for simply browsing local SQL CE databases if you don't use the SQL Server Compact & SQLite Toolbox VS extension linked above.
 - Local IIS and SQL Server (as well as SQL Server Management Studio) set up as per the following article: "[How-to: running Orchard locally through IIS using SQL Server](http://orcharddojo.net/blog/how-to-running-orchard-locally-through-iis-using-sql-server)"
-- Firefox with the [Firebug](https://getfirebug.com/), [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/) and [HttpRequester](https://addons.mozilla.org/En-us/firefox/addon/httprequester/) (or [REST Easy](https://addons.mozilla.org/en-US/firefox/addon/rest-easy/)) extensions installed (or any other browser with similar developer-aiding tools).
+- An up-to-date browser with developer-aiding tools:
+	- Chrome with the [JavaScript Errors Notifier](https://chrome.google.com/webstore/detail/javascript-errors-notifie/jafmfknfnkoekkdocjiaipcnmkklaajd?hl=en) extension to get notified of client-side errors easily.
+	- Firefox with the [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/) and [HttpRequester](https://addons.mozilla.org/En-us/firefox/addon/httprequester/) (or [REST Easy](https://addons.mozilla.org/en-US/firefox/addon/rest-easy/)) extensions.
 - [Fiddler](http://www.telerik.com/fiddler) for inspecting any HTTP traffic. 
 
 
