@@ -25,5 +25,6 @@ There are 3 helpers in Orchard Core, which are:
 - *dateformat*, which is returning the current date in a given format, for instance {{dateformat "yyyy/MM/dd"}}
 - *slug*, which is replacing spaces by dashes and lowering the letters of the DisplayText property of the ContentItemMetaData.
 - *content* is returning the current content item and with the help of this helper, you can access anything from the content item. For instance you can access the `ContentItemID` by entering the {{content.ContentItemId}} or the Title of the TitlePart by using {{content.Content.TitlePart.Title}}
+- *image*, which gets a content item by the ContentItemId from the Content Manager and after the MediaFileStore generates a public URL of this content item. The usage of this token is: {{{image ContentItemId}}}. Note that there are 3 braces around this token. It means that this won't be HTML encoded, it will be raw HTML. Using 2 braces is the default one, that will encode the result. Whatever you return, that will be HTML encoded.
 
 You can also use tokens in the BodyPart by setting the RenderTokens property to true.
