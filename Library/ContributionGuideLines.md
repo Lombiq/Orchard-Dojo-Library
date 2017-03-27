@@ -12,4 +12,5 @@ The Library is stored as Markdown-formatted text files in a repository on [Bitbu
 - You can use relative links to link between files; paths are the same online as they are in the repository. Keep in mind that links to folders (when the Index file is opened automatically) must end with a slash (/) while links to files shouldn't.
 - Add 3 line breaks after an H1, 2 before (if it's not immediately after an H1) and 1 after an H2.
 - When adding inline code snippets use the `apostroph-delimited syntax`.
+- When adding paths or filenames set them as emphasized (italic) like _C:\path\to\file.txt_.
 - Keep in mind that Markdown should also be valid HTML, so encode HTML entities accordingly. E.g. use the encoded version of the &lt; and &gt; signs (see this source).
