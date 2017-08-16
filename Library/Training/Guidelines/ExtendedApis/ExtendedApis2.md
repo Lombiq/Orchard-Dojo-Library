@@ -6,9 +6,10 @@
 - Workflows (IActivity) providers:
 	- Events
 	- Tasks
+- Creating a custom Layouts (Dynamic Forms) Element
 - Overriding Orchard services with OrchardSuppressDependency
 
-Time requirement: 1h 30m
+Time requirement: 3h
 
 Dependencies: [Intermediate techniques in module development](../ModuleDevelopmentAndApis/IntermediateTechniquesInModuleDevelopment)
 
