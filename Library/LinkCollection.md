@@ -17,20 +17,11 @@
 
 ## Community sites
 
-- [Belgium](http://www.orchardproject.be/)
-- [China](http://www.orchardch.com/)
-- [Colombia](http://www.orchardproject.co/)
+- [China](http://www.orchardch.com/))
 - [France](http://orchardproject.fr/)
-- [Hispana](http://www.orchardhispano.com/)
 - [India](http://www.orchardproject.net.in/)
 - [Iran](http://orchardpro.ir/)
-- [Israel](http://orchardproject.org.il/)
-- [Italia](http://www.orcharditalia.net/)
 - [Magyarország](http://orchardproject.hu/)
-- [Nederland](http://orchard-project.nl/)
-- [Portugal](http://www.orchardproject.pt/)
-- [Russia](http://orchardproject.net.ru/)
-- [Switzerland](http://www.orchardproject.ch/)
 
 
 ## Blogs
