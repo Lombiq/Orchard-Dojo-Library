@@ -14,4 +14,4 @@ A work context scope is the lowest dependency scope commonly used. It also has a
 
 Most of the time you don't have to manage the work context yourself since the ambient work context around requests and background tasks are managed for you.
 
-`IWorkContextAccessor` is also passed into `RouteData.DataTokens`. This way the `WorkContext` (and thus, Orchard services) can be accessed from code that is not under dependency injection like HTML helpers and attributes. See [Sipke's tutorial](http://skywalkersoftwaredevelopment.net/blog/orchard-webapi-global-actionfilters-and-dependency-injection) on taking advantage of this.
+`IWorkContextAccessor` is also passed into `RouteData.DataTokens`. This way the `WorkContext` (and thus, Orchard services) can be accessed from code that is not under dependency injection like HTML helpers and attributes. See [Sipke's tutorial](http://www.ideliverable.com/blog/orchard-webapi-global-actionfilters-and-dependency-resolution) on taking advantage of this.
