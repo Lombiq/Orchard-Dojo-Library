@@ -26,20 +26,7 @@
 
 ## Blogs
 
-- [Benedikt Neuhold's blog](http://neuhold.pro/)
-- [Benohead](http://benohead.com/)
-- [Cloud Construct's Blog](http://www.cloudconstruct.com/blog)
-- [David Hayden's blog](http://www.davidhayden.me/blog)
-- [Kobowi](http://kobowi.co.uk/blog/)
-- [Orchard Hungary](http://english.orchardproject.hu/)
-- [Rudolph Koegelenberg's blog](http://www.rudolphk.co.za)
-- [Sebastien Ros's blog](http://sebastienros.com/)
-- [Shades of orange](http://shades-of-orange.com/) software development blog
-- [Skywalker Software Development - Sipke Schoorstra's blog](http://skywalkersoftwaredevelopment.net/blog)
-- [Tales from the Evil Empire - Bertrand Le Roy's blog](http://weblogs.asp.net/bleroy/default.aspx)
-- [Tech Musings - Chris Bower' blog](http://chrisbower.com/)
-- [The Mayne Issue - Nicholas Mayne's blog](http://www.themayneissue.com/)
-- [Thoughts on .NET & Orchard - Piotr Szmyd's blog](http://www.szmyd.com.pl/blog)
+All blogs from the Orchard community are automatically scraped by [Orchard Blogs](https://orchardblogs.dotnest.com/).
 
 
 ## Technologies behind Orchard
