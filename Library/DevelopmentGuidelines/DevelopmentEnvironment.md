@@ -20,6 +20,7 @@ Below you can find pieces of software that you should install for the best Orcha
 	- [Code Maid](http://www.codemaid.net/) for various goodies, including progress indicator for builds.
 	- [Lombiq Orchard Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=LombiqVisualStudioExtension.LombiqOrchardVisualStudioExtension) with various Orchard-related features.
 	- [Visual Studio Spell Checker](https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellChecker) for avoiding typos in comments and other texts.
+	- [File Nesting](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileNesting) is very handy when adding files to a project with dependencies between them (e.g. scss files with corresponding css, min.css and css.map files).
 - [Web Platform Installer](http://www.microsoft.com/web/downloads/platform.aspx) for installing any necessary local developer tool or SDK. Install WebMatrix for simply browsing local SQL CE databases if you don't use the SQL Server Compact & SQLite Toolbox VS extension linked above.
 - Local IIS and SQL Server (as well as SQL Server Management Studio) set up as per the following article: "[How-to: running Orchard locally through IIS using SQL Server](http://orcharddojo.net/blog/how-to-running-orchard-locally-through-iis-using-sql-server)"
 - An up-to-date browser with developer-aiding tools:
