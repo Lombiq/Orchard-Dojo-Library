@@ -6,7 +6,7 @@
 
 - [Orchard homepage](http://orchardproject.net/)
 	- [Documentation](http://docs.orchardproject.net/)
-	- [Translations](http://orchardproject.net/localization)
+	- [Translations](https://crowdin.com/project/orchard-cms) (and for [modules in the Gallery](https://crowdin.com/project/orchard-cms-gallery))
 - [Orchard GitHub project homepage ](https://github.com/OrchardCMS/Orchard)
 	-  [Issue tracker](https://github.com/OrchardCMS/Orchard/issues)
 	-  [Releases](https://github.com/OrchardCMS/Orchard/releases)
@@ -17,7 +17,7 @@
 
 ## Community sites
 
-- [China](http://www.orchardch.com/))
+- [China](http://www.orchardch.com/)
 - [France](http://orchardproject.fr/)
 - [India](http://www.orchardproject.net.in/)
 - [Iran](http://orchardpro.ir/)
@@ -40,7 +40,7 @@ All blogs from the Orchard community are automatically scraped by [Orchard Blogs
 
 ## Miscellaneous
 
-- [Community Meetings recordings](http://www.youtube.com/playlist?list=PL49EB89430968C7D4) and [meeting room](http://orchardproject.net/meeting)
+- [Community Meetings recordings](https://www.youtube.com/playlist?list=PLuskKJW0FhJfOAN3dL0Y0KBMdG1pKESVn) and [meeting room](http://orchardproject.net/meeting)
 - [DotNest, the Orchard SaaS](http://dotnest.com/)
 - [Orchard Beginner](http://orchardbeginner.com/)
 - [Orchard Cheatsheet](http://sebastienros.github.io/CheatSheet/)
