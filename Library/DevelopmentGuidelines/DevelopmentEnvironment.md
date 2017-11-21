@@ -9,7 +9,7 @@ Some advices on how to set up your development environment for Orchard Developme
 
 Below you can find pieces of software that you should install for the best Orchard developer experience.
 
-- Visual Studio 2015, 2017 or later with the following plug-ins (where no download link is supplied you can install the extension from within VS via Extensions and Updates):
+- Visual Studio 2015, 2017 or later with the following plug-ins:
 	- [Web Essentials](http://vswebessentials.com/) for better client-side development tooling.
 	- [Web Compiler](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler) to be able to easily compile client-side assets (e.g. LESS to CSS).
 	- [ASP.NET and Web Tools](https://marketplace.visualstudio.com/items?itemName=JacquesEloff.MicrosoftASPNETandWebTools-9689) for VS 2015 also for better client-side development tooling.
@@ -27,6 +27,8 @@ Below you can find pieces of software that you should install for the best Orcha
 	- Chrome with the [JavaScript Errors Notifier](https://chrome.google.com/webstore/detail/javascript-errors-notifie/jafmfknfnkoekkdocjiaipcnmkklaajd?hl=en) extension to get notified of client-side errors easily.
 	- Firefox with the [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/) and [HttpRequester](https://addons.mozilla.org/En-us/firefox/addon/httprequester/) (or [REST Easy](https://addons.mozilla.org/en-US/firefox/addon/rest-easy/)) extensions.
 - [Fiddler](http://www.telerik.com/fiddler) for inspecting any HTTP traffic. 
+
+Make sure to [always run Visual Studio as an administrator](https://stackoverflow.com/a/9654880/220230)!
 
 
 ## Visual Studio tips
