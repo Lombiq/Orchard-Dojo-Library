@@ -2,7 +2,7 @@
 
 
 
-To effectively use this collection of VS snippets just point the Snippets Manager to where you cloned or downloaded this folder. To do this go under Tools/Code Snippets Manager/Add and Add the whole folder.
+To effectively use this collection of VS snippets just point the Snippets Manager to where you cloned or downloaded this folder. To do this go under Tools/Code Snippets Manager/select the C# language/Add and Add the whole folder.
 
 Note that since C# snippets (unlike VB ones) don't support adding namespaces no matter how we wanted this otherwise you'll need to always add namespaces yourself.
 
