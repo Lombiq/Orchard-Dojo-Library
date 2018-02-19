@@ -2,9 +2,9 @@
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
 	<CodeSnippet Format="1.0.0">
 		<Header>
-			<Title>privcn</Title>
-			<Shortcut>privcn</Shortcut>
-			<Description>Code snippet for creating a private constant field that returns its own name.</Description>
+			<Title>pubcn</Title>
+			<Shortcut>pubcn</Shortcut>
+			<Description>Code snippet for creating a public constant field that returns its own name.</Description>
 			<Author>Lombiq</Author>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
@@ -19,7 +19,7 @@
 				</Literal>
 			</Declarations>
 			<Code Language="csharp">
-				<![CDATA[private const string $field$ = nameof($field$);$end$]]>
+				<![CDATA[public const string $field$ = nameof($field$);$end$]]>
 			</Code>
 		</Snippet>
 	</CodeSnippet>
