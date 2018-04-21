@@ -17,4 +17,4 @@ src/Orchard.Web/App_Data/(?!Localization).+
 src/Orchard.Web/Media/(?!Web.config|OrchardLogo.png).+
 src/packages/*
 packages/
-.vs/*
+\.vs/*
