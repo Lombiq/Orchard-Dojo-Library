@@ -6,7 +6,7 @@
 
 - [Orchard homepage](http://orchardproject.net/)
 	- [Documentation](http://docs.orchardproject.net/)
-	- [Translations](http://orchardproject.net/localization)
+	- [Translations](https://crowdin.com/project/orchard-cms) (and for [modules in the Gallery](https://crowdin.com/project/orchard-cms-gallery))
 - [Orchard GitHub project homepage ](https://github.com/OrchardCMS/Orchard)
 	-  [Issue tracker](https://github.com/OrchardCMS/Orchard/issues)
 	-  [Releases](https://github.com/OrchardCMS/Orchard/releases)
@@ -17,38 +17,16 @@
 
 ## Community sites
 
-- [Belgium](http://www.orchardproject.be/)
 - [China](http://www.orchardch.com/)
-- [Colombia](http://www.orchardproject.co/)
 - [France](http://orchardproject.fr/)
-- [Hispana](http://www.orchardhispano.com/)
 - [India](http://www.orchardproject.net.in/)
 - [Iran](http://orchardpro.ir/)
-- [Israel](http://orchardproject.org.il/)
-- [Italia](http://www.orcharditalia.net/)
 - [Magyarország](http://orchardproject.hu/)
-- [Nederland](http://orchard-project.nl/)
-- [Portugal](http://www.orchardproject.pt/)
-- [Russia](http://orchardproject.net.ru/)
-- [Switzerland](http://www.orchardproject.ch/)
 
 
 ## Blogs
 
-- [Benedikt Neuhold's blog](http://neuhold.pro/)
-- [Benohead](http://benohead.com/)
-- [Cloud Construct's Blog](http://www.cloudconstruct.com/blog)
-- [David Hayden's blog](http://www.davidhayden.me/blog)
-- [Kobowi](http://kobowi.co.uk/blog/)
-- [Orchard Hungary](http://english.orchardproject.hu/)
-- [Rudolph Koegelenberg's blog](http://www.rudolphk.co.za)
-- [Sebastien Ros's blog](http://sebastienros.com/)
-- [Shades of orange](http://shades-of-orange.com/) software development blog
-- [Skywalker Software Development - Sipke Schoorstra's blog](http://skywalkersoftwaredevelopment.net/blog)
-- [Tales from the Evil Empire - Bertrand Le Roy's blog](http://weblogs.asp.net/bleroy/default.aspx)
-- [Tech Musings - Chris Bower' blog](http://chrisbower.com/)
-- [The Mayne Issue - Nicholas Mayne's blog](http://www.themayneissue.com/)
-- [Thoughts on .NET & Orchard - Piotr Szmyd's blog](http://www.szmyd.com.pl/blog)
+All blogs from the Orchard community are automatically scraped by [Orchard Blogs](https://orchardblogs.dotnest.com/).
 
 
 ## Technologies behind Orchard
@@ -62,7 +40,7 @@
 
 ## Miscellaneous
 
-- [Community Meetings recordings](http://www.youtube.com/playlist?list=PL49EB89430968C7D4) and [meeting room](http://orchardproject.net/meeting)
+- [Community Meetings recordings](https://www.youtube.com/playlist?list=PLuskKJW0FhJfOAN3dL0Y0KBMdG1pKESVn) and [meeting room](http://orchardproject.net/meeting)
 - [DotNest, the Orchard SaaS](http://dotnest.com/)
 - [Orchard Beginner](http://orchardbeginner.com/)
 - [Orchard Cheatsheet](http://sebastienros.github.io/CheatSheet/)

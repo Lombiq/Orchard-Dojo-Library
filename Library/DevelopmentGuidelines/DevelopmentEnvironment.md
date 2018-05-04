@@ -9,19 +9,27 @@ Some advices on how to set up your development environment for Orchard Developme
 
 Below you can find pieces of software that you should install for the best Orchard developer experience.
 
-- Visual Studio 2015 or later with the following plug-ins (where no download link is supplied you can install the extension from within VS via Extensions and Updates):
+- Visual Studio 2015, 2017 or later with the following plug-ins:
 	- [Web Essentials](http://vswebessentials.com/) for better client-side development tooling.
-	- [Web Compiler](https://visualstudiogallery.msdn.microsoft.com/3b329021-cd7a-4a01-86fc-714c2d05bb6c) to be able to easily compile client-side assets (e.g. LESS to CSS).
-	- [ASP.NET and Web Tools](https://visualstudiogallery.msdn.microsoft.com/c94a02e9-f2e9-4bad-a952-a63a967e3935) also for better client-side development tooling
-	- [TestDriven.Net](http://www.testdriven.net/download.aspx) or [NUnit Test Adapter](https://visualstudiogallery.msdn.microsoft.com/6ab922d0-21c0-4f06-ab5f-4ecd1fe7175d?SRC=VSIDE) for running unit tests (beware with NUnit Test Adapter that you have to build the solution while Test Explorer is open to get tests discovered; then use "Group By -> Project" to see better).
-	- [Productivity Power Tools 2015](https://visualstudiogallery.msdn.microsoft.com/34ebc6a2-2777-421d-8914-e29c1dfa7f5d)  mostly for the feature of being able to clean-up unneeded using statements and for re-opening files just closed.
-	- [Attach To All The Things](https://visualstudiogallery.msdn.microsoft.com/55af87cc-7220-4b4a-b898-be203c1379db) for quickly attaching the debugger to an IIS (Express) and other processes or [ReAttach](https://visualstudiogallery.msdn.microsoft.com/8cccc206-b9de-42ef-8f5a-160ad0f017ae) to quickly re-attach the debugger to previous debug targets.
-	- [SQL Server Compact & SQLite Toolbox](https://visualstudiogallery.msdn.microsoft.com/0e313dfd-be80-4afb-b5e9-6e74d369f7a1) for browsing an SQL CE database.
+	- [Web Compiler](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler) to be able to easily compile client-side assets (e.g. LESS to CSS).
+	- [ASP.NET and Web Tools](https://marketplace.visualstudio.com/items?itemName=JacquesEloff.MicrosoftASPNETandWebTools-9689) for VS 2015 also for better client-side development tooling.
+	- [TestDriven.Net](http://www.testdriven.net/download.aspx) or [NUnit Test Adapter](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.NUnitTestAdapter) for running unit tests (beware with NUnit Test Adapter that you have to build the solution while Test Explorer is open to get tests discovered; then use "Group By -> Project" to see better).
+	- [Productivity Power Tools 2017](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProductivityPowerPack2017) or [Productivity Power Tools 2015](https://visualstudiogallery.msdn.microsoft.com/34ebc6a2-2777-421d-8914-e29c1dfa7f5d) mostly for the feature of being able to clean-up unneeded using statements and for re-opening files just closed.
+	- [Attach To All The Things](https://marketplace.visualstudio.com/items?itemName=thebread.AttachToAllTheThings) for quickly attaching the debugger to an IIS (Express) and other processes or [ReAttach](https://marketplace.visualstudio.com/items?itemName=ErlandR.ReAttach) to quickly re-attach the debugger to previous debug targets.
+	- [SQL Server Compact & SQLite Toolbox](https://marketplace.visualstudio.com/items?itemName=ErikEJ.SQLServerCompactSQLiteToolbox) for browsing an SQL CE database.
 	- [Code Maid](http://www.codemaid.net/) for various goodies, including progress indicator for builds.
+	- [Lombiq Orchard Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=LombiqVisualStudioExtension.LombiqOrchardVisualStudioExtension) with various Orchard-related features.
+	- [Visual Studio Spell Checker (VS2017 and Later)](https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellCheckerVS2017andLater) or [Visual Studio Spell Checker (VS2013/VS2015)](https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellChecker) for avoiding typos in comments and other texts.
+	- [Markdown Editor](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor) to be able to edit Markdown files with a preview window (which can also be used to easily browse Markdown-formatted documentation files locally).
+	- [File Nesting](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileNesting) is very handy when adding files to a project with dependencies between them (e.g. scss files with corresponding css, min.css and css.map files).
 - [Web Platform Installer](http://www.microsoft.com/web/downloads/platform.aspx) for installing any necessary local developer tool or SDK. Install WebMatrix for simply browsing local SQL CE databases if you don't use the SQL Server Compact & SQLite Toolbox VS extension linked above.
 - Local IIS and SQL Server (as well as SQL Server Management Studio) set up as per the following article: "[How-to: running Orchard locally through IIS using SQL Server](http://orcharddojo.net/blog/how-to-running-orchard-locally-through-iis-using-sql-server)"
-- Firefox with the [Firebug](https://getfirebug.com/), [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/) and [HttpRequester](https://addons.mozilla.org/En-us/firefox/addon/httprequester/) (or [REST Easy](https://addons.mozilla.org/en-US/firefox/addon/rest-easy/)) extensions installed (or any other browser with similar developer-aiding tools).
+- An up-to-date browser with developer-aiding tools:
+	- Chrome with the [JavaScript Errors Notifier](https://chrome.google.com/webstore/detail/javascript-errors-notifie/jafmfknfnkoekkdocjiaipcnmkklaajd?hl=en) extension to get notified of client-side errors easily.
+	- Firefox with the [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/) and [HttpRequester](https://addons.mozilla.org/En-us/firefox/addon/httprequester/) (or [REST Easy](https://addons.mozilla.org/en-US/firefox/addon/rest-easy/)) extensions.
 - [Fiddler](http://www.telerik.com/fiddler) for inspecting any HTTP traffic. 
+
+Make sure to [always run Visual Studio as an administrator](https://stackoverflow.com/a/9654880/220230)!
 
 
 ## Visual Studio tips

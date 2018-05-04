@@ -46,6 +46,10 @@
     <SearchSettingsPart FilterCulture="false" />
     <WarmupSettingsPart Scheduled="false" Delay="90" OnPublish="false" />
   </Settings>
+
+  <Roles>
+    <Role Name="Anonymous" Permissions="AccessFrontEnd,ViewContent" />
+  </Roles>
   
   <Data>
     <Blog Id="/alias=blog" Status="Published">

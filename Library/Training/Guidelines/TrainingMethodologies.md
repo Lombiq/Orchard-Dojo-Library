@@ -48,3 +48,4 @@ Since intensive courses should be tailored to the participants' needs the follow
 - Live demonstration of some inner workings with the debugger (e.g. demonstrating how the tree of shapes is built up)
 - Showing aspects of the Orchard API without running them just so participants can get to know what piece of API to look for when they want to achieve something (e.g. IStorageProvider is a good candidate: it's easy to use but one needs to know about it).
 - Few hour-long hackathon with a certain aim (e.g. to develop a module that's needed by the participants)
+- Code review: participants write some code on their own, then the trainer checks them and comments on them line by line with code review tools. Common mistakes can be discussed with the whole group.
