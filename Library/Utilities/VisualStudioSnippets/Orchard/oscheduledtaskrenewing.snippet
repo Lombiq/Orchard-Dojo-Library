@@ -52,18 +52,12 @@
             $end$
           }
           
-          public void Activated()
-          {
-            Renew(false);
-          }
+          public void Activated() => Renew(false);
 
           public void Terminating() { }
 
 
-          private void Renew(bool calledFromTaskProcess)
-          {
-            _scheduledTaskManager.CreateTaskIfNew(TaskType, _clock.UtcNow.AddMinutes($rerunminutes$), null, calledFromTaskProcess);
-          }
+          private void Renew(bool calledFromTaskProcess) => scheduledTaskManager.CreateTaskIfNew(TaskType, _clock.UtcNow.AddMinutes($rerunminutes$), null, calledFromTaskProcess);
         }]]>
       </Code>
     </Snippet>

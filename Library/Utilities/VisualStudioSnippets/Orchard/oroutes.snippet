@@ -21,18 +21,15 @@
       <Code Language="csharp">
         <![CDATA[public class $name$Routes : IRouteProvider
         {
-          public void GetRoutes(ICollection<RouteDescriptor> routes)
-          {
-          foreach (var routeDescriptor in GetRoutes()) routes.Add(routeDescriptor);
-          }
+            public void GetRoutes(ICollection<RouteDescriptor> routes)
+            {
+                foreach (var routeDescriptor in GetRoutes()) routes.Add(routeDescriptor);
+            }
 
-          public IEnumerable<RouteDescriptor> GetRoutes()
-          {
-            return new[]
-      {
-        $end$
-      };
-          }
+            public IEnumerable<RouteDescriptor> GetRoutes() => new[]
+            {
+                $end$
+            };
         }]]>
       </Code>
     </Snippet>

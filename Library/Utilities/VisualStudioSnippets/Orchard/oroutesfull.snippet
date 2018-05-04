@@ -41,34 +41,31 @@
       <Code Language="csharp">
         <![CDATA[public class $name$Routes : IRouteProvider
         {
-          public void GetRoutes(ICollection<RouteDescriptor> routes)
-          {
-            foreach (var routeDescriptor in GetRoutes()) routes.Add(routeDescriptor);
-          }
+            public void GetRoutes(ICollection<RouteDescriptor> routes)
+            {
+                foreach (var routeDescriptor in GetRoutes()) routes.Add(routeDescriptor);
+            }
           
-          public IEnumerable<RouteDescriptor> GetRoutes()
-          {
-            return new[]
-      {
-        new RouteDescriptor
-        {
-          Route = new Route(
-            "$url$",
-            new RouteValueDictionary
+            public IEnumerable<RouteDescriptor> GetRoutes() => new[]
             {
-              {"area", "$area$"},
-              {"controller", "$controller$"},
-              {"action", "$action$"}
-            },
-            new RouteValueDictionary(),
-            new RouteValueDictionary
-            {
-              {"area", "$area$"}
-            },
-            new MvcRouteHandler())
-        }
-      };
-          }
+                new RouteDescriptor
+                {
+                    Route = new Route(
+                    "$url$",
+                    new RouteValueDictionary
+                    {
+                        {"area", "$area$"},
+                        {"controller", "$controller$"},
+                        {"action", "$action$"}
+                    },
+                    new RouteValueDictionary(),
+                    new RouteValueDictionary
+                    {
+                        {"area", "$area$"}
+                    },
+                    new MvcRouteHandler())
+                }
+            };
         }$end$]]>
       </Code>
     </Snippet>
