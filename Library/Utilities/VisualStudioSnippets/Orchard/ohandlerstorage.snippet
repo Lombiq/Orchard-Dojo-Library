@@ -21,10 +21,7 @@
 			<Code Language="csharp">
 				<![CDATA[public class $name$PartHandler : ContentHandler$end$
 				{
-					public $name$PartHandler(IRepository<$name$PartRecord> repository)
-					{
-						Filters.Add(StorageFilter.For(repository));
-					}
+					public $name$PartHandler(IRepository<$name$PartRecord> repository) => Filters.Add(StorageFilter.For(repository));
 				}]]>
 			</Code>
 		</Snippet>

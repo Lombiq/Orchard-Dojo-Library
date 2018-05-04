@@ -26,20 +26,15 @@
 			<Code Language="csharp">
 				<![CDATA[public class $name$PartDriver : ContentPartDriver<$name$Part>
 				{
-					protected override DriverResult Display($name$Part part, string displayType, dynamic shapeHelper)
-					{
-						return ContentShape("Parts_$name$",
+					protected override DriverResult Display($name$Part part, string displayType, dynamic shapeHelper) => ContentShape("Parts_$name$",
 							() => shapeHelper.Parts_$name$());
-					}
 
-					protected override DriverResult Editor($name$Part part, dynamic shapeHelper)
-					{
-						return ContentShape("Parts_$name$_Edit",
+					protected override DriverResult Editor($name$Part part, dynamic shapeHelper) => ContentShape("Parts_$name$_Edit",
 							() => shapeHelper.EditorTemplate(
 								TemplateName: "Parts.$name$",
 								Model: part,
 								Prefix: Prefix));
-					}
+					
 
 					protected override DriverResult Editor($name$Part part, IUpdateModel updater, dynamic shapeHelper)
 					{
