@@ -40,23 +40,15 @@
       </Declarations>
       <Code Language="csharp">
         <![CDATA[public class $name$Permissions : IPermissionProvider
-                {
-                    public static readonly Permission $permission$ = new Permission { Category = "$category$", Description = "$description$", Name = "$permission$" };
+        {
+            public static readonly Permission $permission$ = new Permission { Category = "$category$", Description = "$description$", Name = "$permission$" };
 
-                    public virtual Feature Feature { get; set; }
+            public virtual Feature Feature { get; set; }
 
-          
-                    public IEnumerable<Permission> GetPermissions()
-                    {
-                        return new[]
-            {
-                $permission$
-            };
-                    }
+  
+            public IEnumerable<Permission> GetPermissions() => new[] { $permission$ };
 
-                    public IEnumerable<PermissionStereotype> GetDefaultStereotypes()
-                    {
-                        return new[]
+            public IEnumerable<PermissionStereotype> GetDefaultStereotypes() => new[]
             {
                 new PermissionStereotype
                 {
@@ -64,8 +56,7 @@
                     Permissions = new[] { $permission$ }
                 }
             };
-                    }
-                }$end$]]>
+        }$end$]]>
       </Code>
     </Snippet>
   </CodeSnippet>
