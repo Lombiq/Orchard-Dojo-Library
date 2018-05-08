@@ -25,34 +25,34 @@
       </Declarations>
       <Code Language="csharp">
         <![CDATA[[TestFixture]
-                public class $name$Tests
-                {
-                    private IContainer _container;
+        public class $name$Tests
+        {
+            private IContainer _container;
 
 
-                    [SetUp]
-                    public virtual void Init()
-                    {
-                        var builder = new ContainerBuilder();
+            [SetUp]
+            public virtual void Init()
+            {
+                var builder = new ContainerBuilder();
 
-                        builder.RegisterAutoMocking(MockBehavior.Loose);
+                builder.RegisterAutoMocking(MockBehavior.Loose);
 
-                        $end$
+                $end$
 
-                        _container = builder.Build();
-                    }
+                _container = builder.Build();
+            }
 
-                    [TestFixtureTearDown]
-                    public void Clean()
-                    {
-                    }
+            [TestFixtureTearDown]
+            public void Clean()
+            {
+            }
 
 
-                    [Test]
-                    public void $testCaseName$()
-                    {
-                    }
-                }]]>
+            [Test]
+            public void $testCaseName$()
+            {
+            }
+        }]]>
       </Code>
     </Snippet>
   </CodeSnippet>
