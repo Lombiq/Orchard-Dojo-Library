@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
-	<CodeSnippet Format="1.0.0">
-		<Header>
-			<Title>opartandrecord</Title>
-			<Shortcut>opartandrecord</Shortcut>
-			<Description>Code snippet for a content part with a corresponding part record.</Description>
-			<Author>Lombiq</Author>
-			<SnippetTypes>
-				<SnippetType>Expansion</SnippetType>
-			</SnippetTypes>
-		</Header>
-		<Snippet>
-			<Declarations>
-				<Literal>
-					<ID>name</ID>
-					<ToolTip>Name of the part</ToolTip>
-					<Default>My</Default>
-				</Literal>
-			</Declarations>
-			<Code Language="csharp">
-				<![CDATA[public class $name$Part : ContentPart<$name$PartRecord>
-				{
-					
-				}
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>opartandrecord</Title>
+      <Shortcut>opartandrecord</Shortcut>
+      <Description>Code snippet for a content part with a corresponding part record.</Description>
+      <Author>Lombiq</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Name of the part</ToolTip>
+          <Default>My</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[public class $name$Part : ContentPart<$name$PartRecord>
+        {
+            
+        }
 
 
-				public class $name$PartRecord : ContentPartRecord
-				{
-					$end$
-				}]]>
-			</Code>
-		</Snippet>
-	</CodeSnippet>
+        public class $name$PartRecord : ContentPartRecord
+        {
+            $end$
+        }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
 </CodeSnippets>

@@ -35,15 +35,15 @@
           
             private readonly IScheduledTaskManager _scheduledTaskManager;
             private readonly IClock _clock;
-        
-        
+            
+            
             public $name$Task(IScheduledTaskManager scheduledTaskManager, IClock clock)
             {
                 _scheduledTaskManager = scheduledTaskManager;
                 _clock = clock;
             }
-        
-        
+            
+            
             public void Process(ScheduledTaskContext context)
             {
                 if (context.Task.TaskType != TaskType) return;
@@ -51,7 +51,7 @@
                 Renew(true);
                 $end$
             }
-          
+            
             public void Activated() => Renew(false);
 
             public void Terminating() { }
