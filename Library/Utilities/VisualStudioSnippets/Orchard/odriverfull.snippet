@@ -28,31 +28,31 @@
         {
             protected override DriverResult Display($name$Part part, string displayType, dynamic shapeHelper) => ContentShape("Parts_$name$",
               ( ) => shapeHelper.Parts_$name$());
-
+            
             protected override DriverResult Editor($name$Part part, dynamic shapeHelper) => ContentShape("Parts_$name$_Edit",
                 () => shapeHelper.EditorTemplate(
                   TemplateName: "Parts.$name$",
                   Model: part,
                   Prefix: Prefix));
-          
-
+            
+            
             protected override DriverResult Editor($name$Part part, IUpdateModel updater, dynamic shapeHelper)
             {
                 updater.TryUpdateModel(part, Prefix, null, null);
                 return Editor(part, shapeHelper);
             }
-
+            
             protected override void Exporting($name$Part part, ExportContentContext context)
             {
                 var element = context.Element(part.PartDefinition.Name);
-
+                
                 element.SetAttributeValue("$property$", part.$property$);
             }
-
+            
             protected override void Importing($name$Part part, ImportContentContext context)
             {
                 var partName = part.PartDefinition.Name;
-
+                
                 context.ImportAttribute(partName, "$property$", value => part.$property$ = value);
             }
         }$end$]]>

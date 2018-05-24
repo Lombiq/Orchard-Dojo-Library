@@ -29,9 +29,8 @@
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[private readonly LazyField<$type$> _$field$ = new LazyField<$type$>();
-            internal LazyField<$type$> $property$Field => _$field$;
-            public $type$ $property$ => _$field$.Value;$end$]]>
+        <![CDATA[internal LazyField<$type$> $property$Field { get; } = new LazyField<$type$>();
+            public $type$ $property$ => $property$Field.Value;$end$]]>
       </Code>
     </Snippet>
   </CodeSnippet>

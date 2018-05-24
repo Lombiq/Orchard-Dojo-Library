@@ -28,26 +28,26 @@
         public class $name$Tests
         {
             private IContainer _container;
-
-
+            
+            
             [SetUp]
             public virtual void Init()
             {
                 var builder = new ContainerBuilder();
-
+                
                 builder.RegisterAutoMocking(MockBehavior.Loose);
-
+                
                 $end$
-
+                
                 _container = builder.Build();
             }
-
+            
             [TestFixtureTearDown]
             public void Clean()
             {
             }
-
-
+            
+            
             [Test]
             public void $testCaseName$()
             {
