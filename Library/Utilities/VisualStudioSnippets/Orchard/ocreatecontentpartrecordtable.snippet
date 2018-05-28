@@ -19,7 +19,7 @@
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[SchemaBuilder.CreateTable(typeof($name$PartRecord).Name,
+        <![CDATA[SchemaBuilder.CreateTable(nameof($name$PartRecord),
             table => table
                 .ContentPartRecord()
                 $end$

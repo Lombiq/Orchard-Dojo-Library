@@ -19,7 +19,7 @@
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[SchemaBuilder.CreateTable(typeof($name$Record).Name,
+        <![CDATA[SchemaBuilder.CreateTable(nameof($name$Record),
             table => table
                 .Column<int>("Id", column => column.PrimaryKey().Identity())$end$
             );]]>
