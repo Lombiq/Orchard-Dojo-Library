@@ -38,7 +38,7 @@
             
             protected override DriverResult Editor($name$Part part, IUpdateModel updater, dynamic shapeHelper)
             {
-                updater.TryUpdateModel(part, Prefix, null, null);
+                updater?.TryUpdateModel(part, Prefix, null, null);
                 return Editor(part, shapeHelper);
             }
             
