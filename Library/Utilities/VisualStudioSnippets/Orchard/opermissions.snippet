@@ -41,7 +41,7 @@
       <Code Language="csharp">
         <![CDATA[public class $name$Permissions : IPermissionProvider
         {
-            public static readonly Permission $permission$ = new Permission { Category = "$category$", Description = "$description$", Name = "$permission$" };
+            public static readonly Permission $permission$ = new Permission { Category = "$category$", Description = "$description$", Name = nameof($permission$) };
             
             public virtual Feature Feature { get; set; }
             

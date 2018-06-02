@@ -20,7 +20,7 @@
       </Declarations>
       <Code Language="csharp">
         <![CDATA[SchemaBuilder.CreateTable(nameof($name$Record), table => table
-                .Column<int>("Id", column => column.PrimaryKey().Identity())$end$
+                .Column<int>(nameof(Id), column => column.PrimaryKey().Identity())$end$
             );]]>
       </Code>
     </Snippet>

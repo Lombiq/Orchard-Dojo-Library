@@ -46,14 +46,14 @@
             {
                 var element = context.Element(part.PartDefinition.Name);
                 
-                element.SetAttributeValue("$property$", part.$property$);
+                element.SetAttributeValue(nameof($property$), part.$property$);
             }
             
             protected override void Importing($name$Part part, ImportContentContext context)
             {
                 var partName = part.PartDefinition.Name;
                 
-                context.ImportAttribute(partName, "$property$", value => part.$property$ = value);
+                context.ImportAttribute(partName, nameof($property$), value => part.$property$ = value);
             }
         }$end$]]>
       </Code>
