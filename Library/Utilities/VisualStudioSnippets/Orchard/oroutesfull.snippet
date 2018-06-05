@@ -48,24 +48,24 @@
             
             public IEnumerable<RouteDescriptor> GetRoutes() => new[]
             {
-        new RouteDescriptor
-        {
-            Route = new Route(
-            "$url$",
-            new RouteValueDictionary
-            {
-                {"area", "$area$"},
-                {"controller", "$controller$"},
-                {"action", "$action$"}
-            },
-            new RouteValueDictionary(),
-            new RouteValueDictionary
-            {
-                {"area", "$area$"}
-            },
-            new MvcRouteHandler())
-        }
-    };
+                new RouteDescriptor
+                {
+                    Route = new Route(
+                    "$url$",
+                    new RouteValueDictionary
+                    {
+                        {"area", "$area$"},
+                        {"controller", "$controller$"},
+                        {"action", "$action$"}
+                    },
+                    new RouteValueDictionary(),
+                    new RouteValueDictionary
+                    {
+                        {"area", "$area$"}
+                    },
+                    new MvcRouteHandler())
+                }
+            };
         }$end$]]>
       </Code>
     </Snippet>
