@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
-	<CodeSnippet Format="1.0.0">
-		<Header>
-			<Title>oproprecordstoreretrieve</Title>
-			<Shortcut>oproprecordstoreretrieve</Shortcut>
-			<Description>Code snippet for creating a property for an Orchard Content Part with Store() and Retrieve() if there's a corresponding Content Part Record.</Description>
-			<Author>Lombiq</Author>
-			<SnippetTypes>
-				<SnippetType>Expansion</SnippetType>
-			</SnippetTypes>
-		</Header>
-		<Snippet>
-			<Declarations>
-				<Literal>
-					<ID>type</ID>
-					<ToolTip>Property type</ToolTip>
-					<Default>string</Default>
-				</Literal>
-				<Literal>
-					<ID>property</ID>
-					<ToolTip>Property name</ToolTip>
-					<Default>MyProperty</Default>
-				</Literal>
-			</Declarations>
-			<Code Language="csharp">
-				<![CDATA[public $type$ $property$
-				{
-					get { return Retrieve(x => x.$property$); }
-					set { Store(x => x.$property$, value); }
-				}$end$]]>
-			</Code>
-		</Snippet>
-	</CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>oproprecordstoreretrieve</Title>
+      <Shortcut>oproprecordstoreretrieve</Shortcut>
+      <Description>Code snippet for creating a property for an Orchard Content Part with Store() and Retrieve() if there's a corresponding Content Part Record.</Description>
+      <Author>Lombiq</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>type</ID>
+          <ToolTip>Property type</ToolTip>
+          <Default>string</Default>
+        </Literal>
+        <Literal>
+          <ID>property</ID>
+          <ToolTip>Property name</ToolTip>
+          <Default>MyProperty</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[public $type$ $property$
+        {
+            get => Retrieve(x => x.$property$);
+            set => Store(x => x.$property$, value);
+        }$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
 </CodeSnippets>

@@ -19,15 +19,16 @@
           <Default>ex</Default>
         </Literal>
       </Declarations>
-      <Code Language="csharp"><![CDATA[try 
-  {	        
-    $selected$
-  }
-  catch (Exception $exception$)
-  {
-        if (ex.IsFatal()) throw;
-    $end$
-  }]]>
+      <Code Language="csharp">
+        <![CDATA[try
+        {
+            $selected$
+        }
+        catch (Exception $exception$)
+        {
+            if (ex.IsFatal()) throw;
+            $end$
+        }]]>
       </Code>
     </Snippet>
   </CodeSnippet>
