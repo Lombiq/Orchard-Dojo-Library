@@ -19,11 +19,10 @@
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[SchemaBuilder.CreateTable(typeof($name$PartRecord).Name,
-                table => table
-                    .ContentPartRecord()
-                    $end$
-                );]]>
+        <![CDATA[SchemaBuilder.CreateTable(nameof($name$PartRecord), table => table
+                .ContentPartRecord()
+                $end$
+            );]]>
       </Code>
     </Snippet>
   </CodeSnippet>

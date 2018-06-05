@@ -31,39 +31,33 @@
       <Code Language="csharp">
         <![CDATA[public class $name$Task : IScheduledTaskHandler, IOrchardShellEvents
         {
-          private const string TaskType = "$moduleName$.$name$";
+            private const string TaskType = "$moduleName$.$name$";
           
-          private readonly IScheduledTaskManager _scheduledTaskManager;
-          private readonly IClock _clock;
-        
-          
-          public $name$Task(IScheduledTaskManager scheduledTaskManager, IClock clock)
-          {
-            _scheduledTaskManager = scheduledTaskManager;
-            _clock = clock;
-          }
-        
-        
-          public void Process(ScheduledTaskContext context)
-          {
-            if (context.Task.TaskType != TaskType) return;
-          
-                        Renew(true);
-            $end$
-          }
-          
-          public void Activated()
-          {
-            Renew(false);
-          }
-
-          public void Terminating() { }
-
-
-          private void Renew(bool calledFromTaskProcess)
-          {
-            _scheduledTaskManager.CreateTaskIfNew(TaskType, _clock.UtcNow.AddMinutes($rerunminutes$), null, calledFromTaskProcess);
-          }
+            private readonly IScheduledTaskManager _scheduledTaskManager;
+            private readonly IClock _clock;
+            
+            
+            public $name$Task(IScheduledTaskManager scheduledTaskManager, IClock clock)
+            {
+                _scheduledTaskManager = scheduledTaskManager;
+                _clock = clock;
+            }
+            
+            
+            public void Process(ScheduledTaskContext context)
+            {
+                if (context.Task.TaskType != TaskType) return;
+                
+                Renew(true);
+                $end$
+            }
+            
+            public void Activated() => Renew(false);
+            
+            public void Terminating() { }
+            
+            
+            private void Renew(bool calledFromTaskProcess) => scheduledTaskManager.CreateTaskIfNew(TaskType, _clock.UtcNow.AddMinutes($rerunminutes$), null, calledFromTaskProcess);
         }]]>
       </Code>
     </Snippet>
