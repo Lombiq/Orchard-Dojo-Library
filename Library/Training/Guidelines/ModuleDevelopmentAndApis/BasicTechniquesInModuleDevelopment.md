@@ -6,13 +6,13 @@
 	- Records and repositories, record migrations
 	- Content manager:
 		- Content querying, updating and removal
-		- Joins and QueryHints for optimization
-	- Abstracted file storage with IStorageProvider
+		- Joins and `QueryHints` for optimization
+	- Abstracted file storage with `IStorageProvider`
 - Exception handling:
 	- OrchardException
-	- IsFatal()
+	- `IsFatal()`
 - Ad-hoc shape creation
-- OrchardFeature attribute
+- `OrchardFeature` attribute
 
 Time requirement: 3h 0m
 

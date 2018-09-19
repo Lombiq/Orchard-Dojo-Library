@@ -3,11 +3,11 @@
 
 
 - Token providers
-- Workflows (IActivity) providers:
+- Workflows (`IActivity`) providers:
 	- Events
 	- Tasks
 - Creating a custom Layouts (Dynamic Forms) Element
-- Overriding Orchard services with OrchardSuppressDependency
+- Overriding Orchard services with `OrchardSuppressDependency`
 
 Time requirement: 3h
 
