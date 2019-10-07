@@ -11,7 +11,7 @@
 		- Deploy to IIS
 	- Dependencies, triggers, environment variables
 
-Time requirement: 1h 0m
+Time requirement: 2h 0m
 
 Dependencies: [Manual deployment](ManualDeployment)
 

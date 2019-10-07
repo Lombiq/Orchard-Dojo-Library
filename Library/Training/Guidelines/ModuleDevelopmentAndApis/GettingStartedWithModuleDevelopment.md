@@ -16,10 +16,10 @@
 	- Localizer
 	- Logger
 	- Work Context
-	- Creating a dependency: difference between IDependency, ITransientDependency and ISingletonDependency
+	- Creating a dependency: difference between `IDependency`, `ITransientDependency` and `ISingletonDependency`
 	- Ways of injection:
 		- Single dependency
-		- IEnumerable<TDependency>
+		- `IEnumerable<TDependency>`
 		- Lazy injection: `Work<T>` and `Lazy<T>`
 
 Time requirement: 1h 30m
