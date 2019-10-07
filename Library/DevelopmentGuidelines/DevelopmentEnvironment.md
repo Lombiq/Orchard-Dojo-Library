@@ -26,7 +26,6 @@ Below you can find pieces of software that you should install for the best Orcha
 - Local IIS and SQL Server (as well as SQL Server Management Studio) set up as per the following article: "[How-to: running Orchard locally through IIS using SQL Server](http://orcharddojo.net/blog/how-to-running-orchard-locally-through-iis-using-sql-server)"
 - An up-to-date browser with developer-aiding tools:
 	- Chrome with the [JavaScript Errors Notifier](https://chrome.google.com/webstore/detail/javascript-errors-notifie/jafmfknfnkoekkdocjiaipcnmkklaajd?hl=en) extension to get notified of client-side errors easily.
-	- Firefox with the [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/) and [HttpRequester](https://addons.mozilla.org/En-us/firefox/addon/httprequester/) (or [REST Easy](https://addons.mozilla.org/en-US/firefox/addon/rest-easy/)) extensions.
 - [Fiddler](http://www.telerik.com/fiddler) for inspecting any HTTP traffic. 
 
 Make sure to [always run Visual Studio as an administrator](https://stackoverflow.com/a/9654880/220230)!
