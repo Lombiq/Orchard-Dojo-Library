@@ -27,8 +27,7 @@ Below you can find pieces of software that you should install for the best Orcha
 	- [EditorConfig Language Service](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) if you want to .editorconfig files.
 - [Web Platform Installer](http://www.microsoft.com/web/downloads/platform.aspx) for installing any necessary local developer tool or SDK. Install WebMatrix for simply browsing local SQL CE databases if you don't use the SQL Server Compact & SQLite Toolbox VS extension linked above.
 - Local IIS and SQL Server (as well as SQL Server Management Studio) set up as per the following article: "[How-to: running Orchard locally through IIS using SQL Server](http://orcharddojo.net/blog/how-to-running-orchard-locally-through-iis-using-sql-server)"
-- An up-to-date browser with developer-aiding tools:
-	- Chrome with the [JavaScript Errors Notifier](https://chrome.google.com/webstore/detail/javascript-errors-notifie/jafmfknfnkoekkdocjiaipcnmkklaajd?hl=en) extension to get notified of client-side errors easily.
+- An up-to-date browser with developer-aiding tools. Recommended is Chrome with the [JavaScript Errors Notifier](https://chrome.google.com/webstore/detail/javascript-errors-notifie/jafmfknfnkoekkdocjiaipcnmkklaajd?hl=en) extension to get notified of client-side errors easily (it's a bit like the Orchard Error Log Watcher feature of the Lombiq Orchard Visual Studio Extension).
 - [Fiddler](http://www.telerik.com/fiddler) for inspecting any HTTP traffic. 
 
 Make sure to [always run Visual Studio as an administrator](https://stackoverflow.com/a/9654880/220230)!
