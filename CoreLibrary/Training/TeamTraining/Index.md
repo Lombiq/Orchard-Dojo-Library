@@ -3,7 +3,7 @@
 
 
 - How to write code?
-	- Agree on and follow [common guidelines](../../../DevelopmentGuidelines/) and conventions
+	- Agree on and follow [common guidelines](../../DevelopmentGuidelines/) and conventions
 	- Importance of documentation
 	- Utilizing .editorconfig
 - How to share code and other application data?

@@ -2,7 +2,7 @@
 
 
 
-- Orchard ecosystem as under the [Orchard link collection](../../../LinkCollection)
+- Orchard ecosystem as under the [Orchard link collection](../../LinkCollection)
 - Showcasing complex/notable Orchard apps from [Show Orchard](http://showorchard.com).
 - Architectural overview
 	- ASP.NET Core -> ASP.NET Core MVC -> Orchard Core

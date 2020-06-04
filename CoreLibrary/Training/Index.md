@@ -24,7 +24,7 @@ Enumeration of technologies and paradigms used in Orchard: C#, [ASP.NET Core MVC
 The following tools are needed for an Orchard training:
 
 - Lab computers or participants' computers:
-	- Software listed under "Software to install" in "[Development environment advices](../../DevelopmentGuidelines/DevelopmentEnvironment)".
+	- Software listed under "Software to install" in "[Development environment advices](../DevelopmentGuidelines/DevelopmentEnvironment)".
 	- Administrative account to install other components if necessary and to avoid permission issues when running Orchard
 - Trainer's PC having all of the above and connected to a projector for demonstrations
 - A whiteboard or something similar
