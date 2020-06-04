@@ -10,6 +10,6 @@
 
 Time requirement: 3h
 
-Dependencies: [Getting started in module development](GettingStartedWithModuleDevelopment)
+Dependencies: [Getting started with module development](GettingStartedWithModuleDevelopment)
 
 Parent topic: [Module development and APIs](./)
