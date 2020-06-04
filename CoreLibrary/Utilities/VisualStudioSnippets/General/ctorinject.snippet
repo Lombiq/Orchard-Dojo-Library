@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ctorinject</Title>
+      <Shortcut>ctorinject</Shortcut>
+      <Description>Code snippet for constructor with dependency injection</Description>
+      <Author>Lombiq</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="false">
+          <ID>classname</ID>
+          <ToolTip>Class name</ToolTip>
+          <Function>ClassName()</Function>
+          <Default>ClassNamePlaceholder</Default>
+        </Literal>
+        <Literal>
+          <ID>type</ID>
+          <ToolTip>Dependency type</ToolTip>
+          <Default>IDependency</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Dependency name</ToolTip>
+          <Default>dependency</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[private readonly $type$ _$name$;
+            
+            
+            public $classname$ ($type$$end$ $name$)
+            {
+                _$name$ = $name$;
+            }
+            
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

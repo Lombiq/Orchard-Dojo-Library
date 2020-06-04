@@ -2,13 +2,13 @@
 
 
 
-The Orchard Dojo Library is a portable package of Orchard goodies. It supplements [Orchard Dojo](http://orcharddojo.net)'s trainings and tutorials. For accessing the Library from the web, go to [orcharddojo.net/orchard-resources/Library/](http://orcharddojo.net/orchard-resources/Library/) (you can also download the Library's textual content as a single document form there). The Library's project page is under [source.lombiq.com/orchard-dojo-library](http://source.lombiq.com/orchard-dojo-library).
+## About
 
-The Orchard Dojo Library is backed by the team behind Orchard Dojo, [Lombiq](http://lombiq.com).
+The Orchard Dojo Library is a portable package of Orchard Core and Orchard 1.x goodies. It supplements [Orchard Dojo](https://orcharddojo.net)'s trainings and tutorials. For accessing the Library from the web, go to [orcharddojo.net/orchard-resources/CoreLibrary](http://orcharddojo.net/orchard-resources/CoreLibrary/) for the Orchard Core version and [orcharddojo.net/orchard-resources/Library](http://orcharddojo.net/orchard-resources/Library/) for the Orchard 1.x. version (you can also download the Library's textual content as a single document form there). The Library's project page is on [GitHub](https://github.com/Lombiq/Orchard-Dojo-Library).
 
-The Orchard Dojo Library is available in two public source repositories, automatically mirrored in both directions with [Git-hg Mirror](https://githgmirror.com):
 
-- [https://bitbucket.org/Lombiq/orchard-dojo-library](https://bitbucket.org/Lombiq/orchard-dojo-library) (Mercurial repository)
-- [https://github.com/Lombiq/Orchard-Dojo-Library](https://github.com/Lombiq/Orchard-Dojo-Library) (Git repository)
+## Contributing and support
 
-Bug reports, feature requests and comments are warmly welcome, **please do so via GitHub**. Feel free to send pull requests too, no matter which source repository you choose for this purpose.
+Bug reports, feature requests, comments, questions, code contributions, and love letters are warmly welcome, please do so via GitHub issues and pull requests. Please adhere to our [open-source guidelines](https://lombiq.com/open-source-guidelines) while doing so.
+
+This project is developed by the team behind Orchard Dojo, [Lombiq Technologies](https://lombiq.com/). Commercial-grade support is available through Lombiq.

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>privr</Title>
+      <Shortcut>privr</Shortcut>
+      <Description>Code snippet for creating a private readonly field.</Description>
+      <Author>Lombiq</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>type</ID>
+          <ToolTip>Field type</ToolTip>
+          <Default>string</Default>
+        </Literal>
+        <Literal>
+          <ID>field</ID>
+          <ToolTip>Field name</ToolTip>
+          <Default>myField</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[private readonly $type$ _$field$;$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
