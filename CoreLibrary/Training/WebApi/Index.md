@@ -2,8 +2,8 @@
 
 
 
-- Creating simple API controllers
-- Defining custom API routes
+- Creating RESTful API controllers
+- Building GraphQL queries
 
 Time requirement: 1h 0m
 

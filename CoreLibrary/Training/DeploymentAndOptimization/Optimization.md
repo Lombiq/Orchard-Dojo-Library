@@ -2,14 +2,12 @@
 
 
 
-- Installing performance-tuning modules:
-	- Enterprise-level caching with Orchard.Caching
-	- Output caching with the Output Cache module
-	- Resource bundling and minification with [Combinator](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Piedone.Combinator)
-	- Second level NHibernate caching with SysCache
-- Profiling with [Orchard MVC Mini Profiler](http://orchardprofiler.codeplex.com/)
+- Understanding the implications of basic built-in performance-related features:
+	- SQL indices defined in migrations
+	- Cache attributes of the `menu` and `shape` tag helpers
+- Profiling with the Mini Profiler module
 
-Time requirement: 0h 45m
+Time requirement: 0h 30m
 
 Dependencies: [Basic techniques in module development](../ModuleDevelopmentAndApis/BasicTechniquesInModuleDevelopment)
 

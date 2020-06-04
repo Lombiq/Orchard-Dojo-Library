@@ -6,7 +6,7 @@
 	- Explaining the Manifest (BaseTheme), Startup class
 	- Usual folders
 	- Razor vs Liquid, tag helpers
-- Code generation
+- Code generation templates
 - Shapes
 	- Notion of shapes, tree of shapes
 	- The notion and use of the Layout shape, checking it out with the debugger

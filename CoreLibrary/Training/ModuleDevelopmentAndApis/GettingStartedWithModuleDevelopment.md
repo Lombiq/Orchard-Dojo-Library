@@ -2,25 +2,20 @@
 
 
 
-- Orchard structural overview:
-	- Contents of the Orchard folder (libraries, source, App_Data, module/theme folders...)
+- Structural overview of the Orchard source
+	- Contents of the Orchard folder (docs, *App_Data* in *OrchardCore.Cms.Web*, module/theme folders...)
 	- Solution overview
-- Module structure:
-	- Module.txt: features and dependencies
-	- Scripts, Styles, Views folder
-	- Other folders
-- Command line scaffolding
+- Module structure (OrchardCore.Media is a good complete example)
+	- Manifest: features and dependencies
+	- Views, wwwroot folders
+	- Other conventional folders
+- Code generation templates
 - Integrating with the current theme
-- Dependency injection and basic services
+- Dependency injection and basic services on the example of a simple controller
 	- Notifier
-	- Localizer
+	- Localizers
 	- Logger
-	- Work Context
-	- Creating a dependency: difference between `IDependency`, `ITransientDependency` and `ISingletonDependency`
-	- Ways of injection:
-		- Single dependency
-		- `IEnumerable<TDependency>`
-		- Lazy injection: `Work<T>` and `Lazy<T>`
+	- T-strings in templates
 
 Time requirement: 1h 30m
 

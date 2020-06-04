@@ -2,13 +2,11 @@
 
 
 
-- Optional: writing unit tests
-	- Mocking and using stubs for services (including existing stubs for Orchard services)
-	- Database-enabled tests
-	- Running unit tests with TestDriven.Net
-- Releasing to the Gallery
+- Writing tests
+- Middlewares
+- Integrating with client-side build pipelines using [Lombiq NPM MSBuild Targets](https://github.com/Lombiq/NPM-Targets) or using Vue with the [Vue.js module](https://github.com/Lombiq/Orchard-Vue.js).
 
-Time requirement: 1h 0m
+Time requirement: 2h 0m
 
 Dependencies: [Basic techniques in module development](BasicTechniquesInModuleDevelopment)
 

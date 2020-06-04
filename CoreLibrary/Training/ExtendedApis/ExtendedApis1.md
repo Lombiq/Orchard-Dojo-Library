@@ -3,13 +3,9 @@
 
 
 - Common Orchard provider model
-- Form provider
-- Projector providers:
-	- Filter provider
-	- Sort criteria provider
-	- Layout provider
+- Extending Queries with `IQuerySource`
 
-Time requirement: 1h 30m
+Time requirement: 1h
 
 Dependencies: [Intermediate techniques in module development](../ModuleDevelopmentAndApis/IntermediateTechniquesInModuleDevelopment)
 

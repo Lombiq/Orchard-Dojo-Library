@@ -3,15 +3,14 @@
 
 
 - Content part development
-	- Parts and part records, versioning, `LazyField`
-	- Content type migrations
-	- Drivers: display and edit methods, export/import
+	- Parts and their comparison to entities, part data storage
+	- Content type and content part migrations, code generation with [Helpful Extensions](https://github.com/Lombiq/Helpful-Extensions/tree/orchard-core-preview#code-generation-helpful-extensions)
+	- Drivers: Display and edit methods
 	- Editor and display shapes
-	- Handlers and filters
+	- Handlers
 	- Placement
-- Content field development
 - Exercise
-	- Module scaffolding
+	- Module code generation
 	- SpaceShip content type
 	- Title part for name
 	- `AutoroutePart` for url
@@ -19,9 +18,9 @@
 		- Captain
 		- Class
 		- Number of crew
-	- `MediaPickerField` (needs the Fields feature) for an image: for this also a shape template override (hint: Shape Tracing) with a stylesheet include (e.g. the image should be displayed with rounded corners)
+	- `MediaPickerField` (needs the Fields feature) for an image: for this also a shape template override with a stylesheet include (e.g. the image should be displayed with rounded corners)
 
-Time requirement: 3h 0m
+Time requirement: 2h 0m
 
 Dependencies: [Basic techniques in module development](BasicTechniquesInModuleDevelopment)
 

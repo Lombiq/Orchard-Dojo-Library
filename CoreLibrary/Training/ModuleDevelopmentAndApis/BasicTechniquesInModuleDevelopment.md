@@ -2,19 +2,13 @@
 
 
 
-- Data storage:
-	- Records and repositories, record migrations
-	- Content manager:
-		- Content querying, updating and removal
-		- Joins and `QueryHints` for optimization
-	- Abstracted file storage with `IStorageProvider`
-- Exception handling:
-	- OrchardException
-	- `IsFatal()`
-- Ad-hoc shape creation
-- `OrchardFeature` attribute
+- Displaying entities with display management
+- Basic document storage
+	- Storing documents in the database for entities with `ISession`
+	- Indices, migrations, and querying
+- Abstracted file storage with `IMediaFileStore`
 
-Time requirement: 3h 0m
+Time requirement: 3h
 
 Dependencies: [Getting started in module development](GettingStartedInModuleDevelopment)
 

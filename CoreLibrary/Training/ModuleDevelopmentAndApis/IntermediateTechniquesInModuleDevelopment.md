@@ -2,11 +2,11 @@
 
 
 
-- Custom routes
-- Navigation providers: implementing an admin menu (with corresponding admin controller)
-- Resource manifest
-- Filters: result and action filters, `FilterProvider`
-- Event bus and event handlers; creating a "filter" extension point with prioritized injected dependencies (like `IHtmlFilter`)
+- Custom routes with attribute routing and route maps
+- Filters:
+	- Injecting shapes into the layout
+	- Registering resources from filters (alternatively easier with [Helpful Libraries](https://github.com/Lombiq/Helpful-Libraries/blob/orchard-core-preview/Docs/ResourceManagementLibraries.md))
+- Events and hooking into events like `ILoginFormEvent`
 - Permissions and authorization
 - Background tasks
 

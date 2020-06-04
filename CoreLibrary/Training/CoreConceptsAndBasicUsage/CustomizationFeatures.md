@@ -4,7 +4,7 @@
 
 - Templates
 - Multi-tenancy
-- Writing recipes:
+- Writing recipes
 	- Installing and enabling themes/features
 	- Commands
 	- Adding exported content types and content items

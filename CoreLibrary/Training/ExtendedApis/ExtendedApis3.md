@@ -4,9 +4,9 @@
 
 - Creating an admin theme
 - Advanced shapes:
-	- Shape events
-	- Shape table providers
-	- Shape methods
+	- `IShapeDisplayEvents`
+	- `IShapeTableProvider` implementation to add alternates, wrappers, classes, hook into events
+	- Shape methods with the `Shape` attribute (see `DemoShapeProvider`)
 
 Time requirement: 1h 30m
 

@@ -15,8 +15,4 @@ The below topics are the core of what an Orchard developer should know. Other, l
 
 ## Addendum
 
-Most of this comes from [Sipke Schoorstra’s Orchard Harvest session](http://www.youtube.com/watch?v=MH9mcodTX-U) content (APIs, content part development).
-
-We've created a demo module for the purpose of teaching all the topics here with well explained examples. See the [Orchard Training Demo module](https://github.com/Lombiq/Orchard-Training-Demo-Module).
-
-The [Orchard Cheat Sheet](http://sebastienros.github.com/CheatSheet/) by Sébastien Ros is a great small API reference.
+We've created a demo module for the purpose of teaching all the topics here with well explained examples, the [Orchard Training Demo module](https://github.com/Lombiq/Orchard-Training-Demo-Module). The training topics here loosely follow the Training Demo. If you want to use the Training Demo as a reference when giving a training, even copy-pasting from it then the [Comment Remover](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommentRemover) Visual Studio extension can come handy: You can remove the Training Demo's comments so they're not clutter while you explain the same thing.
