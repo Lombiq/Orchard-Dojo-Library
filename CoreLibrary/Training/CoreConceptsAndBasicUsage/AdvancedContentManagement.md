@@ -9,6 +9,7 @@
 - Forms, Liquid and Workflows
  	- An overview of Workflows features
  	- Overview of Liquid
+	- Using Forms, using ReCaptcha to prevent spam
  	- Demo: creating a workflow that displays a greeting for users upon logon, displaying their name with Liquid ( `Hello {{User.Identity.Name}}!`)
 	- Demo: creating a contact form and handling form posts with a workflow
 - Auditing content with Audit Trail

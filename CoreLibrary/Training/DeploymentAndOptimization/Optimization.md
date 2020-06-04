@@ -5,6 +5,7 @@
 - Understanding the implications of basic built-in performance-related features:
 	- SQL indices defined in migrations
 	- Cache attributes of the `menu` and `shape` tag helpers
+- General guidelines under [../../DevelopmentGuidelines](OrchardPerformanceOptimization)
 - Profiling with the Mini Profiler module
 
 Time requirement: 0h 30m

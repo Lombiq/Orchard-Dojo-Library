@@ -4,7 +4,7 @@
 
 - Structural overview of the Orchard source
 	- Contents of the Orchard folder (docs, *App_Data* in *OrchardCore.Cms.Web*, module/theme folders...)
-	- Solution overview
+	- Solution overview, a look at how Orchard structures projects (packages)
 - Module structure (OrchardCore.Media is a good complete example)
 	- Manifest: features and dependencies
 	- Views, wwwroot folders

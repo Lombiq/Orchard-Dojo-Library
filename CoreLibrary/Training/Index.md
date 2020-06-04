@@ -15,7 +15,7 @@ For methodologies for various forms of Orchard training see [training methodolog
 Enumeration of technologies and paradigms used in Orchard: C#, [ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview), [C# LINQ](http://msdn.microsoft.com/en-us/library/vstudio/bb397926.aspx), [C# lambda expressions](http://msdn.microsoft.com/en-us/library/bb397687.aspx), [dependency injection](http://en.wikipedia.org/wiki/Dependency_injection), [inversion of control container](http://www.martinfowler.com/articles/injection.html), [loose coupling](http://en.wikipedia.org/wiki/Loose_coupling), [document database](https://en.wikipedia.org/wiki/Document-oriented_database) SQL, [composition over inheritance](http://en.wikipedia.org/wiki/Composition_over_inheritance), [single responsibility principle](http://en.wikipedia.org/wiki/Single_responsibility_principle), [separation of concerns](http://en.wikipedia.org/wiki/Separation_of_concerns), [Json.NET](https://www.newtonsoft.com/json), [Razor syntax](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor).
 
 - Mandatory: basic usage of Visual Studio, basic knowledge of C#, basic knowledge of client-side web development (HTML, CSS, JS).
-- Strongly advised: basic understanding of ASP.NET Core MVC and strong knowledge of C#.
+- Strongly advised: basic understanding of Git or some other source control system, ASP.NET Core MVC, and strong knowledge of C#.
 - Advised: understanding inversion of control containers and dependency injection, usage of Razor.
 
 
