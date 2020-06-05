@@ -1,8 +1,8 @@
-# Orchard Dojo Library license
+# Orchard Dojo Library for Orchard Core license
 
 
 
-Copyright © 2014, [Lombiq Technologies Ltd.](https://lombiq.com)
+Copyright © 2020, [Lombiq Technologies Ltd.](https://lombiq.com)
 
 All rights reserved.
 

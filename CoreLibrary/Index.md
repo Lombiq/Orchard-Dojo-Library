@@ -1,4 +1,4 @@
-# Orchard Dojo Library - Orchard Core
+# Orchard Dojo Library for Orchard Core
 
 
 

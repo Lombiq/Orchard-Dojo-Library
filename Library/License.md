@@ -1,4 +1,4 @@
-# Orchard Dojo Library license
+# Orchard Dojo Library for Orchard 1.x license
 
 
 

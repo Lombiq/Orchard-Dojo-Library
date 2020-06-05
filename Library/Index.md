@@ -1,4 +1,4 @@
-# Orchard Dojo Library - Orchard 1.x
+# Orchard Dojo Library for Orchard 1.x
 
 
 
