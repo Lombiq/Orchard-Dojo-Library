@@ -3,7 +3,7 @@
 
 
 - Creating RESTful API controllers
-- Building GraphQL queries
+- Building GraphQL queries, using the GraphiQL browser
 
 Time requirement: 1h 0m
 
