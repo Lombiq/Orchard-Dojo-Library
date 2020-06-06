@@ -13,6 +13,7 @@ For methodologies for various forms of Orchard training see [training methodolog
 ## Prerequisite knowledge of participants
 
 During courses we routinely touch on various technologies and paradigms used by Orchard. The knowledge of these is thus an advantage though not a necessity, and participants will also have a chance to learn about them in practice. Here are some keywords of some technologies and paradigms used in Orchard Core:
+
 - Fundamentals: Advanced C#, [ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview).
 - Patterns and paradigms: [Dependency injection](http://en.wikipedia.org/wiki/Dependency_injection), [loose coupling](http://en.wikipedia.org/wiki/Loose_coupling), [document database](https://en.wikipedia.org/wiki/Document-oriented_database) and SQL, [composition over inheritance](http://en.wikipedia.org/wiki/Composition_over_inheritance), [single responsibility principle](http://en.wikipedia.org/wiki/Single_responsibility_principle), [separation of concerns](http://en.wikipedia.org/wiki/Separation_of_concerns), [modular programming](https://en.wikipedia.org/wiki/Modular_programming), [multi-tenancy](https://en.wikipedia.org/wiki/Multitenancy).
 - Server-side technologies: [Json.NET](https://www.newtonsoft.com/json), [Razor syntax](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor) and [Liquid templates](https://shopify.github.io/liquid/), [NuGet packages](https://nuget.org/), [GraphQL](https://graphql.org/) and [RESTful](https://restfulapi.net/) APIs.
