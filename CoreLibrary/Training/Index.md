@@ -2,7 +2,7 @@
 
 
 
-The following guidelines serve as a base for [Orchard trainings](https://orcharddojo.net/orchard-training) and you're welcome to hold your own Orchard Core training using these guidelines.
+The following guidelines serve as a base for [Orchard Core trainings](https://orcharddojo.net/orchard-training) and you're welcome to hold your own Orchard Core training using these guidelines.
 
 
 ## Training methodologies
@@ -10,13 +10,19 @@ The following guidelines serve as a base for [Orchard trainings](https://orchard
 For methodologies for various forms of Orchard training see [training methodologies](TrainingMethodologies).
 
 
-## Prerequisites for the participants
+## Prerequisite knowledge of participants
 
-Enumeration of technologies and paradigms used in Orchard: C#, [ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview), [C# LINQ](http://msdn.microsoft.com/en-us/library/vstudio/bb397926.aspx), [C# lambda expressions](http://msdn.microsoft.com/en-us/library/bb397687.aspx), [dependency injection](http://en.wikipedia.org/wiki/Dependency_injection), [inversion of control container](http://www.martinfowler.com/articles/injection.html), [loose coupling](http://en.wikipedia.org/wiki/Loose_coupling), [document database](https://en.wikipedia.org/wiki/Document-oriented_database) SQL, [composition over inheritance](http://en.wikipedia.org/wiki/Composition_over_inheritance), [single responsibility principle](http://en.wikipedia.org/wiki/Single_responsibility_principle), [separation of concerns](http://en.wikipedia.org/wiki/Separation_of_concerns), [Json.NET](https://www.newtonsoft.com/json), [Razor syntax](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor).
+During courses we routinely touch on various technologies and paradigms used by Orchard. The knowledge of these is thus an advantage though not a necessity, and participants will also have a chance to learn about them in practice. Here are some keywords of some technologies and paradigms used in Orchard Core:
+- Fundamentals: Advanced C#, [ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview).
+- Patterns and paradigms: [Dependency injection](http://en.wikipedia.org/wiki/Dependency_injection), [loose coupling](http://en.wikipedia.org/wiki/Loose_coupling), [document database](https://en.wikipedia.org/wiki/Document-oriented_database) and SQL, [composition over inheritance](http://en.wikipedia.org/wiki/Composition_over_inheritance), [single responsibility principle](http://en.wikipedia.org/wiki/Single_responsibility_principle), [separation of concerns](http://en.wikipedia.org/wiki/Separation_of_concerns), [modular programming](https://en.wikipedia.org/wiki/Modular_programming), [multi-tenancy](https://en.wikipedia.org/wiki/Multitenancy).
+- Server-side technologies: [Json.NET](https://www.newtonsoft.com/json), [Razor syntax](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor) and [Liquid templates](https://shopify.github.io/liquid/), [NuGet packages](https://nuget.org/), [GraphQL](https://graphql.org/) and [RESTful](https://restfulapi.net/) APIs.
+- Client-side technologies: [Bootstrap](https://getbootstrap.com/), [jQuery](https://jquery.com/), [Sass](https://sass-lang.com/), [NPM packages](https://www.npmjs.com/), [HTML 5](https://en.wikipedia.org/wiki/HTML5).
 
-- Mandatory: basic usage of Visual Studio, basic knowledge of C#, basic knowledge of client-side web development (HTML, CSS, JS).
+Overall what we think is roughly what participants should already know about:
+
+- Mandatory: basic usage of Visual Studio, basic knowledge of C#, basic knowledge of client-side web development (HTML, CSS, JS), previous experience in building .NET (web) apps.
 - Strongly advised: basic understanding of Git or some other source control system, ASP.NET Core MVC, and strong knowledge of C#.
-- Advised: understanding inversion of control containers and dependency injection, usage of Razor.
+- Advised: understanding inversion of control containers and dependency injection, usage of the Razor syntax for HTML templates.
 
 
 ## Technical requirements
