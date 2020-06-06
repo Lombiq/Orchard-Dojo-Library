@@ -2,18 +2,18 @@
 
 
 
-Some advices on how to set up your development environment for Orchard Development.
+Some advices on how to set up your development environment for Orchard Core development.
 
 
 ## Software to install
 
 Below you can find pieces of software that you should install for the best Orchard developer experience.
 
-- Visual Studio 2019 or later with the following plug-ins:
+- Visual Studio 2019 (any edition) or later installed with .NET Core development tools and the following extensions:
 	- [Productivity Power Tools 2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProductivityPowerPack2017) mostly for the feature of being able to clean-up unneeded using statements and for re-opening files just closed. [Power Commands](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.PowerCommandsforVisualStudio) for similar features.
 	- [Editor Guidelines](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelines) to add visual guides to specific line lengths (was spun out of Productivity Power Tools).
 	- [Attach To All The Things](https://marketplace.visualstudio.com/items?itemName=thebread.AttachToAllTheThings) for quickly attaching the debugger to an IIS (Express) and other processes or [ReAttach](https://marketplace.visualstudio.com/items?itemName=ErlandR.ReAttach) to quickly re-attach the debugger to previous debug targets. [Debug Attach Manager](https://marketplace.visualstudio.com/items?itemName=ViktarKarpach.DebugAttachManager&ssr=false) helps with the same thing: If you select to attach a process for a given app then it'll remember it and select the suitable process the next time automatically, even after a VS restart (especially handy for .NET Core apps with their *dotnet.exe* processes).
-	- [SQL Server Compact & SQLite Toolbox](https://marketplace.visualstudio.com/items?itemName=ErikEJ.SQLServerCompactSQLiteToolbox) for browsing an SQL CE database.
+	- [SQLite/SQL Server Compact Toolbox](https://marketplace.visualstudio.com/items?itemName=ErikEJ.SQLServerCompactSQLiteToolbox) for browsing Orchard's SQLite databases, or alternatively [SQLite Browser](https://sqlitebrowser.org/dl/) (this has support to nicely format JSON documents).
 	- [Code Maid](http://www.codemaid.net/) for various goodies, including progress indicator for builds.
 	- [Lombiq Orchard Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=LombiqVisualStudioExtension.LombiqOrchardVisualStudioExtension) with various Orchard-related features.
 	- [Visual Studio Spell Checker (VS2017 and Later)](https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellCheckerVS2017andLater) for avoiding typos in comments and other texts.
