@@ -2,7 +2,7 @@
 
 
 
-- Understanding the implications of basic built-in performance-related features:
+- Understanding the implications of basic built-in performance-related features
 	- SQL indices defined in migrations
 	- Cache attributes of the `menu` and `shape` tag helpers
 - General guidelines under ["Orchard performance optimization guidelines"](../../DevelopmentGuidelines/OrchardPerformanceOptimization)

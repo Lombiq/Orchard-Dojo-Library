@@ -2,7 +2,7 @@
 
 
 
-- Content model and content management:
+- Content model and content management
 	- Content types, parts and fields
 	- Creating and editing content items and content types, Content Preview
 	- Versioning: drafts (and Draftable metadata) and published versions
@@ -10,7 +10,7 @@
 	- Demo: creating a content type
 	- Demo: editing and versioning a content item
 	- Exercise: creating a content type with fields and parts and creating items based on instructions
-- Themes and modules:
+- Themes and modules
 	- Enabling/disabling features and themes
 	- Dependencies
 - User management and roles, permissions

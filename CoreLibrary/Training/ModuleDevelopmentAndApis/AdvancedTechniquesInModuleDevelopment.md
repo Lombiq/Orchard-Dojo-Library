@@ -6,7 +6,7 @@
 	- Site settings and implementing an admin menu
 	- Content type settings (e.g. Indexing)
 	- Content part settings: part-level and type-level settings
-- Caching:
+- Caching
 	- `IMemoryCache` for instance-level caching
 	- `IDynamicCacheService` or `IDistributedCache` for farm-wide caching
 - Recipes inside modules

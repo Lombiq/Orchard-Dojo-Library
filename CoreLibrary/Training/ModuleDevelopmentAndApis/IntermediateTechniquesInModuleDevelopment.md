@@ -3,7 +3,7 @@
 
 
 - Custom routes with attribute routing and route maps
-- Filters:
+- Filters
 	- Injecting shapes into the layout
 	- Registering resources from filters (alternatively easier with [Helpful Libraries](https://github.com/Lombiq/Helpful-Libraries/blob/orchard-core-preview/Docs/ResourceManagementLibraries.md))
 - Events and hooking into events like `ILoginFormEvent`
