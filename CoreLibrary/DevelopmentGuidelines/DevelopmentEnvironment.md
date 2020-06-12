@@ -49,4 +49,5 @@ Below you can find pieces of software that you should install for the best Orcha
 	- Shift+Del: delete line
 	- You may want to set up Ctrl+W for closing the current file for the File.Close command and Ctrl+Shift+T for Edit.UndoClose (only available if PowerCommands is installed).
 - You may want to [always run VS as an administrator](http://stackoverflow.com/a/12859334/220230). This will simplify debugging web apps running in IIS since you can only attach a debugger to the IIS worker process if VS is run as an administrator.
-- To speed things up by not running a virus scan all the time on your development environment exclude the following processes from Windows Security: devenv.exe, dotnet.exe, MSBuild.exe.
+- To speed things up by not running a virus scan all the time on your development environment exclude the following processes from Windows Security: *devenv.exe*, *dotnet.exe*, *MSBuild.exe*.
+- When you start the app with the debugger attached (i.e. with F5) then by default a new browser window will open, and if you move that under an existing window as a tab the debugger will detach. To mitigate this you need to uncheck Tools → Options → Projects and Solutions → Web Projects → "Stop debugger when browser window is closed, close browser when debugging stops".
