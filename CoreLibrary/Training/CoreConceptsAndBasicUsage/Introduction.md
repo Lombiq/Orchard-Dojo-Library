@@ -14,7 +14,7 @@
 - Using Orchard as a full, decoupled and headless CMS
 - Installing Orchard (running the setup): choosing a database engine (and its implications), recipes
 - Basic site settings
-- Demo: installing and basic settings
+- Demo: installing and basic settings. You can install with the Agency theme at this stage if you want to show differences between recipes or install with the Blog recipe right away to showcase its content types later.
 
 Time requirement: 1h 0m
 

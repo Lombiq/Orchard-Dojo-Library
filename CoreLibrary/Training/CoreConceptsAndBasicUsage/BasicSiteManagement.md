@@ -13,6 +13,7 @@
 - Themes and modules
 	- Enabling/disabling features and themes
 	- Dependencies
+	- Always enabled features
 - User management and roles, permissions
 	- Users: user management features, enabling Users Registration, listing users, settings
 	- Roles: editing existing roles, creating new roles, permissions (general ones and for content types)
