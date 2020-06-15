@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Service registration</Title>
+      <Shortcut>servsc</Shortcut>
+      <Description>Code snippet for adding a scoped service registration.</Description>
+      <Author>Lombiq</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>TService</ID>
+          <ToolTip>Type of the service to register.</ToolTip>
+          <Default>TService</Default>
+        </Literal>
+        <Literal>
+          <ID>TImplementation</ID>
+          <ToolTip>Type of the implementation to register.</ToolTip>
+          <Default>TImplementation</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[services.AddScoped<$TService$, $TImplementation$>();
+        $end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

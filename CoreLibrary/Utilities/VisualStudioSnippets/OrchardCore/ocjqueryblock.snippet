@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.1.0">
+    <Header>
+      <Title>Orchard Core jQuery block</Title>
+      <Shortcut>ocjqueryblock</Shortcut>
+      <Description>Code snippet for creating a script block for jQuery-using JS code.</Description>
+      <Author>Lombiq</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <FileExtensions>
+        cshtml
+      </FileExtensions>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>location</ID>
+          <ToolTip>Script location where jQuery is included.</ToolTip>
+          <Default>Foot</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="html">
+        <![CDATA[<script at="$location$" depends-on="jQuery">
+        (function ($$) {
+            $$(function () {
+            $end$
+            });
+        })(jQuery);
+    </script>]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

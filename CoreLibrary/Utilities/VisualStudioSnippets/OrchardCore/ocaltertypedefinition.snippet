@@ -2,9 +2,9 @@
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Private readonly field</Title>
-      <Shortcut>privr</Shortcut>
-      <Description>Code snippet for creating a private readonly field.</Description>
+      <Title>Orchard Core Alter Type Definition</Title>
+      <Shortcut>ocaltertypedefinition</Shortcut>
+      <Description>Code snippet for a an AlterTypeDefinition() call.</Description>
       <Author>Lombiq</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -13,18 +13,15 @@
     <Snippet>
       <Declarations>
         <Literal>
-          <ID>type</ID>
-          <ToolTip>Field type</ToolTip>
-          <Default>string</Default>
-        </Literal>
-        <Literal>
-          <ID>field</ID>
-          <ToolTip>Field name</ToolTip>
-          <Default>myField</Default>
+          <ID>typeName</ID>
+          <ToolTip>Name of the content type.</ToolTip>
+          <Default>MyType</Default>
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[private readonly $type$ _$field$;$end$]]>
+        <![CDATA[_contentDefinitionManager.AlterTypeDefinition("$typeName$", type => type
+                $end$
+            );]]>
       </Code>
     </Snippet>
   </CodeSnippet>

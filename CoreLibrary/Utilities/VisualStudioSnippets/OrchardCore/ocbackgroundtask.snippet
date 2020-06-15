@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Orchard Core Background Task</Title>
+      <Shortcut>ocbackgroundtask</Shortcut>
+      <Description>Code snippet for creating an IBackgroundTask implementation.</Description>
+      <Author>Lombiq</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations> 
+        <Literal>
+          <ID>minutes</ID>
+          <ToolTip>Frequency of the background task's execution, in minutes.</ToolTip>
+          <Default>5</Default>
+        </Literal>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Name of the background task.</ToolTip>
+          <Default>MyFirst</Default>
+        </Literal>
+        <Literal>
+          <ID>description</ID>
+          <ToolTip>Description of the background task.</ToolTip>
+          <Default>Description.</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Threading</Namespace>
+        </Import>
+        <Import>
+          <Namespace>OrchardCore.BackgroundTasks</Namespace>
+        </Import>
+      </Imports>
+      <Code Language="csharp">
+        <![CDATA[[BackgroundTask(Schedule = "*/$minutes$ * * * *", Description = "$description$")]
+        public class $name$BackgroundTask : IBackgroundTask
+        {
+            public Task DoWorkAsync(IServiceProvider serviceProvider, CancellationToken cancellationToken)
+            {
+                $end$
+            }
+        }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

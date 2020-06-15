@@ -2,9 +2,9 @@
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Private readonly field</Title>
-      <Shortcut>privr</Shortcut>
-      <Description>Code snippet for creating a private readonly field.</Description>
+      <Title>Orchard Core Content Part</Title>
+      <Shortcut>ocpart</Shortcut>
+      <Description>Code snippet for an empty content part.</Description>
       <Author>Lombiq</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -13,18 +13,21 @@
     <Snippet>
       <Declarations>
         <Literal>
-          <ID>type</ID>
-          <ToolTip>Field type</ToolTip>
-          <Default>string</Default>
-        </Literal>
-        <Literal>
-          <ID>field</ID>
-          <ToolTip>Field name</ToolTip>
-          <Default>myField</Default>
+          <ID>name</ID>
+          <ToolTip>Name of the part.</ToolTip>
+          <Default>My</Default>
         </Literal>
       </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>OrchardCore.ContentManagement</Namespace>
+        </Import>
+      </Imports>
       <Code Language="csharp">
-        <![CDATA[private readonly $type$ _$field$;$end$]]>
+        <![CDATA[public class $name$Part : ContentPart
+        {
+            $end$
+        }]]>
       </Code>
     </Snippet>
   </CodeSnippet>

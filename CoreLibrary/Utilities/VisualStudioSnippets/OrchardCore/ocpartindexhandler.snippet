@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Orchard Core Content Part Index Handler</Title>
+      <Shortcut>ocpartindexhandler</Shortcut>
+      <Description>Code snippet for a ContentPartIndexHandler implementation.</Description>
+      <Author>Lombiq</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Name of the part.</ToolTip>
+          <Default>My</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>OrchardCore.Indexing</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Threading.Tasks</Namespace>
+        </Import>
+      </Imports>
+      <Code Language="csharp">
+        <![CDATA[public class $name$PartIndexHandler : ContentPartIndexHandler<$name$Part>
+        {
+            public override Task BuildIndexAsync($name$Part part, BuildFieldIndexContext context)
+            {
+                $end$
+
+                return Task.CompletedTask;
+            }
+        }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

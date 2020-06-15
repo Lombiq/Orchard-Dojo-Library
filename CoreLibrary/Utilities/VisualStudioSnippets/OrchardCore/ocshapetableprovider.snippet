@@ -2,9 +2,9 @@
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>MVC controller</Title>
-      <Shortcut>controller</Shortcut>
-      <Description>Code snippet for creating a Controller class.</Description>
+      <Title>Orchard Core Shape Table Provider</Title>
+      <Shortcut>ocshapetableprovider</Shortcut>
+      <Description>Code snippet for creating an admin IShapeTableProvider implementation.</Description>
       <Author>Lombiq</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -14,19 +14,18 @@
       <Declarations>
         <Literal>
           <ID>name</ID>
-          <ToolTip>Name of the Controller</ToolTip>
-          <Default>MyFirst</Default>
+          <ToolTip>Name of the shape table provider.</ToolTip>
         </Literal>
       </Declarations>
       <Imports>
         <Import>
-          <Namespace>Microsoft.AspNetCore.Mvc</Namespace>
+          <Namespace>OrchardCore.DisplayManagement.Descriptors</Namespace>
         </Import>
       </Imports>
       <Code Language="csharp">
-        <![CDATA[public class $name$Controller : Controller
+        <![CDATA[public class $name$ShapeTableProvider : IShapeTableProvider
         {
-            public $name$Controller()
+            public void Discover(ShapeTableBuilder builder)
             {
                 $end$
             }

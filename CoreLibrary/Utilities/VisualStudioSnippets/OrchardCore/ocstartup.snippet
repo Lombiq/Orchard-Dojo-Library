@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Orchard Core Startup class</Title>
+      <Shortcut>ocstartup</Shortcut>
+      <Description>Code snippet for creating a Startup class for an extension's feature.</Description>
+      <Author>Lombiq</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Name of the Startup class.</ToolTip>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>Microsoft.AspNetCore.Builder</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Microsoft.AspNetCore.Routing</Namespace>
+        </Import>
+        <Import>
+          <Namespace>Microsoft.Extensions.DependencyInjection</Namespace>
+        </Import>
+        <Import>
+          <Namespace>OrchardCore.Modules</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System</Namespace>
+        </Import>
+      </Imports>
+      <Code Language="csharp">
+        <![CDATA[public class $name$Startup : StartupBase
+        {
+            public override void ConfigureServices(IServiceCollection services)
+            {
+                $end$
+            }
+
+            public override void Configure(IApplicationBuilder app, IEndpointRouteBuilder routes, IServiceProvider serviceProvider)
+            {
+            }
+        }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

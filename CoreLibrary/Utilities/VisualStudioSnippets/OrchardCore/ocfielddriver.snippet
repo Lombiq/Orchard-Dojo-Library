@@ -2,9 +2,9 @@
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>MVC controller</Title>
-      <Shortcut>controller</Shortcut>
-      <Description>Code snippet for creating a Controller class.</Description>
+      <Title>Orchard Core Content Field Display Driver</Title>
+      <Shortcut>ocfielddriver</Shortcut>
+      <Description>Code snippet for a ContentFieldDisplayDriver implementation.</Description>
       <Author>Lombiq</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -14,22 +14,19 @@
       <Declarations>
         <Literal>
           <ID>name</ID>
-          <ToolTip>Name of the Controller</ToolTip>
-          <Default>MyFirst</Default>
+          <ToolTip>Name of the field.</ToolTip>
+          <Default>My</Default>
         </Literal>
       </Declarations>
       <Imports>
         <Import>
-          <Namespace>Microsoft.AspNetCore.Mvc</Namespace>
+          <Namespace>OrchardCore.ContentManagement.Display.ContentDisplay</Namespace>
         </Import>
       </Imports>
       <Code Language="csharp">
-        <![CDATA[public class $name$Controller : Controller
+        <![CDATA[public class $name$FieldDriver : ContentFieldDisplayDriver<$name$Field>
         {
-            public $name$Controller()
-            {
-                $end$
-            }
+            $end$
         }]]>
       </Code>
     </Snippet>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Orchard Core Content Part Display Driver with methods</Title>
+      <Shortcut>ocpartdriverfull</Shortcut>
+      <Description>Code snippet for a full ContentPartDisplayDriver implementation with display/edit/update methods.</Description>
+      <Author>Lombiq</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Name of the part.</ToolTip>
+          <Default>My</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>OrchardCore.ContentManagement.Display.ContentDisplay</Namespace>
+        </Import>
+        <Import>
+          <Namespace>OrchardCore.ContentManagement.Display.Models</Namespace>
+        </Import>
+        <Import>
+          <Namespace>OrchardCore.DisplayManagement.ModelBinding</Namespace>
+        </Import>
+        <Import>
+          <Namespace>OrchardCore.DisplayManagement.Views</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Threading.Tasks</Namespace>
+        </Import>
+      </Imports>
+      <Code Language="csharp">
+        <![CDATA[public class $name$PartDriver : ContentPartDisplayDriver<$name$Part$end$>
+        {
+            public override IDisplayResult Display($name$Part part, BuildPartDisplayContext context)
+            {
+                return Initialize<$name$PartViewModel>(GetDisplayShapeType(context), viewModel => PopulateViewModel(part, viewModel))
+                    .Location("Detail", "Content:5")
+                    .Location("Summary", "Content:5");
+            }
+
+            public override IDisplayResult Edit($name$Part part, BuildPartEditorContext context)
+            {
+                return Initialize<$name$PartViewModel>(GetEditorShapeType(context), viewModel => PopulateViewModel(part, viewModel));
+            }
+
+            public override async Task<IDisplayResult> UpdateAsync($name$Part part, IUpdateModel updater, UpdatePartEditorContext context)
+            {
+                var viewModel = new $name$PartViewModel();
+
+                await updater.TryUpdateModelAsync(viewModel, Prefix);
+
+                // Populate part from view model here.
+
+                return Edit(part, context);
+            }
+
+
+            private void PopulateViewModel($name$Part part, $name$PartViewModel viewModel)
+            {
+                // Populate view model from part here.
+            }
+        }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

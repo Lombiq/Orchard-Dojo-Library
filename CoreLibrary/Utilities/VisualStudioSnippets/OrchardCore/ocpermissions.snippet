@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Orchard Core Permission Provider</Title>
+      <Shortcut>ocpermissions</Shortcut>
+      <Description>Code snippet for an IPermissionProvider implementation.</Description>
+      <Author>Lombiq</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Name of the permission provider.</ToolTip>
+          <Default>My</Default>
+        </Literal>
+        <Literal>
+          <ID>permission</ID>
+          <ToolTip>The first permission in the provider.</ToolTip>
+          <Default>MyPermission</Default>
+        </Literal>
+        <Literal>
+          <ID>description</ID>
+          <ToolTip>Description for the first permission.</ToolTip>
+          <Default>Description</Default>
+        </Literal>
+        <Literal>
+          <ID>stereotyperole</ID>
+          <ToolTip>Role name for the default permission stereotype of the first permission.</ToolTip>
+          <Default>Administrator</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>OrchardCore.Security.Permissions</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Collections.Generic</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Linq</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Threading.Tasks</Namespace>
+        </Import>
+      </Imports>
+      <Code Language="csharp">
+        <![CDATA[public class $name$Permissions : IPermissionProvider
+        {
+            public static readonly Permission $permission$ = new Permission(nameof($permission$), "$description$");
+            
+
+            public Task<IEnumerable<Permission>> GetPermissionsAsync() =>
+                Task.FromResult(new[]
+                {
+                $permission$
+                }
+                .AsEnumerable());
+
+            public IEnumerable<PermissionStereotype> GetDefaultStereotypes() =>
+                new[]
+                {
+                new PermissionStereotype
+                {
+                    Name = "$stereotyperole$",
+                    Permissions = new[] { $permission$ }
+                }
+                };
+        }$end$]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
