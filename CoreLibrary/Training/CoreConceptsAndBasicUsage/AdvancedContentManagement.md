@@ -14,7 +14,7 @@
 	- Demo: creating a contact form and handling form posts with a workflow. See [the official docs](https://docs.orchardcore.net/en/dev/docs/topics/workflows/) on this.
 - Auditing content with Audit Trail
 
-Time requirement: 3h 0m
+Time requirement: 2h 30m
 
 Dependencies: [Intermediate content management](IntermediateContentManagement)
 

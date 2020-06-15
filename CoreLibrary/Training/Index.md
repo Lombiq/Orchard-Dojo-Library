@@ -41,6 +41,8 @@ The following tools are needed for an Orchard training:
 
 The topics are each divided into individual modules. These modules can, but don't necessarily have dependency on each other.
 
+When conducting a training even before these start with an introduction of yourself, then of the participants to get a general feeling of where everybody is coming from, and what would be interesting for them.
+
 - [Core concepts and basic usage](CoreConceptsAndBasicUsage/)
 - [Theme development](ThemeDevelopment/)
 - [Module development and Orchard APIs](ModuleDevelopmentAndApis/)

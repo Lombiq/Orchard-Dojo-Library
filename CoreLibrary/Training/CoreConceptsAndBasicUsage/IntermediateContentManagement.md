@@ -12,11 +12,12 @@
 	- Creating and editing a menu
 		- Adding and editing Link Menu Items and Content Menu Items
 		- Editing link hierarchy
+    - Comparison with Admin Menus
 	- Exercise: creating a menu with all kinds of items
 - Media management
 	- Managing media with Media Library
 
-Time requirement: 2h 0m
+Time requirement: 1h 0m
 
 Dependencies: [Basic site management](BasicSiteManagement)
 

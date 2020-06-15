@@ -6,6 +6,7 @@
 	- Content types, parts and fields
 	- Creating and editing content items and content types, Content Preview
 	- Versioning: drafts (and Draftable metadata) and published versions
+    - Other metadata (apart from Securable and indexing-related)
 	- Demo: basic content types of The Blog recipe (Page, widgets, Blog Post, listing content items like Blog does)
 	- Demo: creating a content type
 	- Demo: editing and versioning a content item
@@ -16,7 +17,8 @@
 	- Always enabled features
 - User management and roles, permissions
 	- Users: user management features, enabling Users Registration, listing users, settings
-	- Roles: editing existing roles, creating new roles, permissions (general ones and for content types)
+	- Roles: editing existing roles, creating new roles, permissions (general ones and for content types
+    - Securable metadata and dynamic content type permissions
 	- Demo: users and roles admin pages
 	- Exercise: creating a role with selected permissions; enabling registration, registering a new user and assigning it to the newly created role
 
