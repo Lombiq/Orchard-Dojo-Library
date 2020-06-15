@@ -2,11 +2,11 @@
 
 
 
+You can use these [code snippets](https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets) to quickly generate code in some common scenarios during Orchard Core module and theme development. The snippets follow [Orchard naming conventions](../../DevelopmentGuidelines/NamingConventions).
+
 To effectively use this collection of VS snippets just point the Snippets Manager to where you cloned or downloaded this folder. To do this go under Tools → Code Snippets Manager → select the C# language → Add and Add the whole folder. For Razor snippets to also work select the HTML Language and do the same. Do note that Razor snippets will only be suggested when you hit Ctrl + space first.
 
 The snippets also automatically add the necessary namespaces.
-
-Snippets follow [Orchard naming conventions](../../DevelopmentGuidelines/NamingConventions).
 
 We've taken care to place the $end$ terminating symbol to a place where one most possibly wants to follow up with coding. Thus if you escape snippets by hitting enter the cursor will be placed where you most likely want to write next.
 
