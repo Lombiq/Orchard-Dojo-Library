@@ -8,7 +8,7 @@ To effectively use this collection of VS snippets just point the Snippets Manage
 
 The snippets also automatically add the necessary namespaces.
 
-We've taken care to place the $end$ terminating symbol to a place where one most possibly wants to follow up with coding. Thus if you escape snippets by hitting enter the cursor will be placed where you most likely want to write next.
+We've taken care to place the `$end$` terminating symbol to a place where one most possibly wants to follow up with coding. Thus if you exit snippets by hitting enter the cursor will be placed where you most likely want to write next.
 
 These snippets are constantly used at [Lombiq](https://lombiq.com) and updated according to our experiences.
 
