@@ -8,7 +8,6 @@
 - Queries
 	- SQL queries (see [the official docs](https://docs.orchardcore.net/en/dev/docs/reference/modules/Queries/#executing-sql-queries) for sample queries)
 	- Lucene queries
-- Other content type metadata: Listable, Creatable, Stereotypes
 
 Time requirement: 45m
 
