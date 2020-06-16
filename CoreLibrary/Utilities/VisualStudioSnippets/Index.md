@@ -16,9 +16,9 @@ These snippets are constantly used at [Lombiq](https://lombiq.com) and updated a
 ## General snippets
 
 - controller: Empty ASP.NET MVC controller class.
-- ctorinject: Constructor with an injected dependency and a corresponding private readonly field.
+- ctorinject: Constructor with an injected dependency and a corresponding `private readonly` field.
 - pbcon: Public constant field that returns its own name.
-- privr: Private readonly field.
+- privr: Private `readonly` field.
 - propv: Virtual auto-implemented property.
 - servsc: Scoped service registration.
 
@@ -27,25 +27,25 @@ These snippets are constantly used at [Lombiq](https://lombiq.com) and updated a
 
 Orchard Core snippets are prefixed with "oc" for distinction.
 
-- ocadminmenu: Admin INavigationProvider implementation.
-- ocalterpartdefinition: AlterPartDefinition() call.
-- ocaltertypedefinition: AlterTypeDefinition() call.
-- ocbackgroundtask: IBackgroundTask implementation.
+- ocadminmenu: Admin `INavigationProvider` implementation.
+- ocalterpartdefinition: `AlterPartDefinition()` call.
+- ocaltertypedefinition: `AlterTypeDefinition()` call.
+- ocbackgroundtask: `IBackgroundTask` implementation.
 - occontentmigrations: Migrations class that configures content types or content parts.
-- occreateindex: CreateMapIndexTable() call.
+- occreateindex: `CreateMapIndexTable()` call.
 - ocfield: Empty content field.
-- ocfielddriver: ContentFieldDisplayDriver implementation.
-- ocfielddriverfull: Fll ContentFieldDisplayDriver implementation with display/edit/update methods.
-- ocfieldindexhandler: ContentFieldIndexHandler implementation.
+- ocfielddriver: `ContentFieldDisplayDriver` implementation.
+- ocfielddriverfull: Full `ContentFieldDisplayDriver` implementation with display/edit/update methods.
+- ocfieldindexhandler: `ContentFieldIndexHandler` implementation.
 - ocjqueryblock: Razor script block for jQuery-using JS code.
-- ocmapindex: MapIndex and its IndexProvider.
-- ocmigrations: Simple Migrations class.
+- ocmapindex: `MapIndex` and its `IndexProvider`.
+- ocmigrations: Simple `Migrations` class.
 - ocpart: Empty content part.
-- ocpartdriver: ContentPartDisplayDriver implementation.
-- ocpartdriverfull: Full ContentPartDisplayDriver implementation with display/edit/update methods.
-- ocparthandler: ContentPartHandler implementation.
-- ocpartindexhandler: ContentPartIndexHandler implementation.
-- ocpermissions: IPermissionProvider implementation
-- ocresourcemanifest:  IResourceManifestProvider implementation.
-- ocshapetableprovider: IShapeTableProvider implementation.
-- ocstartup: Startup class for an extension's feature.
+- ocpartdriver: `ContentPartDisplayDriver` implementation.
+- ocpartdriverfull: Full `ContentPartDisplayDriver` implementation with display/edit/update methods.
+- ocparthandler: `ContentPartHandler` implementation.
+- ocpartindexhandler: `ContentPartIndexHandler` implementation.
+- ocpermissions: `IPermissionProvider` implementation
+- ocresourcemanifest:  `IResourceManifestProvider` implementation.
+- ocshapetableprovider: `IShapeTableProvider` implementation.
+- ocstartup: `Startup` class for an extension's feature.
