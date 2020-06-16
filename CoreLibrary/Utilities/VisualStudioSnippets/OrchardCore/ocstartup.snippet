@@ -28,21 +28,18 @@
           <Namespace>Microsoft.Extensions.DependencyInjection</Namespace>
         </Import>
         <Import>
-          <Namespace>OrchardCore.Modules</Namespace>
-        </Import>
-        <Import>
           <Namespace>System</Namespace>
         </Import>
       </Imports>
       <Code Language="csharp">
-        <![CDATA[public class $name$Startup : StartupBase
+        <![CDATA[public class $name$Startup
         {
-            public override void ConfigureServices(IServiceCollection services)
+            public void ConfigureServices(IServiceCollection services)
             {
                 $end$
             }
 
-            public override void Configure(IApplicationBuilder app, IEndpointRouteBuilder routes, IServiceProvider serviceProvider)
+            public void Configure(IApplicationBuilder app, IEndpointRouteBuilder routes, IServiceProvider serviceProvider)
             {
             }
         }]]>
