@@ -11,7 +11,7 @@
 	- Notion of shapes, tree of shapes
 	- The notion and use of the Layout shape, checking it out with the debugger
 	- Shape templates and important view variables (e.g. `Context`, `Title`, `Model`, `User`), T-strings
-	- Alternates and overrides
+	- Alternates and overrides (the [basic ones](https://docs.orchardcore.net/en/dev/docs/reference/modules/Templates/#available-templates) and examples of others like [for the menu](https://docs.orchardcore.net/en/dev/docs/reference/modules/Menu/#menu-alternates))
 	- Writing editor and display shape templates, explaining Model object usage
 	- Ad-hoc shapes
 - Static resources: styles/scripts (how to include/require them) and resource manifests
