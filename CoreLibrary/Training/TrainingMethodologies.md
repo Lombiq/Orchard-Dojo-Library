@@ -51,4 +51,8 @@ Since intensive courses should be tailored to the participants' needs the follow
 - Few hour-long hackathon with a certain aim (e.g. to develop a module that's needed by the participants)
 - Code review: participants write some code on their own, then the trainer checks them and comments on them line by line with code review tools. Common mistakes can be discussed with the whole group.
 
-If the course is online then also record if the client would like it. For an online course break days can be added too, with no training taking place: That way participants can catch up with their daily activities, have a chance to digest what was learned, are encouraged to try out everything themselves, and come back with questions for the next occasion.
+If the course is online:
+
+- Record the sessions if the client would like it.
+- Break days can be added too, with no training taking place: That way participants can catch up with their daily activities, have a chance to digest what was learned, are encouraged to try out everything themselves, and come back with questions for the next occasion.
+- It's easier to keep the meeting running for short breaks. When participants come back they can signal that they're present with the "raise hand" feature many webmeeting tools have.
