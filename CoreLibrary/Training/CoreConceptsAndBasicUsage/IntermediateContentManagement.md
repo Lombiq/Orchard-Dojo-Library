@@ -16,6 +16,8 @@
 	- Exercise: creating a menu with all kinds of items
 - Media management
 	- Managing media with Media Library
+    - Inserting images into text fields
+    - For this, prepare suitable files. Pictures from the [Wikipedia Cat article](https://en.wikipedia.org/wiki/Cat) are included in the Attachments folder.
 
 Time requirement: 1h 0m
 
