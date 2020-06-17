@@ -1,4 +1,4 @@
-# Getting started in module development
+# Getting started with module development
 
 
 
