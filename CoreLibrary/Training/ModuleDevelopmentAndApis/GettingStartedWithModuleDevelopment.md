@@ -17,7 +17,7 @@
 	- Logger
 	- T-strings in templates
 
-Time requirement: 1h 30m
+Time requirement: 2h
 
 Dependencies: none
 

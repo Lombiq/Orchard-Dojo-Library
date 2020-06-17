@@ -11,7 +11,7 @@
 	- Installing a .po package
 	- Setting up locales and [creating localized content items](https://orcharddojo.net/blog/how-to-localize-content-items-orchard-nuggets)
 
-Time requirement: 2h 0m
+Time requirement: 1h 0m
 
 Dependencies: [Intermediate content management](IntermediateContentManagement)
 
