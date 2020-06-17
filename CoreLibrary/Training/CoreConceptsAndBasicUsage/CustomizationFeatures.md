@@ -2,7 +2,6 @@
 
 
 
-- Templates
 - Multi-tenancy
 - Writing recipes
 	- Installing and enabling themes/features
