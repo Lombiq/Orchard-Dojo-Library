@@ -7,6 +7,7 @@ Following are methodologies for various forms of Orchard Core trainings.
 - Remember that it's a good thing to have regular breaks about every 45 minutes.
 - Keep the time between explaining something new and demonstrating it short; i.e. if you explain something, show it.
 - After a session (lesson, tutorial video...) do a quick recap of what was covered: click through what was explained and briefly mention again if there is something to emphasize.
+- Utilize the [Visual Studio snippets](../../CoreLibrary/Utilities/VisualStudioSnippets/) to write code quickly instead of typing out everything. Use the [Utility Scripts](https://github.com/Lombiq/Utility-Scripts) to speed up common tasks like creating an Orchard Visual Studio solution.
 
 
 ## University course
