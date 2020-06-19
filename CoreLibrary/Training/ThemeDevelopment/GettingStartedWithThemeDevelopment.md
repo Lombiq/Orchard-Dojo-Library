@@ -16,7 +16,7 @@
 	- Ad-hoc shapes
 - Static resources: styles/scripts (how to include/require them) and resource manifests
 
-Time requirement: 2h 0m
+Time requirement: 2h 30m
 
 Dependencies: none
 

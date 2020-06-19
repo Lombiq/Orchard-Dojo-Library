@@ -11,7 +11,7 @@
     - Top-down: how to convert an existing template/site build to an Orchard theme
     - Bottom-up: building on top of an existing theme, using it as the base theme, how to create a new theme from a given design suite
 
-Time requirement: 1h 0m
+Time requirement: 30m
 
 Dependencies: [Getting started with theme development](GettingStartedWithThemeDevelopment)
 

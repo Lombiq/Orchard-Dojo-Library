@@ -8,7 +8,7 @@
 	- Indices, migrations, and querying
 - Abstracted file storage with `IMediaFileStore`
 
-Time requirement: 3h
+Time requirement: 2h 30m
 
 Dependencies: [Getting started with module development](GettingStartedWithModuleDevelopment)
 
