@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Orchard Core Create Map Index Table</Title>
+      <Shortcut>ocaltertablecreateindex</Shortcut>
+      <Description>Code snippet for a AlterTable() call and a CreateIndex() inside.</Description>
+      <Author>Lombiq Technologies</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Name of the record class.</ToolTip>
+          <Default>MyFirst</Default>
+        </Literal>
+        <Literal>
+          <ID>property</ID>
+          <ToolTip>Property of the record class to create the index on.</ToolTip>
+          <Default>MyProperty</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[SchemaBuilder.AlterTable(nameof($name$), table => table
+                .CreateIndex($$"IDX_{nameof($name$)}_{nameof($name$.$property$)}", "$property$")$end$
+            );]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

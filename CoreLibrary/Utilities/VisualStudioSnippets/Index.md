@@ -29,10 +29,12 @@ Orchard Core snippets are prefixed with "oc" for distinction.
 
 - ocadminmenu: Admin `INavigationProvider` implementation.
 - ocalterpartdefinition: `AlterPartDefinition()` call.
+- ocaltertable: `AlterTable()` call.
+- ocaltertablecreateindex: `AlterTable()` call and a CreateIndex() inside.
 - ocaltertypedefinition: `AlterTypeDefinition()` call.
 - ocbackgroundtask: `IBackgroundTask` implementation.
 - occontentmigrations: Migrations class that configures content types or content parts.
-- occreateindex: `CreateMapIndexTable()` call.
+- occreatemapindex: `CreateMapIndexTable()` call.
 - ocfield: Empty content field.
 - ocfielddriver: `ContentFieldDisplayDriver` implementation.
 - ocfielddriverfull: Full `ContentFieldDisplayDriver` implementation with display/edit/update methods.
