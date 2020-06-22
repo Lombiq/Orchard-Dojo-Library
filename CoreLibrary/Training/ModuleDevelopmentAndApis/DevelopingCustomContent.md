@@ -20,7 +20,7 @@
 		- Number of crew
 	- `MediaPickerField` (needs the Fields feature) for an image: for this also a shape template override with a stylesheet include (e.g. the image should be displayed with rounded corners)
 
-Time requirement: 2h 0m
+Time requirement: 2h 30m
 
 Dependencies: [Basic techniques in module development](BasicTechniquesInModuleDevelopment)
 
