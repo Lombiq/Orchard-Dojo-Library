@@ -47,7 +47,8 @@
 
             public override IDisplayResult Edit($name$Part part, BuildPartEditorContext context)
             {
-                return Initialize<$name$PartViewModel>(GetEditorShapeType(context), viewModel => PopulateViewModel(part, viewModel));
+                return Initialize<$name$PartViewModel>(GetEditorShapeType(context), viewModel => PopulateViewModel(part, viewModel))
+                    .Location("Content:5");
             }
 
             public override async Task<IDisplayResult> UpdateAsync($name$Part part, IUpdateModel updater, UpdatePartEditorContext context)
