@@ -14,7 +14,7 @@
 	- Allow Client Credentials Flow
 	- Add a new Application
 	- Mention the `ViewContentApi` permission
-	- Demo: using Postman to get a new access token and manipulate content items using the built-in API's in Orchard Core
+	- Demo: using Postman to get a new access token and manipulate content items using the built-in APIs in Orchard Core
 
 Time requirement: 1h 30m
 
