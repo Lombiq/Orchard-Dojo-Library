@@ -14,6 +14,7 @@
 - Using Orchard as a full, decoupled and headless CMS
 - Installing Orchard (running the setup): choosing a database engine (and its implications), recipes
 - Basic site settings
+- Demo: fire up Visual Studio and create a new ASP.NET Core Web Application. Follow the [Getting started with Orchard Core as a NuGet package](https://docs.orchardcore.net/en/dev/docs/getting-started/) page to create an Orchard Core CMS application.
 - Demo: installing and basic settings. You can install with the Agency theme at this stage if you want to show differences between recipes or install with the Blog recipe right away to showcase its content types later.
 
 Time requirement: 1h 0m
