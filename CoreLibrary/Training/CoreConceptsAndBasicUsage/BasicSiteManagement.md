@@ -8,7 +8,7 @@
 	- Versioning: drafts (and Draftable metadata) and published versions
     - Other metadata (apart from Securable and indexing-related)
 	- Demo: basic content types of The Blog recipe (Page, widgets, Blog Post, listing content items like Blog does)
-    - Demo: basic content types of The Agency recipe (Landing Page, widgets, change the content of the Landing Page content item)
+	- Demo: basic content types of The Agency recipe (Landing Page, widgets, change the content of the Landing Page content item)
 	- Demo: creating a content type
 	- Demo: editing and versioning a content item
 	- Exercise: creating a content type with fields and parts and creating items based on instructions
