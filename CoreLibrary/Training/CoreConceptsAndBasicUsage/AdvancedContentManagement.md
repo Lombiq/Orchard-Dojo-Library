@@ -9,8 +9,10 @@
 - Forms, Liquid and Workflows
  	- An overview of Workflows features
  	- Overview of Liquid
+   - Creating a new Liquid Template by displaying the attached media of a Media Field ( `ContentType__MediaField` )
 	- Using Forms, using ReCaptcha to prevent spam
- 	- Demo: creating a workflow that displays a greeting for users upon logon, displaying their name with Liquid ( `Hello {{User.Identity.Name}}!`)
+ 	- Demo: creating a workflow that displays a greeting for users upon logon, displaying their name with Liquid ( `Hello {{User.Identity.Name}}!` )
+   - Demo: creating a workflow that displays the site name for users upon logon with Liquid ( `Welcome to {{Site.SiteName}}!` )
 	- Demo: creating a contact form and handling form posts with a workflow. See [the official docs](https://docs.orchardcore.net/en/dev/docs/topics/workflows/) on this.
 - Auditing content with Audit Trail
 
