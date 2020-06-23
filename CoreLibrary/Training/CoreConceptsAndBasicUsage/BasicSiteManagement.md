@@ -21,7 +21,7 @@
 	- Roles: editing existing roles, creating new roles, permissions (general ones and for content types)
     - Securable metadata and dynamic content type permissions
 	- Demo: users and roles admin pages
-    - Demo: register with a new user, verify the email address (configure SMTP), and see the details of the user in the admin UI
+	- Demo: register with a new user, verify the email address (configure SMTP), and see the details of the user in the admin UI
 	- Exercise: creating a role with selected permissions; enabling registration, registering a new user and assigning it to the newly created role
 
 Time requirement: 2h 15m
