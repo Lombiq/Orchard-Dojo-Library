@@ -4,10 +4,15 @@
 
 Following are methodologies for various forms of Orchard Core trainings.
 
-- Remember that it's a good thing to have regular breaks about every 45 minutes.
+- Remember that it's a good thing to have regular breaks within every hour.
 - Keep the time between explaining something new and demonstrating it short; i.e. if you explain something, show it.
 - After a session (lesson, tutorial video...) do a quick recap of what was covered: click through what was explained and briefly mention again if there is something to emphasize.
 - Utilize the [Visual Studio snippets](../../CoreLibrary/Utilities/VisualStudioSnippets/) to write code quickly instead of typing out everything. Use the [Utility Scripts](https://github.com/Lombiq/Utility-Scripts) to speed up common tasks like creating an Orchard Visual Studio solution.
+- We've created a demo module for the purpose of teaching all the topics here with well explained examples, the [Orchard Training Demo module](https://github.com/Lombiq/Orchard-Training-Demo-Module). The training topics loosely follow the Training Demo. If you want to use the Training Demo as a reference when giving a training, even copy-pasting from it then the [Comment Remover](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommentRemover) Visual Studio extension can come handy: You can remove the Training Demo's comments so they're not clutter while you explain the same thing.
+- Suggest further resources and reading materials for attendees, e.g.:
+    - [Official docs](https://docs.orchardcore.net/)
+    - [Orchard Dojo Library](https://orcharddojo.net/orchard-resources/CoreLibrary/), especially [Software development guidelines](https://orcharddojo.net/orchard-resources/CoreLibrary/DevelopmentGuidelines/) and [Development utilities](https://orcharddojo.net/orchard-resources/CoreLibrary/Utilities/) (including Visual Studio code snippets and the Utility Scripts project)
+    - [Lombiq Training Demo module](https://github.com/Lombiq/Orchard-Training-Demo-Module)
 
 
 ## University course
