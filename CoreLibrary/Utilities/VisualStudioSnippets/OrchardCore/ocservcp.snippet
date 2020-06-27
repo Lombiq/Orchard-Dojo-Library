@@ -13,9 +13,9 @@
     <Snippet>
       <Declarations>
         <Literal>
-          <ID>TContentPart</ID>
-          <ToolTip>Type of the content part to register.</ToolTip>
-          <Default>TContentPart</Default>
+          <ID>name</ID>
+          <ToolTip>Name of the part.</ToolTip>
+          <Default>My</Default>
         </Literal>
       </Declarations>
       <Imports>
@@ -24,7 +24,7 @@
         </Import>
       </Imports>
       <Code Language="csharp">
-        <![CDATA[services.AddContentPart<$TContentPart$>()$end$;]]>
+        <![CDATA[services.AddContentPart<$name$Part>()$end$;]]>
       </Code>
     </Snippet>
   </CodeSnippet>
