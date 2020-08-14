@@ -27,11 +27,10 @@
         </Import>
       </Imports>
       <Code Language="csharp">
-        <![CDATA[public class $name$FieldIndexHandler : ContentFieldIndexHandler<$name$Field>
+        <![CDATA[public class $name$FieldIndexHandler : ContentFieldIndexHandler<$name$Field$end$>
         {
             public override Task BuildIndexAsync($name$Field field, BuildFieldIndexContext context)
             {
-                $end$
 
                 return Task.CompletedTask;
             }

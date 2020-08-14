@@ -27,12 +27,11 @@
         </Import>
       </Imports>
       <Code Language="csharp">
-        <![CDATA[public class $name$PartIndexHandler : ContentPartIndexHandler<$name$Part>
+        <![CDATA[public class $name$PartIndexHandler : ContentPartIndexHandler<$name$Part$end$>
         {
             public override Task BuildIndexAsync($name$Part part, BuildPartIndexContext context)
             {
-                $end$
-
+                
                 return Task.CompletedTask;
             }
         }]]>
