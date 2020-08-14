@@ -56,7 +56,7 @@
             public Task<IEnumerable<Permission>> GetPermissionsAsync() =>
                 Task.FromResult(new[]
                 {
-                $permission$
+                $permission$,
                 }
                 .AsEnumerable());
 
@@ -66,8 +66,8 @@
                 new PermissionStereotype
                 {
                     Name = "$stereotyperole$",
-                    Permissions = new[] { $permission$ }
-                }
+                    Permissions = new[] { $permission$ },
+                },
                 };
         }$end$]]>
       </Code>

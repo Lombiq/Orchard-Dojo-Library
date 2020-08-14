@@ -38,9 +38,9 @@
       <Code Language="csharp">
         <![CDATA[public class $name$FieldDisplayDriver : ContentFieldDisplayDriver<$name$Field$end$>
         {
-            public override IDisplayResult Display($name$Field field, BuildFieldDisplayContext context)
+            public override IDisplayResult Display($name$Field field, BuildFieldDisplayContext fieldDisplayContext)
             {
-                return Initialize<$name$FieldViewModel>(GetDisplayShapeType(context), viewModel => PopulateViewModel(field, viewModel))
+                return Initialize<$name$FieldViewModel>(GetDisplayShapeType(fieldDisplayContext), viewModel => PopulateViewModel(field, viewModel))
                     .Location("Detail", "Content:5")
                     .Location("Summary", "Content:5");
             }
@@ -63,7 +63,7 @@
             }
 
 
-            private void PopulateViewModel($name$Field field, $name$FieldViewModel viewModel)
+            private static void PopulateViewModel($name$Field field, $name$FieldViewModel viewModel)
             {
                 // Populate view model from field here.
             }
