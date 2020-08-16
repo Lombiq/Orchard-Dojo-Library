@@ -38,18 +38,18 @@
       <Code Language="csharp">
         <![CDATA[public class $name$PartDisplayDriver : ContentPartDisplayDriver<$name$Part$end$>
         {
-            public override IDisplayResult Display($name$Part part, BuildPartDisplayContext context)
-            {
-                return Initialize<$name$PartViewModel>(GetDisplayShapeType(context), viewModel => PopulateViewModel(part, viewModel))
-                    .Location("Detail", "Content:5")
-                    .Location("Summary", "Content:5");
-            }
+            public override IDisplayResult Display($name$Part part, BuildPartDisplayContext context) =>
+                Initialize<$name$PartViewModel>(
+                    GetDisplayShapeType(context), 
+                    viewModel => PopulateViewModel(part, viewModel))
+                .Location("Detail", "Content:5")
+                .Location("Summary", "Content:5");
 
-            public override IDisplayResult Edit($name$Part part, BuildPartEditorContext context)
-            {
-                return Initialize<$name$PartViewModel>(GetEditorShapeType(context), viewModel => PopulateViewModel(part, viewModel))
-                    .Location("Content:5");
-            }
+            public override IDisplayResult Edit($name$Part part, BuildPartEditorContext context) =>
+                Initialize<$name$PartViewModel>(
+                    GetEditorShapeType(context), 
+                    viewModel => PopulateViewModel(part, viewModel))
+                .Location("Content:5");
 
             public override async Task<IDisplayResult> UpdateAsync($name$Part part, IUpdateModel updater, UpdatePartEditorContext context)
             {

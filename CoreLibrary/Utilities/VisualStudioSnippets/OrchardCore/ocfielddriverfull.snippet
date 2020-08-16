@@ -38,18 +38,18 @@
       <Code Language="csharp">
         <![CDATA[public class $name$FieldDisplayDriver : ContentFieldDisplayDriver<$name$Field$end$>
         {
-            public override IDisplayResult Display($name$Field field, BuildFieldDisplayContext fieldDisplayContext)
-            {
-                return Initialize<$name$FieldViewModel>(GetDisplayShapeType(fieldDisplayContext), viewModel => PopulateViewModel(field, viewModel))
-                    .Location("Detail", "Content:5")
-                    .Location("Summary", "Content:5");
-            }
+            public override IDisplayResult Display($name$Field field, BuildFieldDisplayContext fieldDisplayContext) =>
+                Initialize<$name$FieldViewModel>(
+                    GetDisplayShapeType(fieldDisplayContext), 
+                    viewModel => PopulateViewModel(field, viewModel))
+                .Location("Detail", "Content:5")
+                .Location("Summary", "Content:5");
 
-            public override IDisplayResult Edit($name$Field field, BuildFieldEditorContext context)
-            {
-                return Initialize<$name$FieldViewModel>(GetEditorShapeType(context), viewModel => PopulateViewModel(field, viewModel))
-                    .Location("Content:5");
-            }
+            public override IDisplayResult Edit($name$Field field, BuildFieldEditorContext context) =>
+                Initialize<$name$FieldViewModel>(
+                    GetEditorShapeType(context), 
+                    viewModel => PopulateViewModel(field, viewModel))
+                .Location("Content:5");
 
             public override async Task<IDisplayResult> UpdateAsync($name$Field field, IUpdateModel updater, UpdateFieldEditorContext context)
             {
