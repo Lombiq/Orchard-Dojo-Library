@@ -32,14 +32,14 @@
         </Import>
       </Imports>
       <Code Language="csharp">
-        <![CDATA[public class $name$Startup
+        <![CDATA[public class $name$Startup : StartupBase
         {
-            public void ConfigureServices(IServiceCollection services)
+            public override void ConfigureServices(IServiceCollection services)
             {
                 $end$
             }
 
-            public void Configure(IApplicationBuilder app, IEndpointRouteBuilder routes, IServiceProvider serviceProvider)
+            public override void Configure(IApplicationBuilder app, IEndpointRouteBuilder routes, IServiceProvider serviceProvider)
             {
             }
         }]]>
