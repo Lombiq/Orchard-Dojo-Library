@@ -19,7 +19,7 @@ If there length of the parameter list for a method is too long to read convenien
 
 ----------
 
-Prefix private variables with an underscore (_).
+Prefix private fields with an underscore (_).
 
 ----------
 
@@ -62,7 +62,10 @@ Have a standard ordering of members depending on their visibility and whether th
     //  Notice the order: static, private, protected, public, const, constructor, public, protected, private, static, inner classes
     public class MyClass
     {
-        // Static fields first
+        // Constants first
+        public const string MyConst = "const";
+        
+        // Static fields
         private static string _myStaticField = "field";
 
         // Private fields
@@ -72,9 +75,6 @@ Have a standard ordering of members depending on their visibility and whether th
 
         // Properties next
         public int MyProperty { get; set; }
-
-        // Constants just before the constructor
-        public const string MyConst = "const";
 
 
         // Then the constructor(s)
