@@ -23,4 +23,4 @@ All blogs from the Orchard community are automatically scraped by [Orchard Blogs
 - [Orchard Dojo](http://orcharddojo.net/)
 - [.NET Foundation](http://www.dotnetfoundation.org/), the foundation supporting Orchard
 - [Show Orchard](http://www.showorchard.com/)
-- [Stackoverflow Orchard Core question](https://stackoverflow.com/questions/tagged/orchardcores)
+- [Stackoverflow Orchard Core question](https://stackoverflow.com/questions/tagged/orchardcore)
