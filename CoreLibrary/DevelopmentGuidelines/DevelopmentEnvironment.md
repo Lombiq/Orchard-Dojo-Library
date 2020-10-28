@@ -7,7 +7,7 @@ Some advices on how to set up your development environment for Orchard Core deve
 
 ## Software to install
 
-Below you can find pieces of software that you should install for the best Orchard developer experience.
+Below you can find pieces of software that you should install for the best Orchard Core developer experience. Also check out [the official documentation](https://docs.orchardcore.net/en/dev/docs/resources/development-tools/).
 
 - Visual Studio 2019 (any edition) or later installed with .NET Core development tools and the following extensions:
 	- [Productivity Power Tools 2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProductivityPowerPack2017) mostly for the feature of being able to clean-up unneeded using statements and for re-opening files just closed. [Power Commands](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.PowerCommandsforVisualStudio) for similar features.
