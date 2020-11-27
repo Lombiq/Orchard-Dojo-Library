@@ -23,40 +23,6 @@ Prefix private fields with an underscore (_).
 
 ----------
 
-Keep logical blocks of codes separated by multiple line breaks, forming logical “islands”. This makes the code more readable.
-
-    // Notice the double line breaks between fields/properties and the constructor as well as between the constructor, public and private methods.
-    // Properties are separated by a blank line from fields.
-    public class MyClass
-    {
-        private string _myField = "field";
-
-        public int MyProperty { get; set; }
-
-
-        public MyClass()
-        {
-        }
-
-
-        public void MyMethod1()
-        {
-        }
-
-        public void MyMethod2()
-        {
-        }
-
-
-        private void MyPrivateMethod()
-        {
-        }
-    }
-
-If you have multiple types (e.g. an interface and a class) defined in the same file, similarly divide them with two line breaks.
-
-----------
-
 Have a standard ordering of members depending on their visibility and whether they're instance- or class-level, etc.
 
     //  Notice the order: static, private, protected, public, const, constructor, public, protected, private, static, inner classes
