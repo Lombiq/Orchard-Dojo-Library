@@ -1,10 +1,18 @@
 # JavaScript best practices
 
+Use single quotation mark `'` for strings.
 
+    var myString = 'String content';
+
+If you need two or more sets of quotation marks, use `'` on the outside, and `"` on the inside
+
+    var searchResult = '<li><a href="Result_URL">Result</a></li>';
+
+----------
 
 Prefix jQuery objects with the dollar sign ($) so they can be distinguished from other objects.
 
-    var $header = $("#header");
+    var $header = $('#header');
 
 ----------
 
@@ -14,7 +22,7 @@ Instead of using the $ variable directly use a wrapper to inject the jQuery obje
 	(function ($) {
 		// Notice the shorthand document.ready function. Always wrap your jQuery DOM-manipulation code in the document.ready!
 	    $(function() {
-	        alert("Document ready!");
+	        alert('Document ready!');
 	    });
 	})(jQuery);
 
@@ -28,7 +36,7 @@ Try to avoid adding variables to the global scope. A handy way of exposing globa
 				// Such deep nesting is not always necessary, the method could be on this level directly
 	            myClass: { // More of a "class" than a real class of course
 	                myMethod: function () {
-						alert("myMethod called!");
+						alert('myMethod called!');
 	                }
 	            }
 	        }
