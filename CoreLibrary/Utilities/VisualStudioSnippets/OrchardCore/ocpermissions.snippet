@@ -51,7 +51,6 @@
         <![CDATA[public class $name$Permissions : IPermissionProvider
         {
             public static readonly Permission $permission$ = new Permission(nameof($permission$), "$description$");
-            
 
             public Task<IEnumerable<Permission>> GetPermissionsAsync() =>
                 Task.FromResult(new[]
