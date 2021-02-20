@@ -28,6 +28,18 @@ Instead of using the $ variable directly use a wrapper to inject the jQuery obje
 
 ----------
 
+Add event handlers inside the document.ready() function to make sure the script does not try to find the elements before the DOM has finished loading. This is recommended by the official [jQuery documentation](https://api.jquery.com/ready/).
+
+    (function ($) { // jQuery wrapper.
+        $(function () { // document.ready() shorthand.
+            $('.elementClass').on('click', function () { // Click event handler.
+            	alert('I have been clicked.');
+            });
+        });
+    })(jQuery);
+	
+----------
+
 Try to avoid adding variables to the global scope. A handy way of exposing globals is to namespace them under jQuery as demonstrated with the following example:
 	
 	(function ($) {
