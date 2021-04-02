@@ -12,8 +12,8 @@
 	- Demo: creating a content type
 	- Demo: editing and versioning a content item
 	- Exercise: creating a content type with fields and parts and creating items based on instructions
-- Themes and modules
-	- Enabling/disabling features and themes
+- Modules and themes
+	- Enabling/disabling module features and themes
 	- Dependencies
 	- Always enabled features
 - User management and roles, permissions
