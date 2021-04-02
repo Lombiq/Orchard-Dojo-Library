@@ -11,7 +11,7 @@
 - How to get my own Orchard instance?
 	- [Official Orchard releases](https://github.com/OrchardCMS/OrchardCore/releases) as source or from NuGet
 	- Using the [preview package feed](https://docs.orchardcore.net/en/dev/docs/getting-started/preview-package-source/)
-- Using Orchard as a full, decoupled and headless CMS
+- Using Orchard as a full, decoupled, and headless CMS
 - Installing Orchard (running the setup): choosing a database engine (and its implications), recipes
 - Basic site settings
 - Demo: fire up Visual Studio and create a new ASP.NET Core Web Application. Follow the [Getting started with Orchard Core as a NuGet package](https://docs.orchardcore.net/en/dev/docs/getting-started/) page to create an Orchard Core CMS application.
