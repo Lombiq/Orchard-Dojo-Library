@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Orchard Core Resource Manifest Options Configuration</Title>
+      <Shortcut>ocresourcemanagementoptionsconfiguration</Shortcut>
+      <Description>Code snippet for an IConfigureOptions&lt;ResourceManagementOptions&gt; implementation.</Description>
+      <Author>Lombiq Technologies</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Name of the Manifest Options Configuration.</ToolTip>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>Microsoft.Extensions.Options</Namespace>
+        </Import>
+        <Import>
+          <Namespace>OrchardCore.ResourceManagement</Namespace>
+        </Import>
+      </Imports>
+      <Code Language="csharp">
+        <![CDATA[public class $name$ResourceManagementOptionsConfiguration : IConfigureOptions<ResourceManagementOptions>
+        {
+            private static ResourceManifest _manifest;
+
+            static ResourceManagementOptionsConfiguration()
+            {
+                _manifest = new ResourceManifest();
+
+                $end$
+            }
+
+        public void Configure(ResourceManagementOptions options) => options.ResourceManifests.Add(_manifest);
+        }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
