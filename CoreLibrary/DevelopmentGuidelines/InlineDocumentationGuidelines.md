@@ -10,6 +10,8 @@
 - Documentation should be as close to what it documents as possible to avoid going out of date.
 - It's good to document what the aim of a type (mostly class or interface) is. This is to be able to quickly understand what a type does without having to understand its code.
 - Write documentation as you write code: Use correct grammar and punctuation (remember that comments are sentences), adhere to style conventions.
-- Follow [C# XML comment guidelines](https://docs.microsoft.com/en-us/dotnet/csharp/codedoc). C# keywords referenced in XML comments like `true` should be wrapped into a `see` block, e.g.:
+- Follow [C# XML comment guidelines](https://docs.microsoft.com/en-us/dotnet/csharp/codedoc).
+  - C# keywords referenced in XML comments like `true` should be wrapped into a `see` block, e.g.:
 
     /// &lt;returns&gt;Returns &lt;see langword="true"/&gt; on success, &lt;see langword="false"/&gt; otherwise.&lt;/returns&gt;
+  - In comments reference generic types in the format of `<see cref="ILookup{TKey, TValue}"/>`.
