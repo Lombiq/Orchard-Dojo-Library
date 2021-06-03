@@ -10,45 +10,41 @@ Prefix jQuery objects with the dollar sign ($) so they can be distinguished from
 
 Instead of using the $ variable directly use a wrapper to inject the jQuery object and only use the dollar sign in the local scope.
 
-	// The dollar sign will be used only inside the anonymous function here.
-	(function ($) {
-		// Notice the shorthand document.ready function. Always wrap your jQuery DOM-manipulation code in the document.ready!
-	    $(function() {
-	        alert("Document ready!");
-	    });
-	})(jQuery);
+    // The dollar sign will be used only inside the anonymous function here.
+    (function ($) {
+        // The variable $ now refers to jQuery.
+    })(jQuery);
 
 ----------
 
-Add any DOM manipulation code and event handlers inside the document.ready() function to make sure the script does not try to find the elements before the DOM has finished loading. This is recommended by the official [jQuery documentation](https://api.jquery.com/ready/).
+Add any DOM manipulation code and event handlers inside the `document.ready()` function to make sure the script does not try to find the elements before the DOM has finished loading. This is recommended by the official [jQuery documentation](https://api.jquery.com/ready/).
 
-    (function ($) { // jQuery wrapper.
-        $(function () { // document.ready() shorthand.
-            $('.elementClass').on('click', function () { // Click event handler.
-            	alert('I have been clicked.');
-            });
+    // Notice how it's a shorthand for a wrapper for the $ variable (as above) and also a document.ready() at once.
+    jQuery(document).ready(function ($) {
+        $('.elementClass').on('click', function () { // Click event handler.
+            alert('I have been clicked.');
         });
-    })(jQuery);
-	
+    });
+    
 ----------
 
 Try to avoid adding variables to the global scope. A handy way of exposing globals is to namespace them under jQuery as demonstrated with the following example:
-	
-	(function ($) {
-	    $.extend(true, {
-	        myModule: {
-				// Such deep nesting is not always necessary, the method could be on this level directly
-	            myClass: { // More of a "class" than a real class of course
-	                myMethod: function () {
-						alert("myMethod called!");
-	                }
-	            }
-	        }
-	    });
+    
+    (function ($) {
+        $.extend(true, {
+            myModule: {
+                // Such deep nesting is not always necessary, the method could be on this level directly
+                myClass: { // More of a "class" than a real class of course
+                    myMethod: function () {
+                        alert("myMethod called!");
+                    }
+                }
+            }
+        });
 
-		// You can use the above like this:
-		$.myModule.myClass.myMethod();
-	})(jQuery);
+        // You can use the above like this:
+        $.myModule.myClass.myMethod();
+    })(jQuery);
 
 ----------
 
