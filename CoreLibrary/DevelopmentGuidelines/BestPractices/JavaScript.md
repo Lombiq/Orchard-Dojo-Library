@@ -20,6 +20,7 @@ Instead of using the $ variable directly use a wrapper to inject the jQuery obje
 Add any DOM manipulation code and event handlers inside the `document.ready()` function to make sure the script does not try to find the elements before the DOM has finished loading. This is recommended by the official [jQuery documentation](https://api.jquery.com/ready/).
 
     // Notice how it's a shorthand for a wrapper for the $ variable (as above) and also a document.ready() at once.
+    // Use this if you only want to write a quick document.ready().
     jQuery(document).ready(function ($) {
         $('.elementClass').on('click', function () { // Click event handler.
             alert('I have been clicked.');
