@@ -21,7 +21,7 @@ Add any DOM manipulation code and event handlers inside the `document.ready()` f
 
     // Notice how it's a shorthand for a wrapper for the $ variable (as above) and also a document.ready() at once.
     // Use this if you only want to write a quick document.ready().
-    jQuery(document).ready(function ($) {
+    jQuery(function ($) {
         $('.elementClass').on('click', function () { // Click event handler.
             alert('I have been clicked.');
         });
