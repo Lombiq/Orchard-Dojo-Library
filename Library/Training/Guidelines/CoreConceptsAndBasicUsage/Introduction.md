@@ -6,7 +6,7 @@
 - Showcasing complex/notable Orchard apps:
 	- The websites on [Show Orchard](http://showorchard.com)
 	- [DotNest](https://dotnest.com/) for creating hosted Orchard sites
-	- Special apps: [Associativy](http://associativy.com/), [Orchard Application Host](https://orchardapphost.codeplex.com/)
+	- Special apps: [Associativy](http://associativy.com/), [Orchard Application Host](https://github.com/Lombiq/Orchard-Application-Host)
 - Architectural overview
 	- ASP.NET -> ASP.NET MVC -> Orchard
 	- Contains open-source projects (eg. NHibernate, jQuery)

@@ -29,4 +29,4 @@ This Wiki aims to complete the [documentation](http://docs.orchardproject.net/) 
 - [Versioning](Versioning)
 - [Work Context](WorkContext)
 
-Please note that there are corresponding [Visual Studio code snippets](../Utilities/VisualStudioSnippets/) and detailed development guides ([Orchard Training Demo module](https://orchardtrainingdemo.codeplex.com/)) in the Orchard Dojo Library related to these topics.
+Please note that there are corresponding [Visual Studio code snippets](../Utilities/VisualStudioSnippets/) and detailed development guides ([Orchard Training Demo module](https://github.com/Lombiq/Orchard-Training-Demo-Module)) in the Orchard Dojo Library related to these topics.

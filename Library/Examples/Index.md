@@ -27,15 +27,10 @@ Project links are only included if the module/theme is not bundled with the Orch
 	- Sort criteria: Orchard.Projections
 - Records (low-level database access): Training Demo
 - Resources (static resources: css, js files, resource manifests and resource inclusions): Orchard.jQuery, Training Demo
-- Search services from code: [Associativy Core](https://github.com/Lombiq/Associativy-Core/blob/master/Services/StandardNodeManager.cs) (also see [this service]([https://associativycore.codeplex.com/SourceControl/latest#Services/NodeIndexingService.cs](https://github.com/Lombiq/Associativy-Core/blob/master/Services/NodeIndexingService.cs)))
+- Search services from code: [Associativy Core](https://github.com/Lombiq/Associativy-Core/blob/master/Services/StandardNodeManager.cs) (also see [NodeIndexingService](https://github.com/Lombiq/Associativy-Core/blob/master/Services/NodeIndexingService.cs))
 - Site settings: [SH.GoogleAnalytics](https://github.com/ScharfHoldings/SH.GoogleAnalytics), Training Demo. With new menu item under Settings: Orchard.Comments, Orchard.Users.
 - Token provider: Training Demo, Orchard.Tokens, [Helpful Extensions](https://github.com/Lombiq/Helpful-Extensions/tree/master/Extensions/Tokens)
 - Unit tests: Training Demo, Orchard.Tests.Modules.Tags
 - Using the Content Picker popup for custom content item selection: [Orchard Scripting Extensions](https://github.com/Lombiq/Orchard-Scripting-Extensions/blob/master/Views/ScriptPicker.cshtml)
 - Using symmetric encryption: [External Pages](https://github.com/Lombiq/Orchard-External-Pages/blob/master/Models/BitbucketRepositoryDataRecord.cs) (look for SetPasswordEncrypted() and GetDecodedPassword())
 - Workflows Activity: Training Demo
-
-
-## Themes
-
-- Theme with settings: [Orchard Super Classic Theme](https://orchardsuperclassic.codeplex.com/)

@@ -10,7 +10,6 @@
 - [Orchard GitHub project homepage ](https://github.com/OrchardCMS/Orchard)
 	-  [Issue tracker](https://github.com/OrchardCMS/Orchard/issues)
 	-  [Releases](https://github.com/OrchardCMS/Orchard/releases)
-- [Orchard Codeplex project homepage](http://orchard.codeplex.com): currently Orchard moves away from Codeplex, only the [discussion board](https://orchard.codeplex.com/discussions) remains
 - [Orchard Gallery](http://gallery.orchardproject.net/)
 - [Orchard continuous integration server](http://teamcity.codebetter.com/project.html?projectId=project143) (click "Login as a Guest")
 
