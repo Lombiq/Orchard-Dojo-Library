@@ -11,7 +11,7 @@ Prefix jQuery objects with the dollar sign ($) so they can be distinguished from
 Instead of using the $ variable directly use a wrapper to inject the jQuery object and only use the dollar sign in the local scope.
 
     // The dollar sign will be used only inside the anonymous function here.
-    (function ($) {
+    (($) => {
         // The variable $ now refers to jQuery.
     })(jQuery);
 
@@ -21,8 +21,8 @@ Add any DOM manipulation code and event handlers inside the `document.ready()` f
 
     // Notice how it's a shorthand for a wrapper for the $ variable (as above) and also a document.ready() at once.
     // Use this if you only want to write a quick document.ready().
-    jQuery(function ($) {
-        $('.elementClass').on('click', function () { // Click event handler.
+    jQuery(($) => {
+        $('.elementClass').on('click', () => { // Click event handler.
             alert('I have been clicked.');
         });
     });
@@ -31,16 +31,16 @@ Add any DOM manipulation code and event handlers inside the `document.ready()` f
 
 Try to avoid adding variables to the global scope. A handy way of exposing globals is to namespace them under jQuery as demonstrated with the following example:
     
-    (function ($) {
+    (($) => {
         $.extend(true, {
             myModule: {
                 // Such deep nesting is not always necessary, the method could be on this level directly
                 myClass: { // More of a "class" than a real class of course
-                    myMethod: function () {
-                        alert("myMethod called!");
-                    }
-                }
-            }
+                    myMethod() {
+                        alert('myMethod called!');
+                    },
+                },
+            },
         });
 
         // You can use the above like this:
