@@ -28,12 +28,10 @@
       <Code Language="csharp">
         <![CDATA[public class $name$ResourceManagementOptionsConfiguration : IConfigureOptions<ResourceManagementOptions>
         {
-            private static ResourceManifest _manifest;
+            private static readonly ResourceManifest _manifest = new();
 
             static ResourceManagementOptionsConfiguration()
             {
-                _manifest = new ResourceManifest();
-
                 $end$
             }
 

@@ -18,8 +18,13 @@
           <Default>MyFirst</Default>
         </Literal>
       </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>YesSql.Sql</Namespace>
+        </Import>
+      </Imports>
       <Code Language="csharp">
-        <![CDATA[SchemaBuilder.CreateMapIndexTable(nameof($name$), table => table
+        <![CDATA[SchemaBuilder.CreateMapIndexTable<$name$>(table => table
                 $end$
             );]]>
       </Code>

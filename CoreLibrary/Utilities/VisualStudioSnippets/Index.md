@@ -48,6 +48,6 @@ Orchard Core snippets are prefixed with "oc" for distinction.
 - ocparthandler: `ContentPartHandler` implementation.
 - ocpartindexhandler: `ContentPartIndexHandler` implementation.
 - ocpermissions: `IPermissionProvider` implementation
-- ocresourcemanifest:  `IResourceManifestProvider` implementation.
+- ocresourcemanagementoptionsconfiguration:`IConfigureOptions<ResourceManagementOptions>` implementation.
 - ocshapetableprovider: `IShapeTableProvider` implementation.
 - ocstartup: `Startup` class for an extension's feature.
