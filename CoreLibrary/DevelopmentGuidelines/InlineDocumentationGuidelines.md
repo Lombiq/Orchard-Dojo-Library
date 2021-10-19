@@ -15,3 +15,5 @@
 
     /// &lt;returns&gt;Returns &lt;see langword="true"/&gt; on success, &lt;see langword="false"/&gt; otherwise.&lt;/returns&gt;
   - In comments reference generic types in the format of `<see cref="ILookup{TKey, TValue}"/>`.
+- [Use ASCII art](https://blog.regehr.org/archives/1653) to visualize something in 2D.
+- There are some great tips in [this blog post](https://buttondown.email/hillelwayne/archive/comment-the-why-and-the-what/).
