@@ -5,7 +5,7 @@
 - How to write code
 	- Agree on and follow [common guidelines](../../DevelopmentGuidelines/) and conventions
 	- Importance of documentation
-	- Utilizing .editorconfig
+	- Utilizing [static code analysis](https://github.com/Lombiq/.NET-Analyzers) to enforce common coding rules and pinpoint potential issues.
 - How to share code and other application data
 	- Version control best practices
 		- Branching strategy
