@@ -4,7 +4,7 @@
 
 - Content part development
 	- Parts and their comparison to entities, part data storage
-	- Content type and content part migrations, code generation with [Helpful Extensions](https://github.com/Lombiq/Helpful-Extensions/tree/orchard-core-preview#code-generation-helpful-extensions)
+	- Content type and content part migrations, code generation with [Helpful Extensions](https://github.com/Lombiq/Helpful-Extensions#code-generation-helpful-extensions)
 	- Drivers: Display and edit methods
 	- Editor and display shapes
 	- Handlers
