@@ -5,7 +5,7 @@
 - Orchard ecosystem as under the [Orchard link collection](../../LinkCollection)
 - Showcasing complex/notable Orchard apps from [Show Orchard](http://showorchard.com).
 - Architectural overview
-	- ASP.NET Core -> ASP.NET Core MVC -> Orchard Core
+	- .NET -> ASP.NET Core -> ASP.NET Core MVC -> Orchard Core
 	- Uses a lot of other open-source projects and common web frameworks/library (e.g. Json.NET, Lucene, xUnit, YesSQL, jQuery, Bootstrap)
 	- Modularized architecture (modules, themes)
 - How to get my own Orchard instance?
