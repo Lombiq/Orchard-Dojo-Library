@@ -12,7 +12,7 @@
 		- 3rd party modules and themes in submodules or as packages
 		- Main repo
 		- Proper exclusion filters
-	- Share dev database snapshot or dev recipe
+	- Share dev database snapshot or dev recipe (with [Auto Setup](https://docs.orchardcore.net/en/latest/docs/reference/modules/AutoSetup/))
 	- Share differential recipes for code changes
 - How to communicate
 	- Issue tracking best practices
