@@ -11,10 +11,8 @@
 - It's good to document what the aim of a type (mostly class or interface) is. This is to be able to quickly understand what a type does without having to understand its code.
 - Write documentation just like you write code: Use correct grammar and punctuation (remember that comments are sentences), adhere to style conventions.
 - Follow [C# XML comment guidelines](https://docs.microsoft.com/en-us/dotnet/csharp/codedoc):
-  - C# keywords like `true`, referenced in XML comments, should be wrapped into a `see` element as follows:<br/>
-    `/// <returns><see langword="true"/> on success, <see langword="false"/> otherwise.</returns>`
-  - Generic types should be referenced as follows:<br/>
-    `<see cref="ILookup{TKey, TValue}"/>`
+  - C# keywords like `true`, referenced in XML comments, should be wrapped into a `see` element as follows: `/// <returns><see langword="true"/> on success, <see langword="false"/> otherwise.</returns>`
+  - Generic types should be referenced as follows: `<see cref="ILookup{TKey, TValue}"/>`
   - As seen in the above examples, don't add a space before self-closing elements in XML comments. This is due to the way automatic tooling generates those elements, as it would be cumbersome to change every such instance.
 - [Use ASCII art](https://blog.regehr.org/archives/1653) to visualize something in 2D.
 - There are some great tips in [this blog post](https://buttondown.email/hillelwayne/archive/comment-the-why-and-the-what/).
