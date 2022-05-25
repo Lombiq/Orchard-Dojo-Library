@@ -35,7 +35,7 @@ Notice the order:
 - static methods
 - inner classes
 
-Within this order fields and properties are sorted private, protected, public.
+Within this order, fields and properties are sorted private, protected, public.
 Methods and inner classes are sorted public, protected, private.
 
 ```
