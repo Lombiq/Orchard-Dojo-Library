@@ -79,6 +79,10 @@ Methods and inner classes are sorted public, protected, private.
         }
 
         // Static methods
+        public static void MyPublicStaticMethod()
+        {
+        } 
+
         private static void MyStaticMethod()
         {
         }
