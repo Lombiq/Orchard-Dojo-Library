@@ -23,45 +23,30 @@ Prefix private variables with an underscore (_).
 
 ----------
 
-Keep logical blocks of codes separated by multiple line breaks, forming logical “islands”. This makes the code more readable.
-
-    // Notice the double line breaks between fields/properties and the constructor as well as between the constructor, public and private methods.
-    // Properties are separated by a blank line from fields.
-    public class MyClass
-    {
-        private string _myField = "field";
-
-        public int MyProperty { get; set; }
-
-
-        public MyClass()
-        {
-        }
-
-
-        public void MyMethod1()
-        {
-        }
-
-        public void MyMethod2()
-        {
-        }
-
-
-        private void MyPrivateMethod()
-        {
-        }
-    }
-
-If you have multiple types (e.g. an interface and a class) defined in the same file, similarly divide them with two line breaks.
-
-----------
-
 Have a standard ordering of members depending on their visibility and whether they're instance- or class-level, etc.
 
-    //  Notice the order: static, private, protected, public, const, constructor, public, protected, private, static, inner classes
+Notice the order: 
+- constant fields
+- readonly fields
+- other fields
+- properties
+- constructors
+- instance methods
+- static methods
+- inner classes
+
+Within this order fields and properties are sorted private, protected, public.
+Methods and inner classes are sorted public, protected, private.
+
+```
     public class MyClass
     {
+        // Constant fields come before everything else.
+        public const string MyConst = "const";
+	
+        // Readonly fields should appear before non-readonly fields
+        private readonly string _myReadonly = "readonly";
+	
         // Static fields first
         private static string _myStaticField = "field";
 
@@ -73,45 +58,37 @@ Have a standard ordering of members depending on their visibility and whether th
         // Properties next
         public int MyProperty { get; set; }
 
-        // Constants just before the constructor
-        public const string MyConst = "const";
-
-
         // Then the constructor(s)
         public MyClass()
         {
         }
-
 
         // Public methods
         public void MyMethod()
         {
         }
 
-
         // Protected methods
         protected void MyProtected()
         {
         }
-
 
         // Private methods
         private void MyPrivateMethod()
         {
         }
 
-
         // Static methods
         private static void MyStaticMethod()
         {
         }
-
 
         // Inner classes
         public class MyInnerClass
         {
         }
     }
+```
 
 ----------
 
