@@ -2,4 +2,4 @@
 
 
 
-See [this page](../../CoreLibrary/DevelopmentGuidelines/CodeReview).
+See [this page](../../CoreLibrary/DevelopmentGuidelines/CodeStyling).
