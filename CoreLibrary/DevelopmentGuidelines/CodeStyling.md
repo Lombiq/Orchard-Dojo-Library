@@ -19,7 +19,7 @@ If there length of the parameter list for a method is too long to read convenien
 
 ----------
 
-Prefix private variables with an underscore (_).
+Prefix private fields with an underscore (_).
 
 ----------
 
