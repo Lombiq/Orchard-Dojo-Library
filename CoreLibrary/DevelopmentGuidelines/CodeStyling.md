@@ -26,6 +26,7 @@ Prefix private fields with an underscore (_).
 Have a standard ordering of members depending on their visibility and whether they're instance- or class-level, etc.
 
 Notice the order: 
+
 - constant fields
 - readonly fields
 - other fields
