@@ -19,19 +19,35 @@ If there length of the parameter list for a method is too long to read convenien
 
 ----------
 
-Prefix private fields with an underscore (_).
+Prefix private variables with an underscore (_).
 
 ----------
 
 Have a standard ordering of members depending on their visibility and whether they're instance- or class-level, etc.
 
-    //  Notice the order: static, private, protected, public, const, constructor, public, protected, private, static, inner classes
+Notice the order: 
+- constant fields
+- readonly fields
+- other fields
+- properties
+- constructors
+- instance methods
+- static methods
+- inner classes
+
+Within this order, fields and properties are sorted first by static vs. non-static, and inside each of these by private, protected, public.
+
+Methods and inner classes are sorted public, protected, private.
+
     public class MyClass
     {
-        // Constants first
+        // Constant fields come before everything else.
         public const string MyConst = "const";
-        
-        // Static fields
+	
+        // Readonly fields should appear before non-readonly fields
+        private readonly string _myReadonly = "readonly";
+	
+        // Static fields first
         private static string _myStaticField = "field";
 
         // Private fields
@@ -42,36 +58,34 @@ Have a standard ordering of members depending on their visibility and whether th
         // Properties next
         public int MyProperty { get; set; }
 
-
         // Then the constructor(s)
         public MyClass()
         {
         }
-
 
         // Public methods
         public void MyMethod()
         {
         }
 
-
         // Protected methods
         protected void MyProtected()
         {
         }
-
 
         // Private methods
         private void MyPrivateMethod()
         {
         }
 
-
         // Static methods
+        public static void MyPublicStaticMethod()
+        {
+        } 
+
         private static void MyStaticMethod()
         {
         }
-
 
         // Inner classes
         public class MyInnerClass
