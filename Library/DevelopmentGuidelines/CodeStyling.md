@@ -39,7 +39,6 @@ Within this order, fields and properties are sorted first by static vs. non-stat
 
 Methods and inner classes are sorted public, protected, private.
 
-```
     public class MyClass
     {
         // Constant fields come before everything else.
@@ -93,7 +92,6 @@ Methods and inner classes are sorted public, protected, private.
         {
         }
     }
-```
 
 ----------
 
