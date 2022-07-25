@@ -8,7 +8,7 @@ Always do part shape-related heavy work in shape factories inside drivers: this 
          () =>
          {
              // This delegate will only run if the shape is actually displayed.
-             var heavy = /* Some heavy work */;
+             var heavy = /_Some heavy work_/;
              return shapeHelper.Parts_My(Heavy: heavy);
          });
  }
@@ -28,7 +28,7 @@ For improving client-side performance by preventing blocking script loads always
  @{
      // This script will be downloaded asynchronously, without blocking the page loading, but you can't count on it being available at any point in other scripts (so if you have dependent scripts you have to use callbacks or events to signal if the script is loaded).
      Script.Include("my-async-script").SetAttribute("async", "async");
- 
+
      // This script will be downloaded synchronously but since it's in the foot it won't block the page load and the user will be able to see the full page sooner.
      Script.Include("my-script.js").AtFoot();
  

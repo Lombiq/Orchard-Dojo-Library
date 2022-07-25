@@ -24,7 +24,7 @@ The following tools are needed for an Orchard training:
 - Trainer's PC having all of the above and connected to a projector for demonstrations
 - A whiteboard or something similar
 
-## <a id="topics"></a>Topics
+## Topics
 
 The topics are each divided into individual modules. These modules can, but don't necessarily have dependency on each other.
 

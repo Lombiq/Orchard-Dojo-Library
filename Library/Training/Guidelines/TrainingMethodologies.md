@@ -18,11 +18,12 @@ Lessons generally have repeated cycles of the following form:
 
 1. Presentation: the course leader explains the current topic (10-15 minutes), if the content is practical (like doing some dashboard work) students follow individually
 2. Group work
- - After hearing the presentation about how to solve a certain problem students are encouraged to try out the new techniques for given tasks in form of a group work. The task either
-  - consists of the topic demonstrated before
-  - or is something slightly new that can be derived from the demonstration or learned by reading a short documentation.
- The former one is a good choice if there is enough time, the latter one is efficient if there's only limited time available.
- - Groups of 2-3-4 try to solve a problem while the course leader is helping their work and is available for questions
+
+   - After hearing the presentation about how to solve a certain problem students are encouraged to try out the new techniques for given tasks in form of a group work. The task either
+     - consists of the topic demonstrated before
+     - or is something slightly new that can be derived from the demonstration or learned by reading a short documentation.
+   The former one is a good choice if there is enough time, the latter one is efficient if there's only limited time available.
+   - Groups of 2-3-4 try to solve a problem while the course leader is helping their work and is available for questions
 3. Evaluation of the group work: discussing common questions and issues
 
 #### Examination

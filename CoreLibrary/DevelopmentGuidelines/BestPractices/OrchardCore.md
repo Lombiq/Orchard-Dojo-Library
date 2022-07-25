@@ -2,15 +2,17 @@
 
 Always do part shape-related heavy work in shape factories inside drivers: this way if the shape is not displayed (i.e. not specified in or hidden from Placement.info) no work will be done.
 
- public override IDisplayResult Display(MyPart titlePart, BuildPartDisplayContext context)
- {
-  return Initialize<MyPartViewModel>(GetDisplayShapeType(context), model =>
-  {
-   // This delegate will only run if the shape is actually displayed.
-   // Do heavy work here.
-  })
-  .Location("Detail", "Content:5");
- }
+```csharp
+public override IDisplayResult Display(MyPart titlePart, BuildPartDisplayContext context)
+{
+    return Initialize<MyPartViewModel>(GetDisplayShapeType(context), model =>
+    {
+        // This delegate will only run if the shape is actually displayed.
+        // Do heavy work here.
+    })
+    .Location("Detail", "Content:5");
+}
+```
 
 ----------
 
@@ -66,13 +68,17 @@ When you want to access a form field from JavaScript that was built with a stati
 
 When creating a new controller action don't forget to set the page title somewhere, best from the main view template of the action. I.e.:
 
-    <h1>@RenderTitleSegments(T["My Page"])</h1>
+```cshtml
+<h1>@RenderTitleSegments(T["My Page"])</h1>
+```
 
 Or if you just want to update the content of the `<title>` tag directly (like it is necessary on admin pages, where the title is already displayed):
 
-    @{
-     Title.AddSegment(T["My Page"]);
-    }
+```cshtml
+@{
+    Title.AddSegment(T["My Page"]);
+}
+```
 
 Note that generally it's bad practice to set the title from content part shape templates: those are meant to be a fragment of the layout so they shouldn't set the title directly; the title is to be set by a higher level component that actually knows what the whole page is about.
 
@@ -82,11 +88,15 @@ About displaying validation info in templates:
 
 If you want to display the validation errors corresponding to a specific field, which is generally a good practice, then you can display it like this (you can use other elements than `span`):
 
-    <span asp-validation-for="MyField"></span>
+```html
+<span asp-validation-for="MyField"></span>
+```
 
 Most of the time it's good practice to also, or instead display a validation summary on the top of the page, but close to the form:
 
-    @Html.ValidationSummary()
+```cshtml
+@Html.ValidationSummary()
+```
 
 Never display a validation summary from a content part editor for the same reason as not to set the page title (see above).
 
