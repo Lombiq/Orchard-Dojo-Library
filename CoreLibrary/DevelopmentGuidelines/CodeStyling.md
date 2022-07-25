@@ -1,7 +1,5 @@
 # Code styling
 
-
-
 ## C\# styling
 
 If there length of the parameter list for a method is too long to read conveniently in terms of line length (due to the 3-argument rule this should rarely happen for methods but constructors with dependency injection) break it into multiple lines parameter by parameter.
@@ -25,7 +23,7 @@ Prefix private fields with an underscore (_).
 
 Have a standard ordering of members depending on their visibility and whether they're instance- or class-level, etc.
 
-Notice the order: 
+Notice the order:
 
 - constant fields
 - readonly fields
@@ -44,10 +42,10 @@ Methods and inner classes are sorted public, protected, private.
     {
         // Constant fields come before everything else.
         public const string MyConst = "const";
-	
+ 
         // Readonly fields should appear before non-readonly fields
         private readonly string _myReadonly = "readonly";
-	
+ 
         // Static fields first
         private static string _myStaticField = "field";
 
@@ -104,17 +102,16 @@ If an expression is short, omit line breaks when applicable to keep the code com
         public int MyProperty { get { return _myField; } }
     }
 
-
 ## CSS styling
 
 Structure your stylesheet's content logically under titles. Use the following comment formats for different levels of titles:
 
-	/* First-level title
-	***************************************************************/
-	
-	// Second-level title
-	// -------------------------
-	
-	/* Third-level title */
+ /* First-level title
+ ***************************************************************/
+ 
+ // Second-level title
+ // -------------------------
+ 
+ /* Third-level title */
 
 Use line breaks to space out blocks of code.

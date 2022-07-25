@@ -1,7 +1,5 @@
 # JavaScript best practices
 
-
-
 Prefix jQuery objects with the dollar sign ($) so they can be distinguished from other objects.
 
     var $header = $("#header");
@@ -26,11 +24,11 @@ Add any DOM manipulation code and event handlers inside the `document.ready()` f
             alert('I have been clicked.');
         });
     });
-    
+
 ----------
 
 Try to avoid adding variables to the global scope. A handy way of exposing globals is to namespace them under jQuery as demonstrated with the following example:
-    
+
     (($) => {
         $.extend(true, {
             myModule: {

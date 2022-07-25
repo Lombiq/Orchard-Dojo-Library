@@ -1,14 +1,10 @@
 # Orchard training guidelines
 
-
-
 The following guidelines serve as a base for [Orchard trainings](http://orcharddojo.net/orchard-training) and you're welcome to hold your own Orchard training using these guidelines.
-
 
 ## Training methodologies
 
 For methodologies for various forms of Orchard training see [training methodologies](TrainingMethodologies).
-
 
 ## Prerequisites for the participants
 
@@ -18,17 +14,15 @@ Enumeration of technologies and paradigms used in Orchard: C#, [MVC](http://en.w
 - Strongly advised: basic understanding of ASP.NET MVC and LINQ
 - Advised: understanding inversion of control containers and dependency injection, usage of Razor
 
-
 ## Technical requirements
 
 The following tools are needed for an Orchard training:
 
 - Lab computers or participants' computers:
-	- Software listed under "Software to install" in "[Development environment advices](../../DevelopmentGuidelines/DevelopmentEnvironment)".
-	- Administrative account to install other components if necessary and to avoid permission issues when running Orchard
+  - Software listed under "Software to install" in "[Development environment advices](../../DevelopmentGuidelines/DevelopmentEnvironment)".
+  - Administrative account to install other components if necessary and to avoid permission issues when running Orchard
 - Trainer's PC having all of the above and connected to a projector for demonstrations
 - A whiteboard or something similar
-
 
 ## <a id="topics"></a>Topics
 
@@ -38,6 +32,6 @@ The topics are each divided into individual modules. These modules can, but don'
 - [Theme development](ThemeDevelopment/)
 - [Module development and Orchard APIs](ModuleDevelopmentAndApis/)
 - [Extended APIs](ExtendedApis/)
-- [Web API](WebApi/) 
+- [Web API](WebApi/)
 - [Deployment and optimization](DeploymentAndOptimization/)
 - [Team training](TeamTraining/) (for development teams)

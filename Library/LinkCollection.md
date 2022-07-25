@@ -1,18 +1,15 @@
 # Orchard link collection
 
-
-
 ## Official sites
 
 - [Orchard homepage](http://orchardproject.net/)
-	- [Documentation](http://docs.orchardproject.net/)
-	- [Translations](https://crowdin.com/project/orchard-cms) (and for [modules in the Gallery](https://crowdin.com/project/orchard-cms-gallery))
-- [Orchard GitHub project homepage ](https://github.com/OrchardCMS/Orchard)
-	-  [Issue tracker](https://github.com/OrchardCMS/Orchard/issues)
-	-  [Releases](https://github.com/OrchardCMS/Orchard/releases)
+  - [Documentation](http://docs.orchardproject.net/)
+  - [Translations](https://crowdin.com/project/orchard-cms) (and for [modules in the Gallery](https://crowdin.com/project/orchard-cms-gallery))
+- [Orchard GitHub project homepage](https://github.com/OrchardCMS/Orchard)
+  - [Issue tracker](https://github.com/OrchardCMS/Orchard/issues)
+  - [Releases](https://github.com/OrchardCMS/Orchard/releases)
 - [Orchard Gallery](http://gallery.orchardproject.net/)
 - [Orchard continuous integration server](http://teamcity.codebetter.com/project.html?projectId=project143) (click "Login as a Guest")
-
 
 ## Community sites
 
@@ -22,11 +19,9 @@
 - [Iran](http://orchardpro.ir/)
 - [Magyarország](http://orchardproject.hu/)
 
-
 ## Blogs
 
 All blogs from the Orchard community are automatically scraped by [Orchard Blogs](https://orchardblogs.dotnest.com/).
-
 
 ## Technologies behind Orchard
 
@@ -35,7 +30,6 @@ All blogs from the Orchard community are automatically scraped by [Orchard Blogs
 - [C#](http://msdn.microsoft.com/en-us/library/67ef8sbd.aspx)
 - [jQuery](http://jquery.com/) as the javascript framework and [jQuery UI](http://jqueryui.com/) for UI enhancements
 - [Nhibernate](http://nhforge.org/) for object-relational mapping
-
 
 ## Miscellaneous
 

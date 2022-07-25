@@ -1,7 +1,5 @@
 # Orchard Dojo Library contribution guidelines
 
-
-
 The Orchard Dojo Library is fully open source and can be edited by anyone. If you found an error or would like to improve it you're more than welcome; just submit a pull request!
 
 The Library is stored as Markdown-formatted text files in a repository on [GitHub](https://github.com/Lombiq/Orchard-Dojo-Library). The files can be edited with any text editor but we recommend [Notepad++](https://notepad-plus-plus.org/).

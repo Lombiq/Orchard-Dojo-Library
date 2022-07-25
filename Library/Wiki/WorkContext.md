@@ -1,7 +1,5 @@
 # Work Context
 
-
-
 `WorkContext` is one of the most important types in Orchard. It's more or less a generalization of the idea of an HttpContext. It contains a lot of (mostly Orchard-specific) contextual information like the basic site settings, the current theme or user and the HttpContext itself.
 
 The work context is an important aspect of Orchard's dependency framework too. A `WorkContext` object lives as long as its work context scope lives, what is a dependency injection scope (`IDependency` implementations live as long as their work context lives): when such a scope is created through `IWorkContextAccessor` (what you can also use to access the current `WorkContext`) also the `WorkContext` is created. Correspondingly there are also methods on the `WorkContext` class to resolve dependencies (you can use this instead of constructor injection if you want to lazily resolve dependencies).

@@ -1,18 +1,16 @@
 # Orchard best practices
 
-
-
 Always do part shape-related heavy work in shape factories inside drivers: this way if the shape is not displayed (i.e. not specified in or hidden from Placement.info) no work will be done.
 
-	public override IDisplayResult Display(MyPart titlePart, BuildPartDisplayContext context)
-	{
-		return Initialize<MyPartViewModel>(GetDisplayShapeType(context), model =>
-		{
-			// This delegate will only run if the shape is actually displayed.
-			// Do heavy work here.
-		})
-		.Location("Detail", "Content:5");
-	}
+ public override IDisplayResult Display(MyPart titlePart, BuildPartDisplayContext context)
+ {
+  return Initialize<MyPartViewModel>(GetDisplayShapeType(context), model =>
+  {
+   // This delegate will only run if the shape is actually displayed.
+   // Do heavy work here.
+  })
+  .Location("Detail", "Content:5");
+ }
 
 ----------
 
@@ -32,7 +30,7 @@ When you have multiple features in a single module always make the sub-features 
 
 ----------
 
-Although not mandatory, it's good practice to route all your admin controller to under */Admin* in a similar way how controllers named "AdminController" are routed by default. This makes it easier to set up rules for the admin area if one needs it.
+Although not mandatory, it's good practice to route all your admin controller to under _/Admin_ in a similar way how controllers named "AdminController" are routed by default. This makes it easier to set up rules for the admin area if one needs it.
 
 ----------
 
@@ -73,7 +71,7 @@ When creating a new controller action don't forget to set the page title somewhe
 Or if you just want to update the content of the `<title>` tag directly (like it is necessary on admin pages, where the title is already displayed):
 
     @{
-    	Title.AddSegment(T["My Page"]);
+     Title.AddSegment(T["My Page"]);
     }
 
 Note that generally it's bad practice to set the title from content part shape templates: those are meant to be a fragment of the layout so they shouldn't set the title directly; the title is to be set by a higher level component that actually knows what the whole page is about.

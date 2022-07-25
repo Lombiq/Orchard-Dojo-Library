@@ -1,7 +1,5 @@
 # Content field
 
-
-
 Content fields are bits of information that can store basic data, like the common .NET classes, e.g. strings, integers and dates.
 
 Content fields can be attached to a [content part](ContentPart) in any quantity you like (either by code - in a migration or on the Admin UI), just make sure every field has a unique name. That means that unlike with parts, you can have a specific type of field attached multiple times.

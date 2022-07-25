@@ -1,9 +1,6 @@
 # Source control best practices
 
-
-
 The following advices apply to the Mercurial source control system and assume the usage of the TortoiseHg client. See the [Mercurial Kick Start](http://mercurial.aragost.com/kick-start/en/) for a more holistic tutorial. Also there's a [nice tutorial regarding TortoiseHg and Codeplex](http://blogs.msdn.com/b/codeplex/archive/2010/01/22/using-mercurial-on-codeplex.aspx).
-
 
 ## Committing
 
@@ -16,7 +13,6 @@ The following advices apply to the Mercurial source control system and assume th
 - Discrete changes should go into discrete changesets. Try to avoid having multiple logical changes in the same commit as this will make it difficult to back out of certain changes if necessary.
 - Commit often if you have finished something. If you have something working, or a section done, commit it. It will make much easier to track changes instead of having one big changeset. If you don't want to clutter everybody else's code base with half-ready changes then commit them to a feature branch. If your code is not affecting anybody else's work (e.g. it's not something that every other developer also uses or that will be included in the next release, or in case of Orchard it's a module that's not yet enabled anywhere, or you work in your own feature branch) then the only criterion a commit must meet is that it should compile properly. This is to encourage frequent commits. If your code change affects somebody else's work too then of course you should take more care and test it.
 - If your repository uses subrepos: when you did some change to a subrepo then always commit the subrepo change into the main repo too in the end. The point is that everybody pulling the main repo will also get the current version of all subrepos too. This doesn't mean that you have to make a main repo commit for each subrepo commits (commits in the subrepo can very well be more frequent), but once you're done with a batch of work, commit that to the main repo too. Because of the same reason never push to the subrepo alone but rather push the main repo (what, the subrepo changes being committed to it, will also push the subrepo).
-
 
 ## Branching
 

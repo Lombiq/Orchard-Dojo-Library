@@ -1,11 +1,8 @@
 # The InfosetPart content part
 
-
-
 `InfosetPart` is one of Orchard's built-in [content part](ContentPart)s. It's always automatically attached to every content item of every content type. It represents (and provides access to) the so called infoset of the content item.
 
 The infoset is a simple XML document that is stored along the content item in its `ContentItemRecord` or if [versioned](Versioning), in the `ContentItemVersionRecord`. It can store arbitrary data and is commonly used to save [content fields'](ContentField) data or data for content parts that needn't be queried. Since the `ContentItemRecord` and/or `ContentItemVersionRecord` is always loaded for a content item the infoset is also loaded at all times. Thus anything stored in the infoset can be retrieved quickly, without any subsequent database calls.
-
 
 ## Importance for content parts
 

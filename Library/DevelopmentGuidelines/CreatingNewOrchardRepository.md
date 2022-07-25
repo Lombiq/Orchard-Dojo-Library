@@ -1,7 +1,5 @@
 # Creating a new repository of the full Orchard source for your project
 
-
-
 If from [the possible ways of source controlling an Orchard solution](http://english.orchardproject.hu/blog/ways-of-source-controlling-an-orchard-solution) you've chosen to keep the full Orchard source in your project's repository then these are the steps to follow when creating the solution:
 
 1. Copy over the full Orchard source into your repository.
