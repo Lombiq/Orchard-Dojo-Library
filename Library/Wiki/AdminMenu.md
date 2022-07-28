@@ -1,7 +1,5 @@
 # Admin menu
 
-
-
 To integrate your module with Admin UI, you need to add navigation items to it to make your features easily accessible to users. For this purpose you have to create a class that implements the `INavigationProvider` interface. If you only have one class of such functionality, the convention is that the file and the class are named AdminMenu and the file is placed in the project root. If you have multiple of these classes, you may want to keep you project root clean and place these in a solution folder called AdminMenu.
 
 The structure of an Admin menu can be the following:

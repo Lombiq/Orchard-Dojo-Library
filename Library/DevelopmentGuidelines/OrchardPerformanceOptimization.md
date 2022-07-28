@@ -1,7 +1,5 @@
 # Orchard performance optimization guidelines
 
-
-
 ## Orchard performance checklist
 
 When optimizing an Orchard site's performance (or just putting it into production) check these points for the most obvious ways for a boost.
@@ -18,7 +16,6 @@ When optimizing an Orchard site's performance (or just putting it into productio
 - Disable IIS Logging or too chatty Failed Request Tracing.
 - Set DB IsolationLevel.ReadUncommitted if you [know what are you doing](http://stackoverflow.com/questions/2471055/why-use-a-read-uncommitted-isolation-level) because it can give a huge performance boost.
 - In menus use Custom Links to display links to single content items instead of Content Menu Items. Custom Links store the URL while Content Menu Items need to do multiple database queries to fetch the URL, thus they're significantly slower (and the convencience of usage doesn't justify this most of the times).
-
 
 ## Detecting performance bottlenecks
 

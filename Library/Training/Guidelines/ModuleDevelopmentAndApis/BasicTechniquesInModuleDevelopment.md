@@ -1,16 +1,14 @@
 # Basic techniques in module development
 
-
-
 - Data storage:
-	- Records and repositories, record migrations
-	- Content manager:
-		- Content querying, updating and removal
-		- Joins and `QueryHints` for optimization
-	- Abstracted file storage with `IStorageProvider`
+  - Records and repositories, record migrations
+  - Content manager:
+    - Content querying, updating and removal
+    - Joins and `QueryHints` for optimization
+  - Abstracted file storage with `IStorageProvider`
 - Exception handling:
-	- OrchardException
-	- `IsFatal()`
+  - OrchardException
+  - `IsFatal()`
 - Ad-hoc shape creation
 - `OrchardFeature` attribute
 

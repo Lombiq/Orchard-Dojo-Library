@@ -1,6 +1,5 @@
 # Module
 
-
 Orchard modules are types of [extensions](Extension). They are designed to extend Orchard's functionality in any way you can imagine.
 
 Modules can have multiple features: features can be independently switched on or off (you have to decorate classes corresponding to a specific feature with the `OrchardFeature` attribute). Actually what you can enable or disable from the admin UI are features, not modules. However, each module has at least one feature, what has the same ID as the module itself (i.e. the .csproj file's name).

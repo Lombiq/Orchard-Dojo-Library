@@ -1,22 +1,18 @@
 # Orchard link collection
 
-
-
 ## Official sites
 
 - [Orchard Core homepage](https://www.orchardcore.net/)
-	- [Documentation](https://docs.orchardcore.net/en/dev/)
-	- [Translations](https://crowdin.com/project/orchard-core)
-- [Orchard Core GitHub project homepage ](https://github.com/OrchardCMS/OrchardCore)
-	- [Issue tracker](https://github.com/OrchardCMS/OrchardCore/issues)
-	- [Discussions](https://github.com/OrchardCMS/OrchardCore/discussions)
-	- [Releases](https://github.com/OrchardCMS/OrchardCore/releases)
-
+  - [Documentation](https://docs.orchardcore.net/en/dev/)
+  - [Translations](https://crowdin.com/project/orchard-core)
+- [Orchard Core GitHub project homepage](https://github.com/OrchardCMS/OrchardCore)
+  - [Issue tracker](https://github.com/OrchardCMS/OrchardCore/issues)
+  - [Discussions](https://github.com/OrchardCMS/OrchardCore/discussions)
+  - [Releases](https://github.com/OrchardCMS/OrchardCore/releases)
 
 ## Blogs
 
 All blogs from the Orchard community are automatically scraped by [Orchard Blogs](https://orchardblogs.dotnest.com/).
-
 
 ## Miscellaneous
 

@@ -1,7 +1,5 @@
 # Web API (training topic)
 
-
-
 - Creating RESTful API controllers
 - Building GraphQL queries, using the GraphiQL browser
 

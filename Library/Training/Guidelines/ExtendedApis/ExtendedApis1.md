@@ -1,13 +1,11 @@
-# Extended APIs I.
-
-
+# Extended APIs I
 
 - Common Orchard provider model
 - Form provider
 - Projector providers:
-	- Filter provider
-	- Sort criteria provider
-	- Layout provider
+  - Filter provider
+  - Sort criteria provider
+  - Layout provider
 
 Time requirement: 1h 30m
 

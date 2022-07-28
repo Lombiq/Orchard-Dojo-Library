@@ -1,12 +1,10 @@
-# Extended APIs II.
-
-
+# Extended APIs II
 
 - Liquid filters
 - Tag helpers
 - Workflows (`IActivity`) providers:
-	- Events
-	- Tasks
+  - Events
+  - Tasks
 
 Time requirement: 2h 30m
 

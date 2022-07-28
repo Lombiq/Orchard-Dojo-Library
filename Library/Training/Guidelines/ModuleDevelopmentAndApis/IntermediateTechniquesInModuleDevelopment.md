@@ -1,7 +1,5 @@
 # Intermediate techniques in module development
 
-
-
 - Custom routes
 - Navigation providers: implementing an admin menu (with corresponding admin controller)
 - Resource manifest

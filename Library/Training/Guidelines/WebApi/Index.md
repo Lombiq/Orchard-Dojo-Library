@@ -1,7 +1,5 @@
 # Web API (training topic)
 
-
-
 - Creating simple API controllers
 - Defining custom API routes
 

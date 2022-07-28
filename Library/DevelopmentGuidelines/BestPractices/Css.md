@@ -1,7 +1,5 @@
 # CSS best practices
 
-
-
 Use a language that eases CSS development and compiles into CSS like [LESS](http://lesscss.org/) or [SASS](http://sass-lang.com/). It's really worth trying! (And there's good tooling support.)
 
 ----------

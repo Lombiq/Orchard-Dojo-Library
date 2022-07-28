@@ -1,7 +1,5 @@
 # Core
 
-
-
 We mean several things as "core" so initially this may be confusing:
 
 - [Core modules](http://docs.orchardproject.net/Documentation/Builtin-Features#Coremodules): these are the [modules](Module) that reside in Orchard's Core project (Orchard.Core). They are always installed and always enabled, so your modules can safely depend on them. Examples include Content (basic content management features like admin content lists) and Navigation.

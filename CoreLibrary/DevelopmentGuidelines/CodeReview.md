@@ -1,7 +1,5 @@
 # Code review guidelines
 
-
-
 Doing static code reviews is a great way to improve code quality and share knowledge in a team.
 
 - Read [this study](https://web.archive.org/web/20190620111040/http://www.ibm.com/developerworks/rational/library/11-proven-practices-for-peer-review/) about code reviews at Cisco; lot of good tips there. Also, [this article](https://www.codeproject.com/Articles/1156196/Code-Review-Checklist) is an ideal and simple checklist that can be used for code review.

@@ -1,33 +1,33 @@
 # Training methodologies
 
-
-
 Following are methodologies for various forms of Orchard training.
 
 - Remember that it's a good thing to have regular breaks about every 45 minutes.
 - Keep the time between explaining something new and demonstrating it short; i.e. if you explain something, show it.
 - After a session (lesson, tutorial video...) do a quick recap of what was covered: click through what was explained and briefly mention again if there is something to emphasize.
 
-
 ## University course
 
 ### Class work and examination
 
 #### Lesson structure
+
 Every lesson begins with a short warm-up task incorporating the topics of the previous lesson.
 
 Lessons generally have repeated cycles of the following form:
 
 1. Presentation: the course leader explains the current topic (10-15 minutes), if the content is practical (like doing some dashboard work) students follow individually
 2. Group work
-	- After hearing the presentation about how to solve a certain problem students are encouraged to try out the new techniques for given tasks in form of a group work. The task either
-		- consists of the topic demonstrated before
-		- or is something slightly new that can be derived from the demonstration or learned by reading a short documentation.
-	The former one is a good choice if there is enough time, the latter one is efficient if there's only limited time available.
-	- Groups of 2-3-4 try to solve a problem while the course leader is helping their work and is available for questions
+
+   - After hearing the presentation about how to solve a certain problem students are encouraged to try out the new techniques for given tasks in form of a group work. The task either
+     - consists of the topic demonstrated before
+     - or is something slightly new that can be derived from the demonstration or learned by reading a short documentation.
+   The former one is a good choice if there is enough time, the latter one is efficient if there's only limited time available.
+   - Groups of 2-3-4 try to solve a problem while the course leader is helping their work and is available for questions
 3. Evaluation of the group work: discussing common questions and issues
 
 #### Examination
+
 The course has no special examination, instead students should create and finish and Orchard-based web application project.
 
 - Students form teams of arbitrary size (it’s also possible to work alone)
@@ -38,7 +38,6 @@ The course has no special examination, instead students should create and finish
 ### Schedule
 
 Additional is the time needed for student presentations (depends on the number of attendees) since the course’s final lesson consists of student presentations and code reviews.
-
 
 ## Intensive course
 

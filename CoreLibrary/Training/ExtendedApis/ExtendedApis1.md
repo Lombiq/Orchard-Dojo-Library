@@ -1,6 +1,4 @@
-# Extended APIs I.
-
-
+# Extended APIs I
 
 - Common Orchard provider model
 - Extending Queries with `IQuerySource`

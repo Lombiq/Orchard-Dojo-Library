@@ -1,17 +1,15 @@
 # Orchard Dojo Library for Orchard 1.x
 
-
-
 The Orchard Dojo Library is a portable package of Orchard 1.x. goodies. It supplements Orchard Dojo's trainings and tutorials. These are also part of the best practices and guidelines we use at [Lombiq](https://lombiq.com/).
 
 - Topics:
-	- [Orchard Link Collection](LinkCollection): useful Orchard-related links
-	- [Software Development Guidelines](DevelopmentGuidelines/): various development guidelines we find useful
-	- [Orchard FAQ](Faq/): some frequently asked questions about Orchard usage and development
-	- [Orchard Training Guidelines](Training/Guidelines/): used for [Orchard trainings](http://orcharddojo.net/orchard-training)
-	- [Development Utilities](Utilities/): utilities that make Orchard development faster and easier
-	- [Orchard Wiki](Wiki/): pieces of Orchard-related knowledge, organized into articles, wiki-style
-	- [Examples](Examples/): examples of how to do something in Orchard
+  - [Orchard Link Collection](LinkCollection): useful Orchard-related links
+  - [Software Development Guidelines](DevelopmentGuidelines/): various development guidelines we find useful
+  - [Orchard FAQ](Faq/): some frequently asked questions about Orchard usage and development
+  - [Orchard Training Guidelines](Training/Guidelines/): used for [Orchard trainings](http://orcharddojo.net/orchard-training)
+  - [Development Utilities](Utilities/): utilities that make Orchard development faster and easier
+  - [Orchard Wiki](Wiki/): pieces of Orchard-related knowledge, organized into articles, wiki-style
+  - [Examples](Examples/): examples of how to do something in Orchard
 - [Contribution Guidelines](ContributionGuideLines)
 - [License](License)
 

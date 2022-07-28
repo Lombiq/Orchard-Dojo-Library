@@ -1,7 +1,5 @@
 # Training methodologies
 
-
-
 Following are methodologies for various forms of Orchard Core trainings.
 
 - Remember that it's a good thing to have regular breaks within every hour.
@@ -10,30 +8,31 @@ Following are methodologies for various forms of Orchard Core trainings.
 - Utilize the [Visual Studio snippets](../../CoreLibrary/Utilities/VisualStudioSnippets/) to write code quickly instead of typing out everything. Use the [Utility Scripts](https://github.com/Lombiq/Utility-Scripts) to speed up common tasks like creating an Orchard Visual Studio solution.
 - We've created a demo module for the purpose of teaching all the topics here with well explained examples, the [Orchard Training Demo module](https://github.com/Lombiq/Orchard-Training-Demo-Module). The training topics loosely follow the Training Demo. If you want to use the Training Demo as a reference when giving a training, even copy-pasting from it then the [Comment Remover](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommentRemover) Visual Studio extension can come handy: You can remove the Training Demo's comments so they're not clutter while you explain the same thing.
 - Suggest further resources and reading materials for attendees, e.g.:
-    - [Official docs](https://docs.orchardcore.net/)
-    - [Orchard Dojo Library](https://orcharddojo.net/orchard-resources/CoreLibrary/), especially [Software development guidelines](https://orcharddojo.net/orchard-resources/CoreLibrary/DevelopmentGuidelines/) and [Development utilities](https://orcharddojo.net/orchard-resources/CoreLibrary/Utilities/) (including Visual Studio code snippets and the Utility Scripts project)
-    - [Lombiq Training Demo module](https://github.com/Lombiq/Orchard-Training-Demo-Module)
-
+  - [Official docs](https://docs.orchardcore.net/)
+  - [Orchard Dojo Library](https://orcharddojo.net/orchard-resources/CoreLibrary/), especially [Software development guidelines](https://orcharddojo.net/orchard-resources/CoreLibrary/DevelopmentGuidelines/) and [Development utilities](https://orcharddojo.net/orchard-resources/CoreLibrary/Utilities/) (including Visual Studio code snippets and the Utility Scripts project)
+  - [Lombiq Training Demo module](https://github.com/Lombiq/Orchard-Training-Demo-Module)
 
 ## University course
 
 ### Class work and examination
 
 #### Lesson structure
+
 Every lesson begins with a short warm-up task incorporating the topics of the previous lesson.
 
 Lessons generally have repeated cycles of the following form:
 
 1. Presentation: the course leader explains the current topic (10-15 minutes), if the content is practical (like doing some dashboard work) students follow individually
 2. Group work
-	- After hearing the presentation about how to solve a certain problem students are encouraged to try out the new techniques for given tasks in form of a group work. The task either
-		- consists of the topic demonstrated before
-		- or is something slightly new that can be derived from the demonstration or learned by reading a short documentation.
-	The former one is a good choice if there is enough time, the latter one is efficient if there's only limited time available.
-	- Groups of 2-3-4 try to solve a problem while the course leader is helping their work and is available for questions
+   - After hearing the presentation about how to solve a certain problem students are encouraged to try out the new techniques for given tasks in form of a group work. The task either
+   - consists of the topic demonstrated before
+   - or is something slightly new that can be derived from the demonstration or learned by reading a short documentation.
+ The former one is a good choice if there is enough time, the latter one is efficient if there's only limited time available.
+   - Groups of 2-3-4 try to solve a problem while the course leader is helping their work and is available for questions
 3. Evaluation of the group work: discussing common questions and issues
 
 #### Examination
+
 The course has no special examination, instead students should create and finish and Orchard-based web application project.
 
 - Students form teams of arbitrary size (it’s also possible to work alone)
@@ -44,7 +43,6 @@ The course has no special examination, instead students should create and finish
 ### Schedule
 
 Additional is the time needed for student presentations (depends on the number of attendees) since the course’s final lesson consists of student presentations and code reviews.
-
 
 ## Intensive course
 
