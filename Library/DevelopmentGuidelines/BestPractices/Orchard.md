@@ -59,7 +59,7 @@ Texts presented to the user should always be in form of LocalizedStrings (aka T(
 
 T`("Number of elements: {0}", Model.Count)`
 
-See the relevant [documentation](http://docs.orchardproject.net/Documentation/Using-the-localization-helpers).
+See the relevant [documentation](https://docs.orchardproject.net/en/latest/Documentation/Using-the-localization-helpers/).
 
 ----------
 

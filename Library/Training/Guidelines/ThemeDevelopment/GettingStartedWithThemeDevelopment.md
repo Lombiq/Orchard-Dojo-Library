@@ -1,6 +1,6 @@
 # Getting started with theme development
 
-- Structure (i.e. "[Anatomy of a theme](http://docs.orchardproject.net/Documentation/Anatomy-of-a-theme)"):
+- Structure (i.e. "[Anatomy of a theme](https://docs.orchardproject.net/en/latest/Documentation/Anatomy-of-a-theme/)"):
   - Explaining Theme.txt: BaseTheme and Zones
   - Theme.png
 - Command line scaffolding
