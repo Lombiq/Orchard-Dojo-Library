@@ -8,6 +8,6 @@ And here comes the twist: instead all you need to do to implement an event handl
 
 Further reading:
 
-- [Notes about the Orchard Event Bus](http://docs.orchardproject.net/Documentation/How-Orchard-works#EventBus) in the official documentation
+- [Notes about the Orchard Event Bus](https://docs.orchardproject.net/en/latest/Documentation/How-Orchard-works/#event-bus) in the official documentation
 - "[About the Orchard Event Model?](https://social.msdn.microsoft.com/Forums/en-US/f831b5e8-0529-418a-a34b-28b8ab646be1/about-the-orchard-event-model?forum=orchardsupport)" MSDN Forums topic
 - "[The Event Bus Pattern and IEventhandler](http://www.ideliverable.com/blog/ieventhandler)" blogpost explaining the concept
