@@ -4,14 +4,14 @@ Some advice on how to set up your development environment for Orchard Core devel
 
 ## Software to install
 
-Below you can find pieces of software that you should install for the best Orchard Core developer experience. Also check out [the official documentation](https://docs.orchardcore.net/en/dev/docs/resources/development-tools/).
+Below you can find pieces of software that you should install for the best Orchard Core developer experience. Also check out [the official documentation](https://docs.orchardcore.net/en/latest/docs/resources/development-tools/).
 
 - Visual Studio 2022 (any edition) or later installed with "ASP.NET and web development" tools and the following extensions:
   - [Productivity Power Tools 2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2022) but the following individual extensions are the only ones recommended:
     - [Fix Mixed Tabs 2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.FixMixedTabs2022)
     - [Match Margin 2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MatchMargin2022) if you're not using the map mode for the vertical scroll bar.
     - [Shrink Empty Lines 2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.SyntacticLineCompression2022)
-      [Time Stamp Margin 2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.TimeStampMargin2022)
+    - [Time Stamp Margin 2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.TimeStampMargin2022)
   - [Code Cleanup On Save](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CodeCleanupOnSave) to run [code cleanup profiles](https://docs.microsoft.com/en-us/visualstudio/ide/code-styles-and-code-cleanup?view=vs-2022#apply-code-styles) on save.
   - [Editor Guidelines](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelinesPreview) to add visual guides to specific line lengths.
   - [Attach To All The Things](https://marketplace.visualstudio.com/items?itemName=thebread.AttachToAllTheThings) for quickly attaching the debugger to an IIS (Express) and other processes. [Debug Attach Manager](https://marketplace.visualstudio.com/items?itemName=ViktarKarpach.DebugAttachManager2022) is for a similar goal: If you select to attach a process for a given app then it'll remember it and select the suitable process the next time automatically, even after a VS restart (especially handy for .NET apps with their _dotnet.exe_ processes). Similarly, [ReAttach](https://marketplace.visualstudio.com/items?itemName=ErlandR.ReAttach) to quickly re-attach the debugger to previous debug targets.
@@ -47,5 +47,5 @@ Below you can find pieces of software that you should install for the best Orcha
   - Shift+Del: delete line
   - You may want to set up Ctrl+W for closing the current file for the File.Close command and Ctrl+Shift+T for Edit.UndoClose (only available if PowerCommands is installed).
 - You may want to [always run VS as an administrator](http://stackoverflow.com/a/12859334/220230). This will simplify debugging web apps running in IIS since you can only attach a debugger to the IIS worker process if VS is run as an administrator.
-- To speed things up by not running a virus scan all the time on your development environment exclude the following processes from Windows Security: _devenv.exe_, _dotnet.exe_, _MSBuild.exe_.
+- To speed things up by not running a virus scan all the time on your development environment exclude the following processes from Windows Security: _devenv.exe_, _dotnet.exe_, _MSBuild.exe_, _node.exe_.
 - When you start the app with the debugger attached (i.e. with F5) then by default a new browser window will open, and if you move that under an existing window as a tab the debugger will detach. To mitigate this you need to uncheck Tools → Options → Projects and Solutions → Web Projects → "Stop debugger when browser window is closed, close browser when debugging stops".
