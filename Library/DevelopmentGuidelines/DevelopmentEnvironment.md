@@ -1,3 +1,3 @@
-# Development environment advices
+# Development environment advice
 
 See [this page](../../CoreLibrary/DevelopmentGuidelines/DevelopmentEnvironment).

@@ -1,6 +1,6 @@
 # Source control best practices
 
-The following advices apply to the Mercurial source control system and assume the usage of the TortoiseHg client. See the [Mercurial Kick Start](http://mercurial.aragost.com/kick-start/en/) for a more holistic tutorial. Also there's a [nice tutorial regarding TortoiseHg and Codeplex](http://blogs.msdn.com/b/codeplex/archive/2010/01/22/using-mercurial-on-codeplex.aspx).
+The following advice applies to the Mercurial source control system and assume the usage of the TortoiseHg client. See the [Mercurial Kick Start](http://mercurial.aragost.com/kick-start/en/) for a more holistic tutorial. Also there's a [nice tutorial regarding TortoiseHg and Codeplex](http://blogs.msdn.com/b/codeplex/archive/2010/01/22/using-mercurial-on-codeplex.aspx).
 
 ## Committing
 

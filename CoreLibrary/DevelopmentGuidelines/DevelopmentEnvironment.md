@@ -1,6 +1,6 @@
-# Development environment advices
+# Development environment advice
 
-Some advices on how to set up your development environment for Orchard Core development.
+Some advice on how to set up your development environment for Orchard Core development.
 
 ## Software to install
 
