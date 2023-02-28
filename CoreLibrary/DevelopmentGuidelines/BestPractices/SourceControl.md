@@ -1,6 +1,6 @@
 # Source control best practices
 
-The following advices apply to the Git source control system.
+The following advice applies to the Git source control system.
 
 ## Committing
 

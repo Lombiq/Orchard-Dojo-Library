@@ -8,5 +8,5 @@ If something’s not specified, general C# guidelines apply: [C# Coding Conventi
 - [Rules of thumb for refactoring](Refactoring)
 - [Inline documentation guidelines](InlineDocumentationGuidelines)
 - [Code review guidelines](CodeReview)
-- [Development environment advices](DevelopmentEnvironment)
+- [Development environment advice](DevelopmentEnvironment)
 - [Orchard performance optimization guidelines](OrchardPerformanceOptimization)
