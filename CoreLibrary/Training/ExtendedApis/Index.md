@@ -1,4 +1,4 @@
-# Extended APIs (training topic)
+# Extended Orchard Core APIs (training topic)
 
 The knowledge of the below APIs is not necessary for all developers as these are needed only for more special tasks.
 
