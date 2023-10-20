@@ -1,7 +1,7 @@
 # Getting started with module development
 
 - Structural overview of the Orchard source
-  - Contents of the Orchard folder (docs, _App_Data_ in _OrchardCore.Cms.Web_, module/theme folders...)
+  - Contents of the Orchard folder (docs, _App\_Data_ in _OrchardCore.Cms.Web_, module/theme folders...)
   - Solution overview, a look at how Orchard structures projects (packages)
 - The structure of a module (OrchardCore.Media is a good complete example)
   - Manifest: features and dependencies
