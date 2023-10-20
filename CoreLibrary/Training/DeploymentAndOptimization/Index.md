@@ -2,4 +2,4 @@
 
 - [Optimization](Optimization)
 - [Manual deployment](ManualDeployment)
-- [Automated deployment](AutomatedDeployment)
+- [Continuous integration/deployment and Azure hosting](AutomatedDeployment)

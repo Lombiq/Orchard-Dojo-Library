@@ -1,16 +1,11 @@
-# Automated deployment
+# Continuous integration/deployment and Azure hosting
 
-- Installing TeamCity
-- Setting up a build configuration in TeamCity
-  - Installing necessary tools (e.g. Git)
-  - Adding a Version Control System root
-  - Adding build steps to the process
-    - Pull the source code and build the solution
-    - Deploy to IIS
-  - Dependencies, triggers, environment variables
+- CI builds and test execution with [Lombiq GitHub Actions](https://github.com/Lombiq/GitHub-Actions).
+- Creating an Orchard Core-optimized Azure hosting environment.
+- Automated deployments to Azure with [Lombiq GitHub Actions](https://github.com/Lombiq/GitHub-Actions).
 
-Time requirement: 2h 0m
+Time requirement: 1h 30m
 
-Dependencies: [Manual deployment](ManualDeployment)
+Dependencies: [Getting started in module development](../ModuleDevelopmentAndApis/GettingStartedInModuleDevelopment)
 
 Parent topic: [Deployment and optimization](./)
