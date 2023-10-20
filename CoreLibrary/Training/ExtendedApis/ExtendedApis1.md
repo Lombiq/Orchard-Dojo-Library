@@ -1,6 +1,6 @@
-# Extended APIs I
+# Extended Orchard Core APIs I
 
-- Common Orchard provider model
+- Common Orchard Core provider model
 - Extending Queries with `IQuerySource`
 
 Time requirement: 1h

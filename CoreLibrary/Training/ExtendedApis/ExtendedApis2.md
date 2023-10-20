@@ -1,4 +1,4 @@
-# Extended APIs II
+# Extended Orchard Core APIs II
 
 - Liquid filters
 - Tag helpers

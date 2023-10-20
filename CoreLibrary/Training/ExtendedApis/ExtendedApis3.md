@@ -1,4 +1,4 @@
-# Extended APIs III
+# Extended Orchard Core APIs III
 
 - Creating an admin theme
 - Advanced shapes:
