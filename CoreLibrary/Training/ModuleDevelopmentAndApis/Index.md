@@ -7,4 +7,5 @@ The below topics are the core of what an Orchard developer should know. Other, l
 - [Developing custom content](DevelopingCustomContent)
 - [Intermediate techniques in module development](IntermediateTechniquesInModuleDevelopment)
 - [Advanced techniques in module development](AdvancedTechniquesInModuleDevelopment)
+- [Automated testing](AutomatedTesting)
 - [Complementary topics of module development](ComplementaryTopicsInModuleDevelopment)
