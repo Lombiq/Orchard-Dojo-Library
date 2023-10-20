@@ -22,7 +22,7 @@
   - Demo: register with a new user, verify the email address (configure SMTP), and see the details of the user in the admin UI
   - Exercise: creating a role with selected permissions; enabling registration, registering a new user and assigning it to the newly created role
 
-Time requirement: 2h 15m
+Time requirement: 2h 0m
 
 Dependencies: none
 
