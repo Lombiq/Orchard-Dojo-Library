@@ -1,3 +1,3 @@
 # Code styling
 
-See [this page](../../CoreLibrary/DevelopmentGuidelines/CodeStyling).
+See [this page](../../CoreLibrary/DevelopmentGuidelines/CodeStyling.md).

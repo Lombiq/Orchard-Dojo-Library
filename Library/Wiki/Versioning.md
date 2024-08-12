@@ -1,13 +1,13 @@
 # Versioning
 
-[Content items](ContentItem) in Orchard are versioned by default: this means that if you edit a content item and publish the modifications you don't overwrite what was previously published but you create a new version - that will be the published version.
+[Content items](ContentItem.md) in Orchard are versioned by default: this means that if you edit a content item and publish the modifications you don't overwrite what was previously published but you create a new version - that will be the published version.
 
 ## Versioning illustrated
 
 Let's take a look at Page content items, because Page is a content type that's included in Orchard by default.
 
 - Pages are "draftable". This means that you can create draft, i.e. not published (and thus not visible) versions of it. You can also set this option from the admin UI from the content type editor of Page.
-- Pages - among others - include the Title and Body [content part](ContentPart). These parts have the capability of being versioned. Not every content part is versionable, it's the developer's decision.
+- Pages - among others - include the Title and Body [content part](ContentPart.md). These parts have the capability of being versioned. Not every content part is versionable, it's the developer's decision.
 
 That said let's see what happens:
 
@@ -22,4 +22,4 @@ That said let's see what happens:
 
 Beware that when you remove content items no record is really deleted as Orchard operates with soft deletes: content items are only marked deleted but remain in the database. Actually what happens is that all version of the content item get unpublished and simultaneously loose their flag of being latest; i.e. in the end no version will be marked as published nor latest, thus the item won't be found when fetching the published version.
 
-However, since the versions are still there, they can be retrieved through the [Content Manager](ContentManager).
+However, since the versions are still there, they can be retrieved through the [Content Manager](ContentManager.md).

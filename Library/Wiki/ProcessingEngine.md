@@ -6,4 +6,4 @@ Tasks queued in the Processing Engine are synchronously executed after the ambie
 
 Note that since Processing Engine tasks are run after a request naturally they need a request to get executed, on an idle site such tasks won't be processed. Also such tasks are only retained for the scope of the request: if something fatal happens and the request completely fails before tasks can be executed than those tasks will be lost; and tasks queued from background tasks won't be processed at all (since there is no corresponding request).
 
-An example of how the Processing Engine is used is in the built-in Orchard.Comments [module](Module) in `CommentService`: calculating the number of comments under a given content item is being done from a Processing Engine task.
+An example of how the Processing Engine is used is in the built-in Orchard.Comments [module](Module.md) in `CommentService`: calculating the number of comments under a given content item is being done from a Processing Engine task.

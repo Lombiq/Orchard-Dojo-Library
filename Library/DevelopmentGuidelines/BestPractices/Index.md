@@ -9,8 +9,8 @@
 
 ## Topics
 
-- [C# best practices](CSharp)
-- [Orchard best practices](Orchard)
-- [JavaScript best practices](JavaScript)
-- [CSS best practices](Css)
-- [Source control best practices](SourceControl)
+- [C# best practices](CSharp.md)
+- [Orchard best practices](Orchard.md)
+- [JavaScript best practices](JavaScript.md)
+- [CSS best practices](Css.md)
+- [Source control best practices](SourceControl.md)

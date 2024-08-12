@@ -10,7 +10,7 @@ Consider [refactoring](http://en.wikipedia.org/wiki/Refactoring) in these cases:
 
 ## Renaming a project
 
-You should do the following steps to rename an existing .NET project (including an Orchard Core [module](../Wiki/Module) or [theme](../Wiki/Theme)).
+You should do the following steps to rename an existing .NET project (including an Orchard Core [module](../Wiki/Module.md) or [theme](../Wiki/Theme.md)).
 
 1. Make a backup or commit to source control before attempting the rename.
 2. Rename the project from inside Visual Studio. This will change the project's name in a lot of manifest files.
