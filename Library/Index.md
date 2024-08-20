@@ -6,7 +6,7 @@ The Orchard Dojo Library is a portable package of Orchard 1.x. goodies. It suppl
   - [Orchard Link Collection](LinkCollection.md): useful Orchard-related links
   - [Software Development Guidelines](DevelopmentGuidelines/Index.md): various development guidelines we find useful
   - [Orchard FAQ](Faq/Index.md): some frequently asked questions about Orchard usage and development
-  - [Orchard Training Guidelines](Training/Guidelines/Index.md): used for [Orchard trainings](http://orcharddojo.net/orchard-training)
+  - [Orchard Training Guidelines](Training/Guidelines/Index.md): used for Orchard trainings (the (Orchard Dojo website)[http://orcharddojo.net/orchard-training] is only for Orchard Core trainings)
   - [Development Utilities](Utilities/Index.md): utilities that make Orchard development faster and easier
   - [Orchard Wiki](Wiki/Index.md): pieces of Orchard-related knowledge, organized into articles, wiki-style
   - [Examples](Examples/Index.md): examples of how to do something in Orchard

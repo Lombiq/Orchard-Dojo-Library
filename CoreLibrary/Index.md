@@ -5,7 +5,7 @@ The Orchard Dojo Library is a portable package of Orchard Core goodies. It suppl
 - Topics:
   - [Orchard Core Link Collection](LinkCollection.md): useful Orchard Core-related links
   - [Software Development Guidelines](DevelopmentGuidelines/Index.md): various development guidelines we find useful
-  - [Orchard Core Training Guidelines](Training/Index.md): used for [Orchard trainings](http://orcharddojo.net/orchard-training)
+  - Orchard Core Training Guidelines: used for [Orchard trainings](http://orcharddojo.net/orchard-training) (it has been moved to the [Orchard Dojo website](http://orcharddojo.net/orchard-training))
   - [Development Utilities](Utilities/Index.md): utilities that make Orchard Core development faster and easier
 - [Contribution Guidelines](ContributionGuideLines.md)
 - [License](License.md)
