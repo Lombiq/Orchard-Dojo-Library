@@ -1,6 +1,6 @@
 # Orchard training guidelines
 
-The following guidelines serve as a base for [Orchard trainings](http://orcharddojo.net/orchard-training) and you're welcome to hold your own Orchard training using these guidelines.
+The following guidelines serve as a base for Orchard 1.x trainings (the [Orchard Dojo website](http://orcharddojo.net/training) is for Orchard Core only) and you're welcome to hold your own Orchard training using these guidelines.
 
 ## Training methodologies
 
