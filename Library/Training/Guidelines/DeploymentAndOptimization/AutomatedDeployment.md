@@ -11,6 +11,6 @@
 
 Time requirement: 2h 0m
 
-Dependencies: [Manual deployment](ManualDeployment)
+Dependencies: [Manual deployment](ManualDeployment.md)
 
-Parent topic: [Deployment and optimization](./)
+Parent topic: [Deployment and optimization](./Index.md)

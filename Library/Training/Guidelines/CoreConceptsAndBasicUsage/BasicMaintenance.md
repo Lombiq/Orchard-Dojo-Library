@@ -14,6 +14,6 @@
 
 Time requirement: 0h 30m
 
-Dependencies: [Basic site management](BasicSiteManagement)
+Dependencies: [Basic site management](BasicSiteManagement.md)
 
-Parent topic: [Core concepts and basic usage](./)
+Parent topic: [Core concepts and basic usage](./Index.md)

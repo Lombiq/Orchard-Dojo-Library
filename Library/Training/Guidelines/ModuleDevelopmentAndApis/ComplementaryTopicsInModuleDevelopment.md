@@ -8,6 +8,6 @@
 
 Time requirement: 1h 0m
 
-Dependencies: [Basic techniques in module development](BasicTechniquesInModuleDevelopment)
+Dependencies: [Basic techniques in module development](BasicTechniquesInModuleDevelopment.md)
 
-Parent topic: [Module development and APIs](./)
+Parent topic: [Module development and APIs](./Index.md)

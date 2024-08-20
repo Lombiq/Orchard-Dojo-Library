@@ -1,7 +1,7 @@
 # Team training (training topic)
 
 - How to write code?
-  - Agree on and follow [common guidelines](../../../DevelopmentGuidelines/) and conventions
+  - Agree on and follow [common guidelines](../../../DevelopmentGuidelines/Index.md) and conventions
   - Importance of documentation
 - How to share code and other application data?
   - Version control best practices:

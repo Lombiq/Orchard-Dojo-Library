@@ -9,6 +9,6 @@
 
 Time requirement: 3h
 
-Dependencies: [Intermediate techniques in module development](../ModuleDevelopmentAndApis/IntermediateTechniquesInModuleDevelopment)
+Dependencies: [Intermediate techniques in module development](../ModuleDevelopmentAndApis/IntermediateTechniquesInModuleDevelopment.md)
 
-Parent topic: [Extended APIs](./)
+Parent topic: [Extended APIs](./Index.md)

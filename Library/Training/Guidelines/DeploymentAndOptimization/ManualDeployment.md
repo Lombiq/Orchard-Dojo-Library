@@ -13,6 +13,6 @@
 
 Time requirement: 1h 45m
 
-Dependencies: [Getting started in module development](../ModuleDevelopmentAndApis/GettingStartedInModuleDevelopment)
+Dependencies: [Getting started with module development](../ModuleDevelopmentAndApis/GettingStartedWithModuleDevelopment.md)
 
-Parent topic: [Deployment and optimization](./)
+Parent topic: [Deployment and optimization](./Index.md)
