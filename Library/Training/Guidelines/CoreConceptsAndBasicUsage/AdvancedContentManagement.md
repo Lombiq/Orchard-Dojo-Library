@@ -16,6 +16,6 @@
 
 Time requirement: 2h 30m
 
-Dependencies: [Intermediate content management](IntermediateContentManagement)
+Dependencies: [Intermediate content management](IntermediateContentManagement.md)
 
-Parent topic: [Core concepts and basic usage](./)
+Parent topic: [Core concepts and basic usage](./Index.md)

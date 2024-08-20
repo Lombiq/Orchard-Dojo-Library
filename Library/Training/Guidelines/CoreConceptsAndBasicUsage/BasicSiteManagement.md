@@ -23,4 +23,4 @@ Time requirement: 2h 15m
 
 Dependencies: none
 
-Parent topic: [Core concepts and basic usage](./)
+Parent topic: [Core concepts and basic usage](./Index.md)

@@ -9,6 +9,6 @@
 
 Time requirement: 0h 45m
 
-Dependencies: [Basic techniques in module development](../ModuleDevelopmentAndApis/BasicTechniquesInModuleDevelopment)
+Dependencies: [Basic techniques in module development](../ModuleDevelopmentAndApis/BasicTechniquesInModuleDevelopment.md)
 
-Parent topic: [Deployment and optimization](./)
+Parent topic: [Deployment and optimization](./Index.md)

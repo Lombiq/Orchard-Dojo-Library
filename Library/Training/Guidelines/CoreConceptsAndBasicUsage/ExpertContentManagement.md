@@ -11,6 +11,6 @@
 
 Time requirement: 1h 45m
 
-Dependencies: [Advanced content management](AdvancedContentManagement)
+Dependencies: [Advanced content management](AdvancedContentManagement.md)
 
-Parent topic: [Core concepts and basic usage](./)
+Parent topic: [Core concepts and basic usage](./Index.md)

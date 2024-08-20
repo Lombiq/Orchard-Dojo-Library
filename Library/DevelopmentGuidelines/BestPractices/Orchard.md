@@ -77,7 +77,7 @@ When doing I/O-bound work, always use async APIs if available (e.g. web requests
 
 When you add a client-side plugin to your module or theme (like a jQuery plugin that uses various JS and CSS files, has a readme, etc.) then it's best to keep the folder structure of the plugin intact and copy it to the extension's Content folder (a folder simply serving static files with the same Web.config as Styles and Scripts folders) under its own subfolder. This way maintaining and upgrading the plugin will be easier, not to mention that developers will be able to see all of its files at once.
 
-You'll be able to still include static resources from such a folder through the ResourceManager, you'll just have to use relative paths, e.g. like this in a [resource manifest](../../Wiki/ResourceManifest):
+You'll be able to still include static resources from such a folder through the ResourceManager, you'll just have to use relative paths, e.g. like this in a [resource manifest](../../Wiki/ResourceManifest.md):
 
     manifest.DefineScript("MyScript").SetUrl("~/Themes/MyTheme/Content/Plugin/script.js"...
 

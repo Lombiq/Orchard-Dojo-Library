@@ -2,5 +2,5 @@
 
 Contained here are various utilities aiding daily development.
 
-- [Visual Studio Code Snippets](VisualStudioSnippets/)
-- [Orchard Test Contents](TestContent/)
+- [Visual Studio Code Snippets](VisualStudioSnippets/Index.md)
+- [Orchard Test Contents](TestContent/Index.md)

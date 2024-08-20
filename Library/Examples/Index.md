@@ -19,7 +19,7 @@ Project links are only included if the module/theme is not bundled with the Orch
   - Static: Orchard.Comments, Training Demo
   - Dynamic: Orchard.Core.Contents (DynamicPermissions)
 - Projector providers:
-  - Filter: Orchard.Projections, [Helpful Extensions]([https://github.com/Lombiq/Helpful-Extensions/tree/master/Extensions/Projections](https://github.com/Lombiq/Helpful-Extensions/tree/master/Extensions/Projections))
+  - Filter: Orchard.Projections, [Helpful Extensions]([https://github.com/Lombiq/Helpful-Extensions/tree/master/Extensions/Projections](https://github.com/Lombiq/Helpful-Extensions/tree/master/Extensions/Projections.md))
   - Layout: Orchard.Projections
   - Sort criteria: Orchard.Projections
 - Records (low-level database access): Training Demo

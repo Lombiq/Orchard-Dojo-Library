@@ -1,3 +1,3 @@
 # Inline documentation guidelines
 
-See [this page](../../CoreLibrary/DevelopmentGuidelines/InlineDocumentationGuidelines).
+See [this page](../../CoreLibrary/DevelopmentGuidelines/InlineDocumentationGuidelines.md).

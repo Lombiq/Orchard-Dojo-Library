@@ -26,7 +26,7 @@ Below you can find pieces of software that you should install for the best Orcha
 
 ## Visual Studio tips
 
-- Use [code snippets](https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets); try out [the ones in this package](../Utilities/VisualStudioSnippets/) too that specifically aid Orchard Core development.
+- Use [code snippets](https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets); try out [the ones in this package](../Utilities/VisualStudioSnippets/Index.md) too that specifically aid Orchard Core development.
 - Use keyboard shortcuts. The most useful ones are:
   - F5: start with debugging
   - Ctrl+F5: start without debugging

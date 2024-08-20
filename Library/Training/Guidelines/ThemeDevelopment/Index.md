@@ -1,4 +1,4 @@
 # Theme development (training topic)
 
-- [Getting started with theme development](GettingStartedWithThemeDevelopment)
-- [Advanced theme development](AdvancedThemeDevelopment)
+- [Getting started with theme development](GettingStartedWithThemeDevelopment.md)
+- [Advanced theme development](AdvancedThemeDevelopment.md)

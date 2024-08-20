@@ -10,4 +10,4 @@ The structure of an Admin menu can be the following:
 
 For more customization, you can define whether an item should point to the same action as its first child item with the LinkToFirstChild function.
 
-For more information please see the [Visual Studio code snippet](../Utilities/VisualStudioSnippets/) related to AdminMenu and a definite guide on how to create one in the [Orchard Training Demo module](https://github.com/Lombiq/Orchard-Training-Demo-Module), which also describes how to add icons to your navigation items.
+For more information please see the [Visual Studio code snippet](../Utilities/VisualStudioSnippets/Index.md) related to AdminMenu and a definite guide on how to create one in the [Orchard Training Demo module](https://github.com/Lombiq/Orchard-Training-Demo-Module), which also describes how to add icons to your navigation items.

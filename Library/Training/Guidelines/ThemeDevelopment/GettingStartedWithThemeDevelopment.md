@@ -18,4 +18,4 @@ Time requirement: 2h 0m
 
 Dependencies: none
 
-Parent topic: [Theme development](./)
+Parent topic: [Theme development](./Index.md)

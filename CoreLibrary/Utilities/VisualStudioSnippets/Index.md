@@ -1,6 +1,6 @@
 # Visual Studio code snippets
 
-You can use these [code snippets](https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets) to quickly generate code in some common scenarios during Orchard Core module and theme development. The snippets follow [Orchard naming conventions](../../DevelopmentGuidelines/NamingConventions). Check out [this demo video](https://www.youtube.com/watch?v=5L95C0qxrA0) for a quick overview of our snippets.
+You can use these [code snippets](https://docs.microsoft.com/en-us/visualstudio/ide/code-snippets) to quickly generate code in some common scenarios during Orchard Core module and theme development. The snippets follow [Orchard naming conventions](../../DevelopmentGuidelines/NamingConventions.md). Check out [this demo video](https://www.youtube.com/watch?v=5L95C0qxrA0) for a quick overview of our snippets.
 
 To effectively use this collection of VS snippets just point the Snippets Manager to where you cloned or downloaded this repository (<https://github.com/Lombiq/Orchard-Dojo-Library>). To do this go under Tools → Code Snippets Manager → select the C# language → Add and Add the whole folder. For Razor snippets to also work select the HTML Language and do the same. Do note that Razor snippets will only be suggested when you hit Ctrl + space first.
 

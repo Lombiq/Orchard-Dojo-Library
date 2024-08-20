@@ -2,9 +2,9 @@
 
 Content fields are bits of information that can store basic data, like the common .NET classes, e.g. strings, integers and dates.
 
-Content fields can be attached to a [content part](ContentPart) in any quantity you like (either by code - in a migration or on the Admin UI), just make sure every field has a unique name. That means that unlike with parts, you can have a specific type of field attached multiple times.
+Content fields can be attached to a [content part](ContentPart.md) in any quantity you like (either by code - in a migration or on the Admin UI), just make sure every field has a unique name. That means that unlike with parts, you can have a specific type of field attached multiple times.
 
-In case you are attaching a content field to a content type on the Admin UI, the fields are attached to a ghost-content part with the same as the [content type](ContentType) (if the content type doesn't already have a content part with the same name).
+In case you are attaching a content field to a content type on the Admin UI, the fields are attached to a ghost-content part with the same as the [content type](ContentType.md) (if the content type doesn't already have a content part with the same name).
 
 Differences between content parts and content fields:
 

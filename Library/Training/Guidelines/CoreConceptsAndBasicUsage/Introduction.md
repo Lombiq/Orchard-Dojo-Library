@@ -1,6 +1,6 @@
 # Introduction
 
-- Orchard ecosystem as under the [Orchard link collection](../../../LinkCollection)
+- Orchard ecosystem as under the [Orchard link collection](../../../LinkCollection.md)
 - Showcasing complex/notable Orchard apps:
   - The websites on [Show Orchard](http://showorchard.com)
   - [DotNest](https://dotnest.com/) for creating hosted Orchard sites
@@ -21,4 +21,4 @@ Time requirement: 1h 0m
 
 Dependencies: none
 
-Parent topic: [Core concepts and basic usage](./)
+Parent topic: [Core concepts and basic usage](./Index.md)

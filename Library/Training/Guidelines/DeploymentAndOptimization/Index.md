@@ -1,5 +1,5 @@
 # Deployment and optimization (training topic)
 
-- [Optimization](Optimization)
-- [Manual deployment](ManualDeployment)
-- [Automated deployment](AutomatedDeployment)
+- [Optimization](Optimization.md)
+- [Manual deployment](ManualDeployment.md)
+- [Automated deployment](AutomatedDeployment.md)
