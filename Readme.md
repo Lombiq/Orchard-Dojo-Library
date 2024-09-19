@@ -2,7 +2,10 @@
 
 ## About
 
-The Orchard Dojo Library is a portable package of Orchard Core and Orchard 1.x goodies. It supplements [Orchard Dojo](https://orcharddojo.net)'s trainings and tutorials. For accessing the Library, go to [Orchard Core Dojo Library](./CoreLibrary/Index.md) or [orcharddojo.net/resources](http://orcharddojo.net/resources) for the Orchard Core version and [Orchard 1.x Dojo Library](./Library/Index.md) for the Orchard 1.x. version. The Library's project page is on [GitHub](https://github.com/Lombiq/Orchard-Dojo-Library).
+The Orchard Dojo Library is a portable package of Orchard Core and Orchard 1.x goodies. It supplements [Orchard Dojo](https://orcharddojo.net)'s trainings and tutorials.
+
+- [Orchard Core Dojo Library](./CoreLibrary/Index.md)
+- [Orchard 1.x Dojo Library](./Library/Index.md)
 
 ## Contributing and support
 
