@@ -45,4 +45,3 @@ All blogs from the Orchard community are automatically scraped by [Orchard Blogs
 - [.NET Foundation](http://www.dotnetfoundation.org/), the foundation supporting Orchard
 - [Show Orchard](http://www.showorchard.com/)
 - [Stackoverflow Orchard questions](http://stackoverflow.com/questions/tagged/orchardcms)
-- [Try Orchard!](http://tryorchard.net/) where you can test drive already installed Orchard demo sites
