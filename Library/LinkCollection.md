@@ -2,22 +2,18 @@
 
 ## Official sites
 
-- [Orchard homepage](http://orchardproject.net/)
-  - [Documentation](http://docs.orchardproject.net/)
+- [Orchard homepage](https://orchardcore.net/)
+  - [Documentation](https://docs.orchardcore.net/projects/O1/en/latest/)
   - [Translations](https://crowdin.com/project/orchard-cms) (and for [modules in the Gallery](https://crowdin.com/project/orchard-cms-gallery))
+  - [Orchard Harvest](https://orchardcore.net/harvest/) conference website
 - [Orchard GitHub project homepage](https://github.com/OrchardCMS/Orchard)
   - [Issue tracker](https://github.com/OrchardCMS/Orchard/issues)
   - [Releases](https://github.com/OrchardCMS/Orchard/releases)
-- [Orchard Gallery](http://gallery.orchardproject.net/)
-- [Orchard continuous integration server](http://teamcity.codebetter.com/project.html?projectId=project143) (click "Login as a Guest")
+- [Orchard Gallery](https://gallery.orchardproject.net/)
 
 ## Community sites
 
-- [China](http://www.orchardch.com/)
-- [France](http://orchardproject.fr/)
-- [India](http://www.orchardproject.net.in/)
-- [Iran](http://orchardpro.ir/)
-- [Magyarország](http://orchardproject.hu/)
+- [Magyarország](https://orchardproject.hu/)
 
 ## Blogs
 
@@ -25,23 +21,18 @@ All blogs from the Orchard community are automatically scraped by [Orchard Blogs
 
 ## Technologies behind Orchard
 
-- [ASP.NET MVC](http://www.asp.net/mvc)
-- [Autofac](http://code.google.com/p/autofac/) for dependency injection
-- [C#](http://msdn.microsoft.com/en-us/library/67ef8sbd.aspx)
-- [jQuery](http://jquery.com/) as the javascript framework and [jQuery UI](http://jqueryui.com/) for UI enhancements
-- [Nhibernate](http://nhforge.org/) for object-relational mapping
+- [ASP.NET MVC](https://www.asp.net/mvc)
+- [Autofac](https://github.com/autofac/Autofac) for dependency injection
+- [C#](https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx)
+- [jQuery](https://jquery.com/) as the javascript framework and [jQuery UI](https://jqueryui.com/) for UI enhancements
+- [Nhibernate](https://nhibernate.info/) for object-relational mapping
 
 ## Miscellaneous
 
-- [Community Meetings recordings](https://www.youtube.com/playlist?list=PLuskKJW0FhJfOAN3dL0Y0KBMdG1pKESVn) and [meeting room](http://orchardproject.net/meeting)
-- [DotNest, the Orchard SaaS](http://dotnest.com/)
-- [Orchard Beginner](http://orchardbeginner.com/)
-- [Orchard Cheatsheet](http://sebastienros.github.io/CheatSheet/)
-- [Orchard Dojo](http://orcharddojo.net/)
-- [Orchard Harvest](http://orchardharvest.org/) conference website
-- [Orchard Marketplace](http://www.orchardmarket.net/)
-- [Orchard Prime](http://www.orchardprime.com/)
-- [Orchard Pros](http://orchardpros.net/)
-- [.NET Foundation](http://www.dotnetfoundation.org/), the foundation supporting Orchard
-- [Show Orchard](http://www.showorchard.com/)
-- [Stackoverflow Orchard questions](http://stackoverflow.com/questions/tagged/orchardcms)
+- [Community Meetings recordings](https://www.youtube.com/playlist?list=PLuskKJW0FhJfOAN3dL0Y0KBMdG1pKESVn) and [meeting room](https://orchardcore.net/meeting)
+- [DotNest, the Orchard SaaS](https://dotnest.com/)
+- [Orchard Cheatsheet](https://sebastienros.github.io/CheatSheet/)
+- [Orchard Dojo](https://orcharddojo.net/)
+- [.NET Foundation](https://www.dotnetfoundation.org/), the foundation supporting Orchard
+- [Show Orchard](https://www.showorchard.com/)
+- [Stackoverflow Orchard questions](https://stackoverflow.com/questions/tagged/orchardcms)
